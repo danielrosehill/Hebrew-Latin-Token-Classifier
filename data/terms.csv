@@ -313,7 +313,7 @@ teudat toshav,documents,active,,,round2:deepseek-flash,
 teudat zehut,documents,active,,,english-hebrew-mixed-sentences,
 bagrut,education,active,,,round2:deepseek-flash,
 beit sefer,education,active,,,round2:deepseek-flash,
-chug,education,active,,,round2:deepseek-flash,khug|hug
+chug,education,ambiguous,english_homograph,,round2:deepseek-flash,khug|hug
 chugim,education,active,,,round2:deepseek-flash,khugim|hugim
 gan,education,active,,,english-hebrew-mixed-sentences,
 gan yeladim,education,active,,,round2:deepseek-flash,
@@ -713,7 +713,7 @@ teka,home_utilities,active,,,generated:deepseek-flash,tekah
 tzalachat,home_utilities,active,,,generated:deepseek-flash,tzalakhat|tzalahat|tsalachat|zalachat
 tzinor,home_utilities,active,,,generated:deepseek-flash,tsinor|zinor
 tzintzenet,home_utilities,active,,,generated:deepseek-flash,tsintsenet|zinzenet
-bet din,immigration,active,,,round2:deepseek-flash,
+bet din,immigration,ambiguous,english_homograph,,round2:deepseek-flash,
 darkon,immigration,active,,,round2:deepseek-flash,
 diyur,immigration,active,,,round2:deepseek-flash,
 ezrach,immigration,active,,,round2:deepseek-flash,ezrac|ezrakh|ezrah
@@ -746,7 +746,7 @@ mashkon,legal,active,,,round2:deepseek-flash,
 mechira,legal,active,,,round2:deepseek-flash,mechirah|mekhira|mehira
 nezek,legal,active,,,round2:deepseek-flash,
 nitva,legal,active,,,round2:deepseek-flash,nitvah
-ones,legal,active,,,round2:deepseek-flash,
+ones,legal,ambiguous,english_homograph,,round2:deepseek-flash,
 pidyon,legal,active,,,round2:deepseek-flash,
 pitzuyim,legal,active,,,round2:deepseek-flash,pitsuyim|pizuyim
 praklit,legal,active,,,round2:deepseek-flash,
@@ -783,7 +783,7 @@ shira,leisure,active,,,round2:deepseek-flash,shirah
 shvil,leisure,active,,,round2:deepseek-flash,
 tiyul,leisure,active,,,round2:deepseek-flash,
 tzila,leisure,active,,,round2:deepseek-flash,tzilah|tsila|zila
-yam,leisure,active,,,round2:deepseek-flash,
+yam,leisure,ambiguous,english_homograph,,round2:deepseek-flash,
 aluf,military,active,,,round2:deepseek-flash,
 chayal,military,active,,,round2:deepseek-flash,khayal|hayal
 chova,military,active,,,round2:deepseek-flash,chovah|khova|hova
@@ -820,7 +820,7 @@ tzav miluim,military,active,,,round2:deepseek-flash,tsav miluim|zav miluim
 tzav rishon,military,active,,,round2:deepseek-flash,tsav rishon|zav rishon
 tzava,military,active,,,round2:deepseek-flash,tzava'ah|tzavah|tsava|zava
 tzevet,military,active,,,round2:deepseek-flash,tsevet|zevet
-gina,municipality,active,,,round2:deepseek-flash,ginah
+gina,municipality,ambiguous,english_homograph,,round2:deepseek-flash,ginah
 heter,municipality,active,,,round2:deepseek-flash,
 minhal,municipality,active,,,round2:deepseek-flash,
 ptur,municipality,active,,,round2:deepseek-flash,
@@ -863,7 +863,7 @@ chelka,real_estate,active,,,round2:deepseek-flash,chelkah|khelka|helka
 choze,real_estate,active,,,round2:deepseek-flash,chozeh|khoze|hoze
 choze sechirut,real_estate,active,,,round2:deepseek-flash,khoze sekhirut|hoze sehirut
 dmei sechirut,real_estate,active,,,round2:deepseek-flash,dmei sekhirut|dmei sehirut
-gush,real_estate,active,,,round2:deepseek-flash,gus
+gush,real_estate,ambiguous,english_homograph,,round2:deepseek-flash,gus
 hatzaa,real_estate,active,,,round2:deepseek-flash,hatzaah|hatsaa|hazaa
 heter bniya,real_estate,active,,,round2:deepseek-flash,heter bniyah
 kablan,real_estate,active,,,round2:deepseek-flash,
@@ -970,7 +970,7 @@ hamashbir lazarchan,shopping,active,,,round2:deepseek-flash,hamashbir lazarkhan|
 hanachot,shopping,active,,,round2:deepseek-flash,hanakhot|hanahot
 hashbonit,shopping,active,,,round2:deepseek-flash,
 kartis debit,shopping,active,,,round2:deepseek-flash,
-kenyon,shopping,active,,,round2:deepseek-flash,
+kenyon,shopping,ambiguous,english_homograph,,round2:deepseek-flash,
 kesef,shopping,active,,,round2:deepseek-flash,
 kimat hinam,shopping,active,,,round2:deepseek-flash,kimat chinam
 kniya,shopping,active,,,round2:deepseek-flash,kniyah
@@ -986,7 +986,7 @@ mezuman,shopping,active,,,round2:deepseek-flash,
 mivtza,shopping,active,,,round2:deepseek-flash,mivtzah|mivtsa|mivza
 osher ad,shopping,active,,,english-hebrew-mixed-sentences,
 rami levy,shopping,active,,,english-hebrew-mixed-sentences,
-sal,shopping,active,,,round2:deepseek-flash,
+sal,shopping,ambiguous,english_homograph,,round2:deepseek-flash,
 shefa shuk,shopping,active,,,round2:deepseek-flash,
 shufersal,shopping,active,,,english-hebrew-mixed-sentences,
 shuk hayir,shopping,active,,,round2:deepseek-flash,

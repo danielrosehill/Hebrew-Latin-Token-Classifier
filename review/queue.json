@@ -68,6 +68,23 @@
   "note": "the annotator rejected 'od' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
  },
  {
+  "key": "term:ones",
+  "kind": "term",
+  "risk": "term",
+  "id": "term:ones",
+  "split": "generated",
+  "text": "The judge ruled that the signature was obtained under ones, so the whole deal collapsed.",
+  "examples": [
+   "The judge ruled that the signature was obtained under ones, so the whole deal collapsed.",
+   "How can you prove ones when you signed it voluntarily?",
+   "Classic ones claim."
+  ],
+  "term": "ones",
+  "surface": "ones",
+  "dataset_label": "ones",
+  "note": "the annotator rejected 'ones' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
+ },
+ {
   "key": "term:po",
   "kind": "term",
   "risk": "term",
@@ -259,6 +276,79 @@
   "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'Aruchat boker', or 'Aruchat' + 'boker'?"
  },
  {
+  "key": "boundary:ben dod",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:ben dod",
+  "split": "generated",
+  "text": "Ben dod? He's more like a brother to me.",
+  "examples": [
+   "Ben dod? He's more like a brother to me."
+  ],
+  "term": "ben dod",
+  "surface": "Ben dod",
+  "parts": [
+   "dod"
+  ],
+  "part_surfaces": [
+   "dod"
+  ],
+  "short_term": "dod",
+  "short_surface": "dod",
+  "dataset_label": "ben dod",
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'Ben dod', or 'dod'?"
+ },
+ {
+  "key": "boundary:bituach chaim",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:bituach chaim",
+  "split": "generated",
+  "text": "Bituach chaim? I've been meaning to look into that.",
+  "examples": [
+   "Bituach chaim? I've been meaning to look into that."
+  ],
+  "term": "bituach chaim",
+  "surface": "Bituach chaim",
+  "parts": [
+   "bituach",
+   "chaim"
+  ],
+  "part_surfaces": [
+   "Bituach",
+   "chaim"
+  ],
+  "short_term": "bituach",
+  "short_surface": "Bituach",
+  "dataset_label": "bituach chaim",
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'Bituach chaim', or 'Bituach' + 'chaim'?"
+ },
+ {
+  "key": "boundary:bituach chova",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:bituach chova",
+  "split": "generated",
+  "text": "Do you check bituach chova before you let anyone else drive your car?",
+  "examples": [
+   "Do you check bituach chova before you let anyone else drive your car?"
+  ],
+  "term": "bituach chova",
+  "surface": "bituach chova",
+  "parts": [
+   "bituach",
+   "chova"
+  ],
+  "part_surfaces": [
+   "bituach",
+   "chova"
+  ],
+  "short_term": "bituach",
+  "short_surface": "bituach",
+  "dataset_label": "bituach chova",
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'bituach chova', or 'bituach' + 'chova'?"
+ },
+ {
   "key": "boundary:bituach mashlim",
   "kind": "boundary",
   "risk": "boundary",
@@ -305,6 +395,52 @@
   "short_surface": "Bituach",
   "dataset_label": "bituach menhalim",
   "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'Bituach menhalim', or 'Bituach'?"
+ },
+ {
+  "key": "boundary:bituach nachasim",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:bituach nachasim",
+  "split": "generated",
+  "text": "Bituach nachasim? Yeah, it's a rip-off, but you gotta have it.",
+  "examples": [
+   "Bituach nachasim? Yeah, it's a rip-off, but you gotta have it."
+  ],
+  "term": "bituach nachasim",
+  "surface": "Bituach nachasim",
+  "parts": [
+   "bituach"
+  ],
+  "part_surfaces": [
+   "Bituach"
+  ],
+  "short_term": "bituach",
+  "short_surface": "Bituach",
+  "dataset_label": "bituach nachasim",
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'Bituach nachasim', or 'Bituach'?"
+ },
+ {
+  "key": "boundary:bituach refui",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:bituach refui",
+  "split": "generated",
+  "text": "Does your bituach refui cover the cost of these prescriptions?",
+  "examples": [
+   "Does your bituach refui cover the cost of these prescriptions?"
+  ],
+  "term": "bituach refui",
+  "surface": "bituach refui",
+  "parts": [
+   "bituach"
+  ],
+  "part_surfaces": [
+   "bituach"
+  ],
+  "short_term": "bituach",
+  "short_surface": "bituach",
+  "dataset_label": "bituach refui",
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'bituach refui', or 'bituach'?"
  },
  {
   "key": "boundary:boker or",
@@ -355,6 +491,84 @@
   "short_surface": "hafuch",
   "dataset_label": "cafe hafuch",
   "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'cafe hafuch', or 'hafuch'?"
+ },
+ {
+  "key": "boundary:cheder madregot",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:cheder madregot",
+  "split": "generated",
+  "text": "Is the cheder madregot clear enough to evacuate through?",
+  "examples": [
+   "Is the cheder madregot clear enough to evacuate through?",
+   "Not the elevator—the cheder madregot!",
+   "We practiced crawling through the cheder madregot during the drill."
+  ],
+  "term": "cheder madregot",
+  "surface": "cheder madregot",
+  "parts": [
+   "cheder",
+   "madregot"
+  ],
+  "part_surfaces": [
+   "cheder",
+   "madregot"
+  ],
+  "short_term": "cheder",
+  "short_surface": "cheder",
+  "dataset_label": "cheder madregot",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'cheder madregot', or 'cheder' + 'madregot'?"
+ },
+ {
+  "key": "boundary:choze sechirut",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:choze sechirut",
+  "split": "generated",
+  "text": "Can you believe the choze sechirut they gave us is forty pages long?",
+  "examples": [
+   "Can you believe the choze sechirut they gave us is forty pages long?",
+   "Just sign the choze sechirut already."
+  ],
+  "term": "choze sechirut",
+  "surface": "choze sechirut",
+  "parts": [
+   "choze",
+   "sechirut"
+  ],
+  "part_surfaces": [
+   "choze",
+   "sechirut"
+  ],
+  "short_term": "choze",
+  "short_surface": "choze",
+  "dataset_label": "choze sechirut",
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'choze sechirut', or 'choze' + 'sechirut'?"
+ },
+ {
+  "key": "boundary:chozeh avoda",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:chozeh avoda",
+  "split": "generated",
+  "text": "Chozeh avoda first, then we talk.",
+  "examples": [
+   "Chozeh avoda first, then we talk."
+  ],
+  "term": "chozeh avoda",
+  "surface": "Chozeh avoda",
+  "parts": [
+   "chozeh",
+   "avoda"
+  ],
+  "part_surfaces": [
+   "Chozeh",
+   "avoda"
+  ],
+  "short_term": "chozeh",
+  "short_surface": "Chozeh",
+  "dataset_label": "chozeh avoda",
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'Chozeh avoda', or 'Chozeh' + 'avoda'?"
  },
  {
   "key": "boundary:dud hashmal",
@@ -409,6 +623,29 @@
   "short_surface": "Dud",
   "dataset_label": "dud shemesh",
   "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'dud shemesh', or 'Dud' + 'shemesh'?"
+ },
+ {
+  "key": "boundary:efshar",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:efshar",
+  "split": "generated",
+  "text": "Efshar?",
+  "examples": [
+   "Efshar?"
+  ],
+  "term": "efshar",
+  "surface": "Efshar",
+  "parts": [
+   "efshar?"
+  ],
+  "part_surfaces": [
+   "Efshar?"
+  ],
+  "short_term": "efshar?",
+  "short_surface": "Efshar?",
+  "dataset_label": "efshar",
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'Efshar', or 'Efshar?'?"
  },
  {
   "key": "boundary:eize",
@@ -564,6 +801,31 @@
   "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'heshbonit mas kabala', or 'heshbonit' + 'mas kabala' + 'kabala'?"
  },
  {
+  "key": "boundary:kartis debit",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:kartis debit",
+  "split": "generated",
+  "text": "Do you take kartis debit for online orders?",
+  "examples": [
+   "Do you take kartis debit for online orders?",
+   "I tried to pay with my kartis debit, but the machine was down.",
+   "Kartis debit is all I've got on me."
+  ],
+  "term": "kartis debit",
+  "surface": "kartis debit",
+  "parts": [
+   "kartis"
+  ],
+  "part_surfaces": [
+   "Kartis"
+  ],
+  "short_term": "kartis",
+  "short_surface": "Kartis",
+  "dataset_label": "kartis debit",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'kartis debit', or 'Kartis'?"
+ },
+ {
   "key": "boundary:kartis hofshi",
   "kind": "boundary",
   "risk": "boundary",
@@ -587,6 +849,129 @@
   "short_surface": "Kartis",
   "dataset_label": "kartis hofshi",
   "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'Kartis hofshi', or 'Kartis' + 'hofshi'?"
+ },
+ {
+  "key": "boundary:kartis sim",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:kartis sim",
+  "split": "generated",
+  "text": "My kartis sim only works if I stand by the window.",
+  "examples": [
+   "My kartis sim only works if I stand by the window."
+  ],
+  "term": "kartis sim",
+  "surface": "kartis sim",
+  "parts": [
+   "kartis"
+  ],
+  "part_surfaces": [
+   "kartis"
+  ],
+  "short_term": "kartis",
+  "short_surface": "kartis",
+  "dataset_label": "kartis sim",
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'kartis sim', or 'kartis'?"
+ },
+ {
+  "key": "boundary:kav kavvi",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:kav kavvi",
+  "split": "generated",
+  "text": "We finally cancelled the kav kavvi last month and just use our phones for everything now.",
+  "examples": [
+   "We finally cancelled the kav kavvi last month and just use our phones for everything now.",
+   "No kav kavvi in this apartment, the landlord never bothered to hook one up."
+  ],
+  "term": "kav kavvi",
+  "surface": "kav kavvi",
+  "parts": [
+   "kav",
+   "kavvi"
+  ],
+  "part_surfaces": [
+   "kav",
+   "kavvi"
+  ],
+  "short_term": "kav",
+  "short_surface": "kav",
+  "dataset_label": "kav kavvi",
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'kav kavvi', or 'kav' + 'kavvi'?"
+ },
+ {
+  "key": "boundary:kav nayad",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:kav nayad",
+  "split": "generated",
+  "text": "Is your kav nayad working yet?",
+  "examples": [
+   "Is your kav nayad working yet?",
+   "kav nayad dead again."
+  ],
+  "term": "kav nayad",
+  "surface": "kav nayad",
+  "parts": [
+   "kav",
+   "nayad"
+  ],
+  "part_surfaces": [
+   "kav",
+   "nayad"
+  ],
+  "short_term": "kav",
+  "short_surface": "kav",
+  "dataset_label": "kav nayad",
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'kav nayad', or 'kav' + 'nayad'?"
+ },
+ {
+  "key": "boundary:kitzbat yeladim",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:kitzbat yeladim",
+  "split": "generated",
+  "text": "Kitzbat yeladim? Yeah, we got it, but it barely covered daycare.",
+  "examples": [
+   "Kitzbat yeladim? Yeah, we got it, but it barely covered daycare."
+  ],
+  "term": "kitzbat yeladim",
+  "surface": "Kitzbat yeladim",
+  "parts": [
+   "kitzbat",
+   "yeladim"
+  ],
+  "part_surfaces": [
+   "Kitzbat",
+   "yeladim"
+  ],
+  "short_term": "kitzbat",
+  "short_surface": "Kitzbat",
+  "dataset_label": "kitzbat yeladim",
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'Kitzbat yeladim', or 'Kitzbat' + 'yeladim'?"
+ },
+ {
+  "key": "boundary:kupa otomatit",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:kupa otomatit",
+  "split": "generated",
+  "text": "Kupa otomatit? I never use it—I always mess up scanning the vegetables.",
+  "examples": [
+   "Kupa otomatit? I never use it—I always mess up scanning the vegetables."
+  ],
+  "term": "kupa otomatit",
+  "surface": "Kupa otomatit",
+  "parts": [
+   "kupa"
+  ],
+  "part_surfaces": [
+   "Kupa"
+  ],
+  "short_term": "kupa",
+  "short_surface": "Kupa",
+  "dataset_label": "kupa otomatit",
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'Kupa otomatit', or 'Kupa'?"
  },
  {
   "key": "boundary:layla",
@@ -636,6 +1021,29 @@
   "short_surface": "layla",
   "dataset_label": "layla tov",
   "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'layla tov', or 'layla' + 'tov'?"
+ },
+ {
+  "key": "boundary:maon yom",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:maon yom",
+  "split": "generated",
+  "text": "The maon yom? Yeah, we finally found one that doesn't cost a fortune.",
+  "examples": [
+   "The maon yom? Yeah, we finally found one that doesn't cost a fortune."
+  ],
+  "term": "maon yom",
+  "surface": "maon yom",
+  "parts": [
+   "maon"
+  ],
+  "part_surfaces": [
+   "maon"
+  ],
+  "short_term": "maon",
+  "short_surface": "maon",
+  "dataset_label": "maon yom",
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'maon yom', or 'maon'?"
  },
  {
   "key": "boundary:marak yerek",
@@ -1078,6 +1486,177 @@
   "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'Mas hachnasa zikui', or 'Mas hachnasa' + 'zikui'?"
  },
  {
+  "key": "boundary:matzav cherum",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:matzav cherum",
+  "split": "generated",
+  "text": "Total matzav cherum.",
+  "examples": [
+   "Total matzav cherum."
+  ],
+  "term": "matzav cherum",
+  "surface": "matzav cherum",
+  "parts": [
+   "matzav",
+   "cherum"
+  ],
+  "part_surfaces": [
+   "matzav",
+   "cherum"
+  ],
+  "short_term": "matzav",
+  "short_surface": "matzav",
+  "dataset_label": "matzav cherum",
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'matzav cherum', or 'matzav' + 'cherum'?"
+ },
+ {
+  "key": "boundary:miklat tachton",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:miklat tachton",
+  "split": "generated",
+  "text": "Miklat tachton, down the stairs and to the left — don't bother with the one on the ground floor.",
+  "examples": [
+   "Miklat tachton, down the stairs and to the left — don't bother with the one on the ground floor."
+  ],
+  "term": "miklat tachton",
+  "surface": "Miklat tachton",
+  "parts": [
+   "miklat",
+   "tachton"
+  ],
+  "part_surfaces": [
+   "Miklat",
+   "tachton"
+  ],
+  "short_term": "miklat",
+  "short_surface": "Miklat",
+  "dataset_label": "miklat tachton",
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'Miklat tachton', or 'Miklat' + 'tachton'?"
+ },
+ {
+  "key": "boundary:mirsham chozer",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:mirsham chozer",
+  "split": "generated",
+  "text": "Just a mirsham chozer, please.",
+  "examples": [
+   "Just a mirsham chozer, please."
+  ],
+  "term": "mirsham chozer",
+  "surface": "mirsham chozer",
+  "parts": [
+   "mirsham"
+  ],
+  "part_surfaces": [
+   "mirsham"
+  ],
+  "short_term": "mirsham",
+  "short_surface": "mirsham",
+  "dataset_label": "mirsham chozer",
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'mirsham chozer', or 'mirsham'?"
+ },
+ {
+  "key": "boundary:mispar nayad",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:mispar nayad",
+  "split": "generated",
+  "text": "New mispar nayad, same me — save it.",
+  "examples": [
+   "New mispar nayad, same me — save it."
+  ],
+  "term": "mispar nayad",
+  "surface": "mispar nayad",
+  "parts": [
+   "mispar",
+   "nayad"
+  ],
+  "part_surfaces": [
+   "mispar",
+   "nayad"
+  ],
+  "short_term": "mispar",
+  "short_surface": "mispar",
+  "dataset_label": "mispar nayad",
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'mispar nayad', or 'mispar' + 'nayad'?"
+ },
+ {
+  "key": "boundary:moed",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:moed",
+  "split": "generated",
+  "text": "moed bet, no choice.",
+  "examples": [
+   "moed bet, no choice."
+  ],
+  "term": "moed",
+  "surface": "moed",
+  "parts": [
+   "moed bet"
+  ],
+  "part_surfaces": [
+   "moed bet"
+  ],
+  "short_term": "moed bet",
+  "short_surface": "moed bet",
+  "dataset_label": "moed",
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'moed', or 'moed bet'?"
+ },
+ {
+  "key": "boundary:more nehiga",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:more nehiga",
+  "split": "generated",
+  "text": "Who was your more nehiga when you first got behind the wheel?",
+  "examples": [
+   "Who was your more nehiga when you first got behind the wheel?",
+   "My more nehiga was a total legend.",
+   "I've had the same more nehiga for six months now, and he still won't let me parallel park."
+  ],
+  "term": "more nehiga",
+  "surface": "more nehiga",
+  "parts": [
+   "nehiga"
+  ],
+  "part_surfaces": [
+   "nehiga"
+  ],
+  "short_term": "nehiga",
+  "short_surface": "nehiga",
+  "dataset_label": "more nehiga",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'more nehiga', or 'nehiga'?"
+ },
+ {
+  "key": "boundary:motzei chag",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:motzei chag",
+  "split": "generated",
+  "text": "Motzei chag. Perfect — I'll bring the leftovers.",
+  "examples": [
+   "Motzei chag. Perfect — I'll bring the leftovers."
+  ],
+  "term": "motzei chag",
+  "surface": "Motzei chag",
+  "parts": [
+   "motzei",
+   "chag"
+  ],
+  "part_surfaces": [
+   "Motzei",
+   "chag"
+  ],
+  "short_term": "motzei",
+  "short_surface": "Motzei",
+  "dataset_label": "motzei chag",
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'Motzei chag', or 'Motzei' + 'chag'?"
+ },
+ {
   "key": "boundary:od paam",
   "kind": "boundary",
   "risk": "boundary",
@@ -1101,6 +1680,101 @@
   "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'od paam', or 'paam'?"
  },
  {
+  "key": "boundary:plugah",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:plugah",
+  "split": "generated",
+  "text": "plugah bet, best unit in the brigade.",
+  "examples": [
+   "plugah bet, best unit in the brigade."
+  ],
+  "term": "plugah",
+  "surface": "plugah",
+  "parts": [
+   "plugah bet"
+  ],
+  "part_surfaces": [
+   "plugah bet"
+  ],
+  "short_term": "plugah bet",
+  "short_surface": "plugah bet",
+  "dataset_label": "plugah",
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'plugah', or 'plugah bet'?"
+ },
+ {
+  "key": "boundary:rashut hateva vehaganim",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:rashut hateva vehaganim",
+  "split": "generated",
+  "text": "rashut hateva vehaganim? Yeah, they're the ones who charge for parking at every trailhead.",
+  "examples": [
+   "rashut hateva vehaganim? Yeah, they're the ones who charge for parking at every trailhead."
+  ],
+  "term": "rashut hateva vehaganim",
+  "surface": "rashut hateva vehaganim",
+  "parts": [
+   "rashut hateva",
+   "vehaganim"
+  ],
+  "part_surfaces": [
+   "rashut hateva",
+   "vehaganim"
+  ],
+  "short_term": "rashut hateva",
+  "short_surface": "rashut hateva",
+  "dataset_label": "rashut hateva vehaganim",
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'rashut hateva vehaganim', or 'rashut hateva' + 'vehaganim'?"
+ },
+ {
+  "key": "boundary:rav samal",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:rav samal",
+  "split": "generated",
+  "text": "rav samal? Please, my little sister could take him.",
+  "examples": [
+   "rav samal? Please, my little sister could take him."
+  ],
+  "term": "rav samal",
+  "surface": "rav samal",
+  "parts": [
+   "rav"
+  ],
+  "part_surfaces": [
+   "rav"
+  ],
+  "short_term": "rav",
+  "short_surface": "rav",
+  "dataset_label": "rav samal",
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'rav samal', or 'rav'?"
+ },
+ {
+  "key": "boundary:rav seren",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:rav seren",
+  "split": "generated",
+  "text": "rav seren, of all people.",
+  "examples": [
+   "rav seren, of all people.",
+   "I was a rav seren for three years before I decided to go back to civilian life."
+  ],
+  "term": "rav seren",
+  "surface": "rav seren",
+  "parts": [
+   "rav"
+  ],
+  "part_surfaces": [
+   "rav"
+  ],
+  "short_term": "rav",
+  "short_surface": "rav",
+  "dataset_label": "rav seren",
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'rav seren', or 'rav'?"
+ },
+ {
   "key": "boundary:rehov",
   "kind": "boundary",
   "risk": "boundary",
@@ -1122,6 +1796,282 @@
   "short_surface": "rehov Bialik",
   "dataset_label": "rehov",
   "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'rehov', or 'rehov Bialik'?"
+ },
+ {
+  "key": "boundary:reshet nayad",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:reshet nayad",
+  "split": "generated",
+  "text": "Do you think reshet nayad will ever have decent coverage in the Negev?",
+  "examples": [
+   "Do you think reshet nayad will ever have decent coverage in the Negev?",
+   "reshet nayad, huh? About time.",
+   "I finally ditched reshet nayad after they raised my bill again."
+  ],
+  "term": "reshet nayad",
+  "surface": "reshet nayad",
+  "parts": [
+   "reshet",
+   "nayad"
+  ],
+  "part_surfaces": [
+   "reshet",
+   "nayad"
+  ],
+  "short_term": "reshet",
+  "short_surface": "reshet",
+  "dataset_label": "reshet nayad",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'reshet nayad', or 'reshet' + 'nayad'?"
+ },
+ {
+  "key": "boundary:ribit lo tzmuda",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:ribit lo tzmuda",
+  "split": "generated",
+  "text": "Ribit lo tzmuda, that's the safe bet.",
+  "examples": [
+   "Ribit lo tzmuda, that's the safe bet."
+  ],
+  "term": "ribit lo tzmuda",
+  "surface": "Ribit lo tzmuda",
+  "parts": [
+   "ribit",
+   "tzmuda"
+  ],
+  "part_surfaces": [
+   "Ribit",
+   "tzmuda"
+  ],
+  "short_term": "ribit",
+  "short_surface": "Ribit",
+  "dataset_label": "ribit lo tzmuda",
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'Ribit lo tzmuda', or 'Ribit' + 'tzmuda'?"
+ },
+ {
+  "key": "boundary:ribit tzmuda",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:ribit tzmuda",
+  "split": "generated",
+  "text": "Have you considered how ribit tzmuda can make your savings grow faster over time?",
+  "examples": [
+   "Have you considered how ribit tzmuda can make your savings grow faster over time?",
+   "Ribit tzmuda? Yeah, that's what got me into debt.",
+   "I wish I had understood ribit tzmuda before I took out that loan."
+  ],
+  "term": "ribit tzmuda",
+  "surface": "ribit tzmuda",
+  "parts": [
+   "tzmuda"
+  ],
+  "part_surfaces": [
+   "tzmuda"
+  ],
+  "short_term": "tzmuda",
+  "short_surface": "tzmuda",
+  "dataset_label": "ribit tzmuda",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'ribit tzmuda', or 'tzmuda'?"
+ },
+ {
+  "key": "boundary:rishayon iski",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:rishayon iski",
+  "split": "generated",
+  "text": "No rishayon iski, no business.",
+  "examples": [
+   "No rishayon iski, no business."
+  ],
+  "term": "rishayon iski",
+  "surface": "rishayon iski",
+  "parts": [
+   "rishayon"
+  ],
+  "part_surfaces": [
+   "rishayon"
+  ],
+  "short_term": "rishayon",
+  "short_surface": "rishayon",
+  "dataset_label": "rishayon iski",
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'rishayon iski', or 'rishayon'?"
+ },
+ {
+  "key": "boundary:rishayon neshek",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:rishayon neshek",
+  "split": "generated",
+  "text": "No rishayon neshek, no job as a security guard.",
+  "examples": [
+   "No rishayon neshek, no job as a security guard."
+  ],
+  "term": "rishayon neshek",
+  "surface": "rishayon neshek",
+  "parts": [
+   "rishayon",
+   "neshek"
+  ],
+  "part_surfaces": [
+   "rishayon",
+   "neshek"
+  ],
+  "short_term": "rishayon",
+  "short_surface": "rishayon",
+  "dataset_label": "rishayon neshek",
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'rishayon neshek', or 'rishayon' + 'neshek'?"
+ },
+ {
+  "key": "boundary:rishayon rechev",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:rishayon rechev",
+  "split": "generated",
+  "text": "No rishayon rechev, no car keys for you.",
+  "examples": [
+   "No rishayon rechev, no car keys for you."
+  ],
+  "term": "rishayon rechev",
+  "surface": "rishayon rechev",
+  "parts": [
+   "rishayon",
+   "rechev"
+  ],
+  "part_surfaces": [
+   "rishayon",
+   "rechev"
+  ],
+  "short_term": "rishayon",
+  "short_surface": "rishayon",
+  "dataset_label": "rishayon rechev",
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'rishayon rechev', or 'rishayon' + 'rechev'?"
+ },
+ {
+  "key": "boundary:sachar minimum",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:sachar minimum",
+  "split": "generated",
+  "text": "After the new law, sachar minimum went up to 32 shekels an hour, but it's still not enough.",
+  "examples": [
+   "After the new law, sachar minimum went up to 32 shekels an hour, but it's still not enough.",
+   "Do you know what the sachar minimum is for teenagers working part-time?",
+   "Sachar minimum? That's a joke, I can't even pay rent with that."
+  ],
+  "term": "sachar minimum",
+  "surface": "sachar minimum",
+  "parts": [
+   "sachar"
+  ],
+  "part_surfaces": [
+   "Sachar"
+  ],
+  "short_term": "sachar",
+  "short_surface": "Sachar",
+  "dataset_label": "sachar minimum",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'sachar minimum', or 'Sachar'?"
+ },
+ {
+  "key": "boundary:sal briut",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:sal briut",
+  "split": "generated",
+  "text": "Does the sal briut cover dental implants these days?",
+  "examples": [
+   "Does the sal briut cover dental implants these days?",
+   "Same sal briut, same bureaucracy."
+  ],
+  "term": "sal briut",
+  "surface": "sal briut",
+  "parts": [
+   "briut"
+  ],
+  "part_surfaces": [
+   "briut"
+  ],
+  "short_term": "briut",
+  "short_surface": "briut",
+  "dataset_label": "sal briut",
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'sal briut', or 'briut'?"
+ },
+ {
+  "key": "boundary:sherut chova",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:sherut chova",
+  "split": "generated",
+  "text": "I finished my sherut chova last year and immediately started traveling.",
+  "examples": [
+   "I finished my sherut chova last year and immediately started traveling.",
+   "Is sherut chova still mandatory for everyone, or are there more exemptions now?",
+   "sherut chova? Don't even get me started."
+  ],
+  "term": "sherut chova",
+  "surface": "sherut chova",
+  "parts": [
+   "sherut",
+   "chova"
+  ],
+  "part_surfaces": [
+   "sherut",
+   "chova"
+  ],
+  "short_term": "sherut",
+  "short_surface": "sherut",
+  "dataset_label": "sherut chova",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'sherut chova', or 'sherut' + 'chova'?"
+ },
+ {
+  "key": "boundary:sherut keva",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:sherut keva",
+  "split": "generated",
+  "text": "Sherut keva? Nah, I've had enough of base food and 4 a.m. wake-ups.",
+  "examples": [
+   "Sherut keva? Nah, I've had enough of base food and 4 a.m. wake-ups."
+  ],
+  "term": "sherut keva",
+  "surface": "Sherut keva",
+  "parts": [
+   "sherut",
+   "keva"
+  ],
+  "part_surfaces": [
+   "Sherut",
+   "keva"
+  ],
+  "short_term": "sherut",
+  "short_surface": "Sherut",
+  "dataset_label": "sherut keva",
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'Sherut keva', or 'Sherut' + 'keva'?"
+ },
+ {
+  "key": "boundary:shtar halva'ah",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:shtar halva'ah",
+  "split": "generated",
+  "text": "Shtar halva'ah? Oh, that old thing—I haven't seen it in years.",
+  "examples": [
+   "Shtar halva'ah? Oh, that old thing—I haven't seen it in years."
+  ],
+  "term": "shtar halva'ah",
+  "surface": "Shtar halva'ah",
+  "parts": [
+   "shtar",
+   "halva'ah"
+  ],
+  "part_surfaces": [
+   "Shtar",
+   "halva'ah"
+  ],
+  "short_term": "shtar",
+  "short_surface": "Shtar",
+  "dataset_label": "shtar halva'ah",
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole \"Shtar halva'ah\", or 'Shtar' + \"halva'ah\"?"
  },
  {
   "key": "boundary:shuk hatikva",
@@ -1168,6 +2118,56 @@
   "short_surface": "sarona",
   "dataset_label": "shuk sarona",
   "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'shuk sarona', or 'sarona'?"
+ },
+ {
+  "key": "boundary:ta koli",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:ta koli",
+  "split": "generated",
+  "text": "Ugh, ta koli again — never mind, I'll just text him.",
+  "examples": [
+   "Ugh, ta koli again — never mind, I'll just text him."
+  ],
+  "term": "ta koli",
+  "surface": "ta koli",
+  "parts": [
+   "koli"
+  ],
+  "part_surfaces": [
+   "koli"
+  ],
+  "short_term": "koli",
+  "short_surface": "koli",
+  "dataset_label": "ta koli",
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'ta koli', or 'koli'?"
+ },
+ {
+  "key": "boundary:tlush maskoret",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:tlush maskoret",
+  "split": "generated",
+  "text": "Where did you put the tlush maskoret I left on the kitchen table?",
+  "examples": [
+   "Where did you put the tlush maskoret I left on the kitchen table?",
+   "Just my tlush maskoret and a coffee mug on the desk.",
+   "She waved her tlush maskoret at the boss when he questioned her hours."
+  ],
+  "term": "tlush maskoret",
+  "surface": "tlush maskoret",
+  "parts": [
+   "tlush",
+   "maskoret"
+  ],
+  "part_surfaces": [
+   "tlush",
+   "maskoret"
+  ],
+  "short_term": "tlush",
+  "short_surface": "tlush",
+  "dataset_label": "tlush maskoret",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'tlush maskoret', or 'tlush' + 'maskoret'?"
  },
  {
   "key": "boundary:tofes 101",
@@ -2937,6 +3937,31 @@
   "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'tofes 17', or 'tofes'?"
  },
  {
+  "key": "boundary:tzad gimel",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:tzad gimel",
+  "split": "generated",
+  "text": "Tzad gimel's acting up again, so we're taking the other truck.",
+  "examples": [
+   "Tzad gimel's acting up again, so we're taking the other truck."
+  ],
+  "term": "tzad gimel",
+  "surface": "Tzad gimel",
+  "parts": [
+   "tzad",
+   "gimel"
+  ],
+  "part_surfaces": [
+   "Tzad",
+   "gimel"
+  ],
+  "short_term": "tzad",
+  "short_surface": "Tzad",
+  "dataset_label": "tzad gimel",
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'Tzad gimel', or 'Tzad' + 'gimel'?"
+ },
+ {
   "key": "boundary:tzilum raentgen",
   "kind": "boundary",
   "risk": "boundary",
@@ -2959,6 +3984,79 @@
   "short_surface": "tzilum",
   "dataset_label": "tzilum raentgen",
   "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tzilum raentgen', or 'tzilum'?"
+ },
+ {
+  "key": "boundary:yemei chufsha",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:yemei chufsha",
+  "split": "generated",
+  "text": "Yemei chufsha? Not in this office, apparently.",
+  "examples": [
+   "Yemei chufsha? Not in this office, apparently."
+  ],
+  "term": "yemei chufsha",
+  "surface": "Yemei chufsha",
+  "parts": [
+   "yemei",
+   "chufsha"
+  ],
+  "part_surfaces": [
+   "Yemei",
+   "chufsha"
+  ],
+  "short_term": "yemei",
+  "short_surface": "Yemei",
+  "dataset_label": "yemei chufsha",
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'Yemei chufsha', or 'Yemei' + 'chufsha'?"
+ },
+ {
+  "key": "boundary:yom sheni",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:yom sheni",
+  "split": "generated",
+  "text": "Yom sheni, then.",
+  "examples": [
+   "Yom sheni, then."
+  ],
+  "term": "yom sheni",
+  "surface": "Yom sheni",
+  "parts": [
+   "yom",
+   "sheni"
+  ],
+  "part_surfaces": [
+   "Yom",
+   "sheni"
+  ],
+  "short_term": "yom",
+  "short_surface": "Yom",
+  "dataset_label": "yom sheni",
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'Yom sheni', or 'Yom' + 'sheni'?"
+ },
+ {
+  "key": "boundary:zikui mas",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:zikui mas",
+  "split": "generated",
+  "text": "That zikui mas I claimed for my mortgage actually reduced my tax bill by a few thousand shekels.",
+  "examples": [
+   "That zikui mas I claimed for my mortgage actually reduced my tax bill by a few thousand shekels."
+  ],
+  "term": "zikui mas",
+  "surface": "zikui mas",
+  "parts": [
+   "zikui"
+  ],
+  "part_surfaces": [
+   "zikui"
+  ],
+  "short_term": "zikui",
+  "short_surface": "zikui",
+  "dataset_label": "zikui mas",
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'zikui mas', or 'zikui'?"
  },
  {
   "key": "g00033:0",
@@ -4473,6 +5571,496 @@
   "note": "the annotator marked this but it was not the seeded term — is 'shana' a Hebrew word written in Latin script?"
  },
  {
+  "key": "g02965:1",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g02965",
+  "split": "generated",
+  "text": "Ugh, mas rechev again.",
+  "start": 9,
+  "end": 15,
+  "surface": "rechev",
+  "term": "rechev",
+  "dataset_label": "mas rechev",
+  "note": "the annotator marked this but it was not the seeded term — is 'rechev' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03137:1",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g03137",
+  "split": "generated",
+  "text": "When we arrived on aliyah, the diyur they provided was a tiny apartment in Kiryat Gat, but we were just happy to have a roof over our heads.",
+  "start": 75,
+  "end": 85,
+  "surface": "Kiryat Gat",
+  "term": "kiryat gat",
+  "dataset_label": "diyur",
+  "note": "the annotator marked this but it was not the seeded term — is 'Kiryat Gat' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03148:1",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g03148",
+  "split": "generated",
+  "text": "How did your histaglut go after the ulpan ended?",
+  "start": 36,
+  "end": 41,
+  "surface": "ulpan",
+  "term": "ulpan",
+  "dataset_label": "histaglut",
+  "note": "the annotator marked this but it was not the seeded term — is 'ulpan' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03155:0",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g03155",
+  "split": "generated",
+  "text": "When we made aliyah from Toronto, the clerk at Bituach Leumi explained that kitzbat yeladim would land in our account on the 28th of every month.",
+  "start": 47,
+  "end": 60,
+  "surface": "Bituach Leumi",
+  "term": "bituach leumi",
+  "dataset_label": "kitzbat yeladim",
+  "note": "the annotator marked this but it was not the seeded term — is 'Bituach Leumi' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03194:1",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g03194",
+  "split": "generated",
+  "text": "He barely spoke Hebrew, but the merkaz klita gave him a roof, ulpan, and a bunch of roommates from everywhere.",
+  "start": 62,
+  "end": 67,
+  "surface": "ulpan",
+  "term": "ulpan",
+  "dataset_label": "merkaz klita",
+  "note": "the annotator marked this but it was not the seeded term — is 'ulpan' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03211:1",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g03211",
+  "split": "generated",
+  "text": "Just the gush and chelka, nothing else.",
+  "start": 18,
+  "end": 24,
+  "surface": "chelka",
+  "term": "chelka",
+  "dataset_label": "gush",
+  "note": "the annotator marked this but it was not the seeded term — is 'chelka' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03232:1",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g03232",
+  "split": "generated",
+  "text": "Just renewed my bituach chova — cost me more than the car's worth, honestly.",
+  "start": 24,
+  "end": 29,
+  "surface": "chova",
+  "term": "chova",
+  "dataset_label": "bituach chova",
+  "note": "the annotator marked this but it was not the seeded term — is 'chova' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03293:1",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g03293",
+  "split": "generated",
+  "text": "The sal klita was a lifesaver when we first moved here, covering ulpan fees and part of our rent.",
+  "start": 65,
+  "end": 70,
+  "surface": "ulpan",
+  "term": "ulpan",
+  "dataset_label": "sal klita",
+  "note": "the annotator marked this but it was not the seeded term — is 'ulpan' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03497:1",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g03497",
+  "split": "generated",
+  "text": "Keren pensia, kupat gemel, whatever — as long as there's something waiting for me when I'm sixty-seven.",
+  "start": 14,
+  "end": 25,
+  "surface": "kupat gemel",
+  "term": "kupat gemel",
+  "dataset_label": "keren pensia",
+  "note": "the annotator marked this but it was not the seeded term — is 'kupat gemel' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03499:1",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g03499",
+  "split": "generated",
+  "text": "Another hoda'a from the gan? Seriously?",
+  "start": 24,
+  "end": 27,
+  "surface": "gan",
+  "term": "gan",
+  "dataset_label": "hoda'a",
+  "note": "the annotator marked this but it was not the seeded term — is 'gan' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03534:1",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g03534",
+  "split": "generated",
+  "text": "Can a mamzer marry a kohen?",
+  "start": 21,
+  "end": 26,
+  "surface": "kohen",
+  "term": "kohen",
+  "dataset_label": "mamzer",
+  "note": "the annotator marked this but it was not the seeded term — is 'kohen' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03536:0",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g03536",
+  "split": "generated",
+  "text": "The rabbi explained that according to halacha, a mamzer is prohibited from marrying a regular Jew, except in specific cases.",
+  "start": 38,
+  "end": 45,
+  "surface": "halacha",
+  "term": "halacha",
+  "dataset_label": "mamzer",
+  "note": "the annotator marked this but it was not the seeded term — is 'halacha' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03552:1",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g03552",
+  "split": "generated",
+  "text": "The mechira fell through after the bank refused the mortgage.",
+  "start": 52,
+  "end": 60,
+  "surface": "mortgage",
+  "term": "mortgage",
+  "dataset_label": "mechira",
+  "note": "the annotator marked this but it was not the seeded term — is 'mortgage' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03588:1",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g03588",
+  "split": "generated",
+  "text": "Did you do a hakhanah before the psychometric, or did you just wing it?",
+  "start": 33,
+  "end": 45,
+  "surface": "psychometric",
+  "term": "psychometric",
+  "dataset_label": "hakhanah",
+  "note": "the annotator marked this but it was not the seeded term — is 'psychometric' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03596:1",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g03596",
+  "split": "generated",
+  "text": "She finished the amidah before I even opened my siddur.",
+  "start": 48,
+  "end": 54,
+  "surface": "siddur",
+  "term": "siddur",
+  "dataset_label": "amidah",
+  "note": "the annotator marked this but it was not the seeded term — is 'siddur' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03645:1",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g03645",
+  "split": "generated",
+  "text": "We finished the gibush and got our berets, but not before they pushed us to the absolute limit.",
+  "start": 35,
+  "end": 41,
+  "surface": "berets",
+  "term": "berets",
+  "dataset_label": "gibush",
+  "note": "the annotator marked this but it was not the seeded term — is 'berets' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03673:1",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g03673",
+  "split": "generated",
+  "text": "Which machlaka are you in now that they reorganized the whole brigade?",
+  "start": 62,
+  "end": 69,
+  "surface": "brigade",
+  "term": "brigade",
+  "dataset_label": "machlaka",
+  "note": "the annotator marked this but it was not the seeded term — is 'brigade' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03701:1",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g03701",
+  "split": "generated",
+  "text": "I try to visit a kever of a tzadik every time I'm in Israel.",
+  "start": 28,
+  "end": 34,
+  "surface": "tzadik",
+  "term": "tzadik",
+  "dataset_label": "kever",
+  "note": "the annotator marked this but it was not the seeded term — is 'tzadik' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03812:1",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g03812",
+  "split": "generated",
+  "text": "My lawyer read the shtar mechira and said it was written according to halacha but would still hold up in an Israeli court.",
+  "start": 70,
+  "end": 77,
+  "surface": "halacha",
+  "term": "halacha",
+  "dataset_label": "shtar mechira",
+  "note": "the annotator marked this but it was not the seeded term — is 'halacha' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03813:1",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g03813",
+  "split": "generated",
+  "text": "Who was the sandak at your cousin's brit last week?",
+  "start": 36,
+  "end": 40,
+  "surface": "brit",
+  "term": "brit",
+  "dataset_label": "sandak",
+  "note": "the annotator marked this but it was not the seeded term — is 'brit' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03840:1",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g03840",
+  "split": "generated",
+  "text": "Did rav seren Mizrahi really authorize that operation?",
+  "start": 14,
+  "end": 21,
+  "surface": "Mizrahi",
+  "term": "mizrahi",
+  "dataset_label": "rav seren",
+  "note": "the annotator marked this but it was not the seeded term — is 'Mizrahi' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03854:1",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g03854",
+  "split": "generated",
+  "text": "They were careful about yichud, so they never stayed alone in the same room until after the chuppah.",
+  "start": 92,
+  "end": 99,
+  "surface": "chuppah",
+  "term": "chuppah",
+  "dataset_label": "yichud",
+  "note": "the annotator marked this but it was not the seeded term — is 'chuppah' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03858:1",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g03858",
+  "split": "generated",
+  "text": "Have you tried the chavita at the new grocery on Allenby?",
+  "start": 49,
+  "end": 56,
+  "surface": "Allenby",
+  "term": "allenby",
+  "dataset_label": "chavita",
+  "note": "the annotator marked this but it was not the seeded term — is 'Allenby' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03880:1",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g03880",
+  "split": "generated",
+  "text": "sayeret? no way, I heard only a handful make it through the gibush.",
+  "start": 60,
+  "end": 66,
+  "surface": "gibush",
+  "term": "gibush",
+  "dataset_label": "sayeret",
+  "note": "the annotator marked this but it was not the seeded term — is 'gibush' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03936:1",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g03936",
+  "split": "generated",
+  "text": "Is the meurav yerushalmi at this place as good as the one down on Agrippas?",
+  "start": 66,
+  "end": 74,
+  "surface": "Agrippas",
+  "term": "agrippas",
+  "dataset_label": "meurav yerushalmi",
+  "note": "the annotator marked this but it was not the seeded term — is 'Agrippas' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03937:1",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g03937",
+  "split": "generated",
+  "text": "Meurav yerushalmi, extra pita, and don't skimp on the amba.",
+  "start": 54,
+  "end": 58,
+  "surface": "amba",
+  "term": "amba",
+  "dataset_label": "meurav yerushalmi",
+  "note": "the annotator marked this but it was not the seeded term — is 'amba' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g04039:1",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g04039",
+  "split": "generated",
+  "text": "Have you been to the new beit kafe near the Carmel market?",
+  "start": 44,
+  "end": 50,
+  "surface": "Carmel",
+  "term": "carmel",
+  "dataset_label": "beit kafe",
+  "note": "the annotator marked this but it was not the seeded term — is 'Carmel' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g04057:1",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g04057",
+  "split": "generated",
+  "text": "Typical erev chag chaos.",
+  "start": 13,
+  "end": 17,
+  "surface": "chag",
+  "term": "chag",
+  "dataset_label": "erev chag",
+  "note": "the annotator marked this but it was not the seeded term — is 'chag' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g04265:0",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g04265",
+  "split": "generated",
+  "text": "The bet din from the crowded casino drowned out the announcer's voice.",
+  "start": 4,
+  "end": 11,
+  "surface": "bet din",
+  "term": "bet din",
+  "dataset_label": null,
+  "note": "the annotator marked this but it was not the seeded term — is 'bet din' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g04266:0",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g04266",
+  "split": "generated",
+  "text": "I couldn't concentrate on my cards because of the bet din coming from the next table.",
+  "start": 50,
+  "end": 57,
+  "surface": "bet din",
+  "term": "bet din",
+  "dataset_label": null,
+  "note": "the annotator marked this but it was not the seeded term — is 'bet din' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g04267:0",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g04267",
+  "split": "generated",
+  "text": "After the final race, a bet din erupted among the losing punters.",
+  "start": 24,
+  "end": 31,
+  "surface": "bet din",
+  "term": "bet din",
+  "dataset_label": null,
+  "note": "the annotator marked this but it was not the seeded term — is 'bet din' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g04268:0",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g04268",
+  "split": "generated",
+  "text": "He stepped outside to escape the bet din and clear his head.",
+  "start": 33,
+  "end": 40,
+  "surface": "bet din",
+  "term": "bet din",
+  "dataset_label": null,
+  "note": "the annotator marked this but it was not the seeded term — is 'bet din' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g04269:0",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g04269",
+  "split": "generated",
+  "text": "The bet din in the sportsbook grew louder with every touchdown.",
+  "start": 4,
+  "end": 11,
+  "surface": "bet din",
+  "term": "bet din",
+  "dataset_label": null,
+  "note": "the annotator marked this but it was not the seeded term — is 'bet din' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g04270:0",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g04270",
+  "split": "generated",
+  "text": "She loved the bet din of a busy poker room, the chips and the chatter.",
+  "start": 14,
+  "end": 21,
+  "surface": "bet din",
+  "term": "bet din",
+  "dataset_label": null,
+  "note": "the annotator marked this but it was not the seeded term — is 'bet din' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g04271:0",
+  "kind": "span",
+  "risk": "annotator_only",
+  "id": "g04271",
+  "split": "generated",
+  "text": "As the night wore on, the bet din softened to a murmur.",
+  "start": 26,
+  "end": 33,
+  "surface": "bet din",
+  "term": "bet din",
+  "dataset_label": null,
+  "note": "the annotator marked this but it was not the seeded term — is 'bet din' a Hebrew word written in Latin script?"
+ },
+ {
   "key": "g00030:0",
   "kind": "span",
   "risk": "seed_only",
@@ -5157,6 +6745,314 @@
   "term": "meorav yerushalmi",
   "dataset_label": "meorav yerushalmi",
   "note": "the generator seeded this term but the annotator did not mark it — is 'meorav yerushalmi' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g02762:0",
+  "kind": "span",
+  "risk": "seed_only",
+  "id": "g02762",
+  "split": "generated",
+  "text": "No gina, no shade—simple as that.",
+  "start": 3,
+  "end": 7,
+  "surface": "gina",
+  "term": "gina",
+  "dataset_label": "gina",
+  "note": "the generator seeded this term but the annotator did not mark it — is 'gina' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g02773:1",
+  "kind": "span",
+  "risk": "seed_only",
+  "id": "g02773",
+  "split": "generated",
+  "text": "minhal, always the minhal.",
+  "start": 19,
+  "end": 25,
+  "surface": "minhal",
+  "term": "minhal",
+  "dataset_label": "minhal",
+  "note": "the generator seeded this term but the annotator did not mark it — is 'minhal' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g02854:0",
+  "kind": "span",
+  "risk": "seed_only",
+  "id": "g02854",
+  "split": "generated",
+  "text": "Have you seen the tik for the new park proposal?",
+  "start": 18,
+  "end": 21,
+  "surface": "tik",
+  "term": "tik",
+  "dataset_label": "tik",
+  "note": "the generator seeded this term but the annotator did not mark it — is 'tik' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g02916:0",
+  "kind": "span",
+  "risk": "seed_only",
+  "id": "g02916",
+  "split": "generated",
+  "text": "There was a pigu'a on the bus near the shuk, and everyone's phones started going off at once.",
+  "start": 12,
+  "end": 18,
+  "surface": "pigu'a",
+  "term": "pigu'a",
+  "dataset_label": "pigu'a",
+  "note": "the generator seeded this term but the annotator did not mark it — is \"pigu'a\" a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g02997:0",
+  "kind": "span",
+  "risk": "seed_only",
+  "id": "g02997",
+  "split": "generated",
+  "text": "Is the galgal supposed to wobble like that?",
+  "start": 7,
+  "end": 13,
+  "surface": "galgal",
+  "term": "galgal",
+  "dataset_label": "galgal",
+  "note": "the generator seeded this term but the annotator did not mark it — is 'galgal' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g02999:0",
+  "kind": "span",
+  "risk": "seed_only",
+  "id": "g02999",
+  "split": "generated",
+  "text": "I'll have to change the galgal before the trip if it keeps losing air.",
+  "start": 24,
+  "end": 30,
+  "surface": "galgal",
+  "term": "galgal",
+  "dataset_label": "galgal",
+  "note": "the generator seeded this term but the annotator did not mark it — is 'galgal' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03087:0",
+  "kind": "span",
+  "risk": "seed_only",
+  "id": "g03087",
+  "split": "generated",
+  "text": "I was stuck in the torim at the pharmacy for twenty minutes because the computer system went down.",
+  "start": 19,
+  "end": 24,
+  "surface": "torim",
+  "term": "torim",
+  "dataset_label": "torim",
+  "note": "the generator seeded this term but the annotator did not mark it — is 'torim' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03178:0",
+  "kind": "span",
+  "risk": "seed_only",
+  "id": "g03178",
+  "split": "generated",
+  "text": "No choze, no keys.",
+  "start": 3,
+  "end": 8,
+  "surface": "choze",
+  "term": "choze",
+  "dataset_label": "choze",
+  "note": "the generator seeded this term but the annotator did not mark it — is 'choze' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03348:0",
+  "kind": "span",
+  "risk": "seed_only",
+  "id": "g03348",
+  "split": "generated",
+  "text": "Do you need a sal for those apples?",
+  "start": 14,
+  "end": 17,
+  "surface": "sal",
+  "term": "sal",
+  "dataset_label": "sal",
+  "note": "the generator seeded this term but the annotator did not mark it — is 'sal' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03350:0",
+  "kind": "span",
+  "risk": "seed_only",
+  "id": "g03350",
+  "split": "generated",
+  "text": "She brought her own sal to the shuk yesterday.",
+  "start": 20,
+  "end": 23,
+  "surface": "sal",
+  "term": "sal",
+  "dataset_label": "sal",
+  "note": "the generator seeded this term but the annotator did not mark it — is 'sal' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03451:0",
+  "kind": "span",
+  "risk": "seed_only",
+  "id": "g03451",
+  "split": "generated",
+  "text": "How's the yam looking today—calm or choppy?",
+  "start": 10,
+  "end": 13,
+  "surface": "yam",
+  "term": "yam",
+  "dataset_label": "yam",
+  "note": "the generator seeded this term but the annotator did not mark it — is 'yam' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03617:0",
+  "kind": "span",
+  "risk": "seed_only",
+  "id": "g03617",
+  "split": "generated",
+  "text": "After the nitva failed to respond, the court entered a default judgment.",
+  "start": 10,
+  "end": 15,
+  "surface": "nitva",
+  "term": "nitva",
+  "dataset_label": "nitva",
+  "note": "the generator seeded this term but the annotator did not mark it — is 'nitva' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03817:0",
+  "kind": "span",
+  "risk": "seed_only",
+  "id": "g03817",
+  "split": "generated",
+  "text": "My mehanekh? Total legend.",
+  "start": 3,
+  "end": 11,
+  "surface": "mehanekh",
+  "term": "mehanekh",
+  "dataset_label": "mehanekh",
+  "note": "the generator seeded this term but the annotator did not mark it — is 'mehanekh' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03832:0",
+  "kind": "span",
+  "risk": "seed_only",
+  "id": "g03832",
+  "split": "generated",
+  "text": "Do the nayadim get reception in the Negev?",
+  "start": 7,
+  "end": 14,
+  "surface": "nayadim",
+  "term": "nayadim",
+  "dataset_label": "nayadim",
+  "note": "the generator seeded this term but the annotator did not mark it — is 'nayadim' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03838:0",
+  "kind": "span",
+  "risk": "seed_only",
+  "id": "g03838",
+  "split": "generated",
+  "text": "The nayad signal in this building is practically nonexistent.",
+  "start": 4,
+  "end": 9,
+  "surface": "nayad",
+  "term": "nayad",
+  "dataset_label": "nayad",
+  "note": "the generator seeded this term but the annotator did not mark it — is 'nayad' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03840:0",
+  "kind": "span",
+  "risk": "seed_only",
+  "id": "g03840",
+  "split": "generated",
+  "text": "Did rav seren Mizrahi really authorize that operation?",
+  "start": 4,
+  "end": 13,
+  "surface": "rav seren",
+  "term": "rav seren",
+  "dataset_label": "rav seren",
+  "note": "the generator seeded this term but the annotator did not mark it — is 'rav seren' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03876:0",
+  "kind": "span",
+  "risk": "seed_only",
+  "id": "g03876",
+  "split": "generated",
+  "text": "Who's the seren on duty tonight?",
+  "start": 10,
+  "end": 15,
+  "surface": "seren",
+  "term": "seren",
+  "dataset_label": "seren",
+  "note": "the generator seeded this term but the annotator did not mark it — is 'seren' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03877:0",
+  "kind": "span",
+  "risk": "seed_only",
+  "id": "g03877",
+  "split": "generated",
+  "text": "Seren? He barely finished officer training.",
+  "start": 0,
+  "end": 5,
+  "surface": "Seren",
+  "term": "seren",
+  "dataset_label": "seren",
+  "note": "the generator seeded this term but the annotator did not mark it — is 'Seren' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g03892:0",
+  "kind": "span",
+  "risk": "seed_only",
+  "id": "g03892",
+  "split": "generated",
+  "text": "The tove'a? He showed up twenty minutes late and still expected the judge to hear him first.",
+  "start": 4,
+  "end": 10,
+  "surface": "tove'a",
+  "term": "tove'a",
+  "dataset_label": "tove'a",
+  "note": "the generator seeded this term but the annotator did not mark it — is \"tove'a\" a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g04111:0",
+  "kind": "span",
+  "risk": "seed_only",
+  "id": "g04111",
+  "split": "generated",
+  "text": "Is the kor supposed to let up by tomorrow morning?",
+  "start": 7,
+  "end": 10,
+  "surface": "kor",
+  "term": "kor",
+  "dataset_label": "kor",
+  "note": "the generator seeded this term but the annotator did not mark it — is 'kor' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g04147:1",
+  "kind": "span",
+  "risk": "seed_only",
+  "id": "g04147",
+  "split": "generated",
+  "text": "Kniyot. Just kniyot.",
+  "start": 13,
+  "end": 19,
+  "surface": "kniyot",
+  "term": "kniyot",
+  "dataset_label": "kniyot",
+  "note": "the generator seeded this term but the annotator did not mark it — is 'kniyot' a Hebrew word written in Latin script?"
+ },
+ {
+  "key": "g04170:0",
+  "kind": "span",
+  "risk": "seed_only",
+  "id": "g04170",
+  "split": "generated",
+  "text": "How much did meches charge you for that necklace you brought in?",
+  "start": 13,
+  "end": 19,
+  "surface": "meches",
+  "term": "meches",
+  "dataset_label": "meches",
+  "note": "the generator seeded this term but the annotator did not mark it — is 'meches' a Hebrew word written in Latin script?"
  },
  {
   "key": "g00004:a0",
@@ -8339,6 +10235,1806 @@
   "id": "g02692",
   "split": "generated",
   "text": "He hid the po under his bed so his mother wouldn't find it.",
+  "dataset_label": null,
+  "note": "audit — both models found no Hebrew here. Type any term they missed, or submit empty to confirm."
+ },
+ {
+  "key": "g02740:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g02740",
+  "split": "generated",
+  "text": "My neighbor works for misrad habitachon, so he's always vague about where he disappears to every morning.",
+  "start": 22,
+  "end": 39,
+  "surface": "misrad habitachon",
+  "term": "misrad habitachon",
+  "dataset_label": "misrad habitachon",
+  "note": "audit — both models agree 'misrad habitachon' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g02761:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g02761",
+  "split": "generated",
+  "text": "Did the city fix the gina on Rothschild yet?",
+  "start": 21,
+  "end": 25,
+  "surface": "gina",
+  "term": "gina",
+  "dataset_label": "gina",
+  "note": "audit — both models agree 'gina' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g02784:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g02784",
+  "split": "generated",
+  "text": "They blamed misrad ha'energiya for the blackout, but honestly it's the electric company's fault.",
+  "start": 12,
+  "end": 30,
+  "surface": "misrad ha'energiya",
+  "term": "misrad ha'energiya",
+  "dataset_label": "misrad ha'energiya",
+  "note": "audit — both models agree \"misrad ha'energiya\" is Hebrew. Are they right?"
+ },
+ {
+  "key": "g02791:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g02791",
+  "split": "generated",
+  "text": "misrad hachaklaut? Oh, they're the reason my uncle's chicken farm got shut down.",
+  "start": 0,
+  "end": 17,
+  "surface": "misrad hachaklaut",
+  "term": "misrad hachaklaut",
+  "dataset_label": "misrad hachaklaut",
+  "note": "audit — both models agree 'misrad hachaklaut' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g02792:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g02792",
+  "split": "generated",
+  "text": "I applied for a grant from misrad hachaklaut last spring, but I'm still waiting for an answer.",
+  "start": 27,
+  "end": 44,
+  "surface": "misrad hachaklaut",
+  "term": "misrad hachaklaut",
+  "dataset_label": "misrad hachaklaut",
+  "note": "audit — both models agree 'misrad hachaklaut' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g02799:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g02799",
+  "split": "generated",
+  "text": "Are you free yom revi'i, or should we push it to Thursday?",
+  "start": 13,
+  "end": 23,
+  "surface": "yom revi'i",
+  "term": "yom revi'i",
+  "dataset_label": "yom revi'i",
+  "note": "audit — both models agree \"yom revi'i\" is Hebrew. Are they right?"
+ },
+ {
+  "key": "g02859:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g02859",
+  "split": "generated",
+  "text": "I submitted a tluna to the municipality about the pothole on our street, but nobody has fixed it yet.",
+  "start": 14,
+  "end": 19,
+  "surface": "tluna",
+  "term": "tluna",
+  "dataset_label": "tluna",
+  "note": "audit — both models agree 'tluna' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g02862:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g02862",
+  "split": "generated",
+  "text": "Ugh, misrad hamishpatim.",
+  "start": 5,
+  "end": 23,
+  "surface": "misrad hamishpatim",
+  "term": "misrad hamishpatim",
+  "dataset_label": "misrad hamishpatim",
+  "note": "audit — both models agree 'misrad hamishpatim' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g02877:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g02877",
+  "split": "generated",
+  "text": "The municipality's new tochnit for affordable housing is finally moving forward.",
+  "start": 23,
+  "end": 30,
+  "surface": "tochnit",
+  "term": "tochnit",
+  "dataset_label": "tochnit",
+  "note": "audit — both models agree 'tochnit' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g02909:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g02909",
+  "split": "generated",
+  "text": "I forgot to pay the agrat rishayon and now there's a fine.",
+  "start": 20,
+  "end": 34,
+  "surface": "agrat rishayon",
+  "term": "agrat rishayon",
+  "dataset_label": "agrat rishayon",
+  "note": "audit — both models agree 'agrat rishayon' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g02911:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g02911",
+  "split": "generated",
+  "text": "yom rishon is going to be crazy.",
+  "start": 0,
+  "end": 10,
+  "surface": "yom rishon",
+  "term": "yom rishon",
+  "dataset_label": "yom rishon",
+  "note": "audit — both models agree 'yom rishon' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g02912:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g02912",
+  "split": "generated",
+  "text": "Not yom rishon.",
+  "start": 4,
+  "end": 14,
+  "surface": "yom rishon",
+  "term": "yom rishon",
+  "dataset_label": "yom rishon",
+  "note": "audit — both models agree 'yom rishon' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g02926:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g02926",
+  "split": "generated",
+  "text": "Where's the closest beit merkachat?",
+  "start": 20,
+  "end": 34,
+  "surface": "beit merkachat",
+  "term": "beit merkachat",
+  "dataset_label": "beit merkachat",
+  "note": "audit — both models agree 'beit merkachat' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g02927:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g02927",
+  "split": "generated",
+  "text": "The beit merkachat again?",
+  "start": 4,
+  "end": 18,
+  "surface": "beit merkachat",
+  "term": "beit merkachat",
+  "dataset_label": "beit merkachat",
+  "note": "audit — both models agree 'beit merkachat' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g02944:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g02944",
+  "split": "generated",
+  "text": "pikud's on the line, hold on.",
+  "start": 0,
+  "end": 5,
+  "surface": "pikud",
+  "term": "pikud",
+  "dataset_label": "pikud",
+  "note": "audit — both models agree 'pikud' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g02950:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g02950",
+  "split": "generated",
+  "text": "Did you ask them to send the refill by doar mahir, or did you just drop it in the regular mail?",
+  "start": 39,
+  "end": 49,
+  "surface": "doar mahir",
+  "term": "doar mahir",
+  "dataset_label": "doar mahir",
+  "note": "audit — both models agree 'doar mahir' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g02952:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g02952",
+  "split": "generated",
+  "text": "Have you ever tried to get a permit from misrad hamada?",
+  "start": 41,
+  "end": 54,
+  "surface": "misrad hamada",
+  "term": "misrad hamada",
+  "dataset_label": "misrad hamada",
+  "note": "audit — both models agree 'misrad hamada' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g02976:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g02976",
+  "split": "generated",
+  "text": "What's the mispar rechev on that silver Honda?",
+  "start": 11,
+  "end": 24,
+  "surface": "mispar rechev",
+  "term": "mispar rechev",
+  "dataset_label": "mispar rechev",
+  "note": "audit — both models agree 'mispar rechev' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g02984:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g02984",
+  "split": "generated",
+  "text": "The pharmacist told me the hafnaya would take a couple of days.",
+  "start": 27,
+  "end": 34,
+  "surface": "hafnaya",
+  "term": "hafnaya",
+  "dataset_label": "hafnaya",
+  "note": "audit — both models agree 'hafnaya' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g02987:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g02987",
+  "split": "generated",
+  "text": "Whenever there's a tzeva, my dog starts barking before I even hear it.",
+  "start": 19,
+  "end": 24,
+  "surface": "tzeva",
+  "term": "tzeva",
+  "dataset_label": "tzeva",
+  "note": "audit — both models agree 'tzeva' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g02988:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g02988",
+  "split": "generated",
+  "text": "Did you already send the forms to rashut hamisim, or are you still waiting on your accountant?",
+  "start": 34,
+  "end": 48,
+  "surface": "rashut hamisim",
+  "term": "rashut hamisim",
+  "dataset_label": "rashut hamisim",
+  "note": "audit — both models agree 'rashut hamisim' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g02991:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g02991",
+  "split": "generated",
+  "text": "I dropped off the michtav at the pharmacy this morning, but they said it would take an hour.",
+  "start": 18,
+  "end": 25,
+  "surface": "michtav",
+  "term": "michtav",
+  "dataset_label": "michtav",
+  "note": "audit — both models agree 'michtav' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g02994:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g02994",
+  "split": "generated",
+  "text": "How much does a monit sherut cost from Tel Aviv to Jerusalem?",
+  "start": 16,
+  "end": 28,
+  "surface": "monit sherut",
+  "term": "monit sherut",
+  "dataset_label": "monit sherut",
+  "note": "audit — both models agree 'monit sherut' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03020:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03020",
+  "split": "generated",
+  "text": "Just a mikud, please.",
+  "start": 7,
+  "end": 12,
+  "surface": "mikud",
+  "term": "mikud",
+  "dataset_label": "mikud",
+  "note": "audit — both models agree 'mikud' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03024:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03024",
+  "split": "generated",
+  "text": "Did you tip the nahag?",
+  "start": 16,
+  "end": 21,
+  "surface": "nahag",
+  "term": "nahag",
+  "dataset_label": "nahag",
+  "note": "audit — both models agree 'nahag' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03037:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03037",
+  "split": "generated",
+  "text": "Is your bat dod the one who just finished her army service?",
+  "start": 8,
+  "end": 15,
+  "surface": "bat dod",
+  "term": "bat dod",
+  "dataset_label": "bat dod",
+  "note": "audit — both models agree 'bat dod' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03064:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03064",
+  "split": "generated",
+  "text": "Are you and your ben dod still not talking?",
+  "start": 17,
+  "end": 24,
+  "surface": "ben dod",
+  "term": "ben dod",
+  "dataset_label": "ben dod",
+  "note": "audit — both models agree 'ben dod' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03072:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03072",
+  "split": "generated",
+  "text": "Do you have your rishayon nehiga on you right now?",
+  "start": 17,
+  "end": 32,
+  "surface": "rishayon nehiga",
+  "term": "rishayon nehiga",
+  "dataset_label": "rishayon nehiga",
+  "note": "audit — both models agree 'rishayon nehiga' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03080:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03080",
+  "split": "generated",
+  "text": "Last summer, rashut hateva vehaganim shut down the entire Carmel forest because of a fire risk, which ruined our camping trip.",
+  "start": 13,
+  "end": 36,
+  "surface": "rashut hateva vehaganim",
+  "term": "rashut hateva vehaganim",
+  "dataset_label": "rashut hateva vehaganim",
+  "note": "audit — both models agree 'rashut hateva vehaganim' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03093:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03093",
+  "split": "generated",
+  "text": "Are you going to Rachel's chatuna next week?",
+  "start": 26,
+  "end": 33,
+  "surface": "chatuna",
+  "term": "chatuna",
+  "dataset_label": "chatuna",
+  "note": "audit — both models agree 'chatuna' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03100:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03100",
+  "split": "generated",
+  "text": "Do you really need a bet din for a spousal visa, or is that just for converts?",
+  "start": 21,
+  "end": 28,
+  "surface": "bet din",
+  "term": "bet din",
+  "dataset_label": "bet din",
+  "note": "audit — both models agree 'bet din' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03125:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03125",
+  "split": "generated",
+  "text": "Just the baal bayit, no roommates.",
+  "start": 9,
+  "end": 19,
+  "surface": "baal bayit",
+  "term": "baal bayit",
+  "dataset_label": "baal bayit",
+  "note": "audit — both models agree 'baal bayit' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03151:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03151",
+  "split": "generated",
+  "text": "The niftar? Not someone I knew.",
+  "start": 4,
+  "end": 10,
+  "surface": "niftar",
+  "term": "niftar",
+  "dataset_label": "niftar",
+  "note": "audit — both models agree 'niftar' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03171:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03171",
+  "split": "generated",
+  "text": "Are you taking a chufsha next week, or are you working through the holiday?",
+  "start": 17,
+  "end": 24,
+  "surface": "chufsha",
+  "term": "chufsha",
+  "dataset_label": "chufsha",
+  "note": "audit — both models agree 'chufsha' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03185:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03185",
+  "split": "generated",
+  "text": "She always says that shalom bayit is more important than being right.",
+  "start": 21,
+  "end": 33,
+  "surface": "shalom bayit",
+  "term": "shalom bayit",
+  "dataset_label": "shalom bayit",
+  "note": "audit — both models agree 'shalom bayit' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03186:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03186",
+  "split": "generated",
+  "text": "Do you have to be an ezrach to serve in the army?",
+  "start": 21,
+  "end": 27,
+  "surface": "ezrach",
+  "term": "ezrach",
+  "dataset_label": "ezrach",
+  "note": "audit — both models agree 'ezrach' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03196:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03196",
+  "split": "generated",
+  "text": "Did the agent already send our hatzaa to the owners, or is it still sitting on his desk?",
+  "start": 31,
+  "end": 37,
+  "surface": "hatzaa",
+  "term": "hatzaa",
+  "dataset_label": "hatzaa",
+  "note": "audit — both models agree 'hatzaa' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03197:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03197",
+  "split": "generated",
+  "text": "After two weeks of silence, the hatzaa just expired — no counter, nothing.",
+  "start": 32,
+  "end": 38,
+  "surface": "hatzaa",
+  "term": "hatzaa",
+  "dataset_label": "hatzaa",
+  "note": "audit — both models agree 'hatzaa' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03228:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03228",
+  "split": "generated",
+  "text": "Did the hanhala approve your vacation request yet?",
+  "start": 8,
+  "end": 15,
+  "surface": "hanhala",
+  "term": "hanhala",
+  "dataset_label": "hanhala",
+  "note": "audit — both models agree 'hanhala' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03238:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03238",
+  "split": "generated",
+  "text": "Is the misrad open on Friday, or do they close early for Shabbat?",
+  "start": 7,
+  "end": 13,
+  "surface": "misrad",
+  "term": "misrad",
+  "dataset_label": "misrad",
+  "note": "audit — both models agree 'misrad' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03248:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03248",
+  "split": "generated",
+  "text": "No hafrasha? That's a recipe for disaster.",
+  "start": 3,
+  "end": 11,
+  "surface": "hafrasha",
+  "term": "hafrasha",
+  "dataset_label": "hafrasha",
+  "note": "audit — both models agree 'hafrasha' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03251:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03251",
+  "split": "generated",
+  "text": "We've been looking at karka in the north, but the prices are crazy.",
+  "start": 22,
+  "end": 27,
+  "surface": "karka",
+  "term": "karka",
+  "dataset_label": "karka",
+  "note": "audit — both models agree 'karka' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03255:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03255",
+  "split": "generated",
+  "text": "Do we have enough koach adam to finish the job on time?",
+  "start": 18,
+  "end": 28,
+  "surface": "koach adam",
+  "term": "koach adam",
+  "dataset_label": "koach adam",
+  "note": "audit — both models agree 'koach adam' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03256:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03256",
+  "split": "generated",
+  "text": "No koach adam, no deal.",
+  "start": 3,
+  "end": 13,
+  "surface": "koach adam",
+  "term": "koach adam",
+  "dataset_label": "koach adam",
+  "note": "audit — both models agree 'koach adam' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03264:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03264",
+  "split": "generated",
+  "text": "After five years in the country, he finally became a toshav, but he still couldn't vote in national elections.",
+  "start": 53,
+  "end": 59,
+  "surface": "toshav",
+  "term": "toshav",
+  "dataset_label": "toshav",
+  "note": "audit — both models agree 'toshav' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03271:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03271",
+  "split": "generated",
+  "text": "Mechiron on everything—don't miss it!",
+  "start": 0,
+  "end": 8,
+  "surface": "Mechiron",
+  "term": "mechiron",
+  "dataset_label": "mechiron",
+  "note": "audit — both models agree 'Mechiron' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03282:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03282",
+  "split": "generated",
+  "text": "The family went to court to get an apotropos for their elderly father who has dementia.",
+  "start": 35,
+  "end": 44,
+  "surface": "apotropos",
+  "term": "apotropos",
+  "dataset_label": "apotropos",
+  "note": "audit — both models agree 'apotropos' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03287:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03287",
+  "split": "generated",
+  "text": "We were driving around and stumbled upon this charming pundak that we ended up loving.",
+  "start": 55,
+  "end": 61,
+  "surface": "pundak",
+  "term": "pundak",
+  "dataset_label": "pundak",
+  "note": "audit — both models agree 'pundak' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03290:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03290",
+  "split": "generated",
+  "text": "She spent forty minutes arguing with the clerk because he wouldn't accept her teudat ezrach that had a tiny tear in the corner.",
+  "start": 78,
+  "end": 91,
+  "surface": "teudat ezrach",
+  "term": "teudat ezrach",
+  "dataset_label": "teudat ezrach",
+  "note": "audit — both models agree 'teudat ezrach' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03299:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03299",
+  "split": "generated",
+  "text": "I finished my mishmeret early, so I went home.",
+  "start": 14,
+  "end": 23,
+  "surface": "mishmeret",
+  "term": "mishmeret",
+  "dataset_label": "mishmeret",
+  "note": "audit — both models agree 'mishmeret' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03314:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03314",
+  "split": "generated",
+  "text": "I only bought it because of the mivtza — I didn't really need another blender.",
+  "start": 32,
+  "end": 38,
+  "surface": "mivtza",
+  "term": "mivtza",
+  "dataset_label": "mivtza",
+  "note": "audit — both models agree 'mivtza' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03376:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03376",
+  "split": "generated",
+  "text": "Just the teudat nisuin, thanks — I already gave them everything else.",
+  "start": 9,
+  "end": 22,
+  "surface": "teudat nisuin",
+  "term": "teudat nisuin",
+  "dataset_label": "teudat nisuin",
+  "note": "audit — both models agree 'teudat nisuin' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03391:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03391",
+  "split": "generated",
+  "text": "Have you ever tried to buy nadlan in Jerusalem?",
+  "start": 27,
+  "end": 33,
+  "surface": "nadlan",
+  "term": "nadlan",
+  "dataset_label": "nadlan",
+  "note": "audit — both models agree 'nadlan' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03406:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03406",
+  "split": "generated",
+  "text": "Is there a shira planned for Independence Day?",
+  "start": 11,
+  "end": 16,
+  "surface": "shira",
+  "term": "shira",
+  "dataset_label": "shira",
+  "note": "audit — both models agree 'shira' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03425:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03425",
+  "split": "generated",
+  "text": "She set up a tashlum plan so she wouldn't have to pay everything at once.",
+  "start": 13,
+  "end": 20,
+  "surface": "tashlum",
+  "term": "tashlum",
+  "dataset_label": "tashlum",
+  "note": "audit — both models agree 'tashlum' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03430:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03430",
+  "split": "generated",
+  "text": "What's the fee for a hanacha over ten thousand shekels?",
+  "start": 21,
+  "end": 28,
+  "surface": "hanacha",
+  "term": "hanacha",
+  "dataset_label": "hanacha",
+  "note": "audit — both models agree 'hanacha' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03506:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03506",
+  "split": "generated",
+  "text": "Just a kofer, that's all.",
+  "start": 7,
+  "end": 12,
+  "surface": "kofer",
+  "term": "kofer",
+  "dataset_label": "kofer",
+  "note": "audit — both models agree 'kofer' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03512:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03512",
+  "split": "generated",
+  "text": "Not my idea of a shikun, that's for sure.",
+  "start": 17,
+  "end": 23,
+  "surface": "shikun",
+  "term": "shikun",
+  "dataset_label": "shikun",
+  "note": "audit — both models agree 'shikun' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03521:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03521",
+  "split": "generated",
+  "text": "Just a chayal, nothing more.",
+  "start": 7,
+  "end": 13,
+  "surface": "chayal",
+  "term": "chayal",
+  "dataset_label": "chayal",
+  "note": "audit — both models agree 'chayal' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03523:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03523",
+  "split": "generated",
+  "text": "No kadur in the house, okay?",
+  "start": 3,
+  "end": 8,
+  "surface": "kadur",
+  "term": "kadur",
+  "dataset_label": "kadur",
+  "note": "audit — both models agree 'kadur' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03524:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03524",
+  "split": "generated",
+  "text": "He threw the kadur at his sister, so I took it away.",
+  "start": 13,
+  "end": 18,
+  "surface": "kadur",
+  "term": "kadur",
+  "dataset_label": "kadur",
+  "note": "audit — both models agree 'kadur' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03528:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03528",
+  "split": "generated",
+  "text": "The vaad ovedim called an emergency meeting about the new overtime rules.",
+  "start": 4,
+  "end": 15,
+  "surface": "vaad ovedim",
+  "term": "vaad ovedim",
+  "dataset_label": "vaad ovedim",
+  "note": "audit — both models agree 'vaad ovedim' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03546:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03546",
+  "split": "generated",
+  "text": "Which gdud were you in during the Lebanon war?",
+  "start": 6,
+  "end": 10,
+  "surface": "gdud",
+  "term": "gdud",
+  "dataset_label": "gdud",
+  "note": "audit — both models agree 'gdud' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03582:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03582",
+  "split": "generated",
+  "text": "Did you see the new luach zmanim?",
+  "start": 20,
+  "end": 32,
+  "surface": "luach zmanim",
+  "term": "luach zmanim",
+  "dataset_label": "luach zmanim",
+  "note": "audit — both models agree 'luach zmanim' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03612:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03612",
+  "split": "generated",
+  "text": "The hativa pulled back after taking heavy fire.",
+  "start": 4,
+  "end": 10,
+  "surface": "hativa",
+  "term": "hativa",
+  "dataset_label": "hativa",
+  "note": "audit — both models agree 'hativa' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03619:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03619",
+  "split": "generated",
+  "text": "Do you know if the kupat gemel offers a better return than a regular savings account?",
+  "start": 19,
+  "end": 30,
+  "surface": "kupat gemel",
+  "term": "kupat gemel",
+  "dataset_label": "kupat gemel",
+  "note": "audit — both models agree 'kupat gemel' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03622:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03622",
+  "split": "generated",
+  "text": "Giyus in three weeks.",
+  "start": 0,
+  "end": 5,
+  "surface": "Giyus",
+  "term": "giyus",
+  "dataset_label": "giyus",
+  "note": "audit — both models agree 'Giyus' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03630:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03630",
+  "split": "generated",
+  "text": "I never thought I'd say this, but our maon yom has been a game-changer for our family.",
+  "start": 38,
+  "end": 46,
+  "surface": "maon yom",
+  "term": "maon yom",
+  "dataset_label": "maon yom",
+  "note": "audit — both models agree 'maon yom' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03633:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03633",
+  "split": "generated",
+  "text": "The kitot are already full, so we had to open another one.",
+  "start": 4,
+  "end": 9,
+  "surface": "kitot",
+  "term": "kitot",
+  "dataset_label": "kitot",
+  "note": "audit — both models agree 'kitot' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03656:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03656",
+  "split": "generated",
+  "text": "The landlord is still holding our pikadon, and it's been three months since we moved out.",
+  "start": 34,
+  "end": 41,
+  "surface": "pikadon",
+  "term": "pikadon",
+  "dataset_label": "pikadon",
+  "note": "audit — both models agree 'pikadon' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03658:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03658",
+  "split": "generated",
+  "text": "No nekudot zikui, no upgrade.",
+  "start": 3,
+  "end": 16,
+  "surface": "nekudot zikui",
+  "term": "nekudot zikui",
+  "dataset_label": "nekudot zikui",
+  "note": "audit — both models agree 'nekudot zikui' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03670:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03670",
+  "split": "generated",
+  "text": "Do you know if the moadon takes kids on school holidays, or do we need to find another arrangement?",
+  "start": 19,
+  "end": 25,
+  "surface": "moadon",
+  "term": "moadon",
+  "dataset_label": "moadon",
+  "note": "audit — both models agree 'moadon' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03710:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03710",
+  "split": "generated",
+  "text": "I asked the madricha to help me with my college applications.",
+  "start": 12,
+  "end": 20,
+  "surface": "madricha",
+  "term": "madricha",
+  "dataset_label": "madricha",
+  "note": "audit — both models agree 'madricha' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03719:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03719",
+  "split": "generated",
+  "text": "The consultant recommended applying for a ptur mas on the property.",
+  "start": 42,
+  "end": 50,
+  "surface": "ptur mas",
+  "term": "ptur mas",
+  "dataset_label": "ptur mas",
+  "note": "audit — both models agree 'ptur mas' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03735:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03735",
+  "split": "generated",
+  "text": "Did you try rebooting the machshev before opening a ticket?",
+  "start": 26,
+  "end": 34,
+  "surface": "machshev",
+  "term": "machshev",
+  "dataset_label": "machshev",
+  "note": "audit — both models agree 'machshev' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03739:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03739",
+  "split": "generated",
+  "text": "Another matkonet tomorrow morning. Great.",
+  "start": 8,
+  "end": 16,
+  "surface": "matkonet",
+  "term": "matkonet",
+  "dataset_label": "matkonet",
+  "note": "audit — both models agree 'matkonet' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03745:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03745",
+  "split": "generated",
+  "text": "No tofes, no deal.",
+  "start": 3,
+  "end": 8,
+  "surface": "tofes",
+  "term": "tofes",
+  "dataset_label": "tofes",
+  "note": "audit — both models agree 'tofes' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03746:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03746",
+  "split": "generated",
+  "text": "She filled out the tofes in five minutes and got the loan approved.",
+  "start": 19,
+  "end": 24,
+  "surface": "tofes",
+  "term": "tofes",
+  "dataset_label": "tofes",
+  "note": "audit — both models agree 'tofes' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03755:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03755",
+  "split": "generated",
+  "text": "She managed to get a ptor after months of paperwork, so she's serving as a clerk now.",
+  "start": 21,
+  "end": 25,
+  "surface": "ptor",
+  "term": "ptor",
+  "dataset_label": "ptor",
+  "note": "audit — both models agree 'ptor' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03763:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03763",
+  "split": "generated",
+  "text": "Is the mohel coming to the synagogue this Shabbat, or should we reschedule the ceremony?",
+  "start": 7,
+  "end": 12,
+  "surface": "mohel",
+  "term": "mohel",
+  "dataset_label": "mohel",
+  "note": "audit — both models agree 'mohel' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03774:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03774",
+  "split": "generated",
+  "text": "Which maslul are you thinking of switching to next year?",
+  "start": 6,
+  "end": 12,
+  "surface": "maslul",
+  "term": "maslul",
+  "dataset_label": "maslul",
+  "note": "audit — both models agree 'maslul' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03779:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03779",
+  "split": "generated",
+  "text": "She wore her tachposet to bed for three nights straight, and I didn't have the heart to take it off.",
+  "start": 13,
+  "end": 22,
+  "surface": "tachposet",
+  "term": "tachposet",
+  "dataset_label": "tachposet",
+  "note": "audit — both models agree 'tachposet' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03788:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03788",
+  "split": "generated",
+  "text": "I switched megama halfway through tenth grade because the chemistry track was absolutely killing me.",
+  "start": 11,
+  "end": 17,
+  "surface": "megama",
+  "term": "megama",
+  "dataset_label": "megama",
+  "note": "audit — both models agree 'megama' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03800:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03800",
+  "split": "generated",
+  "text": "B'kitzur — that's it, I'm not going through the whole thing again.",
+  "start": 0,
+  "end": 8,
+  "surface": "B'kitzur",
+  "term": "b'kitzur",
+  "dataset_label": "b'kitzur",
+  "note": "audit — both models agree \"B'kitzur\" is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03814:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03814",
+  "split": "generated",
+  "text": "Sandak, huh?",
+  "start": 0,
+  "end": 6,
+  "surface": "Sandak",
+  "term": "sandak",
+  "dataset_label": "sandak",
+  "note": "audit — both models agree 'Sandak' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03816:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03816",
+  "split": "generated",
+  "text": "Do you think the mehanekh will let us retake the test?",
+  "start": 17,
+  "end": 25,
+  "surface": "mehanekh",
+  "term": "mehanekh",
+  "dataset_label": "mehanekh",
+  "note": "audit — both models agree 'mehanekh' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03828:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03828",
+  "split": "generated",
+  "text": "Did you have a shalom zachar for your new baby boy?",
+  "start": 15,
+  "end": 28,
+  "surface": "shalom zachar",
+  "term": "shalom zachar",
+  "dataset_label": "shalom zachar",
+  "note": "audit — both models agree 'shalom zachar' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03843:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03843",
+  "split": "generated",
+  "text": "Why does the reshet always crash when I need it most?",
+  "start": 13,
+  "end": 19,
+  "surface": "reshet",
+  "term": "reshet",
+  "dataset_label": "reshet",
+  "note": "audit — both models agree 'reshet' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03864:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03864",
+  "split": "generated",
+  "text": "What time does the samal usually come around for inspection?",
+  "start": 19,
+  "end": 24,
+  "surface": "samal",
+  "term": "samal",
+  "dataset_label": "samal",
+  "note": "audit — both models agree 'samal' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03882:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03882",
+  "split": "generated",
+  "text": "I didn't sleep bichlal last night.",
+  "start": 15,
+  "end": 22,
+  "surface": "bichlal",
+  "term": "bichlal",
+  "dataset_label": "bichlal",
+  "note": "audit — both models agree 'bichlal' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03886:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03886",
+  "split": "generated",
+  "text": "Wait, your brother's a sgan aluf now?",
+  "start": 23,
+  "end": 32,
+  "surface": "sgan aluf",
+  "term": "sgan aluf",
+  "dataset_label": "sgan aluf",
+  "note": "audit — both models agree 'sgan aluf' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03906:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03906",
+  "split": "generated",
+  "text": "The shalish was already yelling at us before the sun came up.",
+  "start": 4,
+  "end": 11,
+  "surface": "shalish",
+  "term": "shalish",
+  "dataset_label": "shalish",
+  "note": "audit — both models agree 'shalish' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03910:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03910",
+  "split": "generated",
+  "text": "I grabbed a tub of gvina levana while I was at the store.",
+  "start": 19,
+  "end": 31,
+  "surface": "gvina levana",
+  "term": "gvina levana",
+  "dataset_label": "gvina levana",
+  "note": "audit — both models agree 'gvina levana' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03915:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03915",
+  "split": "generated",
+  "text": "Have you ever given a shvu'a in court, or did you just affirm?",
+  "start": 22,
+  "end": 28,
+  "surface": "shvu'a",
+  "term": "shvu'a",
+  "dataset_label": "shvu'a",
+  "note": "audit — both models agree \"shvu'a\" is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03929:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03929",
+  "split": "generated",
+  "text": "He did sherut keva for eight years, mostly in logistics, and then went straight into hi-tech.",
+  "start": 7,
+  "end": 18,
+  "surface": "sherut keva",
+  "term": "sherut keva",
+  "dataset_label": "sherut keva",
+  "note": "audit — both models agree 'sherut keva' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03953:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03953",
+  "split": "generated",
+  "text": "She always buys the 5% shamenet even though the 15% tastes way better.",
+  "start": 23,
+  "end": 31,
+  "surface": "shamenet",
+  "term": "shamenet",
+  "dataset_label": "shamenet",
+  "note": "audit — both models agree 'shamenet' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03962:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03962",
+  "split": "generated",
+  "text": "maafiya, obviously.",
+  "start": 0,
+  "end": 7,
+  "surface": "maafiya",
+  "term": "maafiya",
+  "dataset_label": "maafiya",
+  "note": "audit — both models agree 'maafiya' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03973:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03973",
+  "split": "generated",
+  "text": "The menahelet wants all teachers to submit lesson plans by Friday.",
+  "start": 4,
+  "end": 13,
+  "surface": "menahelet",
+  "term": "menahelet",
+  "dataset_label": "menahelet",
+  "note": "audit — both models agree 'menahelet' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03981:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03981",
+  "split": "generated",
+  "text": "What are we putting al ha'esh for the party?",
+  "start": 20,
+  "end": 29,
+  "surface": "al ha'esh",
+  "term": "al ha'esh",
+  "dataset_label": "al ha'esh",
+  "note": "audit — both models agree \"al ha'esh\" is Hebrew. Are they right?"
+ },
+ {
+  "key": "g03992:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g03992",
+  "split": "generated",
+  "text": "Tzarchania on the corner, ten minutes before Shabbat — total chaos.",
+  "start": 0,
+  "end": 10,
+  "surface": "Tzarchania",
+  "term": "tzarchania",
+  "dataset_label": "tzarchania",
+  "note": "audit — both models agree 'Tzarchania' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g04006:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g04006",
+  "split": "generated",
+  "text": "Chamsin again, ugh.",
+  "start": 0,
+  "end": 7,
+  "surface": "Chamsin",
+  "term": "chamsin",
+  "dataset_label": "chamsin",
+  "note": "audit — both models agree 'Chamsin' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g04007:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g04007",
+  "split": "generated",
+  "text": "The chamsin rolled in yesterday afternoon, and by evening everything was covered in a fine layer of dust.",
+  "start": 4,
+  "end": 11,
+  "surface": "chamsin",
+  "term": "chamsin",
+  "dataset_label": "chamsin",
+  "note": "audit — both models agree 'chamsin' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g04021:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g04021",
+  "split": "generated",
+  "text": "I found some amazing hanachot at the mall yesterday.",
+  "start": 21,
+  "end": 29,
+  "surface": "hanachot",
+  "term": "hanachot",
+  "dataset_label": "hanachot",
+  "note": "audit — both models agree 'hanachot' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g04052:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g04052",
+  "split": "generated",
+  "text": "The hazmana arrived yesterday, but I haven't opened it yet.",
+  "start": 4,
+  "end": 11,
+  "surface": "hazmana",
+  "term": "hazmana",
+  "dataset_label": "hazmana",
+  "note": "audit — both models agree 'hazmana' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g04064:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g04064",
+  "split": "generated",
+  "text": "No teudat bagrut, no chance of getting into med school.",
+  "start": 3,
+  "end": 16,
+  "surface": "teudat bagrut",
+  "term": "teudat bagrut",
+  "dataset_label": "teudat bagrut",
+  "note": "audit — both models agree 'teudat bagrut' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g04071:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g04071",
+  "split": "generated",
+  "text": "Do you think the tzanhanim will get called up again this summer?",
+  "start": 17,
+  "end": 26,
+  "surface": "tzanhanim",
+  "term": "tzanhanim",
+  "dataset_label": "tzanhanim",
+  "note": "audit — both models agree 'tzanhanim' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g04079:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g04079",
+  "split": "generated",
+  "text": "After months of delays, the beit mishpat finally issued its ruling on the zoning dispute.",
+  "start": 28,
+  "end": 40,
+  "surface": "beit mishpat",
+  "term": "beit mishpat",
+  "dataset_label": "beit mishpat",
+  "note": "audit — both models agree 'beit mishpat' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g04083:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g04083",
+  "split": "generated",
+  "text": "Is the geshem supposed to let up before the wedding?",
+  "start": 7,
+  "end": 13,
+  "surface": "geshem",
+  "term": "geshem",
+  "dataset_label": "geshem",
+  "note": "audit — both models agree 'geshem' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g04101:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g04101",
+  "split": "generated",
+  "text": "I haven't seen him since tichon.",
+  "start": 25,
+  "end": 31,
+  "surface": "tichon",
+  "term": "tichon",
+  "dataset_label": "tichon",
+  "note": "audit — both models agree 'tichon' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g04102:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g04102",
+  "split": "generated",
+  "text": "Which tichon did you go to?",
+  "start": 6,
+  "end": 12,
+  "surface": "tichon",
+  "term": "tichon",
+  "dataset_label": "tichon",
+  "note": "audit — both models agree 'tichon' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g04109:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g04109",
+  "split": "generated",
+  "text": "We always light candles right before erev shabbat begins.",
+  "start": 37,
+  "end": 49,
+  "surface": "erev shabbat",
+  "term": "erev shabbat",
+  "dataset_label": "erev shabbat",
+  "note": "audit — both models agree 'erev shabbat' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g04116:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g04116",
+  "split": "generated",
+  "text": "Are you coming to the shiurim tonight?",
+  "start": 22,
+  "end": 29,
+  "surface": "shiurim",
+  "term": "shiurim",
+  "dataset_label": "shiurim",
+  "note": "audit — both models agree 'shiurim' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g04125:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g04125",
+  "split": "generated",
+  "text": "Did you see the magav at the checkpoint this morning?",
+  "start": 16,
+  "end": 21,
+  "surface": "magav",
+  "term": "magav",
+  "dataset_label": "magav",
+  "note": "audit — both models agree 'magav' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g04126:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g04126",
+  "split": "generated",
+  "text": "Everywhere today, magav.",
+  "start": 18,
+  "end": 23,
+  "surface": "magav",
+  "term": "magav",
+  "dataset_label": "magav",
+  "note": "audit — both models agree 'magav' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g04149:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g04149",
+  "split": "generated",
+  "text": "Have you tried the new misada on Dizengoff?",
+  "start": 23,
+  "end": 29,
+  "surface": "misada",
+  "term": "misada",
+  "dataset_label": "misada",
+  "note": "audit — both models agree 'misada' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g04164:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g04164",
+  "split": "generated",
+  "text": "So I called misrad ha'aliyah again this morning and, big surprise, the person who handles my file is on vacation until next month.",
+  "start": 12,
+  "end": 28,
+  "surface": "misrad ha'aliyah",
+  "term": "misrad ha'aliyah",
+  "dataset_label": "misrad ha'aliyah",
+  "note": "audit — both models agree \"misrad ha'aliyah\" is Hebrew. Are they right?"
+ },
+ {
+  "key": "g04165:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g04165",
+  "split": "generated",
+  "text": "Two hours at misrad ha'aliyah, and all I walked out with was a form I could have printed at home.",
+  "start": 13,
+  "end": 29,
+  "surface": "misrad ha'aliyah",
+  "term": "misrad ha'aliyah",
+  "dataset_label": "misrad ha'aliyah",
+  "note": "audit — both models agree \"misrad ha'aliyah\" is Hebrew. Are they right?"
+ },
+ {
+  "key": "g04173:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g04173",
+  "split": "generated",
+  "text": "I got a tzav miluim last week and had to leave work immediately.",
+  "start": 8,
+  "end": 19,
+  "surface": "tzav miluim",
+  "term": "tzav miluim",
+  "dataset_label": "tzav miluim",
+  "note": "audit — both models agree 'tzav miluim' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g04175:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g04175",
+  "split": "generated",
+  "text": "Again, tzav miluim? I swear I just unpacked my kit.",
+  "start": 7,
+  "end": 18,
+  "surface": "tzav miluim",
+  "term": "tzav miluim",
+  "dataset_label": "tzav miluim",
+  "note": "audit — both models agree 'tzav miluim' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g04184:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g04184",
+  "split": "generated",
+  "text": "We split the dmei gan between us, but it still eats a third of my salary.",
+  "start": 13,
+  "end": 21,
+  "surface": "dmei gan",
+  "term": "dmei gan",
+  "dataset_label": "dmei gan",
+  "note": "audit — both models agree 'dmei gan' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g04188:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g04188",
+  "split": "generated",
+  "text": "Last weekend we drove up north and spent the whole day walking through a beautiful nachal with little pools to swim in.",
+  "start": 83,
+  "end": 89,
+  "surface": "nachal",
+  "term": "nachal",
+  "dataset_label": "nachal",
+  "note": "audit — both models agree 'nachal' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g04189:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g04189",
+  "split": "generated",
+  "text": "Have you ever tried doing a nachal hike in the spring when everything is green and the water is actually flowing?",
+  "start": 28,
+  "end": 34,
+  "surface": "nachal",
+  "term": "nachal",
+  "dataset_label": "nachal",
+  "note": "audit — both models agree 'nachal' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g04200:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g04200",
+  "split": "generated",
+  "text": "Why does everything at the shuk feel kimat hinam on Fridays?",
+  "start": 37,
+  "end": 48,
+  "surface": "kimat hinam",
+  "term": "kimat hinam",
+  "dataset_label": "kimat hinam",
+  "note": "audit — both models agree 'kimat hinam' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g04201:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g04201",
+  "split": "generated",
+  "text": "Kimat hinam, no kidding.",
+  "start": 0,
+  "end": 11,
+  "surface": "Kimat hinam",
+  "term": "kimat hinam",
+  "dataset_label": "kimat hinam",
+  "note": "audit — both models agree 'Kimat hinam' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g04204:a0",
+  "kind": "span",
+  "risk": "audit",
+  "id": "g04204",
+  "split": "generated",
+  "text": "Do you really need a rishayon esek to sell homemade hummus?",
+  "start": 21,
+  "end": 34,
+  "surface": "rishayon esek",
+  "term": "rishayon esek",
+  "dataset_label": "rishayon esek",
+  "note": "audit — both models agree 'rishayon esek' is Hebrew. Are they right?"
+ },
+ {
+  "key": "g04211:a",
+  "kind": "record",
+  "risk": "audit",
+  "id": "g04211",
+  "split": "generated",
+  "text": "Don't chug your soda like that; you'll get hiccups.",
+  "dataset_label": null,
+  "note": "audit — both models found no Hebrew here. Type any term they missed, or submit empty to confirm."
+ },
+ {
+  "key": "g04213:a",
+  "kind": "record",
+  "risk": "audit",
+  "id": "g04213",
+  "split": "generated",
+  "text": "The engine chugged a few times before finally starting.",
+  "dataset_label": null,
+  "note": "audit — both models found no Hebrew here. Type any term they missed, or submit empty to confirm."
+ },
+ {
+  "key": "g04229:a",
+  "kind": "record",
+  "risk": "audit",
+  "id": "g04229",
+  "split": "generated",
+  "text": "If you find any good ones, let me know.",
+  "dataset_label": null,
+  "note": "audit — both models found no Hebrew here. Type any term they missed, or submit empty to confirm."
+ },
+ {
+  "key": "g04257:a",
+  "kind": "record",
+  "risk": "audit",
+  "id": "g04257",
+  "split": "generated",
+  "text": "Did the oil really gush that high when they first struck the deposit?",
+  "dataset_label": null,
+  "note": "audit — both models found no Hebrew here. Type any term they missed, or submit empty to confirm."
+ },
+ {
+  "key": "g04258:a",
+  "kind": "record",
+  "risk": "audit",
+  "id": "g04258",
+  "split": "generated",
+  "text": "Shabbat is my favorite day of the week.",
   "dataset_label": null,
   "note": "audit — both models found no Hebrew here. Type any term they missed, or submit empty to confirm."
  }
