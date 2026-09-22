@@ -1,0 +1,744 @@
+term,category,status,quarantine_reason,hebrew_script,source
+shapira,beverages,active,,,english-hebrew-mixed-sentences
+cheshbon,bureaucracy,active,,,generated:deepseek-flash
+cheshbonit,bureaucracy,active,,,generated:deepseek-flash
+chiyuv,bureaucracy,active,,,generated:deepseek-flash
+hafka'a,bureaucracy,active,,,generated:deepseek-flash
+halvaa,bureaucracy,active,,,generated:deepseek-flash
+havara banka'it,bureaucracy,active,,,generated:deepseek-flash
+kartis ashrai,bureaucracy,active,,,generated:deepseek-flash
+kartis chov,bureaucracy,active,,,generated:deepseek-flash
+kartis nekudot,bureaucracy,active,,,generated:deepseek-flash
+kaspomat,bureaucracy,active,,,generated:deepseek-flash
+kizuz,bureaucracy,active,,,generated:deepseek-flash
+mas hachnasa ashrai,bureaucracy,active,,,generated:deepseek-flash
+mas hachnasa chaverot,bureaucracy,active,,,generated:deepseek-flash
+mas hachnasa chayav,bureaucracy,active,,,generated:deepseek-flash
+mas hachnasa chiyuv,bureaucracy,active,,,generated:deepseek-flash
+mas hachnasa chov,bureaucracy,active,,,generated:deepseek-flash
+mas hachnasa hafkaa,bureaucracy,active,,,generated:deepseek-flash
+mas hachnasa halvaa,bureaucracy,active,,,generated:deepseek-flash
+mas hachnasa hashlamot,bureaucracy,active,,,generated:deepseek-flash
+mas hachnasa havara,bureaucracy,active,,,generated:deepseek-flash
+mas hachnasa kartis,bureaucracy,active,,,generated:deepseek-flash
+mas hachnasa kizuz,bureaucracy,active,,,generated:deepseek-flash
+mas hachnasa mashkanta,bureaucracy,active,,,generated:deepseek-flash
+mas hachnasa meshicha,bureaucracy,active,,,generated:deepseek-flash
+mas hachnasa mezakeh,bureaucracy,active,,,generated:deepseek-flash
+mas hachnasa nikuim,bureaucracy,active,,,generated:deepseek-flash
+mas hachnasa ov,bureaucracy,active,,,generated:deepseek-flash
+mas hachnasa patur,bureaucracy,active,,,generated:deepseek-flash
+mas hachnasa pitura,bureaucracy,active,,,generated:deepseek-flash
+mas hachnasa ribit,bureaucracy,active,,,generated:deepseek-flash
+mas hachnasa shelo mitzvot,bureaucracy,active,,,generated:deepseek-flash
+mas hachnasa tashlumim,bureaucracy,active,,,generated:deepseek-flash
+mas hachnasa yechidim,bureaucracy,active,,,generated:deepseek-flash
+mas hachnasa zikui,bureaucracy,active,,,generated:deepseek-flash
+mas keniyot,bureaucracy,active,,,generated:deepseek-flash
+mas rechush,bureaucracy,active,,,generated:deepseek-flash
+mas shevach,bureaucracy,active,,,generated:deepseek-flash
+mas zikui,bureaucracy,active,,,generated:deepseek-flash
+mashkanta,bureaucracy,active,,,generated:deepseek-flash
+meshicha,bureaucracy,active,,,generated:deepseek-flash
+osek murshe,bureaucracy,active,,,generated:deepseek-flash
+osek patur,bureaucracy,active,,,generated:deepseek-flash
+ov,bureaucracy,active,,,generated:deepseek-flash
+pikuadon,bureaucracy,active,,,generated:deepseek-flash
+ribit,bureaucracy,active,,,generated:deepseek-flash
+tofes 101,bureaucracy,active,,,generated:deepseek-flash
+tofes 106,bureaucracy,active,,,generated:deepseek-flash
+tofes 126,bureaucracy,active,,,generated:deepseek-flash
+tofes 1301,bureaucracy,active,,,generated:deepseek-flash
+tofes 1302,bureaucracy,active,,,generated:deepseek-flash
+tofes 1303,bureaucracy,active,,,generated:deepseek-flash
+tofes 1304,bureaucracy,active,,,generated:deepseek-flash
+tofes 1305,bureaucracy,active,,,generated:deepseek-flash
+tofes 1306,bureaucracy,active,,,generated:deepseek-flash
+tofes 1307,bureaucracy,active,,,generated:deepseek-flash
+tofes 1308,bureaucracy,active,,,generated:deepseek-flash
+tofes 1309,bureaucracy,active,,,generated:deepseek-flash
+tofes 1310,bureaucracy,active,,,generated:deepseek-flash
+tofes 1311,bureaucracy,active,,,generated:deepseek-flash
+tofes 1312,bureaucracy,active,,,generated:deepseek-flash
+tofes 1313,bureaucracy,active,,,generated:deepseek-flash
+tofes 1314,bureaucracy,active,,,generated:deepseek-flash
+tofes 1315,bureaucracy,active,,,generated:deepseek-flash
+tofes 1316,bureaucracy,active,,,generated:deepseek-flash
+tofes 1317,bureaucracy,active,,,generated:deepseek-flash
+tofes 1318,bureaucracy,active,,,generated:deepseek-flash
+tofes 1319,bureaucracy,active,,,generated:deepseek-flash
+tofes 1320,bureaucracy,active,,,generated:deepseek-flash
+tofes 1321,bureaucracy,active,,,generated:deepseek-flash
+tofes 1322,bureaucracy,active,,,generated:deepseek-flash
+tofes 1323,bureaucracy,active,,,generated:deepseek-flash
+tofes 1324,bureaucracy,active,,,generated:deepseek-flash
+tofes 1325,bureaucracy,active,,,generated:deepseek-flash
+tofes 1326,bureaucracy,active,,,generated:deepseek-flash
+tofes 1327,bureaucracy,active,,,generated:deepseek-flash
+tofes 1328,bureaucracy,active,,,generated:deepseek-flash
+tofes 1329,bureaucracy,active,,,generated:deepseek-flash
+tofes 1330,bureaucracy,active,,,generated:deepseek-flash
+tofes 1331,bureaucracy,active,,,generated:deepseek-flash
+tofes 1332,bureaucracy,active,,,generated:deepseek-flash
+tofes 1333,bureaucracy,active,,,generated:deepseek-flash
+tofes 1334,bureaucracy,active,,,generated:deepseek-flash
+tofes 1335,bureaucracy,active,,,generated:deepseek-flash
+tofes 1336,bureaucracy,active,,,generated:deepseek-flash
+tofes 1337,bureaucracy,active,,,generated:deepseek-flash
+tofes 1338,bureaucracy,active,,,generated:deepseek-flash
+tofes 1339,bureaucracy,active,,,generated:deepseek-flash
+tofes 1340,bureaucracy,active,,,generated:deepseek-flash
+tofes 1341,bureaucracy,active,,,generated:deepseek-flash
+tofes 1342,bureaucracy,active,,,generated:deepseek-flash
+tofes 1343,bureaucracy,active,,,generated:deepseek-flash
+tofes 1344,bureaucracy,active,,,generated:deepseek-flash
+tofes 1345,bureaucracy,active,,,generated:deepseek-flash
+tofes 1346,bureaucracy,active,,,generated:deepseek-flash
+tofes 1347,bureaucracy,active,,,generated:deepseek-flash
+tofes 1348,bureaucracy,active,,,generated:deepseek-flash
+tofes 1349,bureaucracy,active,,,generated:deepseek-flash
+tofes 1350,bureaucracy,active,,,generated:deepseek-flash
+tofes 1351,bureaucracy,active,,,generated:deepseek-flash
+tofes 1352,bureaucracy,active,,,generated:deepseek-flash
+tofes 1353,bureaucracy,active,,,generated:deepseek-flash
+tofes 1354,bureaucracy,active,,,generated:deepseek-flash
+tofes 1355,bureaucracy,active,,,generated:deepseek-flash
+tofes 1356,bureaucracy,active,,,generated:deepseek-flash
+tofes 1357,bureaucracy,active,,,generated:deepseek-flash
+tofes 1358,bureaucracy,active,,,generated:deepseek-flash
+tofes 1359,bureaucracy,active,,,generated:deepseek-flash
+tofes 1360,bureaucracy,active,,,generated:deepseek-flash
+tofes 1361,bureaucracy,active,,,generated:deepseek-flash
+tofes 1362,bureaucracy,active,,,generated:deepseek-flash
+tofes 1363,bureaucracy,active,,,generated:deepseek-flash
+tofes 1364,bureaucracy,active,,,generated:deepseek-flash
+tofes 1365,bureaucracy,active,,,generated:deepseek-flash
+tofes 1366,bureaucracy,active,,,generated:deepseek-flash
+tofes 1367,bureaucracy,active,,,generated:deepseek-flash
+tofes 1368,bureaucracy,active,,,generated:deepseek-flash
+tofes 1369,bureaucracy,active,,,generated:deepseek-flash
+tofes 1370,bureaucracy,active,,,generated:deepseek-flash
+vaad bayit,bureaucracy,active,,,generated:deepseek-flash
+zikui,bureaucracy,active,,,generated:deepseek-flash
+mishpachton,childcare,active,,,english-hebrew-mixed-sentences
+achi,colloquial,active,,,generated:deepseek-flash
+achla,colloquial,active,,,generated:deepseek-flash
+achoti,colloquial,active,,,generated:deepseek-flash
+achshav,colloquial,active,,,generated:deepseek-flash
+af ehad,colloquial,active,,,generated:deepseek-flash
+af paam,colloquial,active,,,generated:deepseek-flash
+ahalan,colloquial,active,,,generated:deepseek-flash
+ahoi,colloquial,active,,,generated:deepseek-flash
+al hapanim,colloquial,active,,,generated:deepseek-flash
+aleichem shalom,colloquial,active,,,generated:deepseek-flash
+aruchat boker,colloquial,active,,,generated:deepseek-flash
+aruchat erev,colloquial,active,,,generated:deepseek-flash
+aruchat tzohorayim,colloquial,active,,,generated:deepseek-flash
+baal,colloquial,ambiguous,english_homograph,,generated:deepseek-flash
+baali,colloquial,active,,,generated:deepseek-flash
+bachur,colloquial,active,,,generated:deepseek-flash
+bachura,colloquial,active,,,generated:deepseek-flash
+baruch hashem,colloquial,active,,,generated:deepseek-flash
+basari,colloquial,active,,,generated:deepseek-flash
+baz,colloquial,active,,,generated:deepseek-flash
+be'emet,colloquial,active,,,generated:deepseek-flash
+be'erech,colloquial,active,,,generated:deepseek-flash
+be'etzem,colloquial,active,,,generated:deepseek-flash
+be'ikar,colloquial,active,,,generated:deepseek-flash
+bediuk,colloquial,active,,,generated:deepseek-flash
+bekarov,colloquial,active,,,generated:deepseek-flash
+bekeitzur,colloquial,active,,,generated:deepseek-flash
+bo,colloquial,ambiguous,english_homograph,,generated:deepseek-flash
+bo'i,colloquial,active,,,generated:deepseek-flash
+bo'u,colloquial,active,,,generated:deepseek-flash
+boker,colloquial,active,,,generated:deepseek-flash
+boker or,colloquial,active,,,generated:deepseek-flash
+boker tov,colloquial,active,,,generated:deepseek-flash
+chalavi,colloquial,active,,,generated:deepseek-flash
+cham,colloquial,active,,,generated:deepseek-flash
+chamud,colloquial,active,,,generated:deepseek-flash
+chamuda,colloquial,active,,,generated:deepseek-flash
+chamutz,colloquial,active,,,generated:deepseek-flash
+chatan,colloquial,active,,,generated:deepseek-flash
+chaval,colloquial,active,,,generated:deepseek-flash
+chaval al hazman,colloquial,active,,,generated:deepseek-flash
+chaver,colloquial,active,,,generated:deepseek-flash
+chavera,colloquial,active,,,generated:deepseek-flash
+chaverim,colloquial,active,,,generated:deepseek-flash
+chazak,colloquial,active,,,generated:deepseek-flash
+chevre,colloquial,active,,,generated:deepseek-flash
+chodesh,colloquial,active,,,generated:deepseek-flash
+chodesh tov,colloquial,active,,,generated:deepseek-flash
+dai,colloquial,active,,,generated:deepseek-flash
+daka,colloquial,active,,,generated:deepseek-flash
+dod,colloquial,active,,,generated:deepseek-flash
+doda,colloquial,active,,,generated:deepseek-flash
+eize,colloquial,active,,,generated:deepseek-flash
+eize kef,colloquial,active,,,generated:deepseek-flash
+eizo,colloquial,active,,,generated:deepseek-flash
+emet,colloquial,active,,,generated:deepseek-flash
+erev,colloquial,active,,,generated:deepseek-flash
+erev tov,colloquial,active,,,generated:deepseek-flash
+etmol,colloquial,active,,,generated:deepseek-flash
+gever,colloquial,active,,,generated:deepseek-flash
+gveret,colloquial,active,,,generated:deepseek-flash
+hakol tov,colloquial,active,,,generated:deepseek-flash
+hayom,colloquial,active,,,generated:deepseek-flash
+ima,colloquial,active,,,generated:deepseek-flash
+isha,colloquial,active,,,generated:deepseek-flash
+ishti,colloquial,active,,,generated:deepseek-flash
+kafe,colloquial,active,,,generated:deepseek-flash
+kafe hafuch,colloquial,active,,,generated:deepseek-flash
+kala,colloquial,active,,,generated:deepseek-flash
+kapara,colloquial,active,,,generated:deepseek-flash
+kar,colloquial,active,,,generated:deepseek-flash
+kaze,colloquial,active,,,generated:deepseek-flash
+kazot,colloquial,active,,,generated:deepseek-flash
+ke'ilu,colloquial,active,,,generated:deepseek-flash
+kef,colloquial,active,,,generated:deepseek-flash
+kol hakavod,colloquial,active,,,generated:deepseek-flash
+kol paam,colloquial,active,,,generated:deepseek-flash
+kvar,colloquial,active,,,generated:deepseek-flash
+layla,colloquial,ambiguous,english_homograph,,generated:deepseek-flash
+layla tov,colloquial,active,,,generated:deepseek-flash
+lech,colloquial,active,,,generated:deepseek-flash
+lechayim,colloquial,active,,,generated:deepseek-flash
+lechem,colloquial,active,,,generated:deepseek-flash
+lechi,colloquial,active,,,generated:deepseek-flash
+lechu,colloquial,active,,,generated:deepseek-flash
+ma hadash,colloquial,active,,,generated:deepseek-flash
+ma inyanim,colloquial,active,,,generated:deepseek-flash
+ma kore,colloquial,active,,,generated:deepseek-flash
+ma nishma,colloquial,active,,,generated:deepseek-flash
+ma pitom,colloquial,active,,,generated:deepseek-flash
+ma shlomcha,colloquial,active,,,generated:deepseek-flash
+ma shlomech,colloquial,active,,,generated:deepseek-flash
+ma ze,colloquial,active,,,generated:deepseek-flash
+machar,colloquial,active,,,generated:deepseek-flash
+magniv,colloquial,active,,,generated:deepseek-flash
+mar,colloquial,ambiguous,english_homograph,,generated:deepseek-flash
+maspik,colloquial,active,,,generated:deepseek-flash
+matok,colloquial,active,,,generated:deepseek-flash
+mayim,colloquial,active,,,generated:deepseek-flash
+mazal tov,colloquial,active,,,generated:deepseek-flash
+mechutan,colloquial,active,,,generated:deepseek-flash
+mechutanim,colloquial,active,,,generated:deepseek-flash
+mehadrin,colloquial,active,,,generated:deepseek-flash
+metzuyan,colloquial,active,,,generated:deepseek-flash
+mitz,colloquial,active,,,generated:deepseek-flash
+motek,colloquial,active,,,generated:deepseek-flash
+naxon,colloquial,active,,,generated:deepseek-flash
+neshama,colloquial,active,,,generated:deepseek-flash
+ochel,colloquial,active,,,generated:deepseek-flash
+od paam,colloquial,active,,,generated:deepseek-flash
+paam,colloquial,active,,,generated:deepseek-flash
+paam achat,colloquial,active,,,generated:deepseek-flash
+parve,colloquial,active,,,generated:deepseek-flash
+pitom,colloquial,active,,,generated:deepseek-flash
+rega,colloquial,active,,,generated:deepseek-flash
+sababa,colloquial,active,,,generated:deepseek-flash
+sha'a,colloquial,active,,,generated:deepseek-flash
+shalom aleichem,colloquial,active,,,generated:deepseek-flash
+shana,colloquial,ambiguous,english_homograph,,generated:deepseek-flash
+shilshom,colloquial,active,,,generated:deepseek-flash
+shniya,colloquial,active,,,generated:deepseek-flash
+shoko,colloquial,active,,,generated:deepseek-flash
+stam,colloquial,active,,,generated:deepseek-flash
+ta'im,colloquial,active,,,generated:deepseek-flash
+taam,colloquial,active,,,generated:deepseek-flash
+tafsik,colloquial,active,,,generated:deepseek-flash
+tafsiki,colloquial,active,,,generated:deepseek-flash
+tinok,colloquial,active,,,generated:deepseek-flash
+tinoket,colloquial,active,,,generated:deepseek-flash
+tov,colloquial,active,,,generated:deepseek-flash
+tzohorayim,colloquial,active,,,generated:deepseek-flash
+tzom kal,colloquial,active,,,generated:deepseek-flash
+yadid,colloquial,active,,,generated:deepseek-flash
+yadid nefesh,colloquial,active,,,generated:deepseek-flash
+yafeh,colloquial,active,,,generated:deepseek-flash
+yaffa,colloquial,active,,,generated:deepseek-flash
+yalda,colloquial,active,,,generated:deepseek-flash
+yalla,colloquial,active,,,generated:deepseek-flash
+yasher koach,colloquial,active,,,generated:deepseek-flash
+yeladim,colloquial,active,,,generated:deepseek-flash
+yeled,colloquial,active,,,generated:deepseek-flash
+yishar koach,colloquial,active,,,generated:deepseek-flash
+yofi,colloquial,active,,,generated:deepseek-flash
+yom,colloquial,active,,,generated:deepseek-flash
+zman,colloquial,active,,,generated:deepseek-flash
+yom aliyah,commemoration,active,,,english-hebrew-mixed-sentences
+yom haatzmaut,commemoration,active,,,english-hebrew-mixed-sentences
+yom hashoah,commemoration,active,,,english-hebrew-mixed-sentences
+yom hazikaron,commemoration,active,,,english-hebrew-mixed-sentences
+yom yerushalayim,commemoration,active,,,english-hebrew-mixed-sentences
+teudat maavar,documents,active,,,english-hebrew-mixed-sentences
+teudat zehut,documents,active,,,english-hebrew-mixed-sentences
+gan,education,active,,,english-hebrew-mixed-sentences
+ulpan,education,active,,,english-hebrew-mixed-sentences
+terem,emergency,active,,,english-hebrew-mixed-sentences
+aba,family,active,,,english-hebrew-mixed-sentences
+saba,family,active,,,english-hebrew-mixed-sentences
+savta,family,active,,,english-hebrew-mixed-sentences
+arnona,finance,active,,,english-hebrew-mixed-sentences
+bituach leumi,finance,active,,,english-hebrew-mixed-sentences
+bituach menhalim,finance,active,,,english-hebrew-mixed-sentences
+heshbon iska,finance,active,,,english-hebrew-mixed-sentences
+heshbonit mas,finance,active,,,english-hebrew-mixed-sentences
+heshbonit mas kabala,finance,active,,,english-hebrew-mixed-sentences
+kabala,finance,active,,,english-hebrew-mixed-sentences
+keren hishtalmut,finance,active,,,english-hebrew-mixed-sentences
+mas hachnasa,finance,active,,,english-hebrew-mixed-sentences
+challah,food,active,,,english-hebrew-mixed-sentences
+cholent,food,active,,,english-hebrew-mixed-sentences
+falafel,food,active,,,english-hebrew-mixed-sentences
+rugelach,food,active,,,english-hebrew-mixed-sentences
+sabich,food,active,,,english-hebrew-mixed-sentences
+shawarma,food,active,,,english-hebrew-mixed-sentences
+amba,food_shopping,active,,,generated:deepseek-flash
+antrikot,food_shopping,active,,,generated:deepseek-flash
+azrieli,food_shopping,active,,,generated:deepseek-flash
+babaganoush,food_shopping,active,,,generated:deepseek-flash
+baklava,food_shopping,active,,,generated:deepseek-flash
+bamba,food_shopping,active,,,generated:deepseek-flash
+bisli,food_shopping,active,,,generated:deepseek-flash
+botz,food_shopping,active,,,generated:deepseek-flash
+bourekas,food_shopping,active,,,generated:deepseek-flash
+cafe hafuch,food_shopping,active,,,generated:deepseek-flash
+chatzilim,food_shopping,active,,,generated:deepseek-flash
+chummusia,food_shopping,active,,,generated:deepseek-flash
+ful,food_shopping,active,,,generated:deepseek-flash
+ful medames,food_shopping,active,,,generated:deepseek-flash
+hafuch,food_shopping,active,,,generated:deepseek-flash
+halva,food_shopping,active,,,generated:deepseek-flash
+hamashbir,food_shopping,active,,,generated:deepseek-flash
+harif,food_shopping,active,,,generated:deepseek-flash
+hilbeh,food_shopping,active,,,generated:deepseek-flash
+ikra,food_shopping,active,,,generated:deepseek-flash
+itriyot,food_shopping,active,,,generated:deepseek-flash
+jachnun,food_shopping,active,,,generated:deepseek-flash
+kabanos,food_shopping,active,,,generated:deepseek-flash
+kadaif,food_shopping,active,,,generated:deepseek-flash
+kanyon,food_shopping,active,,,generated:deepseek-flash
+kanyon azrieli,food_shopping,active,,,generated:deepseek-flash
+kimat chinam,food_shopping,active,,,generated:deepseek-flash
+knafeh,food_shopping,active,,,generated:deepseek-flash
+kneidlach,food_shopping,active,,,generated:deepseek-flash
+kolbo,food_shopping,active,,,generated:deepseek-flash
+krembo,food_shopping,active,,,generated:deepseek-flash
+kreplach,food_shopping,active,,,generated:deepseek-flash
+ktzitzot,food_shopping,active,,,generated:deepseek-flash
+kubaneh,food_shopping,active,,,generated:deepseek-flash
+kuskus,food_shopping,active,,,generated:deepseek-flash
+lachuch,food_shopping,active,,,generated:deepseek-flash
+lahoh,food_shopping,active,,,generated:deepseek-flash
+lecho,food_shopping,active,,,generated:deepseek-flash
+lokshen,food_shopping,active,,,generated:deepseek-flash
+machsanei hashuk,food_shopping,active,,,generated:deepseek-flash
+machsanei lahav,food_shopping,active,,,generated:deepseek-flash
+majadra,food_shopping,active,,,generated:deepseek-flash
+malabi,food_shopping,active,,,generated:deepseek-flash
+malawach,food_shopping,active,,,generated:deepseek-flash
+malha,food_shopping,active,,,generated:deepseek-flash
+mamilla,food_shopping,active,,,generated:deepseek-flash
+marak,food_shopping,active,,,generated:deepseek-flash
+marak itriyot,food_shopping,active,,,generated:deepseek-flash
+marak yerek,food_shopping,active,,,generated:deepseek-flash
+matbucha,food_shopping,active,,,generated:deepseek-flash
+mekupelet,food_shopping,active,,,generated:deepseek-flash
+meorav yerushalmi,food_shopping,active,,,generated:deepseek-flash
+merguez,food_shopping,active,,,generated:deepseek-flash
+miznon,food_shopping,active,,,generated:deepseek-flash
+msabbaha,food_shopping,active,,,generated:deepseek-flash
+mujaddara,food_shopping,active,,,generated:deepseek-flash
+naknik,food_shopping,active,,,generated:deepseek-flash
+naknikiyot,food_shopping,active,,,generated:deepseek-flash
+nitzat haduvdevan,food_shopping,active,,,generated:deepseek-flash
+oznei haman,food_shopping,active,,,generated:deepseek-flash
+pargiot,food_shopping,active,,,generated:deepseek-flash
+pargit,food_shopping,active,,,generated:deepseek-flash
+pastrama,food_shopping,active,,,generated:deepseek-flash
+pesek zman,food_shopping,active,,,generated:deepseek-flash
+pitzutzia,food_shopping,active,,,generated:deepseek-flash
+ptitim,food_shopping,active,,,generated:deepseek-flash
+pulke,food_shopping,active,,,generated:deepseek-flash
+salat chatzilim,food_shopping,active,,,generated:deepseek-flash
+salat katzutz,food_shopping,active,,,generated:deepseek-flash
+salat yerakot,food_shopping,active,,,generated:deepseek-flash
+salatim,food_shopping,active,,,generated:deepseek-flash
+sambusak,food_shopping,active,,,generated:deepseek-flash
+sarona,food_shopping,active,,,generated:deepseek-flash
+shakshuka,food_shopping,active,,,generated:deepseek-flash
+sharona,food_shopping,active,,,generated:deepseek-flash
+shishlik,food_shopping,active,,,generated:deepseek-flash
+shnitzel,food_shopping,active,,,generated:deepseek-flash
+shoko b'sakit,food_shopping,active,,,generated:deepseek-flash
+shuk hacarmel,food_shopping,active,,,generated:deepseek-flash
+shuk hanamal,food_shopping,active,,,generated:deepseek-flash
+shuk hapishpeshim,food_shopping,active,,,generated:deepseek-flash
+shuk hatikva,food_shopping,active,,,generated:deepseek-flash
+shuk sarona,food_shopping,active,,,generated:deepseek-flash
+sinta,food_shopping,active,,,generated:deepseek-flash
+skhug,food_shopping,active,,,generated:deepseek-flash
+sufganiya,food_shopping,active,,,generated:deepseek-flash
+sufganiyot,food_shopping,active,,,generated:deepseek-flash
+super yuda,food_shopping,active,,,generated:deepseek-flash
+taramosalata,food_shopping,active,,,generated:deepseek-flash
+techina,food_shopping,active,,,generated:deepseek-flash
+tiv taam,food_shopping,active,,,generated:deepseek-flash
+yeinot bitan,food_shopping,active,,,generated:deepseek-flash
+yochananof,food_shopping,active,,,generated:deepseek-flash
+zhug,food_shopping,active,,,generated:deepseek-flash
+balagan,general,active,,,english-hebrew-mixed-sentences
+chool,general,active,,,english-hebrew-mixed-sentences
+matzav,general,active,,,english-hebrew-mixed-sentences
+misrad haklita,government,active,,,english-hebrew-mixed-sentences
+misrad hapnim,government,active,,,english-hebrew-mixed-sentences
+achot,health,active,,,generated:deepseek-flash
+atzirut,health,active,,,generated:deepseek-flash
+bdika,health,active,,,generated:deepseek-flash
+bdikat dam,health,active,,,generated:deepseek-flash
+bdikat shten,health,active,,,generated:deepseek-flash
+bikur cholim,health,active,,,generated:deepseek-flash
+bituach mashlim,health,active,,,generated:deepseek-flash
+bituach siud,health,active,,,generated:deepseek-flash
+chadar lida,health,active,,,generated:deepseek-flash
+chisun,health,active,,,generated:deepseek-flash
+chisunim,health,active,,,generated:deepseek-flash
+cholah,health,active,,,generated:deepseek-flash
+choleh,health,active,,,generated:deepseek-flash
+chom,health,active,,,generated:deepseek-flash
+clalit,health,active,,,generated:deepseek-flash
+daleket,health,active,,,generated:deepseek-flash
+dgima,health,active,,,generated:deepseek-flash
+ginekolog,health,active,,,generated:deepseek-flash
+hardama,health,active,,,generated:deepseek-flash
+herayon,health,active,,,generated:deepseek-flash
+heskem,health,active,,,generated:deepseek-flash
+hit-hayvut,health,active,,,generated:deepseek-flash
+horaat keva,health,active,,,generated:deepseek-flash
+infuzia,health,active,,,generated:deepseek-flash
+ishur,health,active,,,generated:deepseek-flash
+kaavim,health,active,,,generated:deepseek-flash
+kadurim,health,active,,,generated:deepseek-flash
+kapsulot,health,active,,,generated:deepseek-flash
+ke'ev,health,active,,,generated:deepseek-flash
+leshka,health,active,,,generated:deepseek-flash
+leumit,health,active,,,generated:deepseek-flash
+lidah,health,active,,,generated:deepseek-flash
+mahlah,health,active,,,generated:deepseek-flash
+mashcha,health,active,,,generated:deepseek-flash
+mashlim,health,active,,,generated:deepseek-flash
+mazkira,health,active,,,generated:deepseek-flash
+merkaz refui,health,active,,,generated:deepseek-flash
+metapelet,health,active,,,generated:deepseek-flash
+meuhedet,health,active,,,generated:deepseek-flash
+mirpaa,health,active,,,generated:deepseek-flash
+mirsham,health,active,,,generated:deepseek-flash
+mirshamim,health,active,,,generated:deepseek-flash
+mushlam,health,active,,,generated:deepseek-flash
+nazelet,health,active,,,generated:deepseek-flash
+nifga,health,active,,,generated:deepseek-flash
+nifgei evra,health,active,,,generated:deepseek-flash
+nituach,health,active,,,generated:deepseek-flash
+ptzua,health,active,,,generated:deepseek-flash
+sal habriut,health,active,,,generated:deepseek-flash
+shilshul,health,active,,,generated:deepseek-flash
+shinayim,health,active,,,generated:deepseek-flash
+shten,health,active,,,generated:deepseek-flash
+sirup,health,ambiguous,english_homograph,,generated:deepseek-flash
+siud,health,active,,,generated:deepseek-flash
+tachboshet,health,active,,,generated:deepseek-flash
+tipat halav,health,active,,,generated:deepseek-flash
+tipot,health,active,,,generated:deepseek-flash
+tofes 17,health,active,,,generated:deepseek-flash
+tor,health,ambiguous,english_homograph,,generated:deepseek-flash
+trufa,health,active,,,generated:deepseek-flash
+trufot,health,active,,,generated:deepseek-flash
+tviot,health,active,,,generated:deepseek-flash
+tviya,health,active,,,generated:deepseek-flash
+tzilum,health,active,,,generated:deepseek-flash
+tzilum raentgen,health,active,,,generated:deepseek-flash
+yoledet,health,active,,,generated:deepseek-flash
+zihum,health,active,,,generated:deepseek-flash
+zrika,health,active,,,generated:deepseek-flash
+kupat cholim,healthcare,active,,,english-hebrew-mixed-sentences
+rofeh,healthcare,active,,,english-hebrew-mixed-sentences
+bayit,home,active,,,english-hebrew-mixed-sentences
+machsan,home,active,,,english-hebrew-mixed-sentences
+sherutim,home,active,,,english-hebrew-mixed-sentences
+ambatya,home_utilities,active,,,generated:deepseek-flash
+baal habayit,home_utilities,active,,,generated:deepseek-flash
+baalat habayit,home_utilities,active,,,generated:deepseek-flash
+bakbuk,home_utilities,active,,,generated:deepseek-flash
+balon gaz,home_utilities,active,,,generated:deepseek-flash
+berez,home_utilities,active,,,generated:deepseek-flash
+bituach bayit,home_utilities,active,,,generated:deepseek-flash
+bituach mivne,home_utilities,active,,,generated:deepseek-flash
+chavis,home_utilities,active,,,generated:deepseek-flash
+cheder,home_utilities,active,,,generated:deepseek-flash
+chevrat hashmal,home_utilities,active,,,generated:deepseek-flash
+chozeh,home_utilities,active,,,generated:deepseek-flash
+chozeh sachirut,home_utilities,active,,,generated:deepseek-flash
+dira,home_utilities,active,,,generated:deepseek-flash
+dirot,home_utilities,active,,,generated:deepseek-flash
+dli,home_utilities,active,,,generated:deepseek-flash
+dud,home_utilities,ambiguous,english_homograph,,generated:deepseek-flash
+dud hashmal,home_utilities,active,,,generated:deepseek-flash
+dud shemesh,home_utilities,active,,,generated:deepseek-flash
+hashmal,home_utilities,active,,,generated:deepseek-flash
+hotzaot,home_utilities,active,,,generated:deepseek-flash
+kaf,home_utilities,active,,,generated:deepseek-flash
+kise,home_utilities,active,,,generated:deepseek-flash
+kiyor,home_utilities,active,,,generated:deepseek-flash
+kos,home_utilities,active,,,generated:deepseek-flash
+kumkum,home_utilities,active,,,generated:deepseek-flash
+machavat,home_utilities,active,,,generated:deepseek-flash
+machbes,home_utilities,active,,,generated:deepseek-flash
+machbren,home_utilities,active,,,generated:deepseek-flash
+madad,home_utilities,active,,,generated:deepseek-flash
+magevet,home_utilities,active,,,generated:deepseek-flash
+mamad,home_utilities,active,,,generated:deepseek-flash
+mas rechisha,home_utilities,active,,,generated:deepseek-flash
+matate,home_utilities,active,,,generated:deepseek-flash
+mayim chamim,home_utilities,active,,,generated:deepseek-flash
+mazgan,home_utilities,active,,,generated:deepseek-flash
+mazleg,home_utilities,active,,,generated:deepseek-flash
+mechonat keelim,home_utilities,active,,,generated:deepseek-flash
+mechonat kvisa,home_utilities,active,,,generated:deepseek-flash
+mekarer,home_utilities,active,,,generated:deepseek-flash
+mekorot,home_utilities,active,,,generated:deepseek-flash
+meyabesh,home_utilities,active,,,generated:deepseek-flash
+michzur,home_utilities,active,,,generated:deepseek-flash
+miklat,home_utilities,active,,,generated:deepseek-flash
+miklechot,home_utilities,active,,,generated:deepseek-flash
+mikror,home_utilities,active,,,generated:deepseek-flash
+mirpeset,home_utilities,active,,,generated:deepseek-flash
+mita,home_utilities,active,,,generated:deepseek-flash
+mitbach,home_utilities,active,,,generated:deepseek-flash
+mizron,home_utilities,active,,,generated:deepseek-flash
+nura,home_utilities,active,,,generated:deepseek-flash
+pach ashpa,home_utilities,active,,,generated:deepseek-flash
+sachirut,home_utilities,active,,,generated:deepseek-flash
+sakin,home_utilities,active,,,generated:deepseek-flash
+salon,home_utilities,ambiguous,english_homograph,,generated:deepseek-flash
+sapa,home_utilities,active,,,generated:deepseek-flash
+sefel,home_utilities,active,,,generated:deepseek-flash
+sheka,home_utilities,active,,,generated:deepseek-flash
+shulchan,home_utilities,active,,,generated:deepseek-flash
+sir,home_utilities,ambiguous,english_homograph,,generated:deepseek-flash
+tabu,home_utilities,ambiguous,english_homograph,,generated:deepseek-flash
+tanur,home_utilities,active,,,generated:deepseek-flash
+teka,home_utilities,active,,,generated:deepseek-flash
+tzalachat,home_utilities,active,,,generated:deepseek-flash
+tzinor,home_utilities,active,,,generated:deepseek-flash
+tzintzenet,home_utilities,active,,,generated:deepseek-flash
+aliyah,immigration,active,,,english-hebrew-mixed-sentences
+olah,immigration,active,,,english-hebrew-mixed-sentences
+olim,immigration,active,,,english-hebrew-mixed-sentences
+sochnut,immigration,active,,,english-hebrew-mixed-sentences
+teudat oleh,immigration,active,,,english-hebrew-mixed-sentences
+miluim,military,active,,,english-hebrew-mixed-sentences
+sherut leumi,military,active,,,english-hebrew-mixed-sentences
+ashdod,places,active,,,english-hebrew-mixed-sentences
+ashkelon,places,active,,,english-hebrew-mixed-sentences
+ben yehuda,places,active,,,english-hebrew-mixed-sentences
+dizengoff,places,active,,,english-hebrew-mixed-sentences
+eilat,places,active,,,english-hebrew-mixed-sentences
+galil,places,active,,,english-hebrew-mixed-sentences
+herzliya,places,active,,,english-hebrew-mixed-sentences
+kfar saba,places,active,,,english-hebrew-mixed-sentences
+kikar rabin,places,active,,,english-hebrew-mixed-sentences
+kikar tzion,places,active,,,english-hebrew-mixed-sentences
+machane yehuda,places,active,,,english-hebrew-mixed-sentences
+mercaz,places,active,,,english-hebrew-mixed-sentences
+nes tziona,places,active,,,english-hebrew-mixed-sentences
+netanya,places,active,,,english-hebrew-mixed-sentences
+ofakim,places,active,,,english-hebrew-mixed-sentences
+raanana,places,active,,,english-hebrew-mixed-sentences
+ramat gan,places,active,,,english-hebrew-mixed-sentences
+rishon lezion,places,active,,,english-hebrew-mixed-sentences
+rosh pina,places,active,,,english-hebrew-mixed-sentences
+tayelet,places,active,,,english-hebrew-mixed-sentences
+tel aviv,places,active,,,english-hebrew-mixed-sentences
+yerushalayim,places,active,,,english-hebrew-mixed-sentences
+bar mitzvah,religious,active,,,english-hebrew-mixed-sentences
+brit milah,religious,active,,,english-hebrew-mixed-sentences
+chag,religious,active,,,english-hebrew-mixed-sentences
+kol nidre,religious,active,,,english-hebrew-mixed-sentences
+mikve,religious,active,,,english-hebrew-mixed-sentences
+pesach,religious,active,,,english-hebrew-mixed-sentences
+pidyon haben,religious,active,,,english-hebrew-mixed-sentences
+rosh chodesh,religious,active,,,english-hebrew-mixed-sentences
+rosh hashanah,religious,active,,,english-hebrew-mixed-sentences
+shabbat,religious,active,,,english-hebrew-mixed-sentences
+sheva brachot,religious,active,,,english-hebrew-mixed-sentences
+shul,religious,active,,,english-hebrew-mixed-sentences
+tefillin,religious,active,,,english-hebrew-mixed-sentences
+tisha bav,religious,active,,,english-hebrew-mixed-sentences
+tu bishvat,religious,active,,,english-hebrew-mixed-sentences
+upsherin,religious,active,,,english-hebrew-mixed-sentences
+yom kippur,religious,active,,,english-hebrew-mixed-sentences
+arba minim,religious_calendar,active,,,generated:deepseek-flash
+aveilut,religious_calendar,active,,,generated:deepseek-flash
+baal teshuva,religious_calendar,active,,,generated:deepseek-flash
+beit knesset,religious_calendar,active,,,generated:deepseek-flash
+beit midrash,religious_calendar,active,,,generated:deepseek-flash
+besamim,religious_calendar,active,,,generated:deepseek-flash
+bracha,religious_calendar,active,,,generated:deepseek-flash
+brachot,religious_calendar,active,,,generated:deepseek-flash
+chagim,religious_calendar,active,,,generated:deepseek-flash
+chanukah,religious_calendar,ambiguous,english_homograph,,generated:deepseek-flash
+chanukiah,religious_calendar,active,,,generated:deepseek-flash
+charedi,religious_calendar,active,,,generated:deepseek-flash
+chazan,religious_calendar,active,,,generated:deepseek-flash
+chesed,religious_calendar,active,,,generated:deepseek-flash
+chevra kadisha,religious_calendar,active,,,generated:deepseek-flash
+chiloni,religious_calendar,active,,,generated:deepseek-flash
+chumash,religious_calendar,ambiguous,english_homograph,,generated:deepseek-flash
+dati,religious_calendar,active,,,generated:deepseek-flash
+dati leumi,religious_calendar,active,,,generated:deepseek-flash
+etrog,religious_calendar,active,,,generated:deepseek-flash
+gabbai,religious_calendar,active,,,generated:deepseek-flash
+gemara,religious_calendar,active,,,generated:deepseek-flash
+hakafot,religious_calendar,active,,,generated:deepseek-flash
+halacha,religious_calendar,active,,,generated:deepseek-flash
+havdalah,religious_calendar,active,,,generated:deepseek-flash
+heder,religious_calendar,active,,,generated:deepseek-flash
+kaddish,religious_calendar,active,,,generated:deepseek-flash
+kiddush,religious_calendar,active,,,generated:deepseek-flash
+kippah,religious_calendar,active,,,generated:deepseek-flash
+kollel,religious_calendar,active,,,generated:deepseek-flash
+levaya,religious_calendar,active,,,generated:deepseek-flash
+levivot,religious_calendar,active,,,generated:deepseek-flash
+lulav,religious_calendar,active,,,generated:deepseek-flash
+maariv,religious_calendar,active,,,generated:deepseek-flash
+masorti,religious_calendar,active,,,generated:deepseek-flash
+megillah,religious_calendar,active,,,generated:deepseek-flash
+mezuzah,religious_calendar,active,,,generated:deepseek-flash
+mincha,religious_calendar,active,,,generated:deepseek-flash
+minyan,religious_calendar,active,,,generated:deepseek-flash
+mishloach manot,religious_calendar,active,,,generated:deepseek-flash
+mishnah,religious_calendar,active,,,generated:deepseek-flash
+motzash,religious_calendar,active,,,generated:deepseek-flash
+musaf,religious_calendar,active,,,generated:deepseek-flash
+neilah,religious_calendar,active,,,generated:deepseek-flash
+nichum aveilim,religious_calendar,active,,,generated:deepseek-flash
+parsha,religious_calendar,active,,,generated:deepseek-flash
+sefer torah,religious_calendar,active,,,generated:deepseek-flash
+selichot,religious_calendar,active,,,generated:deepseek-flash
+seudah,religious_calendar,active,,,generated:deepseek-flash
+shacharit,religious_calendar,active,,,generated:deepseek-flash
+shamash,religious_calendar,active,,,generated:deepseek-flash
+shemini atzeret,religious_calendar,active,,,generated:deepseek-flash
+shiva,religious_calendar,ambiguous,english_homograph,,generated:deepseek-flash
+shloshim,religious_calendar,active,,,generated:deepseek-flash
+shofar,religious_calendar,active,,,generated:deepseek-flash
+simchat torah,religious_calendar,active,,,generated:deepseek-flash
+sufganiyah,religious_calendar,active,,,generated:deepseek-flash
+sukkah,religious_calendar,active,,,generated:deepseek-flash
+sukkot,religious_calendar,ambiguous,english_homograph,,generated:deepseek-flash
+taanit esther,religious_calendar,active,,,generated:deepseek-flash
+tahara,religious_calendar,active,,,generated:deepseek-flash
+tallit,religious_calendar,active,,,generated:deepseek-flash
+talmid chacham,religious_calendar,active,,,generated:deepseek-flash
+tanach,religious_calendar,active,,,generated:deepseek-flash
+tefillah,religious_calendar,active,,,generated:deepseek-flash
+tzedakah,religious_calendar,active,,,generated:deepseek-flash
+tzitzit,religious_calendar,active,,,generated:deepseek-flash
+yeshiva,religious_calendar,ambiguous,english_homograph,,generated:deepseek-flash
+yizkor,religious_calendar,active,,,generated:deepseek-flash
+doar,services,active,,,english-hebrew-mixed-sentences
+moked,services,active,,,english-hebrew-mixed-sentences
+kupa,shopping,active,,,english-hebrew-mixed-sentences
+maayan 2000,shopping,active,,,english-hebrew-mixed-sentences
+makolet,shopping,active,,,english-hebrew-mixed-sentences
+osher ad,shopping,active,,,english-hebrew-mixed-sentences
+rami levy,shopping,active,,,english-hebrew-mixed-sentences
+shufersal,shopping,active,,,english-hebrew-mixed-sentences
+shuk,shopping,active,,,english-hebrew-mixed-sentences
+beseder,slang,active,,,english-hebrew-mixed-sentences
+combina,slang,active,,,english-hebrew-mixed-sentences
+freier,slang,active,,,english-hebrew-mixed-sentences
+shtuyot,slang,active,,,english-hebrew-mixed-sentences
+shabbaton,social,active,,,english-hebrew-mixed-sentences
+simcha,social,active,,,english-hebrew-mixed-sentences
+maccabi,sports,active,,,english-hebrew-mixed-sentences
+motzei shabbat,time,active,,,english-hebrew-mixed-sentences
+shavua,time,active,,,english-hebrew-mixed-sentences
+tzimmer,tourism,active,,,english-hebrew-mixed-sentences
+atzor,transport_geography,active,,,generated:deepseek-flash
+benzin,transport_geography,active,,,generated:deepseek-flash
+bevakasha,transport_geography,active,,,generated:deepseek-flash
+chanaya,transport_geography,active,,,generated:deepseek-flash
+chanyon,transport_geography,active,,,generated:deepseek-flash
+delek,transport_geography,active,,,generated:deepseek-flash
+derech,transport_geography,active,,,generated:deepseek-flash
+derech tzleha,transport_geography,active,,,generated:deepseek-flash
+dmei chanaya,transport_geography,active,,,generated:deepseek-flash
+dmei kvish,transport_geography,active,,,generated:deepseek-flash
+dmei nesia,transport_geography,active,,,generated:deepseek-flash
+eifo,transport_geography,active,,,generated:deepseek-flash
+kan,transport_geography,active,,,generated:deepseek-flash
+kartis,transport_geography,active,,,generated:deepseek-flash
+kartis hofshi,transport_geography,active,,,generated:deepseek-flash
+kartisiya,transport_geography,active,,,generated:deepseek-flash
+kav,transport_geography,active,,,generated:deepseek-flash
+kavim,transport_geography,active,,,generated:deepseek-flash
+kikar,transport_geography,active,,,generated:deepseek-flash
+kivun,transport_geography,active,,,generated:deepseek-flash
+kvish,transport_geography,active,,,generated:deepseek-flash
+le'an,transport_geography,active,,,generated:deepseek-flash
+le'at,transport_geography,active,,,generated:deepseek-flash
+lehitraot,transport_geography,active,,,generated:deepseek-flash
+maavar chatzaya,transport_geography,active,,,generated:deepseek-flash
+machsom,transport_geography,active,,,generated:deepseek-flash
+mahir,transport_geography,active,,,generated:deepseek-flash
+masaa,transport_geography,active,,,generated:deepseek-flash
+me'ayin,transport_geography,active,,,generated:deepseek-flash
+mechir,transport_geography,active,,,generated:deepseek-flash
+mechonit,transport_geography,active,,,generated:deepseek-flash
+nesia,transport_geography,active,,,generated:deepseek-flash
+nesia tova,transport_geography,active,,,generated:deepseek-flash
+od,transport_geography,ambiguous,english_homograph,,generated:deepseek-flash
+ofanayim,transport_geography,active,,,generated:deepseek-flash
+ofnoa,transport_geography,active,,,generated:deepseek-flash
+otobus,transport_geography,active,,,generated:deepseek-flash
+otobusim,transport_geography,active,,,generated:deepseek-flash
+pkak,transport_geography,active,,,generated:deepseek-flash
+po,transport_geography,ambiguous,english_homograph,,generated:deepseek-flash
+ramzor,transport_geography,active,,,generated:deepseek-flash
+rehov,transport_geography,active,,,generated:deepseek-flash
+sa,transport_geography,active,,,generated:deepseek-flash
+sderot,transport_geography,active,,,generated:deepseek-flash
+shalem,transport_geography,active,,,generated:deepseek-flash
+sham,transport_geography,ambiguous,english_homograph,,generated:deepseek-flash
+sherut,transport_geography,active,,,generated:deepseek-flash
+slicha,transport_geography,active,,,generated:deepseek-flash
+smol,transport_geography,active,,,generated:deepseek-flash
+smola,transport_geography,active,,,generated:deepseek-flash
+solela,transport_geography,active,,,generated:deepseek-flash
+tachana,transport_geography,active,,,generated:deepseek-flash
+tachanat benzin,transport_geography,active,,,generated:deepseek-flash
+tachanat mishpat,transport_geography,active,,,generated:deepseek-flash
+tachanat otobus,transport_geography,active,,,generated:deepseek-flash
+tachanat sherut,transport_geography,active,,,generated:deepseek-flash
+tachanot,transport_geography,active,,,generated:deepseek-flash
+toda,transport_geography,active,,,generated:deepseek-flash
+toda raba,transport_geography,active,,,generated:deepseek-flash
+tzomet,transport_geography,active,,,generated:deepseek-flash
+yamin,transport_geography,active,,,generated:deepseek-flash
+yamina,transport_geography,active,,,generated:deepseek-flash
+yashar,transport_geography,active,,,generated:deepseek-flash
+zuz,transport_geography,active,,,generated:deepseek-flash
+ayalon,transportation,active,,,english-hebrew-mixed-sentences
+hahagana,transportation,active,,,english-hebrew-mixed-sentences
+hashalom,transportation,active,,,english-hebrew-mixed-sentences
+kvish echad,transportation,active,,,english-hebrew-mixed-sentences
+kvish shesh,transportation,active,,,english-hebrew-mixed-sentences
+monit,transportation,active,,,english-hebrew-mixed-sentences
+rakevet,transportation,active,,,english-hebrew-mixed-sentences
+rav kav,transportation,active,,,english-hebrew-mixed-sentences
+tachana merkazit,transportation,active,,,english-hebrew-mixed-sentences
+yitzhak navon,transportation,active,,,english-hebrew-mixed-sentences
+shemesh,weather,active,,,english-hebrew-mixed-sentences
+sachir,work,active,,,english-hebrew-mixed-sentences

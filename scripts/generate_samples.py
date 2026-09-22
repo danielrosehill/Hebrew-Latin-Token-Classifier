@@ -65,9 +65,12 @@ SCHEMA = {
 def load_terms(path: pathlib.Path) -> list[dict]:
     with path.open() as fh:
         rows = [r for r in csv.DictReader(fh)]
-    keep = [r for r in rows if r.get("status", "active") == "active"]
+    # `ambiguous` terms are included deliberately: a Hebrew word that is also an
+    # English word (dud, tor, shiva, salon) is the hardest and most useful case.
+    # generate_negatives.py produces the matching English-sense sentences.
+    keep = [r for r in rows if r.get("status", "active") in ("active", "ambiguous")]
     if not keep:
-        raise SystemExit(f"{path} has no active terms")
+        raise SystemExit(f"{path} has no usable terms")
     return keep
 
 

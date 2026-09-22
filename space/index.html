@@ -1,0 +1,185 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Hebrew-in-Latin span review</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 16px/1.5 system-ui, sans-serif; margin: 0; padding: 2rem;
+         max-width: 50rem; margin-inline: auto; }
+  header { display: flex; justify-content: space-between; align-items: baseline;
+           border-bottom: 1px solid #8884; padding-bottom: .5rem; }
+  h1 { font-size: 1rem; font-weight: 600; margin: 0; }
+  #progress { font-variant-numeric: tabular-nums; opacity: .7; font-size: .875rem; }
+  #bar { height: 3px; background: #8883; margin: .5rem 0 2rem; }
+  #bar div { height: 100%; background: currentColor; transition: width .15s; }
+  .risk { display: inline-block; font-size: .75rem; text-transform: uppercase;
+          letter-spacing: .04em; padding: .1rem .4rem; border: 1px solid; border-radius: 3px; }
+  .risk.mislabelled { color: #c0392b; } .risk.unmatched { color: #b7791f; }
+  .risk.quarantined { color: #8e44ad; } .risk.medium { color: #2980b9; }
+  .risk.low { opacity: .6; }
+  #note { opacity: .75; font-size: .875rem; margin: .75rem 0 1.25rem; }
+  #sentence { font-size: 1.375rem; line-height: 1.5; margin: 0 0 1.5rem; }
+  mark { background: #f1c40f55; padding: .05em .15em; border-radius: 2px;
+         outline: 1px solid #f1c40f; }
+  #meta { font-size: .8125rem; opacity: .6; margin-bottom: 1.5rem;
+          font-family: ui-monospace, monospace; }
+  button { font: inherit; padding: .4rem .9rem; border: 1px solid #8886;
+           border-radius: 4px; background: transparent; color: inherit; cursor: pointer; }
+  button:hover { background: #8882; }
+  kbd { font: .75rem ui-monospace, monospace; border: 1px solid #8886;
+        border-bottom-width: 2px; border-radius: 3px; padding: 0 .3rem; opacity: .8; }
+  input[type=text] { font: inherit; width: 100%; padding: .5rem; box-sizing: border-box;
+                     border: 1px solid #8886; border-radius: 4px;
+                     background: transparent; color: inherit; }
+  #actions { display: flex; gap: .5rem; flex-wrap: wrap; align-items: center; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #8884;
+           font-size: .8125rem; opacity: .7; display: flex; gap: 1rem; flex-wrap: wrap; }
+  #done { display: none; text-align: center; padding: 3rem 0; }
+</style>
+
+<header>
+  <h1>Hebrew-in-Latin span review
+    <a href="https://github.com/danielrosehill/Hebrew-Latin-Token-Classifier"
+       style="font-weight:400;opacity:.6;font-size:.8125rem;margin-left:.5rem">repo</a>
+  </h1>
+  <span id="progress"></span>
+</header>
+<div id="bar"><div></div></div>
+
+<main id="task">
+  <p><span class="risk" id="risk"></span></p>
+  <p id="sentence"></p>
+  <p id="note"></p>
+  <div id="answer"></div>
+  <p id="meta"></p>
+</main>
+
+<div id="done">
+  <p>All tasks reviewed.</p>
+  <button onclick="save()">Download decisions.json</button>
+</div>
+
+<footer>
+  <span><kbd>y</kbd> Hebrew</span>
+  <span><kbd>n</kbd> not Hebrew</span>
+  <span><kbd>Enter</kbd> submit terms</span>
+  <span><kbd>s</kbd> skip</span>
+  <span><kbd>u</kbd> undo</span>
+  <span><button onclick="save()">Save</button></span>
+  <span id="status"></span>
+</footer>
+
+<script>
+const STORE = 'heb-latn-review-v1';
+let queue = [], decisions = {}, cursor = 0;
+
+const el = id => document.getElementById(id);
+
+async function boot() {
+  try {
+    queue = await (await fetch('queue.json')).json();
+  } catch {
+    document.body.innerHTML = '<p style="font:16px system-ui;padding:2rem">' +
+      'Could not load <code>queue.json</code>. If you are running this locally, ' +
+      'browsers block file:// fetches — use <code>python3 scripts/serve_review.py</code>.</p>';
+    return;
+  }
+  decisions = JSON.parse(localStorage.getItem(STORE) || '{}');
+  cursor = queue.findIndex(t => !(t.key in decisions));
+  if (cursor < 0) cursor = queue.length;
+  render();
+}
+
+function render() {
+  const total = queue.length, done = Object.keys(decisions).length;
+  el('progress').textContent = `${done} / ${total}`;
+  el('bar').firstElementChild.style.width = (100 * done / total) + '%';
+  el('status').textContent = done ? 'saved locally' : '';
+
+  if (cursor >= queue.length) {
+    el('task').style.display = 'none';
+    el('done').style.display = 'block';
+    return;
+  }
+  el('task').style.display = '';
+  el('done').style.display = 'none';
+
+  const t = queue[cursor];
+  el('risk').textContent = t.risk;
+  el('risk').className = 'risk ' + t.risk;
+  el('note').textContent = t.note;
+  el('meta').textContent = `${t.id}  ·  ${t.split}  ·  dataset label: ` +
+    (t.dataset_label ? JSON.stringify(t.dataset_label) : 'none');
+
+  if (t.kind === 'span') {
+    el('sentence').innerHTML =
+      escapeHtml(t.text.slice(0, t.start)) +
+      '<mark>' + escapeHtml(t.text.slice(t.start, t.end)) + '</mark>' +
+      escapeHtml(t.text.slice(t.end));
+    el('answer').innerHTML =
+      '<div id="actions">' +
+      '<button onclick="decide(true)">Hebrew <kbd>y</kbd></button>' +
+      '<button onclick="decide(false)">Not Hebrew <kbd>n</kbd></button>' +
+      '<button onclick="skip()">Skip <kbd>s</kbd></button></div>';
+  } else {
+    el('sentence').textContent = t.text;
+    el('answer').innerHTML =
+      '<input type="text" id="terms" autocomplete="off" ' +
+      'placeholder="Hebrew term(s), comma-separated — empty means none">' +
+      '<div id="actions" style="margin-top:.75rem">' +
+      '<button onclick="submitTerms()">Submit <kbd>Enter</kbd></button>' +
+      '<button onclick="skip()">Skip <kbd>s</kbd></button></div>';
+    el('terms').focus();
+  }
+}
+
+function escapeHtml(s) {
+  return s.replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+}
+
+function record(value) {
+  decisions[queue[cursor].key] = { ...value, at: new Date().toISOString() };
+  localStorage.setItem(STORE, JSON.stringify(decisions));
+  cursor++;
+  render();
+}
+
+const decide = isHebrew => record({ kind: 'span', hebrew: isHebrew });
+
+function submitTerms() {
+  const raw = el('terms').value.trim();
+  const terms = raw ? raw.split(',').map(s => s.trim()).filter(Boolean) : [];
+  record({ kind: 'record', terms });
+}
+
+function skip() { cursor++; render(); }
+
+function undo() {
+  if (cursor > 0) {
+    cursor--;
+    delete decisions[queue[cursor].key];
+    localStorage.setItem(STORE, JSON.stringify(decisions));
+    render();
+  }
+}
+
+function save() {
+  const blob = new Blob([JSON.stringify(decisions, null, 1)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'decisions.json';
+  a.click();
+}
+
+addEventListener('keydown', e => {
+  if (e.metaKey || e.ctrlKey || e.altKey) return;
+  const typing = e.target.tagName === 'INPUT';
+  if (typing && e.key === 'Enter') { submitTerms(); return; }
+  if (typing) return;
+  if (e.key === 'y') decide(true);
+  else if (e.key === 'n') decide(false);
+  else if (e.key === 's') skip();
+  else if (e.key === 'u') undo();
+});
+
+boot();
+</script>

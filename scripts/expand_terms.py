@@ -143,7 +143,12 @@ async def main_async(args) -> None:
             terms[term] = {
                 "term": term,
                 "category": category,
-                "status": "quarantined" if homograph else "active",
+                # `ambiguous`, NOT `quarantined`: a term that is also an English word
+                # is the most valuable kind of training example, not a liability.
+                # dud, tor, shiva, sukkot, yeshiva, salon, layla are all real Hebrew
+                # terms this project cares about. They are generated for, and they
+                # also seed English-sense negatives via generate_negatives.py.
+                "status": "ambiguous" if homograph else "active",
                 "quarantine_reason": "english_homograph" if homograph else "",
                 "hebrew_script": "",
                 "source": f"generated:{args.model}",
@@ -157,9 +162,11 @@ async def main_async(args) -> None:
         w.writerows(rows)
 
     active = sum(1 for r in rows if r["status"] == "active")
+    ambiguous = sum(1 for r in rows if r["status"] == "ambiguous")
     by_cat = {c: sum(1 for r in rows if r["category"] == c) for c in
               sorted({r["category"] for r in rows})}
-    print(json.dumps({"total": len(rows), "active": active, "added_this_run": added,
+    print(json.dumps({"total": len(rows), "active": active, "ambiguous": ambiguous,
+                      "added_this_run": added,
                       "by_category": by_cat,
                       "output": str(OUT.relative_to(ROOT))}, indent=1))
 

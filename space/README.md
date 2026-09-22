@@ -1,0 +1,47 @@
+---
+title: Hebrew-in-Latin Span Review
+emoji: 🔤
+colorFrom: blue
+colorTo: indigo
+sdk: static
+app_file: index.html
+pinned: false
+license: mit
+---
+
+# Hebrew-in-Latin span review
+
+The manual review stage of
+[danielrosehill/Hebrew-Latin-Token-Classifier](https://github.com/danielrosehill/Hebrew-Latin-Token-Classifier).
+
+Two models propose spans — a generator that seeds each sentence with a Hebrew term,
+and a blind annotator from a different model family that never sees the seed. Where
+they agree, the span is accepted automatically. This page is for the cases they
+disagree on, plus a random audit sample of the ones they agreed on.
+
+**Everything runs in your browser.** The queue is fetched as a static file, decisions
+are held in `localStorage`, and nothing is sent anywhere. Export `decisions.json` when
+you are done and run `scripts/build_splits.py` in the repo.
+
+## Keys
+
+| Key | Action |
+| --- | --- |
+| <kbd>y</kbd> | Hebrew written in Latin characters |
+| <kbd>n</kbd> | Not Hebrew |
+| <kbd>Enter</kbd> | Submit typed terms (record tasks) |
+| <kbd>s</kbd> | Skip |
+| <kbd>u</kbd> | Undo the previous decision |
+
+## The rule
+
+The test is **pronunciation, not etymology**: would an English TTS voice mispronounce
+this word, and would treating it as Hebrew fix that?
+
+- *kosher*, *Shabbat*, *hummus*, *rabbi* — **no**. English says them acceptably.
+- *makolet*, *mashkanta*, *challah*, *dud* — **yes**.
+- Israeli brand names — **yes** by default. *Yad2* is pronounced as Hebrew.
+- A string that only appears inside a longer English word — **no**. "think" does not
+  contain *hi*.
+
+Full policy: [annotation-policy.md](https://github.com/danielrosehill/Hebrew-Latin-Token-Classifier/blob/main/docs/annotation-policy.md)

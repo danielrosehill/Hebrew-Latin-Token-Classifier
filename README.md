@@ -94,13 +94,15 @@ contested. The plan, target sizes and category balance are in
 [`docs/annotation-policy.md`](docs/annotation-policy.md).
 
 ```
-[0] expand_terms.py     lexicon + models        ->  data/terms.csv        ~500 terms
-[1] generate_samples.py term-seeded generation  ->  data/generated/sentences.jsonl
-[2] auto_annotate.py    blind, different model  ->  data/generated/annotations.jsonl
-[3] adjudicate.py       agree / disagree        ->  review/queue.json + agreement.json
-[4] review/index.html   human, contested only   ->  review/decisions.json
-[5] build_splits.py     term-disjoint BIO       ->  data/corpus/{train,validation,test}.jsonl
-[6] publish_dataset.py  Hugging Face            ->  danielrosehill/hebrew-latin-code-switching
+[0] expand_terms.py       lexicon + models        ->  data/terms.csv        743 terms
+[1] generate_samples.py   term-seeded positives   ->  data/generated/sentences.jsonl
+[1b] generate_negatives.py four kinds of negative ->  data/generated/sentences.jsonl
+[2] auto_annotate.py      blind, different model  ->  data/generated/annotations.jsonl
+[3] adjudicate.py         agree / disagree        ->  review/queue.json + agreement.json
+[4] review UI             human, contested only   ->  review/decisions.json
+[5] build_splits.py       term-disjoint BIO       ->  data/corpus/{train,validation,test}.jsonl
+[6] publish_dataset.py    Hugging Face dataset    ->  danielrosehill/hebrew-latin-code-switching
+[6b] publish_space.py     Hugging Face Space      ->  danielrosehill/hebrew-latin-span-review
 ```
 
 Four design rules, each answering a way this normally goes wrong:
@@ -190,8 +192,9 @@ uv venv .venv && source .venv/bin/activate && uv pip install -e .
 
 python scripts/expand_terms.py --target 500
 python scripts/estimate_cost.py --compare       # price it before committing
-python scripts/generate_samples.py --model deepseek-flash --per-term 3
-python scripts/auto_annotate.py  --model qwen/qwen3.8-flash
+python scripts/generate_samples.py   --per-term 3 --concurrency 16
+python scripts/generate_negatives.py --per-kind 125 --concurrency 16
+python scripts/auto_annotate.py      --model qwen/qwen3.8-flash
 python scripts/adjudicate.py
 python scripts/serve_review.py                # http://127.0.0.1:8765
 python scripts/build_splits.py
@@ -212,7 +215,20 @@ rather than correctness. `--allow-same-family` overrides it.
 
 ### The review UI
 
-One HTML file, no dependencies, no build step. Keyboard: <kbd>y</kbd> Hebrew,
+One HTML file, no dependencies, no build step. It runs locally, or as a
+**Hugging Face Space** so review works from any machine or phone:
+
+```bash
+python scripts/adjudicate.py                  # refresh the queue
+python scripts/publish_space.py               # dry run
+python scripts/publish_space.py --push        # -> huggingface.co/spaces/danielrosehill/hebrew-latin-span-review
+```
+
+The Space is `sdk: static` — no server, no build. The queue ships as a plain file
+beside the page, decisions stay in the reviewer's `localStorage`, and nothing is sent
+back. The trade is that decisions are per-browser: export `decisions.json` and commit
+it. Re-run `publish_space.py` after every `adjudicate.py` to refresh the queue.
+ Keyboard: <kbd>y</kbd> Hebrew,
 <kbd>n</kbd> not Hebrew, <kbd>Enter</kbd> submit typed terms, <kbd>s</kbd> skip,
 <kbd>u</kbd> undo. Progress is kept in `localStorage`, so the tab can be closed and
 resumed. **Download decisions.json** into `review/`, then run `build_splits.py`.
