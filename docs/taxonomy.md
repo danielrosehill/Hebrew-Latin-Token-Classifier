@@ -200,3 +200,71 @@ adjudication are all on disk; only the filtering changes.
 classification — more recall, more willingness to flag — that is the expansive build,
 and it should be published as a separate configuration with this table attached, not
 as a silent difference.
+
+## Spelling variation
+
+Added 2026-09-22, raised by Daniel: *"some of them correctly have an apostrophe in
+the transliterated Hebrew, but in practice people don't usually do that even though
+it's more accurate."*
+
+There is no settled romanization of Hebrew, and the spelling people type is rarely
+the careful one. **56% of the term inventory has at least one plausible variant.**
+The inventory itself already carried the same word twice — *ba'al bayit* and *baal
+bayit*, *choze* and *chozeh*, *do'ach* and *doach* — which would have trained the
+classifier on two unrelated-looking terms and split their examples between them.
+
+### What varies
+
+| Source | Spellings | Example |
+| --- | --- | --- |
+| א ע (glottal) | `'` or nothing | *ma'alit* / *maalit* |
+| Definite article | `ha'X` / `haX` / `ha-X` | *misrad ha'avoda* / *misrad haavoda* |
+| ח כ | `ch` / `kh` / `h` | *machsom* / *makhsom* / *mahsom* |
+| צ | `tz` / `ts` / `z` | *tzav* / *tsav* |
+| ק | `k` / `q` | *kupa* / *qupa* |
+| Final ה | `-ah` / `-a` | *chanukah* / *chanuka* |
+
+Vowel respellings (`o`/`oh`, `u`/`oo`, `ei`/`ey`) are **deliberately excluded**: they
+multiply combinations fast and are far less common in practice than dropping an
+apostrophe, which is the dominant real-world variation.
+
+### Two mechanisms, doing different jobs
+
+`scripts/lib/orthography.py`:
+
+- **`normalise(term)`** — collapses a term to a canonical key, for **matching**.
+  Aggressive and lossy on purpose. Use it for lexicon lookup at inference, never
+  for output. `ma'alit`, `maalit` and `ma-alit` all become one key.
+- **`variants(term)`** — plausible alternative spellings, for **training**.
+  Conservative on purpose, capped so one term cannot flood the corpus.
+
+### The canonical spelling is the one without the apostrophe
+
+`merge_round2.py` collapses spellings that normalise to the same key and picks the
+apostrophe-free form as canonical, keeping the careful spelling as a variant rather
+than discarding it. Rationale: the apostrophe-free form is what people type, so it is
+what the classifier will mostly see.
+
+### Variants cost nothing to generate
+
+`scripts/add_spelling_variants.py` substitutes a variant into a span in a sentence
+already in the corpus and recomputes the offsets. The sentence was already good, so
+the copy is as clean as the original, and **no model is called**.
+
+Two rules keep it honest, both enforced rather than assumed:
+
+- **Variant copies stay in their source sentence's split.** A near-duplicate across
+  the train/test boundary would let the model score on a sentence it memorised.
+  Verified: 0 sentences whose variant copy landed in a different split.
+- **No variant that collides with a real inventory term is used.** If two words are
+  genuinely ambiguous in writing, guessing between them is worse than not matching.
+  30 such collisions exist — *halva* (sweet) against *halva'ah* (loan) among them.
+
+Result on the first corpus: **690 variant sentences, 0 misaligned spans**, and
+`tofes`'s share of positives fell from 11.2% to 8.2% as a side effect of dilution.
+
+### At inference
+
+A lexicon keyed on the careful spelling will not match what people type. Look terms
+up through `normalise()`, not by exact string. This is the half of the problem the
+corpus alone cannot solve.

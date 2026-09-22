@@ -1,0 +1,4300 @@
+{
+ "t2:bubah": {
+  "kind": "term",
+  "term": "bubah",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:29:40.878Z"
+ },
+ "t2:dmei gan": {
+  "kind": "term",
+  "term": "dmei gan",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:29:44.740Z"
+ },
+ "t2:gan chova": {
+  "kind": "term",
+  "term": "gan chova",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:29:48.270Z"
+ },
+ "t2:gan trom chova": {
+  "kind": "term",
+  "term": "gan trom chova",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:29:52.849Z"
+ },
+ "t2:harshamah": {
+  "kind": "term",
+  "term": "harshamah",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:29:56.037Z"
+ },
+ "t2:hatzaga": {
+  "kind": "term",
+  "term": "hatzaga",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:29:58.827Z"
+ },
+ "t2:hoda'a": {
+  "kind": "term",
+  "term": "hoda'a",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:30:00.563Z"
+ },
+ "t2:kadur": {
+  "kind": "term",
+  "term": "kadur",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:30:01.848Z"
+ },
+ "t2:kaduregel": {
+  "kind": "term",
+  "term": "kaduregel",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:30:03.447Z"
+ },
+ "t2:kadursal": {
+  "kind": "term",
+  "term": "kadursal",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:30:04.357Z"
+ },
+ "t2:kaytana": {
+  "kind": "term",
+  "term": "kaytana",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:30:05.771Z"
+ },
+ "t2:luach zmanim": {
+  "kind": "term",
+  "term": "luach zmanim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:30:07.111Z"
+ },
+ "t2:maon yom": {
+  "kind": "term",
+  "term": "maon yom",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:30:08.584Z"
+ },
+ "t2:matana": {
+  "kind": "term",
+  "term": "matana",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:30:09.593Z"
+ },
+ "t2:mesiba": {
+  "kind": "term",
+  "term": "mesiba",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:30:10.473Z"
+ },
+ "t2:mischak": {
+  "kind": "term",
+  "term": "mischak",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:30:11.623Z"
+ },
+ "t2:mischakim": {
+  "kind": "term",
+  "term": "mischakim",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:30:13.866Z"
+ },
+ "t2:moadon": {
+  "kind": "term",
+  "term": "moadon",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:30:14.774Z"
+ },
+ "t2:moadonit": {
+  "kind": "term",
+  "term": "moadonit",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:30:15.981Z"
+ },
+ "t2:peilut": {
+  "kind": "term",
+  "term": "peilut",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:30:22.916Z"
+ },
+ "t2:peuton": {
+  "kind": "term",
+  "term": "peuton",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:30:23.963Z"
+ },
+ "t2:pinkas": {
+  "kind": "term",
+  "term": "pinkas",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:30:25.110Z"
+ },
+ "t2:sadna": {
+  "kind": "term",
+  "term": "sadna",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:30:26.407Z"
+ },
+ "t2:saya'at": {
+  "kind": "term",
+  "term": "saya'at",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:30:27.901Z"
+ },
+ "t2:tachposet": {
+  "kind": "term",
+  "term": "tachposet",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:30:28.998Z"
+ },
+ "t2:trom chova": {
+  "kind": "term",
+  "term": "trom chova",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:30:30.558Z"
+ },
+ "t2:tza'atzua": {
+  "kind": "term",
+  "term": "tza'atzua",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:30:32.494Z"
+ },
+ "t2:tza'atzuim": {
+  "kind": "term",
+  "term": "tza'atzuim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:30:33.164Z"
+ },
+ "t2:aish": {
+  "kind": "term",
+  "term": "aish",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:30:34.681Z"
+ },
+ "t2:b'kitzur": {
+  "kind": "term",
+  "term": "b'kitzur",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:30:35.609Z"
+ },
+ "t2:ba li": {
+  "kind": "term",
+  "term": "ba li",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:30:36.603Z"
+ },
+ "t2:ben adam": {
+  "kind": "term",
+  "term": "ben adam",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:30:38.028Z"
+ },
+ "t2:bichlal": {
+  "kind": "term",
+  "term": "bichlal",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:30:39.513Z"
+ },
+ "t2:chevra": {
+  "kind": "term",
+  "term": "chevra",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:30:40.710Z"
+ },
+ "t2:davka": {
+  "kind": "term",
+  "term": "davka",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:30:42.019Z"
+ },
+ "t2:efshar": {
+  "kind": "term",
+  "term": "efshar",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:30:43.336Z"
+ },
+ "t2:harbe": {
+  "kind": "term",
+  "term": "harbe",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:30:45.735Z"
+ },
+ "t2:i efshar": {
+  "kind": "term",
+  "term": "i efshar",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:30:47.026Z"
+ },
+ "t2:kacha": {
+  "kind": "term",
+  "term": "kacha",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:30:47.814Z"
+ },
+ "t2:ktzat": {
+  "kind": "term",
+  "term": "ktzat",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:30:48.780Z"
+ },
+ "t2:mamash": {
+  "kind": "term",
+  "term": "mamash",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:30:49.741Z"
+ },
+ "t2:nu": {
+  "kind": "term",
+  "term": "nu",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:30:51.015Z"
+ },
+ "t2:pitzutz": {
+  "kind": "term",
+  "term": "pitzutz",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:30:52.051Z"
+ },
+ "t2:sof haderech": {
+  "kind": "term",
+  "term": "sof haderech",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:30:53.148Z"
+ },
+ "t2:tachles": {
+  "kind": "term",
+  "term": "tachles",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:30:54.121Z"
+ },
+ "t2:agra": {
+  "kind": "term",
+  "term": "agra",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:30:54.945Z"
+ },
+ "t2:bakasha": {
+  "kind": "term",
+  "term": "bakasha",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:30:55.734Z"
+ },
+ "t2:hatzharat": {
+  "kind": "term",
+  "term": "hatzharat",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:30:57.371Z"
+ },
+ "t2:hazmana": {
+  "kind": "term",
+  "term": "hazmana",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:30:58.752Z"
+ },
+ "t2:iriya": {
+  "kind": "term",
+  "term": "iriya",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:30:59.569Z"
+ },
+ "t2:ishur avoda": {
+  "kind": "term",
+  "term": "ishur avoda",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:01.012Z"
+ },
+ "t2:ishur bniya": {
+  "kind": "term",
+  "term": "ishur bniya",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:31:01.812Z"
+ },
+ "t2:ishur knisa": {
+  "kind": "term",
+  "term": "ishur knisa",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:02.450Z"
+ },
+ "t2:ishur yetzia": {
+  "kind": "term",
+  "term": "ishur yetzia",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:03.231Z"
+ },
+ "t2:mas": {
+  "kind": "term",
+  "term": "mas",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:31:04.805Z"
+ },
+ "t2:mo'atza": {
+  "kind": "term",
+  "term": "mo'atza",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:05.924Z"
+ },
+ "t2:rishayon": {
+  "kind": "term",
+  "term": "rishayon",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:07.412Z"
+ },
+ "t2:rishayon bniya": {
+  "kind": "term",
+  "term": "rishayon bniya",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:08.299Z"
+ },
+ "t2:rishayon esek": {
+  "kind": "term",
+  "term": "rishayon esek",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:09.576Z"
+ },
+ "t2:rishayon neshek": {
+  "kind": "term",
+  "term": "rishayon neshek",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:10.636Z"
+ },
+ "t2:rishayon rechev": {
+  "kind": "term",
+  "term": "rishayon rechev",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:11.244Z"
+ },
+ "t2:sal briut": {
+  "kind": "term",
+  "term": "sal briut",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:12.302Z"
+ },
+ "t2:teudat ezrach": {
+  "kind": "term",
+  "term": "teudat ezrach",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:13.665Z"
+ },
+ "t2:teudat gerushin": {
+  "kind": "term",
+  "term": "teudat gerushin",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:14.891Z"
+ },
+ "t2:teudat lida": {
+  "kind": "term",
+  "term": "teudat lida",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:15.706Z"
+ },
+ "t2:teudat limudim": {
+  "kind": "term",
+  "term": "teudat limudim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:16.649Z"
+ },
+ "t2:teudat nisuin": {
+  "kind": "term",
+  "term": "teudat nisuin",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:17.418Z"
+ },
+ "t2:teudat petira": {
+  "kind": "term",
+  "term": "teudat petira",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:19.232Z"
+ },
+ "t2:teudat toshav": {
+  "kind": "term",
+  "term": "teudat toshav",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:20.174Z"
+ },
+ "t2:va'ad bayit": {
+  "kind": "term",
+  "term": "va'ad bayit",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:20.947Z"
+ },
+ "t2:bagrut": {
+  "kind": "term",
+  "term": "bagrut",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:21.923Z"
+ },
+ "t2:bchinah": {
+  "kind": "term",
+  "term": "bchinah",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:31:23.139Z"
+ },
+ "t2:bchinot": {
+  "kind": "term",
+  "term": "bchinot",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:31:24.435Z"
+ },
+ "t2:beit sefer": {
+  "kind": "term",
+  "term": "beit sefer",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:25.218Z"
+ },
+ "t2:chanich": {
+  "kind": "term",
+  "term": "chanich",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:31:26.165Z"
+ },
+ "t2:chanichim": {
+  "kind": "term",
+  "term": "chanichim",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:31:26.820Z"
+ },
+ "t2:chativa": {
+  "kind": "term",
+  "term": "chativa",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:31:27.964Z"
+ },
+ "t2:chug": {
+  "kind": "term",
+  "term": "chug",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:28.709Z"
+ },
+ "t2:chugim": {
+  "kind": "term",
+  "term": "chugim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:29.345Z"
+ },
+ "t2:gan yeladim": {
+  "kind": "term",
+  "term": "gan yeladim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:30.256Z"
+ },
+ "t2:ganenet": {
+  "kind": "term",
+  "term": "ganenet",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:30.998Z"
+ },
+ "t2:hakhanah": {
+  "kind": "term",
+  "term": "hakhanah",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:31.944Z"
+ },
+ "t2:kita": {
+  "kind": "term",
+  "term": "kita",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:31:33.619Z"
+ },
+ "t2:kitot": {
+  "kind": "term",
+  "term": "kitot",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:34.890Z"
+ },
+ "t2:limudim": {
+  "kind": "term",
+  "term": "limudim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:35.869Z"
+ },
+ "t2:madrich": {
+  "kind": "term",
+  "term": "madrich",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:37.947Z"
+ },
+ "t2:madricha": {
+  "kind": "term",
+  "term": "madricha",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:38.867Z"
+ },
+ "t2:maon": {
+  "kind": "term",
+  "term": "maon",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:41.654Z"
+ },
+ "t2:maslul": {
+  "kind": "term",
+  "term": "maslul",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:42.776Z"
+ },
+ "t2:matkonet": {
+  "kind": "term",
+  "term": "matkonet",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:45.263Z"
+ },
+ "t2:mechina": {
+  "kind": "term",
+  "term": "mechina",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:46.015Z"
+ },
+ "t2:megama": {
+  "kind": "term",
+  "term": "megama",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:47.557Z"
+ },
+ "t2:mehanekh": {
+  "kind": "term",
+  "term": "mehanekh",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:48.649Z"
+ },
+ "t2:mehanekhet": {
+  "kind": "term",
+  "term": "mehanekhet",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:49.216Z"
+ },
+ "t2:meitzav": {
+  "kind": "term",
+  "term": "meitzav",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:50.814Z"
+ },
+ "t2:menahel": {
+  "kind": "term",
+  "term": "menahel",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:52.142Z"
+ },
+ "t2:menahelet": {
+  "kind": "term",
+  "term": "menahelet",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:52.835Z"
+ },
+ "t2:michlala": {
+  "kind": "term",
+  "term": "michlala",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:31:54.026Z"
+ },
+ "t2:mivchan": {
+  "kind": "term",
+  "term": "mivchan",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:31:54.883Z"
+ },
+ "t2:moed": {
+  "kind": "term",
+  "term": "moed",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:55.551Z"
+ },
+ "t2:moed bet": {
+  "kind": "term",
+  "term": "moed bet",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:56.033Z"
+ },
+ "t2:morah": {
+  "kind": "term",
+  "term": "morah",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:56.812Z"
+ },
+ "t2:moreh": {
+  "kind": "term",
+  "term": "moreh",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:57.367Z"
+ },
+ "t2:shichva": {
+  "kind": "term",
+  "term": "shichva",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:31:58.657Z"
+ },
+ "t2:shiur": {
+  "kind": "term",
+  "term": "shiur",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:31:59.455Z"
+ },
+ "t2:shiurim": {
+  "kind": "term",
+  "term": "shiurim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:32:00.131Z"
+ },
+ "t2:targil": {
+  "kind": "term",
+  "term": "targil",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:32:01.118Z"
+ },
+ "t2:targilim": {
+  "kind": "term",
+  "term": "targilim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:32:02.189Z"
+ },
+ "t2:teudat bagrut": {
+  "kind": "term",
+  "term": "teudat bagrut",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:32:03.037Z"
+ },
+ "t2:tichon": {
+  "kind": "term",
+  "term": "tichon",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:33:18.441Z"
+ },
+ "t2:tzaharon": {
+  "kind": "term",
+  "term": "tzaharon",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:33:21.006Z"
+ },
+ "t2:tziyun": {
+  "kind": "term",
+  "term": "tziyun",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:33:22.016Z"
+ },
+ "t2:adom": {
+  "kind": "term",
+  "term": "adom",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:33:23.116Z"
+ },
+ "t2:azaka": {
+  "kind": "term",
+  "term": "azaka",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:33:28.170Z"
+ },
+ "t2:bitachon": {
+  "kind": "term",
+  "term": "bitachon",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:33:29.257Z"
+ },
+ "t2:cheder madregot": {
+  "kind": "term",
+  "term": "cheder madregot",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:33:30.815Z"
+ },
+ "t2:cherum": {
+  "kind": "term",
+  "term": "cherum",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:33:31.756Z"
+ },
+ "t2:chilutz": {
+  "kind": "term",
+  "term": "chilutz",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:33:33.117Z"
+ },
+ "t2:chovesh": {
+  "kind": "term",
+  "term": "chovesh",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:33:34.545Z"
+ },
+ "t2:ezrah": {
+  "kind": "term",
+  "term": "ezrah",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:33:37.087Z"
+ },
+ "t2:hatarah": {
+  "kind": "term",
+  "term": "hatarah",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:33:39.745Z"
+ },
+ "t2:hatarah mukdemet": {
+  "kind": "term",
+  "term": "hatarah mukdemet",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:33:40.881Z"
+ },
+ "t2:hatzala": {
+  "kind": "term",
+  "term": "hatzala",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:33:41.976Z"
+ },
+ "t2:hatzalah": {
+  "kind": "term",
+  "term": "hatzalah",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:33:44.282Z"
+ },
+ "t2:ichud hatzalah": {
+  "kind": "term",
+  "term": "ichud hatzalah",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:33:46.669Z"
+ },
+ "t2:kupat holim": {
+  "kind": "term",
+  "term": "kupat holim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:33:47.941Z"
+ },
+ "t2:mada": {
+  "kind": "term",
+  "term": "mada",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:33:51.544Z"
+ },
+ "t2:madregot": {
+  "kind": "term",
+  "term": "madregot",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:33:53.255Z"
+ },
+ "t2:magen david adom": {
+  "kind": "term",
+  "term": "magen david adom",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:33:56.129Z"
+ },
+ "t2:mamak": {
+  "kind": "term",
+  "term": "mamak",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:34:02.827Z"
+ },
+ "t2:matzav cherum": {
+  "kind": "term",
+  "term": "matzav cherum",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:34:04.427Z"
+ },
+ "t2:merhav mugan": {
+  "kind": "term",
+  "term": "merhav mugan",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:34:05.841Z"
+ },
+ "t2:miklat tachton": {
+  "kind": "term",
+  "term": "miklat tachton",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:34:08.334Z"
+ },
+ "t2:miklat tziburi": {
+  "kind": "term",
+  "term": "miklat tziburi",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:34:09.690Z"
+ },
+ "t2:oref": {
+  "kind": "term",
+  "term": "oref",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:34:45.021Z"
+ },
+ "t2:pigu'a": {
+  "kind": "term",
+  "term": "pigu'a",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:34:48.098Z"
+ },
+ "t2:pikud": {
+  "kind": "term",
+  "term": "pikud",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:34:49.781Z"
+ },
+ "t2:pikud haoref": {
+  "kind": "term",
+  "term": "pikud haoref",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:34:50.688Z"
+ },
+ "t2:pinu": {
+  "kind": "term",
+  "term": "pinu",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:34:52.110Z"
+ },
+ "t2:tzeva": {
+  "kind": "term",
+  "term": "tzeva",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:34:53.928Z"
+ },
+ "t2:tzeva adom": {
+  "kind": "term",
+  "term": "tzeva adom",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:34:54.702Z"
+ },
+ "t2:tzfira": {
+  "kind": "term",
+  "term": "tzfira",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:34:55.728Z"
+ },
+ "t2:yedidim": {
+  "kind": "term",
+  "term": "yedidim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:34:57.003Z"
+ },
+ "t2:yeri": {
+  "kind": "term",
+  "term": "yeri",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:35:00.365Z"
+ },
+ "t2:zaka": {
+  "kind": "term",
+  "term": "zaka",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:35:03.548Z"
+ },
+ "t2:alman": {
+  "kind": "term",
+  "term": "alman",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:35:04.762Z"
+ },
+ "t2:almana": {
+  "kind": "term",
+  "term": "almana",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:35:05.465Z"
+ },
+ "t2:bat dod": {
+  "kind": "term",
+  "term": "bat dod",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:35:10.886Z"
+ },
+ "t2:ben dod": {
+  "kind": "term",
+  "term": "ben dod",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:35:11.860Z"
+ },
+ "t2:brit mila": {
+  "kind": "term",
+  "term": "brit mila",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:35:12.799Z"
+ },
+ "t2:chamot": {
+  "kind": "term",
+  "term": "chamot",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:35:14.120Z"
+ },
+ "t2:chatuna": {
+  "kind": "term",
+  "term": "chatuna",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:35:16.264Z"
+ },
+ "t2:dodim": {
+  "kind": "term",
+  "term": "dodim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:35:18.927Z"
+ },
+ "t2:ger": {
+  "kind": "term",
+  "term": "ger",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:35:20.660Z"
+ },
+ "t2:gerushin": {
+  "kind": "term",
+  "term": "gerushin",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:35:22.635Z"
+ },
+ "t2:hesped": {
+  "kind": "term",
+  "term": "hesped",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:35:24.409Z"
+ },
+ "t2:horim": {
+  "kind": "term",
+  "term": "horim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:35:25.939Z"
+ },
+ "t2:kallah": {
+  "kind": "term",
+  "term": "kallah",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:35:29.636Z"
+ },
+ "t2:kevura": {
+  "kind": "term",
+  "term": "kevura",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:35:31.960Z"
+ },
+ "t2:mishpacha": {
+  "kind": "term",
+  "term": "mishpacha",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:35:32.911Z"
+ },
+ "t2:niftar": {
+  "kind": "term",
+  "term": "niftar",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:35:34.201Z"
+ },
+ "t2:nisuin": {
+  "kind": "term",
+  "term": "nisuin",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:35:35.239Z"
+ },
+ "t2:shadchan": {
+  "kind": "term",
+  "term": "shadchan",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:35:36.648Z"
+ },
+ "t2:shalom bayit": {
+  "kind": "term",
+  "term": "shalom bayit",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:35:37.678Z"
+ },
+ "t2:shidduch": {
+  "kind": "term",
+  "term": "shidduch",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:35:38.659Z"
+ },
+ "t2:yichus": {
+  "kind": "term",
+  "term": "yichus",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:35:45.870Z"
+ },
+ "t2:yom huledet": {
+  "kind": "term",
+  "term": "yom huledet",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:35:47.453Z"
+ },
+ "t2:amla": {
+  "kind": "term",
+  "term": "amla",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:35:48.747Z"
+ },
+ "t2:amlaot": {
+  "kind": "term",
+  "term": "amlaot",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:35:50.395Z"
+ },
+ "t2:bituach briut": {
+  "kind": "term",
+  "term": "bituach briut",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:35:51.380Z"
+ },
+ "t2:bituach chaim": {
+  "kind": "term",
+  "term": "bituach chaim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:35:52.068Z"
+ },
+ "t2:bituach chova": {
+  "kind": "term",
+  "term": "bituach chova",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:35:52.739Z"
+ },
+ "t2:bituach makif": {
+  "kind": "term",
+  "term": "bituach makif",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:35:54.628Z"
+ },
+ "t2:bituach nachasim": {
+  "kind": "term",
+  "term": "bituach nachasim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:35:55.587Z"
+ },
+ "t2:bituach tzad gimel": {
+  "kind": "term",
+  "term": "bituach tzad gimel",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:35:56.436Z"
+ },
+ "t2:dmei avtala": {
+  "kind": "term",
+  "term": "dmei avtala",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:35:57.481Z"
+ },
+ "t2:dmei havraa": {
+  "kind": "term",
+  "term": "dmei havraa",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:35:58.179Z"
+ },
+ "t2:dmei leida": {
+  "kind": "term",
+  "term": "dmei leida",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:35:58.998Z"
+ },
+ "t2:dmei machala": {
+  "kind": "term",
+  "term": "dmei machala",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:35:59.718Z"
+ },
+ "t2:dmei nihul": {
+  "kind": "term",
+  "term": "dmei nihul",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:36:00.404Z"
+ },
+ "t2:dmei peilut": {
+  "kind": "term",
+  "term": "dmei peilut",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:36:01.094Z"
+ },
+ "t2:hanacha": {
+  "kind": "term",
+  "term": "hanacha",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:36:04.991Z"
+ },
+ "t2:heshbon chisachon": {
+  "kind": "term",
+  "term": "heshbon chisachon",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:36:06.074Z"
+ },
+ "t2:heshbon ishi": {
+  "kind": "term",
+  "term": "heshbon ishi",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:36:06.867Z"
+ },
+ "t2:heshbon osek": {
+  "kind": "term",
+  "term": "heshbon osek",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:36:07.559Z"
+ },
+ "t2:keren pensia": {
+  "kind": "term",
+  "term": "keren pensia",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:36:08.706Z"
+ },
+ "t2:kitzvat yeladim": {
+  "kind": "term",
+  "term": "kitzvat yeladim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:36:10.569Z"
+ },
+ "t2:kupat gemel": {
+  "kind": "term",
+  "term": "kupat gemel",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:36:11.382Z"
+ },
+ "t2:kupat gemel lehashkaa": {
+  "kind": "term",
+  "term": "kupat gemel lehashkaa",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:36:12.431Z"
+ },
+ "t2:kupat pensia": {
+  "kind": "term",
+  "term": "kupat pensia",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:36:13.211Z"
+ },
+ "t2:mas briut": {
+  "kind": "term",
+  "term": "mas briut",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:36:14.047Z"
+ },
+ "t2:nekudot zikui": {
+  "kind": "term",
+  "term": "nekudot zikui",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:36:14.902Z"
+ },
+ "t2:pikadon": {
+  "kind": "term",
+  "term": "pikadon",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:36:15.654Z"
+ },
+ "t2:polisa": {
+  "kind": "term",
+  "term": "polisa",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:36:18.182Z"
+ },
+ "t2:ptur mas": {
+  "kind": "term",
+  "term": "ptur mas",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:39:45.378Z"
+ },
+ "t2:ribit lo tzmuda": {
+  "kind": "term",
+  "term": "ribit lo tzmuda",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:39:47.741Z"
+ },
+ "t2:ribit tzmuda": {
+  "kind": "term",
+  "term": "ribit tzmuda",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:39:48.712Z"
+ },
+ "t2:tofes": {
+  "kind": "term",
+  "term": "tofes",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:39:50.011Z"
+ },
+ "t2:tvia": {
+  "kind": "term",
+  "term": "tvia",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:39:51.500Z"
+ },
+ "t2:zikui mas": {
+  "kind": "term",
+  "term": "zikui mas",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:39:52.537Z"
+ },
+ "t2:beytza": {
+  "kind": "term",
+  "term": "beytza",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:39:54.026Z"
+ },
+ "t2:chamin": {
+  "kind": "term",
+  "term": "chamin",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:39:56.554Z"
+ },
+ "t2:chavita": {
+  "kind": "term",
+  "term": "chavita",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:39:57.971Z"
+ },
+ "t2:gvina levana": {
+  "kind": "term",
+  "term": "gvina levana",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:39:59.084Z"
+ },
+ "t2:konditoria": {
+  "kind": "term",
+  "term": "konditoria",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:40:01.918Z"
+ },
+ "t2:kotej": {
+  "kind": "term",
+  "term": "kotej",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:40:03.427Z"
+ },
+ "t2:kubbeh": {
+  "kind": "term",
+  "term": "kubbeh",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:40:04.965Z"
+ },
+ "t2:lachmaniyot": {
+  "kind": "term",
+  "term": "lachmaniyot",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:08.526Z"
+ },
+ "t2:laffa": {
+  "kind": "term",
+  "term": "laffa",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:40:11.187Z"
+ },
+ "t2:ma'afe": {
+  "kind": "term",
+  "term": "ma'afe",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:40:12.468Z"
+ },
+ "t2:maafiya": {
+  "kind": "term",
+  "term": "maafiya",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:15.372Z"
+ },
+ "t2:masabacha": {
+  "kind": "term",
+  "term": "masabacha",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:40:16.781Z"
+ },
+ "t2:meurav yerushalmi": {
+  "kind": "term",
+  "term": "meurav yerushalmi",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:18.754Z"
+ },
+ "t2:odef": {
+  "kind": "term",
+  "term": "odef",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:40:20.187Z"
+ },
+ "t2:pashtida": {
+  "kind": "term",
+  "term": "pashtida",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:40:21.129Z"
+ },
+ "t2:sahlab": {
+  "kind": "term",
+  "term": "sahlab",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:40:22.759Z"
+ },
+ "t2:shamenet": {
+  "kind": "term",
+  "term": "shamenet",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:26.244Z"
+ },
+ "t2:shipud": {
+  "kind": "term",
+  "term": "shipud",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:27.413Z"
+ },
+ "t2:tzarchania": {
+  "kind": "term",
+  "term": "tzarchania",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:29.601Z"
+ },
+ "t2:tzonit": {
+  "kind": "term",
+  "term": "tzonit",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:30.460Z"
+ },
+ "t2:beit din": {
+  "kind": "term",
+  "term": "beit din",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:32.194Z"
+ },
+ "t2:beit mishpat": {
+  "kind": "term",
+  "term": "beit mishpat",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:33.110Z"
+ },
+ "t2:lishkat ta'asuka": {
+  "kind": "term",
+  "term": "lishkat ta'asuka",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:34.938Z"
+ },
+ "t2:magav": {
+  "kind": "term",
+  "term": "magav",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:36.360Z"
+ },
+ "t2:meches": {
+  "kind": "term",
+  "term": "meches",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:37.240Z"
+ },
+ "t2:mishtara": {
+  "kind": "term",
+  "term": "mishtara",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:38.180Z"
+ },
+ "t2:misrad ha'aliyah": {
+  "kind": "term",
+  "term": "misrad ha'aliyah",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:39.344Z"
+ },
+ "t2:misrad ha'avoda": {
+  "kind": "term",
+  "term": "misrad ha'avoda",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:40.293Z"
+ },
+ "t2:misrad ha'energiya": {
+  "kind": "term",
+  "term": "misrad ha'energiya",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:40.991Z"
+ },
+ "t2:misrad ha'otzar": {
+  "kind": "term",
+  "term": "misrad ha'otzar",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:41.680Z"
+ },
+ "t2:misrad habitachon": {
+  "kind": "term",
+  "term": "misrad habitachon",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:42.390Z"
+ },
+ "t2:misrad habriut": {
+  "kind": "term",
+  "term": "misrad habriut",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:43.124Z"
+ },
+ "t2:misrad hachaklaut": {
+  "kind": "term",
+  "term": "misrad hachaklaut",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:46.073Z"
+ },
+ "t2:misrad hachinuch": {
+  "kind": "term",
+  "term": "misrad hachinuch",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:46.778Z"
+ },
+ "t2:misrad hachutz": {
+  "kind": "term",
+  "term": "misrad hachutz",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:47.365Z"
+ },
+ "t2:misrad hadatot": {
+  "kind": "term",
+  "term": "misrad hadatot",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:48.089Z"
+ },
+ "t2:misrad hakalkala": {
+  "kind": "term",
+  "term": "misrad hakalkala",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:48.991Z"
+ },
+ "t2:misrad hamada": {
+  "kind": "term",
+  "term": "misrad hamada",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:49.670Z"
+ },
+ "t2:misrad hamishpatim": {
+  "kind": "term",
+  "term": "misrad hamishpatim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:50.376Z"
+ },
+ "t2:misrad harevacha": {
+  "kind": "term",
+  "term": "misrad harevacha",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:51.069Z"
+ },
+ "t2:misrad hashikun": {
+  "kind": "term",
+  "term": "misrad hashikun",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:51.697Z"
+ },
+ "t2:misrad hasport": {
+  "kind": "term",
+  "term": "misrad hasport",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:52.354Z"
+ },
+ "t2:misrad hasviva": {
+  "kind": "term",
+  "term": "misrad hasviva",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:53.031Z"
+ },
+ "t2:misrad hatachbura": {
+  "kind": "term",
+  "term": "misrad hatachbura",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:53.668Z"
+ },
+ "t2:misrad hatarbut": {
+  "kind": "term",
+  "term": "misrad hatarbut",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:54.247Z"
+ },
+ "t2:misrad hatayarut": {
+  "kind": "term",
+  "term": "misrad hatayarut",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:54.831Z"
+ },
+ "t2:pikud ha'oref": {
+  "kind": "term",
+  "term": "pikud ha'oref",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:56.112Z"
+ },
+ "t2:rabanut": {
+  "kind": "term",
+  "term": "rabanut",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:57.168Z"
+ },
+ "t2:rashut ha'atikot": {
+  "kind": "term",
+  "term": "rashut ha'atikot",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:58.364Z"
+ },
+ "t2:rashut hachashmal": {
+  "kind": "term",
+  "term": "rashut hachashmal",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:40:59.193Z"
+ },
+ "t2:rashut hadarachim": {
+  "kind": "term",
+  "term": "rashut hadarachim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:00.103Z"
+ },
+ "t2:rashut hamayim": {
+  "kind": "term",
+  "term": "rashut hamayim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:00.837Z"
+ },
+ "t2:rashut hamisim": {
+  "kind": "term",
+  "term": "rashut hamisim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:01.562Z"
+ },
+ "t2:rashut hanamalim": {
+  "kind": "term",
+  "term": "rashut hanamalim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:02.219Z"
+ },
+ "t2:rashut hashiddur": {
+  "kind": "term",
+  "term": "rashut hashiddur",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:03.236Z"
+ },
+ "t2:rashut hateufa": {
+  "kind": "term",
+  "term": "rashut hateufa",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:03.879Z"
+ },
+ "t2:rashut hateva vehaganim": {
+  "kind": "term",
+  "term": "rashut hateva vehaganim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:06.168Z"
+ },
+ "t2:rashut lehaganat hatzarchan": {
+  "kind": "term",
+  "term": "rashut lehaganat hatzarchan",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:07.276Z"
+ },
+ "t2:shabak": {
+  "kind": "term",
+  "term": "shabak",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:08.573Z"
+ },
+ "t2:ba'al bayit": {
+  "kind": "term",
+  "term": "ba'al bayit",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:09.927Z"
+ },
+ "t2:bet din": {
+  "kind": "term",
+  "term": "bet din",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:10.801Z"
+ },
+ "t2:darkon": {
+  "kind": "term",
+  "term": "darkon",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:11.643Z"
+ },
+ "t2:diyur": {
+  "kind": "term",
+  "term": "diyur",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:12.797Z"
+ },
+ "t2:ezrach": {
+  "kind": "term",
+  "term": "ezrach",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:15.276Z"
+ },
+ "t2:harshama": {
+  "kind": "term",
+  "term": "harshama",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:16.176Z"
+ },
+ "t2:histaglut": {
+  "kind": "term",
+  "term": "histaglut",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:17.213Z"
+ },
+ "t2:iriyah": {
+  "kind": "term",
+  "term": "iriyah",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:17.846Z"
+ },
+ "t2:kitzbat yeladim": {
+  "kind": "term",
+  "term": "kitzbat yeladim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:18.974Z"
+ },
+ "t2:klita": {
+  "kind": "term",
+  "term": "klita",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:19.760Z"
+ },
+ "t2:matnas": {
+  "kind": "term",
+  "term": "matnas",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:41:22.508Z"
+ },
+ "t2:merkaz klita": {
+  "kind": "term",
+  "term": "merkaz klita",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:24.164Z"
+ },
+ "t2:misrad": {
+  "kind": "term",
+  "term": "misrad",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:25.558Z"
+ },
+ "t2:oleh chadash": {
+  "kind": "term",
+  "term": "oleh chadash",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:26.496Z"
+ },
+ "t2:rabbanut": {
+  "kind": "term",
+  "term": "rabbanut",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:27.379Z"
+ },
+ "t2:rishum": {
+  "kind": "term",
+  "term": "rishum",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:28.322Z"
+ },
+ "t2:sal klita": {
+  "kind": "term",
+  "term": "sal klita",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:29.121Z"
+ },
+ "t2:teudat ma'avar": {
+  "kind": "term",
+  "term": "teudat ma'avar",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:30.019Z"
+ },
+ "t2:toshav": {
+  "kind": "term",
+  "term": "toshav",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:30.823Z"
+ },
+ "t2:vatik": {
+  "kind": "term",
+  "term": "vatik",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:31.556Z"
+ },
+ "t2:apotropos": {
+  "kind": "term",
+  "term": "apotropos",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:35.021Z"
+ },
+ "t2:arev": {
+  "kind": "term",
+  "term": "arev",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:41:36.766Z"
+ },
+ "t2:arvut": {
+  "kind": "term",
+  "term": "arvut",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:38.902Z"
+ },
+ "t2:borerut": {
+  "kind": "term",
+  "term": "borerut",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:39.843Z"
+ },
+ "t2:chalitza": {
+  "kind": "term",
+  "term": "chalitza",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:40.650Z"
+ },
+ "t2:dayan": {
+  "kind": "term",
+  "term": "dayan",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:41.473Z"
+ },
+ "t2:dmei nezek": {
+  "kind": "term",
+  "term": "dmei nezek",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:42.903Z"
+ },
+ "t2:dmei tza'ar": {
+  "kind": "term",
+  "term": "dmei tza'ar",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:43.684Z"
+ },
+ "t2:ed": {
+  "kind": "term",
+  "term": "ed",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:41:46.414Z"
+ },
+ "t2:edut": {
+  "kind": "term",
+  "term": "edut",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:48.792Z"
+ },
+ "t2:halva'ah": {
+  "kind": "term",
+  "term": "halva'ah",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:49.700Z"
+ },
+ "t2:kofer": {
+  "kind": "term",
+  "term": "kofer",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:53.750Z"
+ },
+ "t2:mamzer": {
+  "kind": "term",
+  "term": "mamzer",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:41:54.877Z"
+ },
+ "t2:mashkon": {
+  "kind": "term",
+  "term": "mashkon",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:01.638Z"
+ },
+ "t2:mechira": {
+  "kind": "term",
+  "term": "mechira",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:02.602Z"
+ },
+ "t2:nezek": {
+  "kind": "term",
+  "term": "nezek",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:03.617Z"
+ },
+ "t2:nitva": {
+  "kind": "term",
+  "term": "nitva",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:04.327Z"
+ },
+ "t2:ones": {
+  "kind": "term",
+  "term": "ones",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:05.631Z"
+ },
+ "t2:pidyon": {
+  "kind": "term",
+  "term": "pidyon",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:06.501Z"
+ },
+ "t2:pitzuyim": {
+  "kind": "term",
+  "term": "pitzuyim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:07.180Z"
+ },
+ "t2:praklit": {
+  "kind": "term",
+  "term": "praklit",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:08.664Z"
+ },
+ "t2:psak din": {
+  "kind": "term",
+  "term": "psak din",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:09.435Z"
+ },
+ "t2:shofet": {
+  "kind": "term",
+  "term": "shofet",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:10.142Z"
+ },
+ "t2:shtar": {
+  "kind": "term",
+  "term": "shtar",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:11.094Z"
+ },
+ "t2:shtar chov": {
+  "kind": "term",
+  "term": "shtar chov",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:11.692Z"
+ },
+ "t2:shtar halva'ah": {
+  "kind": "term",
+  "term": "shtar halva'ah",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:12.558Z"
+ },
+ "t2:shtar matana": {
+  "kind": "term",
+  "term": "shtar matana",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:13.233Z"
+ },
+ "t2:shtar mechira": {
+  "kind": "term",
+  "term": "shtar mechira",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:13.820Z"
+ },
+ "t2:shtar shituf": {
+  "kind": "term",
+  "term": "shtar shituf",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:14.593Z"
+ },
+ "t2:shtar yerusha": {
+  "kind": "term",
+  "term": "shtar yerusha",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:15.116Z"
+ },
+ "t2:shvu'a": {
+  "kind": "term",
+  "term": "shvu'a",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:15.759Z"
+ },
+ "t2:tna'im": {
+  "kind": "term",
+  "term": "tna'im",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:16.349Z"
+ },
+ "t2:tove'a": {
+  "kind": "term",
+  "term": "tove'a",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:16.972Z"
+ },
+ "t2:tzava'ah": {
+  "kind": "term",
+  "term": "tzava'ah",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:17.673Z"
+ },
+ "t2:yerusha": {
+  "kind": "term",
+  "term": "yerusha",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:18.203Z"
+ },
+ "t2:yibum": {
+  "kind": "term",
+  "term": "yibum",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:18.752Z"
+ },
+ "t2:al ha'esh": {
+  "kind": "term",
+  "term": "al ha'esh",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:20.277Z"
+ },
+ "t2:artik": {
+  "kind": "term",
+  "term": "artik",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:42:24.439Z"
+ },
+ "t2:beit kafe": {
+  "kind": "term",
+  "term": "beit kafe",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:25.768Z"
+ },
+ "t2:breicha": {
+  "kind": "term",
+  "term": "breicha",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:26.592Z"
+ },
+ "t2:chof": {
+  "kind": "term",
+  "term": "chof",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:27.608Z"
+ },
+ "t2:deshe": {
+  "kind": "term",
+  "term": "deshe",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:42:28.586Z"
+ },
+ "t2:etz": {
+  "kind": "term",
+  "term": "etz",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:42:31.077Z"
+ },
+ "t2:glida": {
+  "kind": "term",
+  "term": "glida",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:31.791Z"
+ },
+ "t2:maayan": {
+  "kind": "term",
+  "term": "maayan",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:32.453Z"
+ },
+ "t2:machane": {
+  "kind": "term",
+  "term": "machane",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:33.128Z"
+ },
+ "t2:mangal": {
+  "kind": "term",
+  "term": "mangal",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:33.941Z"
+ },
+ "t2:matar": {
+  "kind": "term",
+  "term": "matar",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:42:35.563Z"
+ },
+ "t2:matzpen": {
+  "kind": "term",
+  "term": "matzpen",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:42:36.787Z"
+ },
+ "t2:misada": {
+  "kind": "term",
+  "term": "misada",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:37.712Z"
+ },
+ "t2:mitriya": {
+  "kind": "term",
+  "term": "mitriya",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:38.669Z"
+ },
+ "t2:mo'adon": {
+  "kind": "term",
+  "term": "mo'adon",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:39.414Z"
+ },
+ "t2:nachal": {
+  "kind": "term",
+  "term": "nachal",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:40.186Z"
+ },
+ "t2:ohel": {
+  "kind": "term",
+  "term": "ohel",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:42.321Z"
+ },
+ "t2:perach": {
+  "kind": "term",
+  "term": "perach",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:44.566Z"
+ },
+ "t2:pundak": {
+  "kind": "term",
+  "term": "pundak",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:45.745Z"
+ },
+ "t2:rikud": {
+  "kind": "term",
+  "term": "rikud",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:46.605Z"
+ },
+ "t2:seret": {
+  "kind": "term",
+  "term": "seret",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:48.051Z"
+ },
+ "t2:shira": {
+  "kind": "term",
+  "term": "shira",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:48.974Z"
+ },
+ "t2:shvil": {
+  "kind": "term",
+  "term": "shvil",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:49.808Z"
+ },
+ "t2:sira": {
+  "kind": "term",
+  "term": "sira",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:42:51.048Z"
+ },
+ "t2:tiyul": {
+  "kind": "term",
+  "term": "tiyul",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:51.761Z"
+ },
+ "t2:tzalchit": {
+  "kind": "term",
+  "term": "tzalchit",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:42:53.353Z"
+ },
+ "t2:tzila": {
+  "kind": "term",
+  "term": "tzila",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:54.551Z"
+ },
+ "t2:yam": {
+  "kind": "term",
+  "term": "yam",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:55.451Z"
+ },
+ "t2:aluf": {
+  "kind": "term",
+  "term": "aluf",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:56.278Z"
+ },
+ "t2:chayal": {
+  "kind": "term",
+  "term": "chayal",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:56.908Z"
+ },
+ "t2:chova": {
+  "kind": "term",
+  "term": "chova",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:57.474Z"
+ },
+ "t2:gdud": {
+  "kind": "term",
+  "term": "gdud",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:58.440Z"
+ },
+ "t2:gibush": {
+  "kind": "term",
+  "term": "gibush",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:59.233Z"
+ },
+ "t2:giyus": {
+  "kind": "term",
+  "term": "giyus",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:42:59.924Z"
+ },
+ "t2:hativa": {
+  "kind": "term",
+  "term": "hativa",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:43:00.955Z"
+ },
+ "t2:jobnik": {
+  "kind": "term",
+  "term": "jobnik",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:43:02.929Z"
+ },
+ "t2:katzin": {
+  "kind": "term",
+  "term": "katzin",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:43:04.146Z"
+ },
+ "t2:keva": {
+  "kind": "term",
+  "term": "keva",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:43:11.396Z"
+ },
+ "t2:kravi": {
+  "kind": "term",
+  "term": "kravi",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:43:12.605Z"
+ },
+ "t2:lohem": {
+  "kind": "term",
+  "term": "lohem",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:43:20.738Z"
+ },
+ "t2:machlaka": {
+  "kind": "term",
+  "term": "machlaka",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:43:24.032Z"
+ },
+ "t2:mefaked": {
+  "kind": "term",
+  "term": "mefaked",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:43:25.134Z"
+ },
+ "t2:miluimnik": {
+  "kind": "term",
+  "term": "miluimnik",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:43:32.867Z"
+ },
+ "t2:palsar": {
+  "kind": "term",
+  "term": "palsar",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:43:34.077Z"
+ },
+ "t2:plugah": {
+  "kind": "term",
+  "term": "plugah",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:43:35.519Z"
+ },
+ "t2:profil": {
+  "kind": "term",
+  "term": "profil",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:43:37.411Z"
+ },
+ "t2:ptor": {
+  "kind": "term",
+  "term": "ptor",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:43:38.469Z"
+ },
+ "t2:rav aluf": {
+  "kind": "term",
+  "term": "rav aluf",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:43:40.702Z"
+ },
+ "t2:rav samal": {
+  "kind": "term",
+  "term": "rav samal",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:43:41.733Z"
+ },
+ "t2:rav seren": {
+  "kind": "term",
+  "term": "rav seren",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:44:35.273Z"
+ },
+ "t2:samal": {
+  "kind": "term",
+  "term": "samal",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:44:37.329Z"
+ },
+ "t2:sayeret": {
+  "kind": "term",
+  "term": "sayeret",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:44:38.399Z"
+ },
+ "t2:segen": {
+  "kind": "term",
+  "term": "segen",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:44:43.194Z"
+ },
+ "t2:seren": {
+  "kind": "term",
+  "term": "seren",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:44:44.904Z"
+ },
+ "t2:sgan aluf": {
+  "kind": "term",
+  "term": "sgan aluf",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:44:46.973Z"
+ },
+ "t2:shalish": {
+  "kind": "term",
+  "term": "shalish",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:46:19.533Z"
+ },
+ "t2:sherut chova": {
+  "kind": "term",
+  "term": "sherut chova",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:46:20.759Z"
+ },
+ "t2:sherut keva": {
+  "kind": "term",
+  "term": "sherut keva",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:46:21.659Z"
+ },
+ "t2:sherut miluim": {
+  "kind": "term",
+  "term": "sherut miluim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:46:25.490Z"
+ },
+ "t2:tat aluf": {
+  "kind": "term",
+  "term": "tat aluf",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:46:30.386Z"
+ },
+ "t2:tiron": {
+  "kind": "term",
+  "term": "tiron",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:46:32.715Z"
+ },
+ "t2:tironut": {
+  "kind": "term",
+  "term": "tironut",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:46:33.376Z"
+ },
+ "t2:tzanhanim": {
+  "kind": "term",
+  "term": "tzanhanim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:46:34.184Z"
+ },
+ "t2:tzav": {
+  "kind": "term",
+  "term": "tzav",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:47:03.062Z"
+ },
+ "t2:tzav giyus": {
+  "kind": "term",
+  "term": "tzav giyus",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:47:06.112Z"
+ },
+ "t2:tzav miluim": {
+  "kind": "term",
+  "term": "tzav miluim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:47:06.954Z"
+ },
+ "t2:tzav rishon": {
+  "kind": "term",
+  "term": "tzav rishon",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:47:07.576Z"
+ },
+ "t2:tzava": {
+  "kind": "term",
+  "term": "tzava",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:47:11.015Z"
+ },
+ "t2:tzevet": {
+  "kind": "term",
+  "term": "tzevet",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:47:11.970Z"
+ },
+ "t2:ashpa": {
+  "kind": "term",
+  "term": "ashpa",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:47:13.590Z"
+ },
+ "t2:do'ach": {
+  "kind": "term",
+  "term": "do'ach",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:47:26.949Z"
+ },
+ "t2:gina": {
+  "kind": "term",
+  "term": "gina",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:47:27.854Z"
+ },
+ "t2:heter": {
+  "kind": "term",
+  "term": "heter",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:47:44.748Z"
+ },
+ "t2:ma'on": {
+  "kind": "term",
+  "term": "ma'on",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:47:45.786Z"
+ },
+ "t2:mihzur": {
+  "kind": "term",
+  "term": "mihzur",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:47:48.540Z"
+ },
+ "t2:minhal": {
+  "kind": "term",
+  "term": "minhal",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:47:49.674Z"
+ },
+ "t2:ptur": {
+  "kind": "term",
+  "term": "ptur",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:47:51.828Z"
+ },
+ "t2:rishayon iski": {
+  "kind": "term",
+  "term": "rishayon iski",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:48:14.598Z"
+ },
+ "t2:shachen": {
+  "kind": "term",
+  "term": "shachen",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:48:16.093Z"
+ },
+ "t2:shchenim": {
+  "kind": "term",
+  "term": "shchenim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:48:18.900Z"
+ },
+ "t2:shkhuna": {
+  "kind": "term",
+  "term": "shkhuna",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:48:23.601Z"
+ },
+ "t2:tihur": {
+  "kind": "term",
+  "term": "tihur",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:48:25.014Z"
+ },
+ "t2:tik": {
+  "kind": "term",
+  "term": "tik",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:48:27.001Z"
+ },
+ "t2:tluna": {
+  "kind": "term",
+  "term": "tluna",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:48:28.057Z"
+ },
+ "t2:tochnit": {
+  "kind": "term",
+  "term": "tochnit",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:48:28.864Z"
+ },
+ "t2:va'ad mekomi": {
+  "kind": "term",
+  "term": "va'ad mekomi",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:48:35.086Z"
+ },
+ "t2:bdikot": {
+  "kind": "term",
+  "term": "bdikot",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:48:36.258Z"
+ },
+ "t2:beit merkachat": {
+  "kind": "term",
+  "term": "beit merkachat",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:48:37.215Z"
+ },
+ "t2:bituach": {
+  "kind": "term",
+  "term": "bituach",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:48:38.049Z"
+ },
+ "t2:bituach refui": {
+  "kind": "term",
+  "term": "bituach refui",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:48:38.741Z"
+ },
+ "t2:doar beinleumi": {
+  "kind": "term",
+  "term": "doar beinleumi",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:48:39.560Z"
+ },
+ "t2:doar mahir": {
+  "kind": "term",
+  "term": "doar mahir",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:48:40.110Z"
+ },
+ "t2:doar rishum": {
+  "kind": "term",
+  "term": "doar rishum",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:48:40.698Z"
+ },
+ "t2:hafnaya": {
+  "kind": "term",
+  "term": "hafnaya",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:48:41.392Z"
+ },
+ "t2:merkachat": {
+  "kind": "term",
+  "term": "merkachat",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:48:42.352Z"
+ },
+ "t2:michtav": {
+  "kind": "term",
+  "term": "michtav",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:48:42.879Z"
+ },
+ "t2:mikud": {
+  "kind": "term",
+  "term": "mikud",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:48:43.521Z"
+ },
+ "t2:mirsham chozer": {
+  "kind": "term",
+  "term": "mirsham chozer",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:48:44.446Z"
+ },
+ "t2:mishloach": {
+  "kind": "term",
+  "term": "mishloach",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:48:45.264Z"
+ },
+ "t2:misrad hadoar": {
+  "kind": "term",
+  "term": "misrad hadoar",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:48:46.598Z"
+ },
+ "t2:rofe": {
+  "kind": "term",
+  "term": "rofe",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:48:54.731Z"
+ },
+ "t2:rofe mishpacha": {
+  "kind": "term",
+  "term": "rofe mishpacha",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:49:01.510Z"
+ },
+ "t2:shaliach": {
+  "kind": "term",
+  "term": "shaliach",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:49:05.513Z"
+ },
+ "t2:torim": {
+  "kind": "term",
+  "term": "torim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:49:06.470Z"
+ },
+ "t2:adrichal": {
+  "kind": "term",
+  "term": "adrichal",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:49:12.362Z"
+ },
+ "t2:baal bayit": {
+  "kind": "term",
+  "term": "baal bayit",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:49:15.513Z"
+ },
+ "t2:baalut": {
+  "kind": "term",
+  "term": "baalut",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:49:16.285Z"
+ },
+ "t2:binyan": {
+  "kind": "term",
+  "term": "binyan",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:49:16.818Z"
+ },
+ "t2:chatzer": {
+  "kind": "term",
+  "term": "chatzer",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:49:17.479Z"
+ },
+ "t2:chelka": {
+  "kind": "term",
+  "term": "chelka",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:49:18.016Z"
+ },
+ "t2:choze": {
+  "kind": "term",
+  "term": "choze",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:49:18.571Z"
+ },
+ "t2:choze sechirut": {
+  "kind": "term",
+  "term": "choze sechirut",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:49:19.272Z"
+ },
+ "t2:dmei sechirut": {
+  "kind": "term",
+  "term": "dmei sechirut",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:49:20.066Z"
+ },
+ "t2:gush": {
+  "kind": "term",
+  "term": "gush",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:49:26.102Z"
+ },
+ "t2:hatzaa": {
+  "kind": "term",
+  "term": "hatzaa",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:49:27.128Z"
+ },
+ "t2:heter bniya": {
+  "kind": "term",
+  "term": "heter bniya",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:49:28.039Z"
+ },
+ "t2:kablan": {
+  "kind": "term",
+  "term": "kablan",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:49:28.859Z"
+ },
+ "t2:karka": {
+  "kind": "term",
+  "term": "karka",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:49:29.496Z"
+ },
+ "t2:koma": {
+  "kind": "term",
+  "term": "koma",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:49:30.081Z"
+ },
+ "t2:ma'alit": {
+  "kind": "term",
+  "term": "ma'alit",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:49:30.807Z"
+ },
+ "t2:maskir": {
+  "kind": "term",
+  "term": "maskir",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:49:31.465Z"
+ },
+ "t2:mechir lamishtaken": {
+  "kind": "term",
+  "term": "mechir lamishtaken",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:49:32.405Z"
+ },
+ "t2:metavech": {
+  "kind": "term",
+  "term": "metavech",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:49:33.057Z"
+ },
+ "t2:nadlan": {
+  "kind": "term",
+  "term": "nadlan",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:49:35.961Z"
+ },
+ "t2:pinui binui": {
+  "kind": "term",
+  "term": "pinui binui",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:49:36.707Z"
+ },
+ "t2:sechirut": {
+  "kind": "term",
+  "term": "sechirut",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:49:38.111Z"
+ },
+ "t2:shamai": {
+  "kind": "term",
+  "term": "shamai",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:49:38.900Z"
+ },
+ "t2:shchunah": {
+  "kind": "term",
+  "term": "shchunah",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:49:39.683Z"
+ },
+ "t2:shikun": {
+  "kind": "term",
+  "term": "shikun",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:49:42.538Z"
+ },
+ "t2:socher": {
+  "kind": "term",
+  "term": "socher",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:49:44.094Z"
+ },
+ "t2:agunah": {
+  "kind": "term",
+  "term": "agunah",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:49:49.875Z"
+ },
+ "t2:amidah": {
+  "kind": "term",
+  "term": "amidah",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:49:51.402Z"
+ },
+ "t2:aron kodesh": {
+  "kind": "term",
+  "term": "aron kodesh",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:50:29.918Z"
+ },
+ "t2:bedeken": {
+  "kind": "term",
+  "term": "bedeken",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:50:34.827Z"
+ },
+ "t2:birkat hamazon": {
+  "kind": "term",
+  "term": "birkat hamazon",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:50:36.954Z"
+ },
+ "t2:chalitzah": {
+  "kind": "term",
+  "term": "chalitzah",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:50:37.826Z"
+ },
+ "t2:chuppah": {
+  "kind": "term",
+  "term": "chuppah",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:50:40.501Z"
+ },
+ "t2:giyur": {
+  "kind": "term",
+  "term": "giyur",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:50:41.365Z"
+ },
+ "t2:hanukkiah": {
+  "kind": "term",
+  "term": "hanukkiah",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:50:45.502Z"
+ },
+ "t2:kaparot": {
+  "kind": "term",
+  "term": "kaparot",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:50:47.751Z"
+ },
+ "t2:ketubah": {
+  "kind": "term",
+  "term": "ketubah",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:50:48.505Z"
+ },
+ "t2:kever": {
+  "kind": "term",
+  "term": "kever",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:50:49.297Z"
+ },
+ "t2:kiddushin": {
+  "kind": "term",
+  "term": "kiddushin",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:50:51.147Z"
+ },
+ "t2:machzor": {
+  "kind": "term",
+  "term": "machzor",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:50:53.150Z"
+ },
+ "t2:mohel": {
+  "kind": "term",
+  "term": "mohel",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:50:54.067Z"
+ },
+ "t2:netilat yadayim": {
+  "kind": "term",
+  "term": "netilat yadayim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:50:54.874Z"
+ },
+ "t2:sandak": {
+  "kind": "term",
+  "term": "sandak",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:50:55.934Z"
+ },
+ "t2:shalom zachar": {
+  "kind": "term",
+  "term": "shalom zachar",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:50:56.673Z"
+ },
+ "t2:siddur": {
+  "kind": "term",
+  "term": "siddur",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:50:57.331Z"
+ },
+ "t2:tashlich": {
+  "kind": "term",
+  "term": "tashlich",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:50:57.909Z"
+ },
+ "t2:yichud": {
+  "kind": "term",
+  "term": "yichud",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:50:58.552Z"
+ },
+ "t2:zeved habat": {
+  "kind": "term",
+  "term": "zeved habat",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:50:59.557Z"
+ },
+ "t2:agala": {
+  "kind": "term",
+  "term": "agala",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:51:00.747Z"
+ },
+ "t2:agorot": {
+  "kind": "term",
+  "term": "agorot",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:51:01.368Z"
+ },
+ "t2:barkod": {
+  "kind": "term",
+  "term": "barkod",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:51:03.423Z"
+ },
+ "t2:chanut": {
+  "kind": "term",
+  "term": "chanut",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:51:04.459Z"
+ },
+ "t2:dukan": {
+  "kind": "term",
+  "term": "dukan",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:51:06.137Z"
+ },
+ "t2:hamashbir lazarchan": {
+  "kind": "term",
+  "term": "hamashbir lazarchan",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:51:07.352Z"
+ },
+ "t2:hanachot": {
+  "kind": "term",
+  "term": "hanachot",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:51:08.198Z"
+ },
+ "t2:hashbonit": {
+  "kind": "term",
+  "term": "hashbonit",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:51:09.146Z"
+ },
+ "t2:hazi hinam": {
+  "kind": "term",
+  "term": "hazi hinam",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:51:12.322Z"
+ },
+ "t2:kartis debit": {
+  "kind": "term",
+  "term": "kartis debit",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:51:16.510Z"
+ },
+ "t2:kenyon": {
+  "kind": "term",
+  "term": "kenyon",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:51:17.578Z"
+ },
+ "t2:kesef": {
+  "kind": "term",
+  "term": "kesef",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:51:18.467Z"
+ },
+ "t2:kimat hinam": {
+  "kind": "term",
+  "term": "kimat hinam",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:51:20.352Z"
+ },
+ "t2:kniya": {
+  "kind": "term",
+  "term": "kniya",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:51:21.176Z"
+ },
+ "t2:kniyot": {
+  "kind": "term",
+  "term": "kniyot",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:51:21.787Z"
+ },
+ "t2:kupa express": {
+  "kind": "term",
+  "term": "kupa express",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:51:23.033Z"
+ },
+ "t2:kupa otomatit": {
+  "kind": "term",
+  "term": "kupa otomatit",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:51:25.583Z"
+ },
+ "t2:mecher": {
+  "kind": "term",
+  "term": "mecher",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:51:27.019Z"
+ },
+ "t2:mechiron": {
+  "kind": "term",
+  "term": "mechiron",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:51:27.815Z"
+ },
+ "t2:merkaz kniyot": {
+  "kind": "term",
+  "term": "merkaz kniyot",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:51:28.751Z"
+ },
+ "t2:mezuman": {
+  "kind": "term",
+  "term": "mezuman",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:51:30.787Z"
+ },
+ "t2:mivtza": {
+  "kind": "term",
+  "term": "mivtza",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:51:37.606Z"
+ },
+ "t2:odeff": {
+  "kind": "term",
+  "term": "odeff",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:51:40.843Z"
+ },
+ "t2:sal": {
+  "kind": "term",
+  "term": "sal",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:51:44.277Z"
+ },
+ "t2:shefa shuk": {
+  "kind": "term",
+  "term": "shefa shuk",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:51:46.675Z"
+ },
+ "t2:shuk hayir": {
+  "kind": "term",
+  "term": "shuk hayir",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:51:48.164Z"
+ },
+ "t2:tashlum": {
+  "kind": "term",
+  "term": "tashlum",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:51:48.971Z"
+ },
+ "t2:tashlumim": {
+  "kind": "term",
+  "term": "tashlumim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:51:49.535Z"
+ },
+ "t2:zol po": {
+  "kind": "term",
+  "term": "zol po",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:51:51.012Z"
+ },
+ "t2:atar": {
+  "kind": "term",
+  "term": "atar",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:51:52.047Z"
+ },
+ "t2:atarim": {
+  "kind": "term",
+  "term": "atarim",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:51:52.936Z"
+ },
+ "t2:bezeq": {
+  "kind": "term",
+  "term": "bezeq",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:51:55.453Z"
+ },
+ "t2:chavila": {
+  "kind": "term",
+  "term": "chavila",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:51:56.456Z"
+ },
+ "t2:chibur": {
+  "kind": "term",
+  "term": "chibur",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:51:57.425Z"
+ },
+ "t2:dakot": {
+  "kind": "term",
+  "term": "dakot",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:51:58.788Z"
+ },
+ "t2:gisha": {
+  "kind": "term",
+  "term": "gisha",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:51:59.837Z"
+ },
+ "t2:hitkashrut": {
+  "kind": "term",
+  "term": "hitkashrut",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:52:01.207Z"
+ },
+ "t2:kartis sim": {
+  "kind": "term",
+  "term": "kartis sim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:52:03.660Z"
+ },
+ "t2:kartis zikaron": {
+  "kind": "term",
+  "term": "kartis zikaron",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:52:05.321Z"
+ },
+ "t2:kav kavvi": {
+  "kind": "term",
+  "term": "kav kavvi",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:52:06.934Z"
+ },
+ "t2:kav nayad": {
+  "kind": "term",
+  "term": "kav nayad",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:52:07.692Z"
+ },
+ "t2:kishur": {
+  "kind": "term",
+  "term": "kishur",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:52:08.534Z"
+ },
+ "t2:kod ezor": {
+  "kind": "term",
+  "term": "kod ezor",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:52:09.638Z"
+ },
+ "t2:kod medina": {
+  "kind": "term",
+  "term": "kod medina",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:52:10.686Z"
+ },
+ "t2:machshev": {
+  "kind": "term",
+  "term": "machshev",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:52:11.479Z"
+ },
+ "t2:mispar kavvi": {
+  "kind": "term",
+  "term": "mispar kavvi",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:52:12.329Z"
+ },
+ "t2:mispar nayad": {
+  "kind": "term",
+  "term": "mispar nayad",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:52:13.058Z"
+ },
+ "t2:nayad": {
+  "kind": "term",
+  "term": "nayad",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:52:13.833Z"
+ },
+ "t2:nayadim": {
+  "kind": "term",
+  "term": "nayadim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:52:14.489Z"
+ },
+ "t2:pelephone": {
+  "kind": "term",
+  "term": "pelephone",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:52:18.991Z"
+ },
+ "t2:reshet": {
+  "kind": "term",
+  "term": "reshet",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:52:20.225Z"
+ },
+ "t2:reshet nayad": {
+  "kind": "term",
+  "term": "reshet nayad",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:52:20.922Z"
+ },
+ "t2:ta koli": {
+  "kind": "term",
+  "term": "ta koli",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:53:35.718Z"
+ },
+ "t2:tnaim": {
+  "kind": "term",
+  "term": "tnaim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:53:36.597Z"
+ },
+ "t2:tziltzul": {
+  "kind": "term",
+  "term": "tziltzul",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:53:37.456Z"
+ },
+ "t2:ziku": {
+  "kind": "term",
+  "term": "ziku",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:53:38.830Z"
+ },
+ "t2:anan": {
+  "kind": "term",
+  "term": "anan",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:53:39.820Z"
+ },
+ "t2:aviv": {
+  "kind": "term",
+  "term": "aviv",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:53:42.085Z"
+ },
+ "t2:barad": {
+  "kind": "term",
+  "term": "barad",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:53:46.411Z"
+ },
+ "t2:barak": {
+  "kind": "term",
+  "term": "barak",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:53:49.338Z"
+ },
+ "t2:chamsin": {
+  "kind": "term",
+  "term": "chamsin",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:53:51.027Z"
+ },
+ "t2:chatzot": {
+  "kind": "term",
+  "term": "chatzot",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:53:52.206Z"
+ },
+ "t2:chol hamoed": {
+  "kind": "term",
+  "term": "chol hamoed",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:53:53.006Z"
+ },
+ "t2:choref": {
+  "kind": "term",
+  "term": "choref",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:53:54.228Z"
+ },
+ "t2:erev chag": {
+  "kind": "term",
+  "term": "erev chag",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:53:55.059Z"
+ },
+ "t2:erev shabbat": {
+  "kind": "term",
+  "term": "erev shabbat",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:53:55.786Z"
+ },
+ "t2:geshem": {
+  "kind": "term",
+  "term": "geshem",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:53:57.131Z"
+ },
+ "t2:kayitz": {
+  "kind": "term",
+  "term": "kayitz",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:53:58.658Z"
+ },
+ "t2:kfor": {
+  "kind": "term",
+  "term": "kfor",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:54:00.522Z"
+ },
+ "t2:kor": {
+  "kind": "term",
+  "term": "kor",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:54:04.308Z"
+ },
+ "t2:motzei chag": {
+  "kind": "term",
+  "term": "motzei chag",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:54:05.143Z"
+ },
+ "t2:raam": {
+  "kind": "term",
+  "term": "raam",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:54:06.287Z"
+ },
+ "t2:ruach": {
+  "kind": "term",
+  "term": "ruach",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:54:07.333Z"
+ },
+ "t2:sharav": {
+  "kind": "term",
+  "term": "sharav",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:54:08.004Z"
+ },
+ "t2:sheleg": {
+  "kind": "term",
+  "term": "sheleg",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:54:08.681Z"
+ },
+ "t2:shkia": {
+  "kind": "term",
+  "term": "shkia",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:54:09.898Z"
+ },
+ "t2:sof shavua": {
+  "kind": "term",
+  "term": "sof shavua",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:54:10.737Z"
+ },
+ "t2:stav": {
+  "kind": "term",
+  "term": "stav",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:54:12.495Z"
+ },
+ "t2:tzeit hakochavim": {
+  "kind": "term",
+  "term": "tzeit hakochavim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:54:13.993Z"
+ },
+ "t2:yom chamishi": {
+  "kind": "term",
+  "term": "yom chamishi",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:54:14.745Z"
+ },
+ "t2:yom chofesh": {
+  "kind": "term",
+  "term": "yom chofesh",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:54:15.299Z"
+ },
+ "t2:yom revi'i": {
+  "kind": "term",
+  "term": "yom revi'i",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:54:15.936Z"
+ },
+ "t2:yom rishon": {
+  "kind": "term",
+  "term": "yom rishon",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:54:16.557Z"
+ },
+ "t2:yom sheni": {
+  "kind": "term",
+  "term": "yom sheni",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:54:17.156Z"
+ },
+ "t2:yom shishi": {
+  "kind": "term",
+  "term": "yom shishi",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:54:17.740Z"
+ },
+ "t2:yom shlishi": {
+  "kind": "term",
+  "term": "yom shlishi",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:54:18.308Z"
+ },
+ "t2:yom tov": {
+  "kind": "term",
+  "term": "yom tov",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:54:18.864Z"
+ },
+ "t2:agrat rishayon": {
+  "kind": "term",
+  "term": "agrat rishayon",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:54:20.548Z"
+ },
+ "t2:bituch": {
+  "kind": "term",
+  "term": "bituch",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:54:22.421Z"
+ },
+ "t2:bituch chova": {
+  "kind": "term",
+  "term": "bituch chova",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:54:23.910Z"
+ },
+ "t2:bochen": {
+  "kind": "term",
+  "term": "bochen",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:54:24.843Z"
+ },
+ "t2:chalakim": {
+  "kind": "term",
+  "term": "chalakim",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:54:26.029Z"
+ },
+ "t2:chaniya": {
+  "kind": "term",
+  "term": "chaniya",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:54:26.797Z"
+ },
+ "t2:chelek": {
+  "kind": "term",
+  "term": "chelek",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:54:28.624Z"
+ },
+ "t2:chidush rishayon": {
+  "kind": "term",
+  "term": "chidush rishayon",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:54:29.588Z"
+ },
+ "t2:dmei chaniya": {
+  "kind": "term",
+  "term": "dmei chaniya",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:54:37.584Z"
+ },
+ "t2:doach": {
+  "kind": "term",
+  "term": "doach",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:54:38.967Z"
+ },
+ "t2:doach chaniya": {
+  "kind": "term",
+  "term": "doach chaniya",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:54:40.498Z"
+ },
+ "t2:galgal": {
+  "kind": "term",
+  "term": "galgal",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:54:43.726Z"
+ },
+ "t2:garaj": {
+  "kind": "term",
+  "term": "garaj",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:54:45.407Z"
+ },
+ "t2:kenas": {
+  "kind": "term",
+  "term": "kenas",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:54:46.514Z"
+ },
+ "t2:makif": {
+  "kind": "term",
+  "term": "makif",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:54:47.425Z"
+ },
+ "t2:mas rechev": {
+  "kind": "term",
+  "term": "mas rechev",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:54:48.794Z"
+ },
+ "t2:mishpat": {
+  "kind": "term",
+  "term": "mishpat",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:54:52.561Z"
+ },
+ "t2:mispar rechev": {
+  "kind": "term",
+  "term": "mispar rechev",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:54:54.628Z"
+ },
+ "t2:monit sherut": {
+  "kind": "term",
+  "term": "monit sherut",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:54:55.473Z"
+ },
+ "t2:more nehiga": {
+  "kind": "term",
+  "term": "more nehiga",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:54:56.780Z"
+ },
+ "t2:musach": {
+  "kind": "term",
+  "term": "musach",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:54:58.419Z"
+ },
+ "t2:nahag": {
+  "kind": "term",
+  "term": "nahag",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:54:59.404Z"
+ },
+ "t2:ofno'a": {
+  "kind": "term",
+  "term": "ofno'a",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:00.353Z"
+ },
+ "t2:rechev": {
+  "kind": "term",
+  "term": "rechev",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:01.614Z"
+ },
+ "t2:rechev tziburi": {
+  "kind": "term",
+  "term": "rechev tziburi",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:02.213Z"
+ },
+ "t2:rishayon nehiga": {
+  "kind": "term",
+  "term": "rishayon nehiga",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:03.125Z"
+ },
+ "t2:tahanat delek": {
+  "kind": "term",
+  "term": "tahanat delek",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:04.371Z"
+ },
+ "t2:test shnati": {
+  "kind": "term",
+  "term": "test shnati",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:55:07.152Z"
+ },
+ "t2:teunah": {
+  "kind": "term",
+  "term": "teunah",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:08.164Z"
+ },
+ "t2:tipul": {
+  "kind": "term",
+  "term": "tipul",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:09.171Z"
+ },
+ "t2:tzad gimel": {
+  "kind": "term",
+  "term": "tzad gimel",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:10.809Z"
+ },
+ "t2:bituach menahalim": {
+  "kind": "term",
+  "term": "bituach menahalim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:11.611Z"
+ },
+ "t2:bruto": {
+  "kind": "term",
+  "term": "bruto",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:12.805Z"
+ },
+ "t2:chok avoda": {
+  "kind": "term",
+  "term": "chok avoda",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:14.262Z"
+ },
+ "t2:chozeh avoda": {
+  "kind": "term",
+  "term": "chozeh avoda",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:15.211Z"
+ },
+ "t2:chufsha": {
+  "kind": "term",
+  "term": "chufsha",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:16.061Z"
+ },
+ "t2:dmei chufsha": {
+  "kind": "term",
+  "term": "dmei chufsha",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:16.939Z"
+ },
+ "t2:hafrasha": {
+  "kind": "term",
+  "term": "hafrasha",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:17.760Z"
+ },
+ "t2:hanhala": {
+  "kind": "term",
+  "term": "hanhala",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:18.531Z"
+ },
+ "t2:heskem kolektivi": {
+  "kind": "term",
+  "term": "heskem kolektivi",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:19.880Z"
+ },
+ "t2:hitpatrut": {
+  "kind": "term",
+  "term": "hitpatrut",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:20.685Z"
+ },
+ "t2:koach adam": {
+  "kind": "term",
+  "term": "koach adam",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:21.313Z"
+ },
+ "t2:maasik": {
+  "kind": "term",
+  "term": "maasik",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:22.140Z"
+ },
+ "t2:machala": {
+  "kind": "term",
+  "term": "machala",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:22.755Z"
+ },
+ "t2:maskoret": {
+  "kind": "term",
+  "term": "maskoret",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:23.304Z"
+ },
+ "t2:mishmeret": {
+  "kind": "term",
+  "term": "mishmeret",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:23.892Z"
+ },
+ "t2:neto": {
+  "kind": "term",
+  "term": "neto",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:25.010Z"
+ },
+ "t2:nikuim": {
+  "kind": "term",
+  "term": "nikuim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:25.825Z"
+ },
+ "t2:oved": {
+  "kind": "term",
+  "term": "oved",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:26.385Z"
+ },
+ "t2:piturim": {
+  "kind": "term",
+  "term": "piturim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:26.953Z"
+ },
+ "t2:pitzuim": {
+  "kind": "term",
+  "term": "pitzuim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:27.626Z"
+ },
+ "t2:reayon avoda": {
+  "kind": "term",
+  "term": "reayon avoda",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:28.646Z"
+ },
+ "t2:sachar": {
+  "kind": "term",
+  "term": "sachar",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:29.574Z"
+ },
+ "t2:sachar minimum": {
+  "kind": "term",
+  "term": "sachar minimum",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:30.296Z"
+ },
+ "t2:tlush": {
+  "kind": "term",
+  "term": "tlush",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:31.186Z"
+ },
+ "t2:tlush maskoret": {
+  "kind": "term",
+  "term": "tlush maskoret",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:31.806Z"
+ },
+ "t2:vaad ovedim": {
+  "kind": "term",
+  "term": "vaad ovedim",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:32.715Z"
+ },
+ "t2:yemei chufsha": {
+  "kind": "term",
+  "term": "yemei chufsha",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:33.435Z"
+ },
+ "t2:yemei machala": {
+  "kind": "term",
+  "term": "yemei machala",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:55:34.109Z"
+ }
+}
