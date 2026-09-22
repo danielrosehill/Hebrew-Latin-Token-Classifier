@@ -1,0 +1,24 @@
+{
+ "records": 516,
+ "lexicon_terms": 139,
+ "lexicon_active": 117,
+ "lexicon_quarantined": 22,
+ "labels_aligned": 360,
+ "labels_mislabelled": 114,
+ "labels_absent": 42,
+ "spans_accepted_from_label": 360,
+ "spans_pending_from_lexicon": 86,
+ "records_with_no_candidate": 42,
+ "review_tasks": 242,
+ "review_by_risk": {
+  "mislabelled": 114,
+  "unmatched": 42,
+  "quarantined": 55,
+  "medium": 20,
+  "low": 11
+ },
+ "review_by_kind": {
+  "record": 156,
+  "span": 86
+ }
+}

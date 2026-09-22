@@ -1,0 +1,140 @@
+term,tokens,label_count,word_boundary_occurrences,category,status,quarantine_reason,hebrew_script,source
+at,1,56,64,general,quarantined,english_homograph,,english-hebrew-mixed-sentences
+hi,1,17,0,general,quarantined,english_homograph|never_occurs,,english-hebrew-mixed-sentences
+gan,1,11,6,education,active,,,english-hebrew-mixed-sentences
+ma,1,9,0,general,quarantined,english_homograph|never_occurs,,english-hebrew-mixed-sentences
+har,1,8,0,nature,quarantined,never_occurs,,english-hebrew-mixed-sentences
+ach,1,7,0,family,quarantined,never_occurs,,english-hebrew-mixed-sentences
+tel aviv,2,7,12,places,active,,,english-hebrew-mixed-sentences
+aliyah,1,5,9,immigration,active,,,english-hebrew-mixed-sentences
+chag,1,5,3,religious,active,,,english-hebrew-mixed-sentences
+chool,1,5,3,general,active,,,english-hebrew-mixed-sentences
+arnona,1,4,4,finance,active,,,english-hebrew-mixed-sentences
+misrad haklita,2,4,4,government,active,,,english-hebrew-mixed-sentences
+pesach,1,4,4,religious,active,,,english-hebrew-mixed-sentences
+rishon lezion,2,4,4,places,active,,,english-hebrew-mixed-sentences
+yom haatzmaut,2,4,4,commemoration,active,,,english-hebrew-mixed-sentences
+aba,1,3,3,family,active,,,english-hebrew-mixed-sentences
+ashdod,1,3,3,places,active,,,english-hebrew-mixed-sentences
+ashkelon,1,3,3,places,active,,,english-hebrew-mixed-sentences
+balagan,1,3,3,general,active,,,english-hebrew-mixed-sentences
+bayit,1,3,3,home,active,,,english-hebrew-mixed-sentences
+ben yehuda,2,3,3,places,active,,,english-hebrew-mixed-sentences
+beseder,1,3,3,slang,active,,,english-hebrew-mixed-sentences
+bet knesset,2,3,3,religious,quarantined,english_homograph,,english-hebrew-mixed-sentences
+bituach leumi,2,3,3,finance,active,,,english-hebrew-mixed-sentences
+bituach menhalim,2,3,3,finance,active,,,english-hebrew-mixed-sentences
+brit milah,2,3,3,religious,active,,,english-hebrew-mixed-sentences
+castro,1,3,3,shopping,quarantined,english_homograph,,english-hebrew-mixed-sentences
+challah,1,3,3,food,active,,,english-hebrew-mixed-sentences
+cholent,1,3,3,food,active,,,english-hebrew-mixed-sentences
+combina,1,3,3,slang,active,,,english-hebrew-mixed-sentences
+dizengoff,1,3,3,places,active,,,english-hebrew-mixed-sentences
+doar,1,3,3,services,active,,,english-hebrew-mixed-sentences
+falafel,1,3,3,food,active,,,english-hebrew-mixed-sentences
+fox home,2,3,3,shopping,quarantined,english_homograph,,english-hebrew-mixed-sentences
+freier,1,3,3,slang,active,,,english-hebrew-mixed-sentences
+golan,1,3,4,places,quarantined,english_homograph,,english-hebrew-mixed-sentences
+heshbon iska,2,3,3,finance,active,,,english-hebrew-mixed-sentences
+heshbonit mas,2,3,6,finance,active,,,english-hebrew-mixed-sentences
+heshbonit mas kabala,3,3,3,finance,active,,,english-hebrew-mixed-sentences
+kabala,1,3,6,finance,active,,,english-hebrew-mixed-sentences
+keren hishtalmut,2,3,3,finance,active,,,english-hebrew-mixed-sentences
+kfar saba,2,3,3,places,active,,,english-hebrew-mixed-sentences
+kikar rabin,2,3,3,places,active,,,english-hebrew-mixed-sentences
+kikar tzion,2,3,3,places,active,,,english-hebrew-mixed-sentences
+kupa,1,3,3,shopping,active,,,english-hebrew-mixed-sentences
+kupat cholim,2,3,3,healthcare,active,,,english-hebrew-mixed-sentences
+kvish echad,2,3,3,transportation,active,,,english-hebrew-mixed-sentences
+kvish shesh,2,3,3,transportation,active,,,english-hebrew-mixed-sentences
+lo,1,3,0,general,quarantined,english_homograph|never_occurs,,english-hebrew-mixed-sentences
+machane yehuda,2,3,3,places,active,,,english-hebrew-mixed-sentences
+machsan,1,3,3,home,active,,,english-hebrew-mixed-sentences
+makolet,1,3,3,shopping,active,,,english-hebrew-mixed-sentences
+mas hachnasa,2,3,3,finance,active,,,english-hebrew-mixed-sentences
+matzav,1,3,3,general,active,,,english-hebrew-mixed-sentences
+mercaz,1,3,3,places,active,,,english-hebrew-mixed-sentences
+mi,1,3,0,general,quarantined,english_homograph|never_occurs,,english-hebrew-mixed-sentences
+mikve,1,3,3,religious,active,,,english-hebrew-mixed-sentences
+miluim,1,3,3,military,active,,,english-hebrew-mixed-sentences
+mishpachton,1,3,3,childcare,active,,,english-hebrew-mixed-sentences
+misrad hapnim,2,3,3,government,active,,,english-hebrew-mixed-sentences
+moked,1,3,3,services,active,,,english-hebrew-mixed-sentences
+monit,1,3,3,transportation,active,,,english-hebrew-mixed-sentences
+motzei shabbat,2,3,3,time,active,,,english-hebrew-mixed-sentences
+ofakim,1,3,3,places,active,,,english-hebrew-mixed-sentences
+olah,1,3,3,immigration,active,,,english-hebrew-mixed-sentences
+osher ad,2,3,3,shopping,active,,,english-hebrew-mixed-sentences
+pidyon haben,2,3,3,religious,active,,,english-hebrew-mixed-sentences
+raanana,1,3,3,places,active,,,english-hebrew-mixed-sentences
+rakevet,1,3,3,transportation,active,,,english-hebrew-mixed-sentences
+ramat gan,2,3,3,places,active,,,english-hebrew-mixed-sentences
+rav kav,2,3,3,transportation,active,,,english-hebrew-mixed-sentences
+rofeh,1,3,3,healthcare,active,,,english-hebrew-mixed-sentences
+rosh chodesh,2,3,3,religious,active,,,english-hebrew-mixed-sentences
+rosh hashanah,2,3,3,religious,active,,,english-hebrew-mixed-sentences
+rothschild,1,3,3,places,quarantined,english_homograph,,english-hebrew-mixed-sentences
+rugelach,1,3,3,food,active,,,english-hebrew-mixed-sentences
+saba,1,3,6,family,active,,,english-hebrew-mixed-sentences
+sabich,1,3,4,food,active,,,english-hebrew-mixed-sentences
+sachir,1,3,3,work,active,,,english-hebrew-mixed-sentences
+shabbat,1,3,8,religious,active,,,english-hebrew-mixed-sentences
+shabbaton,1,3,3,social,active,,,english-hebrew-mixed-sentences
+shapira,1,3,3,beverages,active,,,english-hebrew-mixed-sentences
+shavua,1,3,3,time,active,,,english-hebrew-mixed-sentences
+shawarma,1,3,3,food,active,,,english-hebrew-mixed-sentences
+shemesh,1,3,3,weather,active,,,english-hebrew-mixed-sentences
+sherut leumi,2,3,3,military,active,,,english-hebrew-mixed-sentences
+sherutim,1,3,3,home,active,,,english-hebrew-mixed-sentences
+sheva brachot,2,3,3,religious,active,,,english-hebrew-mixed-sentences
+shtuyot,1,3,3,slang,active,,,english-hebrew-mixed-sentences
+shufersal,1,3,3,shopping,active,,,english-hebrew-mixed-sentences
+shuk,1,3,3,shopping,active,,,english-hebrew-mixed-sentences
+simcha,1,3,3,social,active,,,english-hebrew-mixed-sentences
+sochnut,1,3,3,immigration,active,,,english-hebrew-mixed-sentences
+tachana merkazit,2,3,3,transportation,active,,,english-hebrew-mixed-sentences
+terem,1,3,3,emergency,active,,,english-hebrew-mixed-sentences
+teudat maavar,2,3,3,documents,active,,,english-hebrew-mixed-sentences
+teudat zehut,2,3,3,documents,active,,,english-hebrew-mixed-sentences
+tisha bav,2,3,3,religious,active,,,english-hebrew-mixed-sentences
+tu bishvat,2,3,3,religious,active,,,english-hebrew-mixed-sentences
+ulpan,1,3,3,education,active,,,english-hebrew-mixed-sentences
+upsherin,1,3,3,religious,active,,,english-hebrew-mixed-sentences
+yerushalayim,1,3,6,places,active,,,english-hebrew-mixed-sentences
+yitzhak navon,2,3,3,transportation,active,,,english-hebrew-mixed-sentences
+yom aliyah,2,3,3,commemoration,active,,,english-hebrew-mixed-sentences
+yom hashoah,2,3,3,commemoration,active,,,english-hebrew-mixed-sentences
+yom yerushalayim,2,3,3,commemoration,active,,,english-hebrew-mixed-sentences
+ani,1,2,0,general,quarantined,english_homograph|never_occurs,,english-hebrew-mixed-sentences
+ayalon,1,2,3,transportation,active,,,english-hebrew-mixed-sentences
+hahagana,1,2,3,transportation,active,,,english-hebrew-mixed-sentences
+hashalom,1,2,3,transportation,active,,,english-hebrew-mixed-sentences
+ken,1,2,0,general,quarantined,english_homograph|never_occurs,,english-hebrew-mixed-sentences
+kol nidre,2,2,3,religious,active,,,english-hebrew-mixed-sentences
+latke,1,2,0,food,quarantined,never_occurs,,english-hebrew-mixed-sentences
+maayan 2000,2,2,3,shopping,active,,,english-hebrew-mixed-sentences
+maccabi,1,2,3,sports,active,,,english-hebrew-mixed-sentences
+nes tziona,2,2,3,places,active,,,english-hebrew-mixed-sentences
+rami levy,2,2,3,shopping,active,,,english-hebrew-mixed-sentences
+shul,1,2,3,religious,active,,,english-hebrew-mixed-sentences
+supermarket,1,2,0,shopping,quarantined,english_homograph|never_occurs,,english-hebrew-mixed-sentences
+tayelet,1,2,3,places,active,,,english-hebrew-mixed-sentences
+tefillin,1,2,3,religious,active,,,english-hebrew-mixed-sentences
+teudat oleh,2,2,3,immigration,active,,,english-hebrew-mixed-sentences
+tzimmer,1,2,3,tourism,active,,,english-hebrew-mixed-sentences
+yom hazikaron,2,2,3,commemoration,active,,,english-hebrew-mixed-sentences
+atem,1,1,0,general,quarantined,never_occurs,,english-hebrew-mixed-sentences
+baby,1,1,2,family,quarantined,english_homograph,,english-hebrew-mixed-sentences
+bar mitzvah,2,1,1,religious,active,,,english-hebrew-mixed-sentences
+chanukah,1,1,1,religious,quarantined,english_homograph,,english-hebrew-mixed-sentences
+chicken soup,2,1,1,food,quarantined,english_homograph,,english-hebrew-mixed-sentences
+eilat,1,1,2,places,active,,,english-hebrew-mixed-sentences
+ein,1,1,0,nature,quarantined,never_occurs,,english-hebrew-mixed-sentences
+galil,1,1,1,places,active,,,english-hebrew-mixed-sentences
+herzliya,1,1,1,places,active,,,english-hebrew-mixed-sentences
+negev,1,1,2,places,quarantined,english_homograph,,english-hebrew-mixed-sentences
+netanya,1,1,1,places,active,,,english-hebrew-mixed-sentences
+olim,1,1,2,immigration,active,,,english-hebrew-mixed-sentences
+rosh pina,2,1,1,places,active,,,english-hebrew-mixed-sentences
+savta,1,1,3,family,active,,,english-hebrew-mixed-sentences
+yom kippur,2,1,1,religious,active,,,english-hebrew-mixed-sentences
