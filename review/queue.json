@@ -3101,7 +3101,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'Bialik' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g00123:0",
+  "key": "g00123:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g00123",
@@ -3115,7 +3115,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'kugel' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g00141:0",
+  "key": "g00141:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g00141",
@@ -3129,7 +3129,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'mangal' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g00157:0",
+  "key": "g00157:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g00157",
@@ -3143,7 +3143,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'kugel' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g00173:0",
+  "key": "g00173:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g00173",
@@ -3157,7 +3157,7 @@
   "note": "the annotator marked this but it was not the seeded term — is \"d'var Torah\" a Hebrew word written in Latin script?"
  },
  {
-  "key": "g00173:1",
+  "key": "g00173:2",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g00173",
@@ -3171,7 +3171,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'kiddush' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g00260:0",
+  "key": "g00260:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g00260",
@@ -3213,7 +3213,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'bamba' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g00296:1",
+  "key": "g00296:2",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g00296",
@@ -3227,7 +3227,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'kiosk' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g00406:0",
+  "key": "g00406:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g00406",
@@ -3269,7 +3269,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'Allenby' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g00528:0",
+  "key": "g00528:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g00528",
@@ -3297,7 +3297,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'halva' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g00672:0",
+  "key": "g00672:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g00672",
@@ -3353,7 +3353,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'misrad hapnim' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g00796:0",
+  "key": "g00796:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g00796",
@@ -3367,7 +3367,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'arnona' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g00798:0",
+  "key": "g00798:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g00798",
@@ -3395,7 +3395,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'halva' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g00817:0",
+  "key": "g00817:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g00817",
@@ -3423,7 +3423,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'kishke' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g00907:0",
+  "key": "g00907:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g00907",
@@ -3437,7 +3437,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'maayan' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g00953:0",
+  "key": "g00953:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g00953",
@@ -3507,7 +3507,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'misrad hapnim' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g01010:0",
+  "key": "g01010:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g01010",
@@ -3521,7 +3521,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'sabich' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g01019:0",
+  "key": "g01019:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g01019",
@@ -3535,7 +3535,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'kiddush' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g01019:1",
+  "key": "g01019:2",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g01019",
@@ -3549,7 +3549,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'davening' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g01071:0",
+  "key": "g01071:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g01071",
@@ -3563,7 +3563,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'makolet' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g01104:0",
+  "key": "g01104:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g01104",
@@ -3577,7 +3577,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'hashmal' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g01105:0",
+  "key": "g01105:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g01105",
@@ -3591,7 +3591,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'hashmal' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g01106:0",
+  "key": "g01106:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g01106",
@@ -3605,7 +3605,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'hashmal' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g01113:0",
+  "key": "g01113:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g01113",
@@ -3619,7 +3619,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'arnona' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g01114:0",
+  "key": "g01114:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g01114",
@@ -3633,7 +3633,7 @@
   "note": "the annotator marked this but it was not the seeded term — is \"va'ad bayit\" a Hebrew word written in Latin script?"
  },
  {
-  "key": "g01152:0",
+  "key": "g01152:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g01152",
@@ -3647,7 +3647,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'keniyot' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g01211:0",
+  "key": "g01211:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g01211",
@@ -3675,7 +3675,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'Allenby' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g01282:0",
+  "key": "g01282:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g01282",
@@ -3689,7 +3689,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'murshe' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g01312:0",
+  "key": "g01312:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g01312",
@@ -3717,7 +3717,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'kupat cholim' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g01332:0",
+  "key": "g01332:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g01332",
@@ -3745,7 +3745,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'siddur' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g01365:0",
+  "key": "g01365:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g01365",
@@ -3773,7 +3773,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'chuppah' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g01456:0",
+  "key": "g01456:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g01456",
@@ -3801,7 +3801,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'chagim' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g01533:0",
+  "key": "g01533:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g01533",
@@ -3829,7 +3829,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'sherut' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g01546:0",
+  "key": "g01546:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g01546",
@@ -3885,7 +3885,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'baal koreh' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g01683:0",
+  "key": "g01683:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g01683",
@@ -3899,7 +3899,7 @@
   "note": "the annotator marked this but it was not the seeded term — is \"Yom Ha'atzmaut\" a Hebrew word written in Latin script?"
  },
  {
-  "key": "g01755:0",
+  "key": "g01755:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g01755",
@@ -3913,7 +3913,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'shiur' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g01794:0",
+  "key": "g01794:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g01794",
@@ -3927,7 +3927,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'HaShalom' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g01832:0",
+  "key": "g01832:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g01832",
@@ -3941,7 +3941,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'bimah' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g01838:0",
+  "key": "g01838:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g01838",
@@ -3955,7 +3955,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'miluim' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g01847:0",
+  "key": "g01847:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g01847",
@@ -3969,7 +3969,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'Tu Bishvat' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g01895:0",
+  "key": "g01895:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g01895",
@@ -3997,7 +3997,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'minyan' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g01977:0",
+  "key": "g01977:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g01977",
@@ -4011,7 +4011,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'Ben Gurion' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g01979:0",
+  "key": "g01979:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g01979",
@@ -4025,7 +4025,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'agorot' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g02027:0",
+  "key": "g02027:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g02027",
@@ -4039,7 +4039,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'etrog' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g02094:0",
+  "key": "g02094:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g02094",
@@ -4053,7 +4053,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'Maccabi' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g02123:0",
+  "key": "g02123:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g02123",
@@ -4067,7 +4067,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'graggers' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g02139:0",
+  "key": "g02139:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g02139",
@@ -4081,7 +4081,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'malawach' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g02161:0",
+  "key": "g02161:1",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g02161",
@@ -4123,7 +4123,7 @@
   "note": "the annotator marked this but it was not the seeded term — is 'Hashalom' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g02213:1",
+  "key": "g02213:0",
   "kind": "span",
   "risk": "annotator_only",
   "id": "g02213",
@@ -4697,7 +4697,7 @@
   "note": "the generator seeded this term but the annotator did not mark it — is 'kar' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g00725:0",
+  "key": "g00725:1",
   "kind": "span",
   "risk": "seed_only",
   "id": "g00725",
@@ -4963,7 +4963,7 @@
   "note": "the generator seeded this term but the annotator did not mark it — is 'Naxon' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g01538:0",
+  "key": "g01538:1",
   "kind": "span",
   "risk": "seed_only",
   "id": "g01538",
@@ -5033,7 +5033,7 @@
   "note": "the generator seeded this term but the annotator did not mark it — is 'machbren' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g01601:0",
+  "key": "g01601:1",
   "kind": "span",
   "risk": "seed_only",
   "id": "g01601",
@@ -5047,7 +5047,7 @@
   "note": "the generator seeded this term but the annotator did not mark it — is 'baz' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g01705:0",
+  "key": "g01705:1",
   "kind": "span",
   "risk": "seed_only",
   "id": "g01705",
@@ -5061,7 +5061,7 @@
   "note": "the generator seeded this term but the annotator did not mark it — is 'paam' a Hebrew word written in Latin script?"
  },
  {
-  "key": "g01743:0",
+  "key": "g01743:1",
   "kind": "span",
   "risk": "seed_only",
   "id": "g01743",

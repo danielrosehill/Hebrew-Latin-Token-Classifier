@@ -166,6 +166,11 @@ def main() -> None:
             spans.append({**auto[k], "status": "pending"})
             stats["span_annotator_only"] += 1
 
+        # Sort IN PLACE. The row used to store a sorted copy while the local list
+        # stayed in insertion order, so span_index below indexed a different
+        # ordering than build_splits.py enumerates.
+        spans.sort(key=lambda x: x["start"])
+
         sentence_agrees = not seed_only and not auto_only
         stats["sentence_full_agreement" if sentence_agrees else "sentence_disagreement"] += 1
 
@@ -177,7 +182,7 @@ def main() -> None:
             "seed_category": s["seed_category"],
             "generator": s["generator"],
             "annotator": ann["annotator"],
-            "spans": sorted(spans, key=lambda x: x["start"]),
+            "spans": spans,
             "agreement": "full" if sentence_agrees else "partial",
         })
 
@@ -207,8 +212,16 @@ def main() -> None:
             entry["examples"].append(s["text"])
         covered = overlaps
 
-        for n, k in enumerate(sorted(seed_only) + sorted(auto_only)):
+        # The key MUST be the span's index in `spans` as written to
+        # adjudicated.jsonl, because that is what build_splits.py enumerates.
+        # Numbering by position among the pending spans instead silently shifts
+        # every key in any sentence that also has an agreed span -- the decision
+        # is then looked up under a key that does not exist and the span is
+        # dropped as "unreviewed" despite having been answered.
+        span_index = {(x["start"], x["end"]): i for i, x in enumerate(spans)}
+        for k in sorted(seed_only) + sorted(auto_only):
             span = seed.get(k) or auto[k]
+            n = span_index[k]
             risk = "seed_only" if k in seed_only else "annotator_only"
             # Covered by a single term-level decision; do not ask N times.
             if risk == "seed_only" and span["term"] in systematic:

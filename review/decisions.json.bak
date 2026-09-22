@@ -1,0 +1,3747 @@
+{
+ "term:boker or": {
+  "kind": "term",
+  "term": "boker or",
+  "hebrew": true,
+  "at": "2026-09-22T16:28:30.557Z"
+ },
+ "term:cafe hafuch": {
+  "kind": "term",
+  "term": "cafe hafuch",
+  "hebrew": true,
+  "at": "2026-09-22T16:28:34.777Z"
+ },
+ "term:dud hashmal": {
+  "kind": "term",
+  "term": "dud hashmal",
+  "hebrew": true,
+  "at": "2026-09-22T16:28:36.847Z"
+ },
+ "term:dud shemesh": {
+  "kind": "term",
+  "term": "dud shemesh",
+  "hebrew": true,
+  "at": "2026-09-22T16:28:38.365Z"
+ },
+ "term:falafel": {
+  "kind": "term",
+  "term": "falafel",
+  "hebrew": false,
+  "at": "2026-09-22T16:28:41.531Z"
+ },
+ "term:ful medames": {
+  "kind": "term",
+  "term": "ful medames",
+  "hebrew": false,
+  "at": "2026-09-22T16:28:44.354Z"
+ },
+ "term:heshbonit mas kabala": {
+  "kind": "term",
+  "term": "heshbonit mas kabala",
+  "hebrew": true,
+  "at": "2026-09-22T16:28:46.480Z"
+ },
+ "term:mas hachnasa chaverot": {
+  "kind": "term",
+  "term": "mas hachnasa chaverot",
+  "hebrew": true,
+  "at": "2026-09-22T16:28:48.005Z"
+ },
+ "term:mas hachnasa halvaa": {
+  "kind": "term",
+  "term": "mas hachnasa halvaa",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T16:33:23.340Z"
+ },
+ "term:mas hachnasa kizuz": {
+  "kind": "term",
+  "term": "mas hachnasa kizuz",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T16:33:24.867Z"
+ },
+ "term:mas hachnasa mashkanta": {
+  "kind": "term",
+  "term": "mas hachnasa mashkanta",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T16:33:25.701Z"
+ },
+ "term:mas hachnasa ribit": {
+  "kind": "term",
+  "term": "mas hachnasa ribit",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T16:33:26.561Z"
+ },
+ "term:mas hachnasa shelo mitzvot": {
+  "kind": "term",
+  "term": "mas hachnasa shelo mitzvot",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T16:33:28.261Z"
+ },
+ "term:merguez": {
+  "kind": "term",
+  "term": "merguez",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T16:33:32.443Z"
+ },
+ "term:od": {
+  "kind": "term",
+  "term": "od",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T16:33:33.804Z"
+ },
+ "term:po": {
+  "kind": "term",
+  "term": "po",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T16:33:34.529Z"
+ },
+ "term:pulke": {
+  "kind": "term",
+  "term": "pulke",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T16:33:39.762Z"
+ },
+ "term:salon": {
+  "kind": "term",
+  "term": "salon",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T16:33:41.083Z"
+ },
+ "term:sir": {
+  "kind": "term",
+  "term": "sir",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T16:33:41.983Z"
+ },
+ "term:sirup": {
+  "kind": "term",
+  "term": "sirup",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T16:33:44.003Z"
+ },
+ "term:smol": {
+  "kind": "term",
+  "term": "smol",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T16:33:53.384Z"
+ },
+ "term:super yuda": {
+  "kind": "term",
+  "term": "super yuda",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T16:33:58.927Z"
+ },
+ "term:taramosalata": {
+  "kind": "term",
+  "term": "taramosalata",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T16:34:07.155Z"
+ },
+ "boundary:af ehad|ehad": {
+  "kind": "boundary",
+  "term": "af ehad",
+  "short_term": "ehad",
+  "choice": "none",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T16:49:50.314Z"
+ },
+ "boundary:af paam|paam": {
+  "kind": "boundary",
+  "term": "af paam",
+  "short_term": "paam",
+  "choice": "none",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T16:49:52.738Z"
+ },
+ "boundary:aruchat boker|aruchat": {
+  "kind": "boundary",
+  "term": "aruchat boker",
+  "short_term": "aruchat",
+  "choice": "none",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T16:50:02.273Z"
+ },
+ "boundary:aruchat boker|boker": {
+  "kind": "boundary",
+  "term": "aruchat boker",
+  "short_term": "boker",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T16:50:09.545Z"
+ },
+ "boundary:bituach mashlim|bituach": {
+  "kind": "boundary",
+  "term": "bituach mashlim",
+  "short_term": "bituach",
+  "choice": "full",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T16:50:19.587Z"
+ },
+ "boundary:bituach mashlim|mashlim": {
+  "kind": "boundary",
+  "term": "bituach mashlim",
+  "short_term": "mashlim",
+  "choice": "full",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T16:50:22.561Z"
+ },
+ "boundary:bituach menhalim|bituach": {
+  "kind": "boundary",
+  "term": "bituach menhalim",
+  "short_term": "bituach",
+  "choice": "full",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T16:50:26.577Z"
+ },
+ "boundary:boker or|boker": {
+  "kind": "boundary",
+  "term": "boker or",
+  "short_term": "boker",
+  "choice": "full",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T16:50:33.294Z"
+ },
+ "boundary:af ehad": {
+  "kind": "boundary",
+  "term": "af ehad",
+  "parts": [
+   "ehad"
+  ],
+  "short_term": "ehad",
+  "choice": "none",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T16:57:33.089Z"
+ },
+ "boundary:af paam": {
+  "kind": "boundary",
+  "term": "af paam",
+  "parts": [
+   "paam"
+  ],
+  "short_term": "paam",
+  "choice": "full",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T16:57:49.068Z"
+ },
+ "boundary:aruchat boker": {
+  "kind": "boundary",
+  "term": "aruchat boker",
+  "parts": [
+   "aruchat",
+   "boker"
+  ],
+  "short_term": "aruchat",
+  "choice": "full",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T16:57:52.765Z"
+ },
+ "boundary:bituach mashlim": {
+  "kind": "boundary",
+  "term": "bituach mashlim",
+  "parts": [
+   "bituach",
+   "mashlim"
+  ],
+  "short_term": "bituach",
+  "choice": "full",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T16:57:55.523Z"
+ },
+ "boundary:bituach menhalim": {
+  "kind": "boundary",
+  "term": "bituach menhalim",
+  "parts": [
+   "bituach"
+  ],
+  "short_term": "bituach",
+  "choice": "full",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T16:57:57.376Z"
+ },
+ "boundary:boker or": {
+  "kind": "boundary",
+  "term": "boker or",
+  "parts": [
+   "boker"
+  ],
+  "short_term": "boker",
+  "choice": "full",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T16:58:02.212Z"
+ },
+ "boundary:cafe hafuch": {
+  "kind": "boundary",
+  "term": "cafe hafuch",
+  "parts": [
+   "hafuch"
+  ],
+  "short_term": "hafuch",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T16:58:19.546Z"
+ },
+ "boundary:dud hashmal": {
+  "kind": "boundary",
+  "term": "dud hashmal",
+  "parts": [
+   "dud",
+   "hashmal"
+  ],
+  "short_term": "dud",
+  "choice": "full",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T16:58:21.619Z"
+ },
+ "boundary:dud shemesh": {
+  "kind": "boundary",
+  "term": "dud shemesh",
+  "parts": [
+   "dud",
+   "shemesh"
+  ],
+  "short_term": "dud",
+  "choice": "full",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T16:58:22.888Z"
+ },
+ "boundary:eize": {
+  "kind": "boundary",
+  "term": "eize",
+  "parts": [
+   "eize mess"
+  ],
+  "short_term": "eize mess",
+  "choice": "none",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T16:58:26.524Z"
+ },
+ "boundary:eize kef": {
+  "kind": "boundary",
+  "term": "eize kef",
+  "parts": [
+   "eize",
+   "kef"
+  ],
+  "short_term": "eize",
+  "choice": "full",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T16:58:30.685Z"
+ },
+ "boundary:havara banka'it": {
+  "kind": "boundary",
+  "term": "havara banka'it",
+  "parts": [
+   "havara",
+   "banka'it"
+  ],
+  "short_term": "havara",
+  "choice": "full",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T16:58:33.478Z"
+ },
+ "boundary:heshbon iska": {
+  "kind": "boundary",
+  "term": "heshbon iska",
+  "parts": [
+   "heshbon",
+   "iska"
+  ],
+  "short_term": "heshbon",
+  "choice": "full",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T16:58:35.003Z"
+ },
+ "boundary:heshbonit mas": {
+  "kind": "boundary",
+  "term": "heshbonit mas",
+  "parts": [
+   "heshbonit",
+   "mas"
+  ],
+  "short_term": "heshbonit",
+  "choice": "full",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T16:58:36.390Z"
+ },
+ "boundary:heshbonit mas kabala": {
+  "kind": "boundary",
+  "term": "heshbonit mas kabala",
+  "parts": [
+   "heshbonit",
+   "mas kabala",
+   "kabala"
+  ],
+  "short_term": "heshbonit",
+  "choice": "full",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T16:58:39.620Z"
+ },
+ "boundary:kartis hofshi": {
+  "kind": "boundary",
+  "term": "kartis hofshi",
+  "parts": [
+   "kartis",
+   "hofshi"
+  ],
+  "short_term": "kartis",
+  "choice": "full",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T16:58:42.849Z"
+ },
+ "boundary:layla": {
+  "kind": "boundary",
+  "term": "layla",
+  "parts": [
+   "layla tov"
+  ],
+  "short_term": "layla tov",
+  "choice": "full",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T16:58:50.925Z"
+ },
+ "boundary:layla tov": {
+  "kind": "boundary",
+  "term": "layla tov",
+  "parts": [
+   "layla",
+   "tov"
+  ],
+  "short_term": "layla",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T16:59:16.787Z"
+ },
+ "boundary:marak yerek": {
+  "kind": "boundary",
+  "term": "marak yerek",
+  "parts": [
+   "marak"
+  ],
+  "short_term": "marak",
+  "choice": "full",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T16:59:21.515Z"
+ },
+ "boundary:mas hachnasa chaverot": {
+  "kind": "boundary",
+  "term": "mas hachnasa chaverot",
+  "parts": [
+   "mas hachnasa",
+   "chaverot"
+  ],
+  "short_term": "mas hachnasa",
+  "choice": "none",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T16:59:35.814Z"
+ },
+ "boundary:mas hachnasa chayav": {
+  "kind": "boundary",
+  "term": "mas hachnasa chayav",
+  "parts": [
+   "mas hachnasa",
+   "chayav"
+  ],
+  "short_term": "mas hachnasa",
+  "choice": "none",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T16:59:46.948Z"
+ },
+ "boundary:mas hachnasa chiyuv": {
+  "kind": "boundary",
+  "term": "mas hachnasa chiyuv",
+  "parts": [
+   "mas hachnasa",
+   "chiyuv"
+  ],
+  "short_term": "mas hachnasa",
+  "choice": "none",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T16:59:48.748Z"
+ },
+ "boundary:mas hachnasa chov": {
+  "kind": "boundary",
+  "term": "mas hachnasa chov",
+  "parts": [
+   "mas hachnasa"
+  ],
+  "short_term": "mas hachnasa",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:00:02.616Z"
+ },
+ "boundary:mas hachnasa hafkaa": {
+  "kind": "boundary",
+  "term": "mas hachnasa hafkaa",
+  "parts": [
+   "mas hachnasa",
+   "hafkaa"
+  ],
+  "short_term": "mas hachnasa",
+  "choice": "none",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:00:04.825Z"
+ },
+ "boundary:mas hachnasa halvaa": {
+  "kind": "boundary",
+  "term": "mas hachnasa halvaa",
+  "parts": [
+   "mas hachnasa",
+   "halvaa"
+  ],
+  "short_term": "mas hachnasa",
+  "choice": "none",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:00:07.896Z"
+ },
+ "boundary:mas hachnasa hashlamot": {
+  "kind": "boundary",
+  "term": "mas hachnasa hashlamot",
+  "parts": [
+   "mas hachnasa",
+   "hashlamot",
+   "mas",
+   "hachnasa"
+  ],
+  "short_term": "mas hachnasa",
+  "choice": "none",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:00:09.609Z"
+ },
+ "boundary:mas hachnasa havara": {
+  "kind": "boundary",
+  "term": "mas hachnasa havara",
+  "parts": [
+   "mas",
+   "hachnasa",
+   "havara"
+  ],
+  "short_term": "mas",
+  "choice": "none",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:00:11.146Z"
+ },
+ "boundary:mas hachnasa kartis": {
+  "kind": "boundary",
+  "term": "mas hachnasa kartis",
+  "parts": [
+   "hachnasa",
+   "kartis"
+  ],
+  "short_term": "hachnasa",
+  "choice": "none",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:00:12.203Z"
+ },
+ "boundary:mas hachnasa kizuz": {
+  "kind": "boundary",
+  "term": "mas hachnasa kizuz",
+  "parts": [
+   "mas hachnasa",
+   "kizuz"
+  ],
+  "short_term": "mas hachnasa",
+  "choice": "none",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:00:13.489Z"
+ },
+ "boundary:mas hachnasa mashkanta": {
+  "kind": "boundary",
+  "term": "mas hachnasa mashkanta",
+  "parts": [
+   "mas hachnasa",
+   "mashkanta"
+  ],
+  "short_term": "mas hachnasa",
+  "choice": "none",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:00:14.800Z"
+ },
+ "boundary:mas hachnasa nikuim": {
+  "kind": "boundary",
+  "term": "mas hachnasa nikuim",
+  "parts": [
+   "mas hachnasa",
+   "nikuim"
+  ],
+  "short_term": "mas hachnasa",
+  "choice": "none",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:00:16.258Z"
+ },
+ "boundary:mas hachnasa pitura": {
+  "kind": "boundary",
+  "term": "mas hachnasa pitura",
+  "parts": [
+   "mas hachnasa",
+   "pitura"
+  ],
+  "short_term": "mas hachnasa",
+  "choice": "none",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:00:17.655Z"
+ },
+ "boundary:mas hachnasa ribit": {
+  "kind": "boundary",
+  "term": "mas hachnasa ribit",
+  "parts": [
+   "mas hachnasa",
+   "ribit"
+  ],
+  "short_term": "mas hachnasa",
+  "choice": "none",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:00:19.327Z"
+ },
+ "boundary:mas hachnasa shelo mitzvot": {
+  "kind": "boundary",
+  "term": "mas hachnasa shelo mitzvot",
+  "parts": [
+   "mas hachnasa"
+  ],
+  "short_term": "mas hachnasa",
+  "choice": "none",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:00:20.608Z"
+ },
+ "boundary:mas hachnasa zikui": {
+  "kind": "boundary",
+  "term": "mas hachnasa zikui",
+  "parts": [
+   "mas hachnasa",
+   "zikui"
+  ],
+  "short_term": "mas hachnasa",
+  "choice": "none",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:00:24.878Z"
+ },
+ "boundary:od paam": {
+  "kind": "boundary",
+  "term": "od paam",
+  "parts": [
+   "paam"
+  ],
+  "short_term": "paam",
+  "choice": "none",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:00:29.245Z"
+ },
+ "boundary:rehov": {
+  "kind": "boundary",
+  "term": "rehov",
+  "parts": [
+   "rehov bialik"
+  ],
+  "short_term": "rehov bialik",
+  "choice": "full",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:00:41.472Z"
+ },
+ "boundary:shuk hatikva": {
+  "kind": "boundary",
+  "term": "shuk hatikva",
+  "parts": [
+   "hatikva"
+  ],
+  "short_term": "hatikva",
+  "choice": "none",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:00:48.080Z"
+ },
+ "boundary:shuk sarona": {
+  "kind": "boundary",
+  "term": "shuk sarona",
+  "parts": [
+   "sarona"
+  ],
+  "short_term": "sarona",
+  "choice": "none",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:00:51.684Z"
+ },
+ "boundary:tofes 101": {
+  "kind": "boundary",
+  "term": "tofes 101",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:00:55.939Z"
+ },
+ "boundary:tofes 106": {
+  "kind": "boundary",
+  "term": "tofes 106",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:00:57.294Z"
+ },
+ "boundary:tofes 126": {
+  "kind": "boundary",
+  "term": "tofes 126",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:00:58.572Z"
+ },
+ "boundary:tofes 1301": {
+  "kind": "boundary",
+  "term": "tofes 1301",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:00:59.835Z"
+ },
+ "boundary:tofes 1302": {
+  "kind": "boundary",
+  "term": "tofes 1302",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:00.811Z"
+ },
+ "boundary:tofes 1303": {
+  "kind": "boundary",
+  "term": "tofes 1303",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:01.467Z"
+ },
+ "boundary:tofes 1304": {
+  "kind": "boundary",
+  "term": "tofes 1304",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:02.696Z"
+ },
+ "boundary:tofes 1305": {
+  "kind": "boundary",
+  "term": "tofes 1305",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:03.388Z"
+ },
+ "boundary:tofes 1306": {
+  "kind": "boundary",
+  "term": "tofes 1306",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:03.950Z"
+ },
+ "boundary:tofes 1308": {
+  "kind": "boundary",
+  "term": "tofes 1308",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:04.510Z"
+ },
+ "boundary:tofes 1309": {
+  "kind": "boundary",
+  "term": "tofes 1309",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:05.743Z"
+ },
+ "boundary:tofes 1310": {
+  "kind": "boundary",
+  "term": "tofes 1310",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:07.808Z"
+ },
+ "boundary:tofes 1311": {
+  "kind": "boundary",
+  "term": "tofes 1311",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:08.960Z"
+ },
+ "boundary:tofes 1312": {
+  "kind": "boundary",
+  "term": "tofes 1312",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:09.766Z"
+ },
+ "boundary:tofes 1313": {
+  "kind": "boundary",
+  "term": "tofes 1313",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:10.403Z"
+ },
+ "boundary:tofes 1314": {
+  "kind": "boundary",
+  "term": "tofes 1314",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:11.560Z"
+ },
+ "boundary:tofes 1315": {
+  "kind": "boundary",
+  "term": "tofes 1315",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:12.843Z"
+ },
+ "boundary:tofes 1316": {
+  "kind": "boundary",
+  "term": "tofes 1316",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:13.865Z"
+ },
+ "boundary:tofes 1317": {
+  "kind": "boundary",
+  "term": "tofes 1317",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:15.121Z"
+ },
+ "boundary:tofes 1318": {
+  "kind": "boundary",
+  "term": "tofes 1318",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:15.805Z"
+ },
+ "boundary:tofes 1319": {
+  "kind": "boundary",
+  "term": "tofes 1319",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:16.391Z"
+ },
+ "boundary:tofes 1320": {
+  "kind": "boundary",
+  "term": "tofes 1320",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:16.942Z"
+ },
+ "boundary:tofes 1321": {
+  "kind": "boundary",
+  "term": "tofes 1321",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:17.459Z"
+ },
+ "boundary:tofes 1322": {
+  "kind": "boundary",
+  "term": "tofes 1322",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:17.992Z"
+ },
+ "boundary:tofes 1323": {
+  "kind": "boundary",
+  "term": "tofes 1323",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:19.072Z"
+ },
+ "boundary:tofes 1324": {
+  "kind": "boundary",
+  "term": "tofes 1324",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:19.890Z"
+ },
+ "boundary:tofes 1325": {
+  "kind": "boundary",
+  "term": "tofes 1325",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:20.782Z"
+ },
+ "boundary:tofes 1326": {
+  "kind": "boundary",
+  "term": "tofes 1326",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:21.764Z"
+ },
+ "boundary:tofes 1327": {
+  "kind": "boundary",
+  "term": "tofes 1327",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:23.384Z"
+ },
+ "boundary:tofes 1328": {
+  "kind": "boundary",
+  "term": "tofes 1328",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:24.799Z"
+ },
+ "boundary:tofes 1329": {
+  "kind": "boundary",
+  "term": "tofes 1329",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:25.918Z"
+ },
+ "boundary:tofes 1330": {
+  "kind": "boundary",
+  "term": "tofes 1330",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:26.797Z"
+ },
+ "boundary:tofes 1331": {
+  "kind": "boundary",
+  "term": "tofes 1331",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:27.817Z"
+ },
+ "boundary:tofes 1332": {
+  "kind": "boundary",
+  "term": "tofes 1332",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:29.477Z"
+ },
+ "boundary:tofes 1333": {
+  "kind": "boundary",
+  "term": "tofes 1333",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:29.872Z"
+ },
+ "boundary:tofes 1334": {
+  "kind": "boundary",
+  "term": "tofes 1334",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:30.493Z"
+ },
+ "boundary:tofes 1335": {
+  "kind": "boundary",
+  "term": "tofes 1335",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:31.050Z"
+ },
+ "boundary:tofes 1336": {
+  "kind": "boundary",
+  "term": "tofes 1336",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:31.549Z"
+ },
+ "boundary:tofes 1337": {
+  "kind": "boundary",
+  "term": "tofes 1337",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:31.944Z"
+ },
+ "boundary:tofes 1338": {
+  "kind": "boundary",
+  "term": "tofes 1338",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:32.288Z"
+ },
+ "boundary:tofes 1339": {
+  "kind": "boundary",
+  "term": "tofes 1339",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:32.711Z"
+ },
+ "boundary:tofes 1340": {
+  "kind": "boundary",
+  "term": "tofes 1340",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:33.074Z"
+ },
+ "boundary:tofes 1341": {
+  "kind": "boundary",
+  "term": "tofes 1341",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:33.454Z"
+ },
+ "boundary:tofes 1342": {
+  "kind": "boundary",
+  "term": "tofes 1342",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:33.776Z"
+ },
+ "boundary:tofes 1343": {
+  "kind": "boundary",
+  "term": "tofes 1343",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:33.983Z"
+ },
+ "boundary:tofes 1344": {
+  "kind": "boundary",
+  "term": "tofes 1344",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:34.579Z"
+ },
+ "boundary:tofes 1345": {
+  "kind": "boundary",
+  "term": "tofes 1345",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:34.880Z"
+ },
+ "boundary:tofes 1346": {
+  "kind": "boundary",
+  "term": "tofes 1346",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:35.258Z"
+ },
+ "boundary:tofes 1347": {
+  "kind": "boundary",
+  "term": "tofes 1347",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:35.567Z"
+ },
+ "boundary:tofes 1348": {
+  "kind": "boundary",
+  "term": "tofes 1348",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:35.905Z"
+ },
+ "boundary:tofes 1349": {
+  "kind": "boundary",
+  "term": "tofes 1349",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:36.216Z"
+ },
+ "boundary:tofes 1350": {
+  "kind": "boundary",
+  "term": "tofes 1350",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:36.551Z"
+ },
+ "boundary:tofes 1351": {
+  "kind": "boundary",
+  "term": "tofes 1351",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:36.925Z"
+ },
+ "boundary:tofes 1352": {
+  "kind": "boundary",
+  "term": "tofes 1352",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:37.290Z"
+ },
+ "boundary:tofes 1353": {
+  "kind": "boundary",
+  "term": "tofes 1353",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:37.608Z"
+ },
+ "boundary:tofes 1354": {
+  "kind": "boundary",
+  "term": "tofes 1354",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:37.932Z"
+ },
+ "boundary:tofes 1355": {
+  "kind": "boundary",
+  "term": "tofes 1355",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:38.273Z"
+ },
+ "boundary:tofes 1356": {
+  "kind": "boundary",
+  "term": "tofes 1356",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:38.581Z"
+ },
+ "boundary:tofes 1357": {
+  "kind": "boundary",
+  "term": "tofes 1357",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:38.905Z"
+ },
+ "boundary:tofes 1358": {
+  "kind": "boundary",
+  "term": "tofes 1358",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:39.239Z"
+ },
+ "boundary:tofes 1359": {
+  "kind": "boundary",
+  "term": "tofes 1359",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:39.514Z"
+ },
+ "boundary:tofes 1360": {
+  "kind": "boundary",
+  "term": "tofes 1360",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:39.838Z"
+ },
+ "boundary:tofes 1361": {
+  "kind": "boundary",
+  "term": "tofes 1361",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:40.143Z"
+ },
+ "boundary:tofes 1362": {
+  "kind": "boundary",
+  "term": "tofes 1362",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:40.466Z"
+ },
+ "boundary:tofes 1363": {
+  "kind": "boundary",
+  "term": "tofes 1363",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:41.017Z"
+ },
+ "boundary:tofes 1364": {
+  "kind": "boundary",
+  "term": "tofes 1364",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:41.337Z"
+ },
+ "boundary:tofes 1365": {
+  "kind": "boundary",
+  "term": "tofes 1365",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:41.648Z"
+ },
+ "boundary:tofes 1366": {
+  "kind": "boundary",
+  "term": "tofes 1366",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:41.976Z"
+ },
+ "boundary:tofes 1367": {
+  "kind": "boundary",
+  "term": "tofes 1367",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:42.301Z"
+ },
+ "boundary:tofes 1368": {
+  "kind": "boundary",
+  "term": "tofes 1368",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:42.615Z"
+ },
+ "boundary:tofes 1369": {
+  "kind": "boundary",
+  "term": "tofes 1369",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:42.931Z"
+ },
+ "boundary:tofes 1370": {
+  "kind": "boundary",
+  "term": "tofes 1370",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:43.232Z"
+ },
+ "boundary:tofes 17": {
+  "kind": "boundary",
+  "term": "tofes 17",
+  "parts": [
+   "tofes"
+  ],
+  "short_term": "tofes",
+  "choice": "short",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:43.533Z"
+ },
+ "boundary:tzilum raentgen": {
+  "kind": "boundary",
+  "term": "tzilum raentgen",
+  "parts": [
+   "tzilum"
+  ],
+  "short_term": "tzilum",
+  "choice": "none",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:01:52.726Z"
+ },
+ "g00033:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:02:06.852Z"
+ },
+ "g00050:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:02:09.942Z"
+ },
+ "g00051:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:02:11.599Z"
+ },
+ "g00052:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:02:13.009Z"
+ },
+ "g00053:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:02:14.490Z"
+ },
+ "g00054:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:02:16.250Z"
+ },
+ "g00055:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:02:17.248Z"
+ },
+ "g00056:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:02:18.857Z"
+ },
+ "g00071:0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:02:44.535Z"
+ },
+ "g00084:2": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:02:54.105Z"
+ },
+ "g00123:1": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:02:56.404Z"
+ },
+ "g00141:1": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:02:59.073Z"
+ },
+ "g00157:1": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:03:01.836Z"
+ },
+ "g00173:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:03:04.465Z"
+ },
+ "g00173:2": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:03:06.139Z"
+ },
+ "g00260:1": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:03:07.596Z"
+ },
+ "g00294:0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:03:10.498Z"
+ },
+ "g00296:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:03:13.813Z"
+ },
+ "g00296:2": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:03:15.257Z"
+ },
+ "g00406:1": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:03:20.659Z"
+ },
+ "g00500:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:03:24.939Z"
+ },
+ "g00522:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:03:27.473Z"
+ },
+ "g00528:1": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:03:33.349Z"
+ },
+ "g00614:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:03:34.934Z"
+ },
+ "g00672:1": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:03:36.275Z"
+ },
+ "g00732:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:03:37.734Z"
+ },
+ "g00767:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:03:39.288Z"
+ },
+ "g00795:0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:03:40.354Z"
+ },
+ "g00796:1": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:03:44.276Z"
+ },
+ "g00798:1": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:03:45.940Z"
+ },
+ "g00811:2": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:03:47.550Z"
+ },
+ "g00817:1": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:03:48.419Z"
+ },
+ "g00849:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:03:53.214Z"
+ },
+ "g00907:1": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:03:57.918Z"
+ },
+ "g00953:1": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:04:00.329Z"
+ },
+ "g00963:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:04:02.187Z"
+ },
+ "g00964:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:04:03.088Z"
+ },
+ "g00965:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:04:03.912Z"
+ },
+ "g00972:0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:04:05.451Z"
+ },
+ "g01010:1": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:04:07.400Z"
+ },
+ "g01019:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:04:13.548Z"
+ },
+ "g01019:2": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:04:15.105Z"
+ },
+ "g01071:1": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:04:16.885Z"
+ },
+ "g01104:1": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:04:18.393Z"
+ },
+ "g01105:1": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:04:20.242Z"
+ },
+ "g01106:1": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:04:20.898Z"
+ },
+ "g01113:1": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:04:22.390Z"
+ },
+ "g01114:1": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:04:23.764Z"
+ },
+ "g01152:1": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:04:25.255Z"
+ },
+ "g01211:1": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:04:27.465Z"
+ },
+ "g01269:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:04:29.108Z"
+ },
+ "g01282:1": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:04:30.507Z"
+ },
+ "g01312:1": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:04:31.866Z"
+ },
+ "g01313:3": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:04:33.404Z"
+ },
+ "g01332:1": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:04:35.079Z"
+ },
+ "g01361:0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:04:37.454Z"
+ },
+ "g01365:1": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:04:39.217Z"
+ },
+ "g01454:0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:04:41.996Z"
+ },
+ "g01456:1": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:04:47.442Z"
+ },
+ "g01517:0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:04:50.230Z"
+ },
+ "g01533:1": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:04:51.543Z"
+ },
+ "g01543:0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:04:53.032Z"
+ },
+ "g01546:1": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:04:54.746Z"
+ },
+ "g01632:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:04:57.131Z"
+ },
+ "g01634:0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:04:59.365Z"
+ },
+ "g01634:1": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:05:00.661Z"
+ },
+ "g01683:1": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:05:01.923Z"
+ },
+ "g01755:1": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:05:03.756Z"
+ },
+ "g01794:1": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:05:09.829Z"
+ },
+ "g01832:1": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:05:14.372Z"
+ },
+ "g01838:1": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:05:15.235Z"
+ },
+ "g01847:1": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:05:16.383Z"
+ },
+ "g01895:1": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:05:17.486Z"
+ },
+ "g01936:0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:05:19.033Z"
+ },
+ "g01977:1": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:05:22.818Z"
+ },
+ "g01979:1": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:05:24.135Z"
+ },
+ "g02027:1": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:05:26.575Z"
+ },
+ "g02094:1": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:05:28.691Z"
+ },
+ "g02123:1": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:05:30.202Z"
+ },
+ "g02139:1": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:05:32.878Z"
+ },
+ "g02161:1": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:05:34.157Z"
+ },
+ "g02165:1": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:05:34.769Z"
+ },
+ "g02179:1": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:05:36.600Z"
+ },
+ "g02213:1": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:05:37.441Z"
+ },
+ "g02233:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:05:38.858Z"
+ },
+ "g02296:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:05:41.395Z"
+ },
+ "g02297:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:05:42.959Z"
+ },
+ "g02356:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:05:46.535Z"
+ },
+ "g02496:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:05:47.991Z"
+ },
+ "g02499:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:05:48.749Z"
+ },
+ "g02500:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:05:49.466Z"
+ },
+ "g02502:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:05:50.027Z"
+ },
+ "g02534:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:05:51.641Z"
+ },
+ "g02535:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:05:53.612Z"
+ },
+ "g02536:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:05:54.394Z"
+ },
+ "g02537:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:05:55.078Z"
+ },
+ "g02538:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:05:56.619Z"
+ },
+ "g02539:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:05:57.312Z"
+ },
+ "g02540:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:05:57.927Z"
+ },
+ "g02541:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:05:59.767Z"
+ },
+ "g02542:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:06:00.762Z"
+ },
+ "g02698:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:06:03.074Z"
+ },
+ "g02699:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:06:04.081Z"
+ },
+ "g02700:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:06:04.940Z"
+ },
+ "g02701:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:06:07.698Z"
+ },
+ "g02702:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:06:08.692Z"
+ },
+ "g02703:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:06:09.733Z"
+ },
+ "g02704:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:06:10.507Z"
+ },
+ "g00030:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:06:15.938Z"
+ },
+ "g00032:0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:06:18.973Z"
+ },
+ "g00108:0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:06:20.495Z"
+ },
+ "g00117:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:06:23.378Z"
+ },
+ "g00122:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:06:24.615Z"
+ },
+ "g00261:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:06:25.660Z"
+ },
+ "g00262:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:06:26.490Z"
+ },
+ "g00301:0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:06:28.354Z"
+ },
+ "g00436:0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:06:29.712Z"
+ },
+ "g00452:0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:06:31.468Z"
+ },
+ "g00524:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:06:33.035Z"
+ },
+ "g00536:0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:06:34.371Z"
+ },
+ "g00569:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:06:36.058Z"
+ },
+ "g00641:0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:06:38.707Z"
+ },
+ "g00681:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:06:40.324Z"
+ },
+ "g00683:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:06:41.308Z"
+ },
+ "g00725:1": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:06:42.685Z"
+ },
+ "g00825:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:06:44.743Z"
+ },
+ "g00826:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:06:45.747Z"
+ },
+ "g01024:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:06:46.757Z"
+ },
+ "g01035:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:06:49.949Z"
+ },
+ "g01066:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:06:51.074Z"
+ },
+ "g01067:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:06:51.826Z"
+ },
+ "g01083:0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:06:55.028Z"
+ },
+ "g01084:0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:06:56.029Z"
+ },
+ "g01218:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:06:56.990Z"
+ },
+ "g01253:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:06:58.614Z"
+ },
+ "g01314:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:06:59.782Z"
+ },
+ "g01330:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:07:01.085Z"
+ },
+ "g01331:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:07:01.834Z"
+ },
+ "g01340:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:07:03.483Z"
+ },
+ "g01398:0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:07:04.712Z"
+ },
+ "g01474:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:07:05.926Z"
+ },
+ "g01508:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:07:09.651Z"
+ },
+ "g01536:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:07:10.730Z"
+ },
+ "g01538:1": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:07:12.186Z"
+ },
+ "g01561:0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:07:13.661Z"
+ },
+ "g01567:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:07:16.128Z"
+ },
+ "g01580:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:07:17.017Z"
+ },
+ "g01581:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:07:18.049Z"
+ },
+ "g01601:1": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:07:18.866Z"
+ },
+ "g01705:1": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:07:20.569Z"
+ },
+ "g01743:1": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:07:21.975Z"
+ },
+ "g01769:0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:07:23.628Z"
+ },
+ "g01823:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:07:24.662Z"
+ },
+ "g01890:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:07:26.053Z"
+ },
+ "g02165:0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:07:28.106Z"
+ },
+ "g02179:0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:07:29.455Z"
+ },
+ "g02204:0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:07:30.826Z"
+ },
+ "g00004:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:07:32.039Z"
+ },
+ "g00005:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:07:33.084Z"
+ },
+ "g00008:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:07:34.136Z"
+ },
+ "g00027:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:07:35.250Z"
+ },
+ "g00057:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:08:00.325Z"
+ },
+ "g00059:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:08:01.584Z"
+ },
+ "g00064:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:08:06.935Z"
+ },
+ "g00091:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:08:10.921Z"
+ },
+ "g00093:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:08:12.761Z"
+ },
+ "g00111:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:08:14.257Z"
+ },
+ "g00113:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:08:15.449Z"
+ },
+ "g00115:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:08:17.876Z"
+ },
+ "g00116:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:08:18.798Z"
+ },
+ "g00159:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:08:24.398Z"
+ },
+ "g00222:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:08:27.808Z"
+ },
+ "g00250:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:08:29.200Z"
+ },
+ "g00265:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:08:30.548Z"
+ },
+ "g00292:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:08:31.520Z"
+ },
+ "g00325:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:08:35.122Z"
+ },
+ "g00327:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:08:36.348Z"
+ },
+ "g00334:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:08:37.342Z"
+ },
+ "g00365:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:08:38.955Z"
+ },
+ "g00386:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:08:46.976Z"
+ },
+ "g00408:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:09:01.530Z"
+ },
+ "g00424:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:09:03.137Z"
+ },
+ "g00429:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:09:04.774Z"
+ },
+ "g00430:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:09:05.409Z"
+ },
+ "g00469:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:09:06.703Z"
+ },
+ "g00504:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:09:09.424Z"
+ },
+ "g00514:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:09:11.040Z"
+ },
+ "g00532:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:09:12.360Z"
+ },
+ "g00545:a": {
+  "kind": "record",
+  "terms": [
+   "sukkot"
+  ],
+  "at": "2026-09-22T17:09:19.327Z"
+ },
+ "g00548:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:09:21.398Z"
+ },
+ "g00555:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:09:23.564Z"
+ },
+ "g00561:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:09:24.896Z"
+ },
+ "g00595:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:09:33.333Z"
+ },
+ "g00612:a": {
+  "kind": "record",
+  "terms": [
+   "machane yehuda"
+  ],
+  "at": "2026-09-22T17:09:42.841Z"
+ },
+ "g00613:a": {
+  "kind": "record",
+  "terms": [
+   "machane yehuda"
+  ],
+  "at": "2026-09-22T17:09:46.272Z"
+ },
+ "g00635:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:09:49.727Z"
+ },
+ "g00642:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:09:52.892Z"
+ },
+ "g00645:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:09:54.693Z"
+ },
+ "g00652:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:09:56.657Z"
+ },
+ "g00653:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:09:57.786Z"
+ },
+ "g00662:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:09:59.515Z"
+ },
+ "g00663:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:10:00.608Z"
+ },
+ "g00703:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:10:02.565Z"
+ },
+ "g00769:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:10:05.916Z"
+ },
+ "g00770:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:10:06.898Z"
+ },
+ "g00793:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:10:07.904Z"
+ },
+ "g00809:a": {
+  "kind": "record",
+  "terms": [
+   "ramat gan"
+  ],
+  "at": "2026-09-22T17:10:11.476Z"
+ },
+ "g00831:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:10:13.475Z"
+ },
+ "g00833:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:10:14.312Z"
+ },
+ "g00837:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:10:15.767Z"
+ },
+ "g00863:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:10:19.718Z"
+ },
+ "g00865:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:10:20.690Z"
+ },
+ "g00882:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:10:24.111Z"
+ },
+ "g00887:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:10:25.359Z"
+ },
+ "g00909:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:10:26.567Z"
+ },
+ "g00911:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:10:27.494Z"
+ },
+ "g00919:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:10:34.217Z"
+ },
+ "g00926:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:10:36.002Z"
+ },
+ "g00931:a": {
+  "kind": "record",
+  "terms": [
+   "brit milah"
+  ],
+  "at": "2026-09-22T17:10:43.054Z"
+ },
+ "g00942:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:10:45.179Z"
+ },
+ "g00945:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:10:46.845Z"
+ },
+ "g00968:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:10:48.574Z"
+ },
+ "g00971:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:10:50.353Z"
+ },
+ "g00998:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:10:51.675Z"
+ },
+ "g00999:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:10:53.091Z"
+ },
+ "g01005:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:10:54.602Z"
+ },
+ "g01017:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:10:56.223Z"
+ },
+ "g01020:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:10:57.381Z"
+ },
+ "g01029:a": {
+  "kind": "record",
+  "terms": [
+   "rosh hashanah"
+  ],
+  "at": "2026-09-22T17:11:02.423Z"
+ },
+ "g01032:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:11:05.328Z"
+ },
+ "g01033:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:11:06.623Z"
+ },
+ "g01049:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:11:08.356Z"
+ },
+ "g01078:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:11:09.813Z"
+ },
+ "g01088:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:11:10.854Z"
+ },
+ "g01089:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:11:11.908Z"
+ },
+ "g01100:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:11:13.403Z"
+ },
+ "g01107:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:11:14.990Z"
+ },
+ "g01110:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:11:16.950Z"
+ },
+ "g01139:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:11:17.912Z"
+ },
+ "g01147:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:11:19.339Z"
+ },
+ "g01158:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:11:20.481Z"
+ },
+ "g01162:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:11:21.983Z"
+ },
+ "g01180:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:11:23.262Z"
+ },
+ "g01187:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:11:24.703Z"
+ },
+ "g01203:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:11:26.331Z"
+ },
+ "g01206:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:11:27.606Z"
+ },
+ "g01216:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:11:28.786Z"
+ },
+ "g01223:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:11:30.149Z"
+ },
+ "g01235:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:11:32.387Z"
+ },
+ "g01248:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:11:33.803Z"
+ },
+ "g01255:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:11:35.551Z"
+ },
+ "g01266:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:11:37.064Z"
+ },
+ "g01268:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:11:38.240Z"
+ },
+ "g01298:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:11:39.413Z"
+ },
+ "g01311:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:11:42.923Z"
+ },
+ "g01316:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:11:43.986Z"
+ },
+ "g01336:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:11:46.295Z"
+ },
+ "g01337:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:11:47.062Z"
+ },
+ "g01353:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:11:48.796Z"
+ },
+ "g01355:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:11:49.590Z"
+ },
+ "g01357:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:11:50.999Z"
+ },
+ "g01360:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:11:52.019Z"
+ },
+ "g01403:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:11:55.536Z"
+ },
+ "g01412:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:11:57.015Z"
+ },
+ "g01426:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:11:58.528Z"
+ },
+ "g01430:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:11:59.681Z"
+ },
+ "g01435:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:12:00.865Z"
+ },
+ "g01440:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:12:01.974Z"
+ },
+ "g01453:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:12:04.160Z"
+ },
+ "g01470:a": {
+  "kind": "record",
+  "terms": [
+   "Chanukah"
+  ],
+  "at": "2026-09-22T17:12:08.592Z"
+ },
+ "g01499:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:12:10.411Z"
+ },
+ "g01527:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:12:12.256Z"
+ },
+ "g01562:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:12:13.506Z"
+ },
+ "g01573:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:12:14.625Z"
+ },
+ "g01577:a": {
+  "kind": "record",
+  "terms": [
+   "kanyon azrieli"
+  ],
+  "at": "2026-09-22T17:12:21.866Z"
+ },
+ "g01587:a": {
+  "kind": "record",
+  "terms": [
+   "kan"
+  ],
+  "at": "2026-09-22T17:12:24.734Z"
+ },
+ "g01596:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:12:26.800Z"
+ },
+ "g01598:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:12:27.794Z"
+ },
+ "g01606:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:12:29.023Z"
+ },
+ "g01610:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:12:30.333Z"
+ },
+ "g01623:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:12:32.557Z"
+ },
+ "g01626:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:12:35.621Z"
+ },
+ "g01635:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:12:37.154Z"
+ },
+ "g01640:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:12:38.146Z"
+ },
+ "g01641:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:12:39.894Z"
+ },
+ "g01642:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:12:40.568Z"
+ },
+ "g01652:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:12:43.392Z"
+ },
+ "g01658:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:12:44.902Z"
+ },
+ "g01662:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:12:47.702Z"
+ },
+ "g01666:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:12:48.852Z"
+ },
+ "g01682:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:12:52.124Z"
+ },
+ "g01700:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:12:54.033Z"
+ },
+ "g01714:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:12:55.511Z"
+ },
+ "g01715:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:12:56.543Z"
+ },
+ "g01720:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:12:57.961Z"
+ },
+ "g01722:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:12:59.481Z"
+ },
+ "g01734:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:13:00.650Z"
+ },
+ "g01740:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:13:02.204Z"
+ },
+ "g01764:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:13:03.862Z"
+ },
+ "g01771:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:13:05.066Z"
+ },
+ "g01782:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:13:08.096Z"
+ },
+ "g01796:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:13:09.138Z"
+ },
+ "g01800:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:13:10.173Z"
+ },
+ "g01821:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:13:11.984Z"
+ },
+ "g01829:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:13:13.270Z"
+ },
+ "g01844:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:13:14.872Z"
+ },
+ "g01852:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:13:18.102Z"
+ },
+ "g01857:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:13:19.200Z"
+ },
+ "g01858:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:13:20.220Z"
+ },
+ "g01869:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:13:22.392Z"
+ },
+ "g01876:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:13:23.654Z"
+ },
+ "g01886:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:13:25.183Z"
+ },
+ "g01893:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:13:26.483Z"
+ },
+ "g01902:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:13:27.914Z"
+ },
+ "g01903:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:13:28.796Z"
+ },
+ "g01932:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:13:30.107Z"
+ },
+ "g01934:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:13:31.857Z"
+ },
+ "g01946:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:13:32.968Z"
+ },
+ "g01949:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:13:34.830Z"
+ },
+ "g01956:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:13:36.020Z"
+ },
+ "g01960:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:13:37.261Z"
+ },
+ "g01971:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:13:38.455Z"
+ },
+ "g01986:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:13:39.604Z"
+ },
+ "g01996:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:13:41.011Z"
+ },
+ "g02007:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:13:41.904Z"
+ },
+ "g02018:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:13:43.421Z"
+ },
+ "g02025:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:13:44.355Z"
+ },
+ "g02026:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:13:44.990Z"
+ },
+ "g02033:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:13:45.730Z"
+ },
+ "g02042:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:13:46.959Z"
+ },
+ "g02047:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:13:48.459Z"
+ },
+ "g02056:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:13:49.499Z"
+ },
+ "g02060:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:13:50.816Z"
+ },
+ "g02076:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:13:51.767Z"
+ },
+ "g02087:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:13:52.923Z"
+ },
+ "g02096:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:13:54.096Z"
+ },
+ "g02100:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:13:55.296Z"
+ },
+ "g02114:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:13:57.918Z"
+ },
+ "g02115:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:13:59.081Z"
+ },
+ "g02118:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:14:00.063Z"
+ },
+ "g02120:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:14:00.816Z"
+ },
+ "g02144:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:14:02.107Z"
+ },
+ "g02155:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:14:04.038Z"
+ },
+ "g02159:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:14:05.814Z"
+ },
+ "g02166:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:14:07.789Z"
+ },
+ "g02170:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:14:10.018Z"
+ },
+ "g02173:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:14:14.428Z"
+ },
+ "g02174:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:14:15.212Z"
+ },
+ "g02216:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:14:16.197Z"
+ },
+ "g02221:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:14:17.832Z"
+ },
+ "g02239:a0": {
+  "kind": "span",
+  "include": true,
+  "hebrew": true,
+  "at": "2026-09-22T17:14:19.006Z"
+ },
+ "g02246:a0": {
+  "kind": "span",
+  "include": false,
+  "hebrew": false,
+  "at": "2026-09-22T17:14:20.336Z"
+ },
+ "g02446:a": {
+  "kind": "record",
+  "terms": [
+   "sukkot"
+  ],
+  "at": "2026-09-22T17:15:04.299Z"
+ },
+ "g02447:a": {
+  "kind": "record",
+  "terms": [
+   "sukkot"
+  ],
+  "at": "2026-09-22T17:15:07.321Z"
+ }
+}
