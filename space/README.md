@@ -19,7 +19,7 @@ and a blind annotator from a different model family that never sees the seed. Wh
 they agree, the span is accepted automatically. This page is for the cases they
 disagree on, plus a random audit sample of the ones they agreed on.
 
-**554 tasks**, ordered worst-first: 11 term rulings, ~140 span-boundary questions,
+**525 tasks**, ordered worst-first: 11 term rulings, ~140 span-boundary questions,
 the spans one model found and the other did not, and a random audit of cases both
 models agreed on.
 
@@ -39,6 +39,7 @@ you are done and run `scripts/build_splits.py` in the repo.
 | <kbd>y</kbd> | Include — or, on a boundary task, keep the full span |
 | <kbd>n</kbd> | Exclude — or, on a boundary task, use the shorter span |
 | <kbd>x</kbd> | Neither — boundary tasks only; tag nothing here |
+| <kbd>n</kbd> | On a boundary task: the parts, which may be several |
 | <kbd>d</kbd> | Can't decide — records that you looked, and never asks again |
 | <kbd>Enter</kbd> | Submit typed terms (record tasks) |
 | <kbd>s</kbd> | Skip |

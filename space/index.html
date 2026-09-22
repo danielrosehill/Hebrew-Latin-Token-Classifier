@@ -132,25 +132,35 @@ function render() {
     (t.dataset_label ? JSON.stringify(t.dataset_label) : 'none');
 
   if (t.kind === 'boundary') {
+    const surfaces = t.part_surfaces || [t.short_surface];
+    const partsLabel = surfaces.map(escapeHtml).join('</b> + <b>');
     el('sentence').innerHTML =
-      'Full span <b>' + escapeHtml(t.surface) + '</b>' +
-      '<span style="opacity:.6"> &nbsp;or just&nbsp; </span>' +
-      '<b>' + escapeHtml(t.short_surface) + '</b>?';
+      '<b>' + escapeHtml(t.surface) + '</b>' +
+      '<span style="opacity:.6"> &nbsp;as one span, or as&nbsp; </span>' +
+      '<b>' + partsLabel + '</b>?';
     const ex = (t.examples || []).map(x =>
       '<li style="margin:.35rem 0">' + escapeHtml(x) + '</li>').join('');
     el('answer').innerHTML =
       '<ul style="font-size:.9375rem;opacity:.8;padding-left:1.2rem;margin:0 0 1.25rem">' +
       ex + '</ul>' +
       '<div id="actions">' +
-      '<button onclick="decideBoundary(\'full\')">Full span <kbd>y</kbd></button>' +
-      '<button onclick="decideBoundary(\'short\')">Shorter <kbd>n</kbd></button>' +
+      '<button onclick="decideBoundary(\'full\')">Whole phrase <kbd>y</kbd></button>' +
+      '<button onclick="decideBoundary(\'short\')">' +
+        (surfaces.length > 1 ? 'Both parts' : 'Shorter') + ' <kbd>n</kbd></button>' +
       '<button onclick="decideBoundary(\'none\')">Neither <kbd>x</kbd></button>' +
       '<button onclick="defer()">Can\'t decide <kbd>d</kbd></button>' +
       '<button onclick="skip()">Skip <kbd>s</kbd></button></div>' +
       '<p style="font-size:.8125rem;opacity:.65;margin:1rem 0 0;max-width:34rem">' +
-      '<b>Neither</b> = tag nothing here. Use it when the shorter span is a ' +
-      'fragment that means something else on its own, and the full phrase is not ' +
-      'worth flagging either.</p>';
+      (surfaces.length > 1
+        ? '<b>Both parts</b> = tag each piece as its own span. Right when the ' +
+          'phrase is really two Hebrew words that happen to sit together, like ' +
+          '\'mas hachnasa\' + \'chaverot\'.'
+        : '<b>Shorter</b> = narrow the span to just that word, e.g. ' +
+          '\'tofes 1311\' &rarr; \'tofes\', since the numeral does not need ' +
+          'rendering in Hebrew.') +
+      ' <b>Neither</b> = tag nothing here; use it when the shorter piece is a ' +
+      'fragment meaning something else on its own, like \'af ehad\' (nobody) ' +
+      'cut down to \'ehad\' (one).</p>';
   } else if (t.kind === 'term') {
     el('sentence').innerHTML = '<b>' + escapeHtml(t.term) + '</b>';
     const examples = (t.examples || []).map(x =>
@@ -212,7 +222,7 @@ const decideTerm = inc =>
 // include/hebrew are kept as aliases so earlier decisions still apply.
 const decideBoundary = choice => record({
   kind: 'boundary', term: queue[cursor].term,
-  short_term: queue[cursor].short_term, choice,
+  parts: queue[cursor].parts, short_term: queue[cursor].short_term, choice,
   include: choice === 'full', hebrew: choice === 'full' });
 
 function answer(value) {

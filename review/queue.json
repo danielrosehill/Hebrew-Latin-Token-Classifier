@@ -187,7 +187,7 @@
   "note": "the annotator rejected 'taramosalata' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
  },
  {
-  "key": "boundary:af ehad|ehad",
+  "key": "boundary:af ehad",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:af ehad",
@@ -198,13 +198,19 @@
   ],
   "term": "af ehad",
   "surface": "af ehad",
+  "parts": [
+   "ehad"
+  ],
+  "part_surfaces": [
+   "ehad"
+  ],
   "short_term": "ehad",
   "short_surface": "ehad",
   "dataset_label": "af ehad",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'af ehad', or just 'ehad'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'af ehad', or 'ehad'?"
  },
  {
-  "key": "boundary:af paam|paam",
+  "key": "boundary:af paam",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:af paam",
@@ -216,13 +222,19 @@
   ],
   "term": "af paam",
   "surface": "af paam",
+  "parts": [
+   "paam"
+  ],
+  "part_surfaces": [
+   "paam"
+  ],
   "short_term": "paam",
   "short_surface": "paam",
   "dataset_label": "af paam",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'af paam', or just 'paam'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'af paam', or 'paam'?"
  },
  {
-  "key": "boundary:aruchat boker|aruchat",
+  "key": "boundary:aruchat boker",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:aruchat boker",
@@ -233,30 +245,21 @@
   ],
   "term": "aruchat boker",
   "surface": "Aruchat boker",
+  "parts": [
+   "aruchat",
+   "boker"
+  ],
+  "part_surfaces": [
+   "Aruchat",
+   "boker"
+  ],
   "short_term": "aruchat",
   "short_surface": "Aruchat",
   "dataset_label": "aruchat boker",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'Aruchat boker', or just 'Aruchat'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'Aruchat boker', or 'Aruchat' + 'boker'?"
  },
  {
-  "key": "boundary:aruchat boker|boker",
-  "kind": "boundary",
-  "risk": "boundary",
-  "id": "boundary:aruchat boker",
-  "split": "generated",
-  "text": "Aruchat boker? Already?",
-  "examples": [
-   "Aruchat boker? Already?"
-  ],
-  "term": "aruchat boker",
-  "surface": "Aruchat boker",
-  "short_term": "boker",
-  "short_surface": "boker",
-  "dataset_label": "aruchat boker",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'Aruchat boker', or just 'boker'?"
- },
- {
-  "key": "boundary:bituach mashlim|bituach",
+  "key": "boundary:bituach mashlim",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:bituach mashlim",
@@ -267,30 +270,21 @@
   ],
   "term": "bituach mashlim",
   "surface": "bituach mashlim",
+  "parts": [
+   "bituach",
+   "mashlim"
+  ],
+  "part_surfaces": [
+   "bituach",
+   "mashlim"
+  ],
   "short_term": "bituach",
   "short_surface": "bituach",
   "dataset_label": "bituach mashlim",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'bituach mashlim', or just 'bituach'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'bituach mashlim', or 'bituach' + 'mashlim'?"
  },
  {
-  "key": "boundary:bituach mashlim|mashlim",
-  "kind": "boundary",
-  "risk": "boundary",
-  "id": "boundary:bituach mashlim",
-  "split": "generated",
-  "text": "After the surgery, she said the bituach mashlim covered almost everything the kupat cholim didn't.",
-  "examples": [
-   "After the surgery, she said the bituach mashlim covered almost everything the kupat cholim didn't."
-  ],
-  "term": "bituach mashlim",
-  "surface": "bituach mashlim",
-  "short_term": "mashlim",
-  "short_surface": "mashlim",
-  "dataset_label": "bituach mashlim",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'bituach mashlim', or just 'mashlim'?"
- },
- {
-  "key": "boundary:bituach menhalim|bituach",
+  "key": "boundary:bituach menhalim",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:bituach menhalim",
@@ -301,13 +295,19 @@
   ],
   "term": "bituach menhalim",
   "surface": "Bituach menhalim",
+  "parts": [
+   "bituach"
+  ],
+  "part_surfaces": [
+   "Bituach"
+  ],
   "short_term": "bituach",
   "short_surface": "Bituach",
   "dataset_label": "bituach menhalim",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'Bituach menhalim', or just 'Bituach'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'Bituach menhalim', or 'Bituach'?"
  },
  {
-  "key": "boundary:boker or|boker",
+  "key": "boundary:boker or",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:boker or",
@@ -320,13 +320,19 @@
   ],
   "term": "boker or",
   "surface": "boker or",
+  "parts": [
+   "boker"
+  ],
+  "part_surfaces": [
+   "boker"
+  ],
   "short_term": "boker",
   "short_surface": "boker",
   "dataset_label": "boker or",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'boker or', or just 'boker'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'boker or', or 'boker'?"
  },
  {
-  "key": "boundary:cafe hafuch|hafuch",
+  "key": "boundary:cafe hafuch",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:cafe hafuch",
@@ -339,31 +345,19 @@
   ],
   "term": "cafe hafuch",
   "surface": "cafe hafuch",
+  "parts": [
+   "hafuch"
+  ],
+  "part_surfaces": [
+   "hafuch"
+  ],
   "short_term": "hafuch",
   "short_surface": "hafuch",
   "dataset_label": "cafe hafuch",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'cafe hafuch', or just 'hafuch'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'cafe hafuch', or 'hafuch'?"
  },
  {
-  "key": "boundary:dud hashmal|dud",
-  "kind": "boundary",
-  "risk": "boundary",
-  "id": "boundary:dud hashmal",
-  "split": "generated",
-  "text": "We had to call a technician because the dud hashmal stopped heating water.",
-  "examples": [
-   "We had to call a technician because the dud hashmal stopped heating water.",
-   "No hot water? dud hashmal again."
-  ],
-  "term": "dud hashmal",
-  "surface": "dud hashmal",
-  "short_term": "dud",
-  "short_surface": "dud",
-  "dataset_label": "dud hashmal",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'dud hashmal', or just 'dud'?"
- },
- {
-  "key": "boundary:dud hashmal|hashmal",
+  "key": "boundary:dud hashmal",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:dud hashmal",
@@ -376,13 +370,21 @@
   ],
   "term": "dud hashmal",
   "surface": "dud hashmal",
-  "short_term": "hashmal",
-  "short_surface": "hashmal",
+  "parts": [
+   "dud",
+   "hashmal"
+  ],
+  "part_surfaces": [
+   "dud",
+   "hashmal"
+  ],
+  "short_term": "dud",
+  "short_surface": "dud",
   "dataset_label": "dud hashmal",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'dud hashmal', or just 'hashmal'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'dud hashmal', or 'dud' + 'hashmal'?"
  },
  {
-  "key": "boundary:dud shemesh|dud",
+  "key": "boundary:dud shemesh",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:dud shemesh",
@@ -390,35 +392,26 @@
   "text": "The dud shemesh on the roof has been leaking since Tuesday, so we're all stuck taking cold showers.",
   "examples": [
    "The dud shemesh on the roof has been leaking since Tuesday, so we're all stuck taking cold showers.",
+   "Did you remember to turn off the dud shemesh before we left for the weekend?",
    "Dud shemesh again? That thing's older than my parents."
   ],
   "term": "dud shemesh",
   "surface": "dud shemesh",
-  "short_term": "dud",
-  "short_surface": "dud",
-  "dataset_label": "dud shemesh",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'dud shemesh', or just 'dud'?"
- },
- {
-  "key": "boundary:dud shemesh|shemesh",
-  "kind": "boundary",
-  "risk": "boundary",
-  "id": "boundary:dud shemesh",
-  "split": "generated",
-  "text": "The dud shemesh on the roof has been leaking since Tuesday, so we're all stuck taking cold showers.",
-  "examples": [
-   "The dud shemesh on the roof has been leaking since Tuesday, so we're all stuck taking cold showers.",
-   "Did you remember to turn off the dud shemesh before we left for the weekend?"
+  "parts": [
+   "dud",
+   "shemesh"
   ],
-  "term": "dud shemesh",
-  "surface": "dud shemesh",
-  "short_term": "shemesh",
-  "short_surface": "shemesh",
+  "part_surfaces": [
+   "Dud",
+   "shemesh"
+  ],
+  "short_term": "dud",
+  "short_surface": "Dud",
   "dataset_label": "dud shemesh",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'dud shemesh', or just 'shemesh'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'dud shemesh', or 'Dud' + 'shemesh'?"
  },
  {
-  "key": "boundary:eize|eize mess",
+  "key": "boundary:eize",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:eize",
@@ -429,13 +422,19 @@
   ],
   "term": "eize",
   "surface": "eize",
+  "parts": [
+   "eize mess"
+  ],
+  "part_surfaces": [
+   "eize mess"
+  ],
   "short_term": "eize mess",
   "short_surface": "eize mess",
   "dataset_label": "eize",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'eize', or just 'eize mess'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'eize', or 'eize mess'?"
  },
  {
-  "key": "boundary:eize kef|eize",
+  "key": "boundary:eize kef",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:eize kef",
@@ -446,30 +445,21 @@
   ],
   "term": "eize kef",
   "surface": "Eize kef",
+  "parts": [
+   "eize",
+   "kef"
+  ],
+  "part_surfaces": [
+   "Eize",
+   "kef"
+  ],
   "short_term": "eize",
   "short_surface": "Eize",
   "dataset_label": "eize kef",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'Eize kef', or just 'Eize'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'Eize kef', or 'Eize' + 'kef'?"
  },
  {
-  "key": "boundary:eize kef|kef",
-  "kind": "boundary",
-  "risk": "boundary",
-  "id": "boundary:eize kef",
-  "split": "generated",
-  "text": "Eize kef — are you seriously telling me you surfed all morning before work?",
-  "examples": [
-   "Eize kef — are you seriously telling me you surfed all morning before work?"
-  ],
-  "term": "eize kef",
-  "surface": "Eize kef",
-  "short_term": "kef",
-  "short_surface": "kef",
-  "dataset_label": "eize kef",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'Eize kef', or just 'kef'?"
- },
- {
-  "key": "boundary:havara banka'it|banka'it",
+  "key": "boundary:havara banka'it",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:havara banka'it",
@@ -480,30 +470,21 @@
   ],
   "term": "havara banka'it",
   "surface": "Havara banka'it",
-  "short_term": "banka'it",
-  "short_surface": "banka'it",
-  "dataset_label": "havara banka'it",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full \"Havara banka'it\", or just \"banka'it\"?"
- },
- {
-  "key": "boundary:havara banka'it|havara",
-  "kind": "boundary",
-  "risk": "boundary",
-  "id": "boundary:havara banka'it",
-  "split": "generated",
-  "text": "Havara banka'it? Seriously?",
-  "examples": [
-   "Havara banka'it? Seriously?"
+  "parts": [
+   "havara",
+   "banka'it"
   ],
-  "term": "havara banka'it",
-  "surface": "Havara banka'it",
+  "part_surfaces": [
+   "Havara",
+   "banka'it"
+  ],
   "short_term": "havara",
   "short_surface": "Havara",
   "dataset_label": "havara banka'it",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full \"Havara banka'it\", or just 'Havara'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole \"Havara banka'it\", or 'Havara' + \"banka'it\"?"
  },
  {
-  "key": "boundary:heshbon iska|heshbon",
+  "key": "boundary:heshbon iska",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:heshbon iska",
@@ -514,30 +495,21 @@
   ],
   "term": "heshbon iska",
   "surface": "heshbon iska",
+  "parts": [
+   "heshbon",
+   "iska"
+  ],
+  "part_surfaces": [
+   "heshbon",
+   "iska"
+  ],
   "short_term": "heshbon",
   "short_surface": "heshbon",
   "dataset_label": "heshbon iska",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'heshbon iska', or just 'heshbon'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'heshbon iska', or 'heshbon' + 'iska'?"
  },
  {
-  "key": "boundary:heshbon iska|iska",
-  "kind": "boundary",
-  "risk": "boundary",
-  "id": "boundary:heshbon iska",
-  "split": "generated",
-  "text": "No heshbon iska, no loan — that's exactly what the banker told me.",
-  "examples": [
-   "No heshbon iska, no loan — that's exactly what the banker told me."
-  ],
-  "term": "heshbon iska",
-  "surface": "heshbon iska",
-  "short_term": "iska",
-  "short_surface": "iska",
-  "dataset_label": "heshbon iska",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'heshbon iska', or just 'iska'?"
- },
- {
-  "key": "boundary:heshbonit mas|heshbonit",
+  "key": "boundary:heshbonit mas",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:heshbonit mas",
@@ -549,30 +521,21 @@
   ],
   "term": "heshbonit mas",
   "surface": "heshbonit mas",
-  "short_term": "heshbonit",
-  "short_surface": "heshbonit",
-  "dataset_label": "heshbonit mas",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'heshbonit mas', or just 'heshbonit'?"
- },
- {
-  "key": "boundary:heshbonit mas|mas",
-  "kind": "boundary",
-  "risk": "boundary",
-  "id": "boundary:heshbonit mas",
-  "split": "generated",
-  "text": "Heshbonit mas, obviously.",
-  "examples": [
-   "Heshbonit mas, obviously."
+  "parts": [
+   "heshbonit",
+   "mas"
   ],
-  "term": "heshbonit mas",
-  "surface": "Heshbonit mas",
-  "short_term": "mas",
-  "short_surface": "mas",
+  "part_surfaces": [
+   "Heshbonit",
+   "mas"
+  ],
+  "short_term": "heshbonit",
+  "short_surface": "Heshbonit",
   "dataset_label": "heshbonit mas",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'Heshbonit mas', or just 'mas'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'heshbonit mas', or 'Heshbonit' + 'mas'?"
  },
  {
-  "key": "boundary:heshbonit mas kabala|heshbonit",
+  "key": "boundary:heshbonit mas kabala",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:heshbonit mas kabala",
@@ -585,48 +548,23 @@
   ],
   "term": "heshbonit mas kabala",
   "surface": "heshbonit mas kabala",
+  "parts": [
+   "heshbonit",
+   "mas kabala",
+   "kabala"
+  ],
+  "part_surfaces": [
+   "heshbonit",
+   "mas kabala",
+   "kabala"
+  ],
   "short_term": "heshbonit",
   "short_surface": "heshbonit",
   "dataset_label": "heshbonit mas kabala",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'heshbonit mas kabala', or just 'heshbonit'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'heshbonit mas kabala', or 'heshbonit' + 'mas kabala' + 'kabala'?"
  },
  {
-  "key": "boundary:heshbonit mas kabala|kabala",
-  "kind": "boundary",
-  "risk": "boundary",
-  "id": "boundary:heshbonit mas kabala",
-  "split": "generated",
-  "text": "No heshbonit mas kabala, no expense report.",
-  "examples": [
-   "No heshbonit mas kabala, no expense report."
-  ],
-  "term": "heshbonit mas kabala",
-  "surface": "heshbonit mas kabala",
-  "short_term": "kabala",
-  "short_surface": "kabala",
-  "dataset_label": "heshbonit mas kabala",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'heshbonit mas kabala', or just 'kabala'?"
- },
- {
-  "key": "boundary:heshbonit mas kabala|mas kabala",
-  "kind": "boundary",
-  "risk": "boundary",
-  "id": "boundary:heshbonit mas kabala",
-  "split": "generated",
-  "text": "I need the heshbonit mas kabala from the contractor before I can pay him.",
-  "examples": [
-   "I need the heshbonit mas kabala from the contractor before I can pay him.",
-   "Did you remember to ask for a heshbonit mas kabala at the supermarket?"
-  ],
-  "term": "heshbonit mas kabala",
-  "surface": "heshbonit mas kabala",
-  "short_term": "mas kabala",
-  "short_surface": "mas kabala",
-  "dataset_label": "heshbonit mas kabala",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'heshbonit mas kabala', or just 'mas kabala'?"
- },
- {
-  "key": "boundary:kartis hofshi|hofshi",
+  "key": "boundary:kartis hofshi",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:kartis hofshi",
@@ -637,30 +575,21 @@
   ],
   "term": "kartis hofshi",
   "surface": "Kartis hofshi",
-  "short_term": "hofshi",
-  "short_surface": "hofshi",
-  "dataset_label": "kartis hofshi",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'Kartis hofshi', or just 'hofshi'?"
- },
- {
-  "key": "boundary:kartis hofshi|kartis",
-  "kind": "boundary",
-  "risk": "boundary",
-  "id": "boundary:kartis hofshi",
-  "split": "generated",
-  "text": "Kartis hofshi? Yeah, I've got one for the bus.",
-  "examples": [
-   "Kartis hofshi? Yeah, I've got one for the bus."
+  "parts": [
+   "kartis",
+   "hofshi"
   ],
-  "term": "kartis hofshi",
-  "surface": "Kartis hofshi",
+  "part_surfaces": [
+   "Kartis",
+   "hofshi"
+  ],
   "short_term": "kartis",
   "short_surface": "Kartis",
   "dataset_label": "kartis hofshi",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'Kartis hofshi', or just 'Kartis'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'Kartis hofshi', or 'Kartis' + 'hofshi'?"
  },
  {
-  "key": "boundary:layla|layla tov",
+  "key": "boundary:layla",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:layla",
@@ -671,13 +600,19 @@
   ],
   "term": "layla",
   "surface": "layla",
+  "parts": [
+   "layla tov"
+  ],
+  "part_surfaces": [
+   "layla tov"
+  ],
   "short_term": "layla tov",
   "short_surface": "layla tov",
   "dataset_label": "layla",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'layla', or just 'layla tov'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'layla', or 'layla tov'?"
  },
  {
-  "key": "boundary:layla tov|layla",
+  "key": "boundary:layla tov",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:layla tov",
@@ -689,31 +624,21 @@
   ],
   "term": "layla tov",
   "surface": "layla tov",
+  "parts": [
+   "layla",
+   "tov"
+  ],
+  "part_surfaces": [
+   "layla",
+   "tov"
+  ],
   "short_term": "layla",
   "short_surface": "layla",
   "dataset_label": "layla tov",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'layla tov', or just 'layla'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'layla tov', or 'layla' + 'tov'?"
  },
  {
-  "key": "boundary:layla tov|tov",
-  "kind": "boundary",
-  "risk": "boundary",
-  "id": "boundary:layla tov",
-  "split": "generated",
-  "text": "Why don't you ever say layla tov when you leave the room?",
-  "examples": [
-   "Why don't you ever say layla tov when you leave the room?",
-   "A simple layla tov from her was enough to make him smile."
-  ],
-  "term": "layla tov",
-  "surface": "layla tov",
-  "short_term": "tov",
-  "short_surface": "tov",
-  "dataset_label": "layla tov",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'layla tov', or just 'tov'?"
- },
- {
-  "key": "boundary:marak yerek|marak",
+  "key": "boundary:marak yerek",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:marak yerek",
@@ -724,13 +649,19 @@
   ],
   "term": "marak yerek",
   "surface": "Marak yerek",
+  "parts": [
+   "marak"
+  ],
+  "part_surfaces": [
+   "Marak"
+  ],
   "short_term": "marak",
   "short_surface": "Marak",
   "dataset_label": "marak yerek",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'Marak yerek', or just 'Marak'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'Marak yerek', or 'Marak'?"
  },
  {
-  "key": "boundary:mas hachnasa chaverot|chaverot",
+  "key": "boundary:mas hachnasa chaverot",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:mas hachnasa chaverot",
@@ -743,32 +674,21 @@
   ],
   "term": "mas hachnasa chaverot",
   "surface": "mas hachnasa chaverot",
-  "short_term": "chaverot",
-  "short_surface": "chaverot",
-  "dataset_label": "mas hachnasa chaverot",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'mas hachnasa chaverot', or just 'chaverot'?"
- },
- {
-  "key": "boundary:mas hachnasa chaverot|mas hachnasa",
-  "kind": "boundary",
-  "risk": "boundary",
-  "id": "boundary:mas hachnasa chaverot",
-  "split": "generated",
-  "text": "mas hachnasa chaverot is due next week, and I haven't even started.",
-  "examples": [
-   "mas hachnasa chaverot is due next week, and I haven't even started.",
-   "Did you remember to pay the mas hachnasa chaverot this quarter?",
-   "mas hachnasa chaverot? Just thinking about it gives me a headache."
+  "parts": [
+   "mas hachnasa",
+   "chaverot"
   ],
-  "term": "mas hachnasa chaverot",
-  "surface": "mas hachnasa chaverot",
+  "part_surfaces": [
+   "mas hachnasa",
+   "chaverot"
+  ],
   "short_term": "mas hachnasa",
   "short_surface": "mas hachnasa",
   "dataset_label": "mas hachnasa chaverot",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'mas hachnasa chaverot', or just 'mas hachnasa'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'mas hachnasa chaverot', or 'mas hachnasa' + 'chaverot'?"
  },
  {
-  "key": "boundary:mas hachnasa chayav|chayav",
+  "key": "boundary:mas hachnasa chayav",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:mas hachnasa chayav",
@@ -779,30 +699,21 @@
   ],
   "term": "mas hachnasa chayav",
   "surface": "mas hachnasa chayav",
-  "short_term": "chayav",
-  "short_surface": "chayav",
-  "dataset_label": "mas hachnasa chayav",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'mas hachnasa chayav', or just 'chayav'?"
- },
- {
-  "key": "boundary:mas hachnasa chayav|mas hachnasa",
-  "kind": "boundary",
-  "risk": "boundary",
-  "id": "boundary:mas hachnasa chayav",
-  "split": "generated",
-  "text": "Wait, am I mas hachnasa chayav if I only worked freelance for three months?",
-  "examples": [
-   "Wait, am I mas hachnasa chayav if I only worked freelance for three months?"
+  "parts": [
+   "mas hachnasa",
+   "chayav"
   ],
-  "term": "mas hachnasa chayav",
-  "surface": "mas hachnasa chayav",
+  "part_surfaces": [
+   "mas hachnasa",
+   "chayav"
+  ],
   "short_term": "mas hachnasa",
   "short_surface": "mas hachnasa",
   "dataset_label": "mas hachnasa chayav",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'mas hachnasa chayav', or just 'mas hachnasa'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'mas hachnasa chayav', or 'mas hachnasa' + 'chayav'?"
  },
  {
-  "key": "boundary:mas hachnasa chiyuv|chiyuv",
+  "key": "boundary:mas hachnasa chiyuv",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:mas hachnasa chiyuv",
@@ -814,31 +725,21 @@
   ],
   "term": "mas hachnasa chiyuv",
   "surface": "mas hachnasa chiyuv",
-  "short_term": "chiyuv",
-  "short_surface": "chiyuv",
-  "dataset_label": "mas hachnasa chiyuv",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'mas hachnasa chiyuv', or just 'chiyuv'?"
- },
- {
-  "key": "boundary:mas hachnasa chiyuv|mas hachnasa",
-  "kind": "boundary",
-  "risk": "boundary",
-  "id": "boundary:mas hachnasa chiyuv",
-  "split": "generated",
-  "text": "Another mas hachnasa chiyuv? Seriously?",
-  "examples": [
-   "Another mas hachnasa chiyuv? Seriously?",
-   "Do I still have a mas hachnasa chiyuv if I only worked half the year and my boss never filed anything?"
+  "parts": [
+   "mas hachnasa",
+   "chiyuv"
   ],
-  "term": "mas hachnasa chiyuv",
-  "surface": "mas hachnasa chiyuv",
+  "part_surfaces": [
+   "mas hachnasa",
+   "chiyuv"
+  ],
   "short_term": "mas hachnasa",
   "short_surface": "mas hachnasa",
   "dataset_label": "mas hachnasa chiyuv",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'mas hachnasa chiyuv', or just 'mas hachnasa'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'mas hachnasa chiyuv', or 'mas hachnasa' + 'chiyuv'?"
  },
  {
-  "key": "boundary:mas hachnasa chov|mas hachnasa",
+  "key": "boundary:mas hachnasa chov",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:mas hachnasa chov",
@@ -849,13 +750,19 @@
   ],
   "term": "mas hachnasa chov",
   "surface": "mas hachnasa chov",
+  "parts": [
+   "mas hachnasa"
+  ],
+  "part_surfaces": [
+   "mas hachnasa"
+  ],
   "short_term": "mas hachnasa",
   "short_surface": "mas hachnasa",
   "dataset_label": "mas hachnasa chov",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'mas hachnasa chov', or just 'mas hachnasa'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'mas hachnasa chov', or 'mas hachnasa'?"
  },
  {
-  "key": "boundary:mas hachnasa hafkaa|hafkaa",
+  "key": "boundary:mas hachnasa hafkaa",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:mas hachnasa hafkaa",
@@ -866,30 +773,21 @@
   ],
   "term": "mas hachnasa hafkaa",
   "surface": "mas hachnasa hafkaa",
-  "short_term": "hafkaa",
-  "short_surface": "hafkaa",
-  "dataset_label": "mas hachnasa hafkaa",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'mas hachnasa hafkaa', or just 'hafkaa'?"
- },
- {
-  "key": "boundary:mas hachnasa hafkaa|mas hachnasa",
-  "kind": "boundary",
-  "risk": "boundary",
-  "id": "boundary:mas hachnasa hafkaa",
-  "split": "generated",
-  "text": "mas hachnasa hafkaa? Yeah, that's still pending.",
-  "examples": [
-   "mas hachnasa hafkaa? Yeah, that's still pending."
+  "parts": [
+   "mas hachnasa",
+   "hafkaa"
   ],
-  "term": "mas hachnasa hafkaa",
-  "surface": "mas hachnasa hafkaa",
+  "part_surfaces": [
+   "mas hachnasa",
+   "hafkaa"
+  ],
   "short_term": "mas hachnasa",
   "short_surface": "mas hachnasa",
   "dataset_label": "mas hachnasa hafkaa",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'mas hachnasa hafkaa', or just 'mas hachnasa'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'mas hachnasa hafkaa', or 'mas hachnasa' + 'hafkaa'?"
  },
  {
-  "key": "boundary:mas hachnasa halvaa|halvaa",
+  "key": "boundary:mas hachnasa halvaa",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:mas hachnasa halvaa",
@@ -902,49 +800,21 @@
   ],
   "term": "mas hachnasa halvaa",
   "surface": "mas hachnasa halvaa",
-  "short_term": "halvaa",
-  "short_surface": "halvaa",
-  "dataset_label": "mas hachnasa halvaa",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'mas hachnasa halvaa', or just 'halvaa'?"
- },
- {
-  "key": "boundary:mas hachnasa halvaa|mas hachnasa",
-  "kind": "boundary",
-  "risk": "boundary",
-  "id": "boundary:mas hachnasa halvaa",
-  "split": "generated",
-  "text": "Did you already sort out the mas hachnasa halvaa with the tax authority?",
-  "examples": [
-   "Did you already sort out the mas hachnasa halvaa with the tax authority?",
-   "mas hachnasa halvaa, what a nightmare.",
-   "After three visits to the office, I finally got the mas hachnasa halvaa approved, but only after they lost my paperwork twice."
+  "parts": [
+   "mas hachnasa",
+   "halvaa"
   ],
-  "term": "mas hachnasa halvaa",
-  "surface": "mas hachnasa halvaa",
+  "part_surfaces": [
+   "mas hachnasa",
+   "halvaa"
+  ],
   "short_term": "mas hachnasa",
   "short_surface": "mas hachnasa",
   "dataset_label": "mas hachnasa halvaa",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'mas hachnasa halvaa', or just 'mas hachnasa'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'mas hachnasa halvaa', or 'mas hachnasa' + 'halvaa'?"
  },
  {
-  "key": "boundary:mas hachnasa hashlamot|hachnasa",
-  "kind": "boundary",
-  "risk": "boundary",
-  "id": "boundary:mas hachnasa hashlamot",
-  "split": "generated",
-  "text": "Mas hachnasa hashlamot again — every March, same story.",
-  "examples": [
-   "Mas hachnasa hashlamot again — every March, same story."
-  ],
-  "term": "mas hachnasa hashlamot",
-  "surface": "Mas hachnasa hashlamot",
-  "short_term": "hachnasa",
-  "short_surface": "hachnasa",
-  "dataset_label": "mas hachnasa hashlamot",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'Mas hachnasa hashlamot', or just 'hachnasa'?"
- },
- {
-  "key": "boundary:mas hachnasa hashlamot|hashlamot",
+  "key": "boundary:mas hachnasa hashlamot",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:mas hachnasa hashlamot",
@@ -956,47 +826,25 @@
   ],
   "term": "mas hachnasa hashlamot",
   "surface": "mas hachnasa hashlamot",
-  "short_term": "hashlamot",
-  "short_surface": "hashlamot",
-  "dataset_label": "mas hachnasa hashlamot",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'mas hachnasa hashlamot', or just 'hashlamot'?"
- },
- {
-  "key": "boundary:mas hachnasa hashlamot|mas",
-  "kind": "boundary",
-  "risk": "boundary",
-  "id": "boundary:mas hachnasa hashlamot",
-  "split": "generated",
-  "text": "Mas hachnasa hashlamot again — every March, same story.",
-  "examples": [
-   "Mas hachnasa hashlamot again — every March, same story."
+  "parts": [
+   "mas hachnasa",
+   "hashlamot",
+   "mas",
+   "hachnasa"
   ],
-  "term": "mas hachnasa hashlamot",
-  "surface": "Mas hachnasa hashlamot",
-  "short_term": "mas",
-  "short_surface": "Mas",
-  "dataset_label": "mas hachnasa hashlamot",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'Mas hachnasa hashlamot', or just 'Mas'?"
- },
- {
-  "key": "boundary:mas hachnasa hashlamot|mas hachnasa",
-  "kind": "boundary",
-  "risk": "boundary",
-  "id": "boundary:mas hachnasa hashlamot",
-  "split": "generated",
-  "text": "Did you already sort out the mas hachnasa hashlamot for last year, or are you still waiting on your accountant?",
-  "examples": [
-   "Did you already sort out the mas hachnasa hashlamot for last year, or are you still waiting on your accountant?"
+  "part_surfaces": [
+   "mas hachnasa",
+   "hashlamot",
+   "Mas",
+   "hachnasa"
   ],
-  "term": "mas hachnasa hashlamot",
-  "surface": "mas hachnasa hashlamot",
   "short_term": "mas hachnasa",
   "short_surface": "mas hachnasa",
   "dataset_label": "mas hachnasa hashlamot",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'mas hachnasa hashlamot', or just 'mas hachnasa'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'mas hachnasa hashlamot', or 'mas hachnasa' + 'hashlamot' + 'Mas' + 'hachnasa'?"
  },
  {
-  "key": "boundary:mas hachnasa havara|hachnasa",
+  "key": "boundary:mas hachnasa havara",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:mas hachnasa havara",
@@ -1007,47 +855,23 @@
   ],
   "term": "mas hachnasa havara",
   "surface": "Mas hachnasa havara",
-  "short_term": "hachnasa",
-  "short_surface": "hachnasa",
-  "dataset_label": "mas hachnasa havara",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'Mas hachnasa havara', or just 'hachnasa'?"
- },
- {
-  "key": "boundary:mas hachnasa havara|havara",
-  "kind": "boundary",
-  "risk": "boundary",
-  "id": "boundary:mas hachnasa havara",
-  "split": "generated",
-  "text": "Mas hachnasa havara. Every single year, same headache.",
-  "examples": [
-   "Mas hachnasa havara. Every single year, same headache."
+  "parts": [
+   "mas",
+   "hachnasa",
+   "havara"
   ],
-  "term": "mas hachnasa havara",
-  "surface": "Mas hachnasa havara",
-  "short_term": "havara",
-  "short_surface": "havara",
-  "dataset_label": "mas hachnasa havara",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'Mas hachnasa havara', or just 'havara'?"
- },
- {
-  "key": "boundary:mas hachnasa havara|mas",
-  "kind": "boundary",
-  "risk": "boundary",
-  "id": "boundary:mas hachnasa havara",
-  "split": "generated",
-  "text": "Mas hachnasa havara. Every single year, same headache.",
-  "examples": [
-   "Mas hachnasa havara. Every single year, same headache."
+  "part_surfaces": [
+   "Mas",
+   "hachnasa",
+   "havara"
   ],
-  "term": "mas hachnasa havara",
-  "surface": "Mas hachnasa havara",
   "short_term": "mas",
   "short_surface": "Mas",
   "dataset_label": "mas hachnasa havara",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'Mas hachnasa havara', or just 'Mas'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'Mas hachnasa havara', or 'Mas' + 'hachnasa' + 'havara'?"
  },
  {
-  "key": "boundary:mas hachnasa kartis|hachnasa",
+  "key": "boundary:mas hachnasa kartis",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:mas hachnasa kartis",
@@ -1058,30 +882,21 @@
   ],
   "term": "mas hachnasa kartis",
   "surface": "mas hachnasa kartis",
+  "parts": [
+   "hachnasa",
+   "kartis"
+  ],
+  "part_surfaces": [
+   "hachnasa",
+   "kartis"
+  ],
   "short_term": "hachnasa",
   "short_surface": "hachnasa",
   "dataset_label": "mas hachnasa kartis",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'mas hachnasa kartis', or just 'hachnasa'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'mas hachnasa kartis', or 'hachnasa' + 'kartis'?"
  },
  {
-  "key": "boundary:mas hachnasa kartis|kartis",
-  "kind": "boundary",
-  "risk": "boundary",
-  "id": "boundary:mas hachnasa kartis",
-  "split": "generated",
-  "text": "No mas hachnasa kartis, no paycheck.",
-  "examples": [
-   "No mas hachnasa kartis, no paycheck."
-  ],
-  "term": "mas hachnasa kartis",
-  "surface": "mas hachnasa kartis",
-  "short_term": "kartis",
-  "short_surface": "kartis",
-  "dataset_label": "mas hachnasa kartis",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'mas hachnasa kartis', or just 'kartis'?"
- },
- {
-  "key": "boundary:mas hachnasa kizuz|kizuz",
+  "key": "boundary:mas hachnasa kizuz",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:mas hachnasa kizuz",
@@ -1094,32 +909,21 @@
   ],
   "term": "mas hachnasa kizuz",
   "surface": "mas hachnasa kizuz",
-  "short_term": "kizuz",
-  "short_surface": "kizuz",
-  "dataset_label": "mas hachnasa kizuz",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'mas hachnasa kizuz', or just 'kizuz'?"
- },
- {
-  "key": "boundary:mas hachnasa kizuz|mas hachnasa",
-  "kind": "boundary",
-  "risk": "boundary",
-  "id": "boundary:mas hachnasa kizuz",
-  "split": "generated",
-  "text": "Did your accountant mention the mas hachnasa kizuz when you talked about the new job?",
-  "examples": [
-   "Did your accountant mention the mas hachnasa kizuz when you talked about the new job?",
-   "mas hachnasa kizuz — total nightmare.",
-   "The mas hachnasa kizuz is supposed to help, but it never does."
+  "parts": [
+   "mas hachnasa",
+   "kizuz"
   ],
-  "term": "mas hachnasa kizuz",
-  "surface": "mas hachnasa kizuz",
+  "part_surfaces": [
+   "mas hachnasa",
+   "kizuz"
+  ],
   "short_term": "mas hachnasa",
   "short_surface": "mas hachnasa",
   "dataset_label": "mas hachnasa kizuz",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'mas hachnasa kizuz', or just 'mas hachnasa'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'mas hachnasa kizuz', or 'mas hachnasa' + 'kizuz'?"
  },
  {
-  "key": "boundary:mas hachnasa mashkanta|mas hachnasa",
+  "key": "boundary:mas hachnasa mashkanta",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:mas hachnasa mashkanta",
@@ -1132,32 +936,21 @@
   ],
   "term": "mas hachnasa mashkanta",
   "surface": "mas hachnasa mashkanta",
+  "parts": [
+   "mas hachnasa",
+   "mashkanta"
+  ],
+  "part_surfaces": [
+   "mas hachnasa",
+   "mashkanta"
+  ],
   "short_term": "mas hachnasa",
   "short_surface": "mas hachnasa",
   "dataset_label": "mas hachnasa mashkanta",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'mas hachnasa mashkanta', or just 'mas hachnasa'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'mas hachnasa mashkanta', or 'mas hachnasa' + 'mashkanta'?"
  },
  {
-  "key": "boundary:mas hachnasa mashkanta|mashkanta",
-  "kind": "boundary",
-  "risk": "boundary",
-  "id": "boundary:mas hachnasa mashkanta",
-  "split": "generated",
-  "text": "Have you sorted out the mas hachnasa mashkanta with the accountant yet?",
-  "examples": [
-   "Have you sorted out the mas hachnasa mashkanta with the accountant yet?",
-   "Again with the mas hachnasa mashkanta?",
-   "The tax advisor recommended that we consolidate our debts and claim the mas hachnasa mashkanta deduction on our next return."
-  ],
-  "term": "mas hachnasa mashkanta",
-  "surface": "mas hachnasa mashkanta",
-  "short_term": "mashkanta",
-  "short_surface": "mashkanta",
-  "dataset_label": "mas hachnasa mashkanta",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'mas hachnasa mashkanta', or just 'mashkanta'?"
- },
- {
-  "key": "boundary:mas hachnasa nikuim|mas hachnasa",
+  "key": "boundary:mas hachnasa nikuim",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:mas hachnasa nikuim",
@@ -1168,30 +961,21 @@
   ],
   "term": "mas hachnasa nikuim",
   "surface": "Mas hachnasa nikuim",
+  "parts": [
+   "mas hachnasa",
+   "nikuim"
+  ],
+  "part_surfaces": [
+   "Mas hachnasa",
+   "nikuim"
+  ],
   "short_term": "mas hachnasa",
   "short_surface": "Mas hachnasa",
   "dataset_label": "mas hachnasa nikuim",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'Mas hachnasa nikuim', or just 'Mas hachnasa'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'Mas hachnasa nikuim', or 'Mas hachnasa' + 'nikuim'?"
  },
  {
-  "key": "boundary:mas hachnasa nikuim|nikuim",
-  "kind": "boundary",
-  "risk": "boundary",
-  "id": "boundary:mas hachnasa nikuim",
-  "split": "generated",
-  "text": "Mas hachnasa nikuim — yeah, I filed those last week.",
-  "examples": [
-   "Mas hachnasa nikuim — yeah, I filed those last week."
-  ],
-  "term": "mas hachnasa nikuim",
-  "surface": "Mas hachnasa nikuim",
-  "short_term": "nikuim",
-  "short_surface": "nikuim",
-  "dataset_label": "mas hachnasa nikuim",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'Mas hachnasa nikuim', or just 'nikuim'?"
- },
- {
-  "key": "boundary:mas hachnasa pitura|mas hachnasa",
+  "key": "boundary:mas hachnasa pitura",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:mas hachnasa pitura",
@@ -1203,31 +987,21 @@
   ],
   "term": "mas hachnasa pitura",
   "surface": "Mas hachnasa pitura",
-  "short_term": "mas hachnasa",
-  "short_surface": "Mas hachnasa",
-  "dataset_label": "mas hachnasa pitura",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'Mas hachnasa pitura', or just 'Mas hachnasa'?"
- },
- {
-  "key": "boundary:mas hachnasa pitura|pitura",
-  "kind": "boundary",
-  "risk": "boundary",
-  "id": "boundary:mas hachnasa pitura",
-  "split": "generated",
-  "text": "Mas hachnasa pitura, again? I thought you already dealt with that.",
-  "examples": [
-   "Mas hachnasa pitura, again? I thought you already dealt with that.",
-   "When I finally got my mas hachnasa pitura approved, I celebrated by ignoring the pile of other forms on my desk."
+  "parts": [
+   "mas hachnasa",
+   "pitura"
   ],
-  "term": "mas hachnasa pitura",
-  "surface": "Mas hachnasa pitura",
-  "short_term": "pitura",
-  "short_surface": "pitura",
+  "part_surfaces": [
+   "mas hachnasa",
+   "pitura"
+  ],
+  "short_term": "mas hachnasa",
+  "short_surface": "mas hachnasa",
   "dataset_label": "mas hachnasa pitura",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'Mas hachnasa pitura', or just 'pitura'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'Mas hachnasa pitura', or 'mas hachnasa' + 'pitura'?"
  },
  {
-  "key": "boundary:mas hachnasa ribit|mas hachnasa",
+  "key": "boundary:mas hachnasa ribit",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:mas hachnasa ribit",
@@ -1240,32 +1014,21 @@
   ],
   "term": "mas hachnasa ribit",
   "surface": "mas hachnasa ribit",
+  "parts": [
+   "mas hachnasa",
+   "ribit"
+  ],
+  "part_surfaces": [
+   "mas hachnasa",
+   "ribit"
+  ],
   "short_term": "mas hachnasa",
   "short_surface": "mas hachnasa",
   "dataset_label": "mas hachnasa ribit",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'mas hachnasa ribit', or just 'mas hachnasa'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'mas hachnasa ribit', or 'mas hachnasa' + 'ribit'?"
  },
  {
-  "key": "boundary:mas hachnasa ribit|ribit",
-  "kind": "boundary",
-  "risk": "boundary",
-  "id": "boundary:mas hachnasa ribit",
-  "split": "generated",
-  "text": "Did you already pay the mas hachnasa ribit on your savings account?",
-  "examples": [
-   "Did you already pay the mas hachnasa ribit on your savings account?",
-   "Ugh, mas hachnasa ribit.",
-   "Next year, the mas hachnasa ribit will probably be higher, so I'm already saving for it."
-  ],
-  "term": "mas hachnasa ribit",
-  "surface": "mas hachnasa ribit",
-  "short_term": "ribit",
-  "short_surface": "ribit",
-  "dataset_label": "mas hachnasa ribit",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'mas hachnasa ribit', or just 'ribit'?"
- },
- {
-  "key": "boundary:mas hachnasa shelo mitzvot|mas hachnasa",
+  "key": "boundary:mas hachnasa shelo mitzvot",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:mas hachnasa shelo mitzvot",
@@ -1278,13 +1041,19 @@
   ],
   "term": "mas hachnasa shelo mitzvot",
   "surface": "mas hachnasa shelo mitzvot",
+  "parts": [
+   "mas hachnasa"
+  ],
+  "part_surfaces": [
+   "mas hachnasa"
+  ],
   "short_term": "mas hachnasa",
   "short_surface": "mas hachnasa",
   "dataset_label": "mas hachnasa shelo mitzvot",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'mas hachnasa shelo mitzvot', or just 'mas hachnasa'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'mas hachnasa shelo mitzvot', or 'mas hachnasa'?"
  },
  {
-  "key": "boundary:mas hachnasa zikui|mas hachnasa",
+  "key": "boundary:mas hachnasa zikui",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:mas hachnasa zikui",
@@ -1295,30 +1064,21 @@
   ],
   "term": "mas hachnasa zikui",
   "surface": "Mas hachnasa zikui",
+  "parts": [
+   "mas hachnasa",
+   "zikui"
+  ],
+  "part_surfaces": [
+   "Mas hachnasa",
+   "zikui"
+  ],
   "short_term": "mas hachnasa",
   "short_surface": "Mas hachnasa",
   "dataset_label": "mas hachnasa zikui",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'Mas hachnasa zikui', or just 'Mas hachnasa'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'Mas hachnasa zikui', or 'Mas hachnasa' + 'zikui'?"
  },
  {
-  "key": "boundary:mas hachnasa zikui|zikui",
-  "kind": "boundary",
-  "risk": "boundary",
-  "id": "boundary:mas hachnasa zikui",
-  "split": "generated",
-  "text": "Mas hachnasa zikui, finally.",
-  "examples": [
-   "Mas hachnasa zikui, finally."
-  ],
-  "term": "mas hachnasa zikui",
-  "surface": "Mas hachnasa zikui",
-  "short_term": "zikui",
-  "short_surface": "zikui",
-  "dataset_label": "mas hachnasa zikui",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'Mas hachnasa zikui', or just 'zikui'?"
- },
- {
-  "key": "boundary:od paam|paam",
+  "key": "boundary:od paam",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:od paam",
@@ -1329,13 +1089,19 @@
   ],
   "term": "od paam",
   "surface": "od paam",
+  "parts": [
+   "paam"
+  ],
+  "part_surfaces": [
+   "paam"
+  ],
   "short_term": "paam",
   "short_surface": "paam",
   "dataset_label": "od paam",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'od paam', or just 'paam'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'od paam', or 'paam'?"
  },
  {
-  "key": "boundary:rehov|rehov bialik",
+  "key": "boundary:rehov",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:rehov",
@@ -1346,13 +1112,19 @@
   ],
   "term": "rehov",
   "surface": "rehov",
+  "parts": [
+   "rehov bialik"
+  ],
+  "part_surfaces": [
+   "rehov Bialik"
+  ],
   "short_term": "rehov bialik",
   "short_surface": "rehov Bialik",
   "dataset_label": "rehov",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'rehov', or just 'rehov Bialik'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'rehov', or 'rehov Bialik'?"
  },
  {
-  "key": "boundary:shuk hatikva|hatikva",
+  "key": "boundary:shuk hatikva",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:shuk hatikva",
@@ -1363,13 +1135,19 @@
   ],
   "term": "shuk hatikva",
   "surface": "shuk hatikva",
+  "parts": [
+   "hatikva"
+  ],
+  "part_surfaces": [
+   "hatikva"
+  ],
   "short_term": "hatikva",
   "short_surface": "hatikva",
   "dataset_label": "shuk hatikva",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'shuk hatikva', or just 'hatikva'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'shuk hatikva', or 'hatikva'?"
  },
  {
-  "key": "boundary:shuk sarona|sarona",
+  "key": "boundary:shuk sarona",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:shuk sarona",
@@ -1380,13 +1158,19 @@
   ],
   "term": "shuk sarona",
   "surface": "shuk sarona",
+  "parts": [
+   "sarona"
+  ],
+  "part_surfaces": [
+   "sarona"
+  ],
   "short_term": "sarona",
   "short_surface": "sarona",
   "dataset_label": "shuk sarona",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'shuk sarona', or just 'sarona'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'shuk sarona', or 'sarona'?"
  },
  {
-  "key": "boundary:tofes 101|tofes",
+  "key": "boundary:tofes 101",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 101",
@@ -1398,13 +1182,19 @@
   ],
   "term": "tofes 101",
   "surface": "tofes 101",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 101",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 101', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tofes 101', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 106|tofes",
+  "key": "boundary:tofes 106",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 106",
@@ -1415,13 +1205,19 @@
   ],
   "term": "tofes 106",
   "surface": "tofes 106",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 106",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'tofes 106', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'tofes 106', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 126|tofes",
+  "key": "boundary:tofes 126",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 126",
@@ -1433,13 +1229,19 @@
   ],
   "term": "tofes 126",
   "surface": "tofes 126",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 126",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 126', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tofes 126', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1301|tofes",
+  "key": "boundary:tofes 1301",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1301",
@@ -1451,13 +1253,19 @@
   ],
   "term": "tofes 1301",
   "surface": "tofes 1301",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "Tofes"
+  ],
   "short_term": "tofes",
-  "short_surface": "tofes",
+  "short_surface": "Tofes",
   "dataset_label": "tofes 1301",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1301', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tofes 1301', or 'Tofes'?"
  },
  {
-  "key": "boundary:tofes 1302|tofes",
+  "key": "boundary:tofes 1302",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1302",
@@ -1469,13 +1277,19 @@
   ],
   "term": "tofes 1302",
   "surface": "tofes 1302",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1302",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1302', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tofes 1302', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1303|tofes",
+  "key": "boundary:tofes 1303",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1303",
@@ -1487,13 +1301,19 @@
   ],
   "term": "tofes 1303",
   "surface": "tofes 1303",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1303",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1303', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tofes 1303', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1304|tofes",
+  "key": "boundary:tofes 1304",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1304",
@@ -1504,13 +1324,19 @@
   ],
   "term": "tofes 1304",
   "surface": "tofes 1304",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1304",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'tofes 1304', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'tofes 1304', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1305|tofes",
+  "key": "boundary:tofes 1305",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1305",
@@ -1521,13 +1347,19 @@
   ],
   "term": "tofes 1305",
   "surface": "tofes 1305",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1305",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'tofes 1305', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'tofes 1305', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1306|tofes",
+  "key": "boundary:tofes 1306",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1306",
@@ -1538,13 +1370,19 @@
   ],
   "term": "tofes 1306",
   "surface": "tofes 1306",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1306",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'tofes 1306', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'tofes 1306', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1308|tofes",
+  "key": "boundary:tofes 1308",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1308",
@@ -1555,13 +1393,19 @@
   ],
   "term": "tofes 1308",
   "surface": "tofes 1308",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1308",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'tofes 1308', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'tofes 1308', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1309|tofes",
+  "key": "boundary:tofes 1309",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1309",
@@ -1573,13 +1417,19 @@
   ],
   "term": "tofes 1309",
   "surface": "tofes 1309",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1309",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1309', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tofes 1309', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1310|tofes",
+  "key": "boundary:tofes 1310",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1310",
@@ -1590,13 +1440,19 @@
   ],
   "term": "tofes 1310",
   "surface": "tofes 1310",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1310",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'tofes 1310', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'tofes 1310', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1311|tofes",
+  "key": "boundary:tofes 1311",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1311",
@@ -1609,13 +1465,19 @@
   ],
   "term": "tofes 1311",
   "surface": "tofes 1311",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1311",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1311', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'tofes 1311', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1312|tofes",
+  "key": "boundary:tofes 1312",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1312",
@@ -1627,13 +1489,19 @@
   ],
   "term": "tofes 1312",
   "surface": "tofes 1312",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1312",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1312', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tofes 1312', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1313|tofes",
+  "key": "boundary:tofes 1313",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1313",
@@ -1646,13 +1514,19 @@
   ],
   "term": "tofes 1313",
   "surface": "tofes 1313",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1313",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1313', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'tofes 1313', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1314|tofes",
+  "key": "boundary:tofes 1314",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1314",
@@ -1663,13 +1537,19 @@
   ],
   "term": "tofes 1314",
   "surface": "tofes 1314",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1314",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'tofes 1314', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'tofes 1314', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1315|tofes",
+  "key": "boundary:tofes 1315",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1315",
@@ -1682,13 +1562,19 @@
   ],
   "term": "tofes 1315",
   "surface": "tofes 1315",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "Tofes"
+  ],
   "short_term": "tofes",
-  "short_surface": "tofes",
+  "short_surface": "Tofes",
   "dataset_label": "tofes 1315",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1315', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'tofes 1315', or 'Tofes'?"
  },
  {
-  "key": "boundary:tofes 1316|tofes",
+  "key": "boundary:tofes 1316",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1316",
@@ -1700,13 +1586,19 @@
   ],
   "term": "tofes 1316",
   "surface": "tofes 1316",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "ToFes"
+  ],
   "short_term": "tofes",
-  "short_surface": "tofes",
+  "short_surface": "ToFes",
   "dataset_label": "tofes 1316",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1316', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tofes 1316', or 'ToFes'?"
  },
  {
-  "key": "boundary:tofes 1317|tofes",
+  "key": "boundary:tofes 1317",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1317",
@@ -1718,13 +1610,19 @@
   ],
   "term": "tofes 1317",
   "surface": "tofes 1317",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1317",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1317', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tofes 1317', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1318|tofes",
+  "key": "boundary:tofes 1318",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1318",
@@ -1736,13 +1634,19 @@
   ],
   "term": "tofes 1318",
   "surface": "tofes 1318",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1318",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1318', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tofes 1318', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1319|tofes",
+  "key": "boundary:tofes 1319",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1319",
@@ -1754,13 +1658,19 @@
   ],
   "term": "tofes 1319",
   "surface": "tofes 1319",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1319",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1319', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tofes 1319', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1320|tofes",
+  "key": "boundary:tofes 1320",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1320",
@@ -1772,13 +1682,19 @@
   ],
   "term": "tofes 1320",
   "surface": "tofes 1320",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1320",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1320', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tofes 1320', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1321|tofes",
+  "key": "boundary:tofes 1321",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1321",
@@ -1790,13 +1706,19 @@
   ],
   "term": "tofes 1321",
   "surface": "tofes 1321",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1321",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1321', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tofes 1321', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1322|tofes",
+  "key": "boundary:tofes 1322",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1322",
@@ -1808,13 +1730,19 @@
   ],
   "term": "tofes 1322",
   "surface": "tofes 1322",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1322",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1322', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tofes 1322', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1323|tofes",
+  "key": "boundary:tofes 1323",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1323",
@@ -1827,13 +1755,19 @@
   ],
   "term": "tofes 1323",
   "surface": "tofes 1323",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1323",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1323', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'tofes 1323', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1324|tofes",
+  "key": "boundary:tofes 1324",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1324",
@@ -1845,13 +1779,19 @@
   ],
   "term": "tofes 1324",
   "surface": "tofes 1324",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1324",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1324', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tofes 1324', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1325|tofes",
+  "key": "boundary:tofes 1325",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1325",
@@ -1863,13 +1803,19 @@
   ],
   "term": "tofes 1325",
   "surface": "tofes 1325",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1325",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1325', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tofes 1325', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1326|tofes",
+  "key": "boundary:tofes 1326",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1326",
@@ -1882,13 +1828,19 @@
   ],
   "term": "tofes 1326",
   "surface": "tofes 1326",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1326",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1326', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'tofes 1326', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1327|tofes",
+  "key": "boundary:tofes 1327",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1327",
@@ -1901,13 +1853,19 @@
   ],
   "term": "tofes 1327",
   "surface": "tofes 1327",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1327",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1327', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'tofes 1327', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1328|tofes",
+  "key": "boundary:tofes 1328",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1328",
@@ -1919,13 +1877,19 @@
   ],
   "term": "tofes 1328",
   "surface": "tofes 1328",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1328",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1328', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tofes 1328', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1329|tofes",
+  "key": "boundary:tofes 1329",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1329",
@@ -1938,13 +1902,19 @@
   ],
   "term": "tofes 1329",
   "surface": "tofes 1329",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1329",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1329', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'tofes 1329', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1330|tofes",
+  "key": "boundary:tofes 1330",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1330",
@@ -1957,13 +1927,19 @@
   ],
   "term": "tofes 1330",
   "surface": "tofes 1330",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1330",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1330', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'tofes 1330', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1331|tofes",
+  "key": "boundary:tofes 1331",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1331",
@@ -1976,13 +1952,19 @@
   ],
   "term": "tofes 1331",
   "surface": "tofes 1331",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1331",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1331', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'tofes 1331', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1332|tofes",
+  "key": "boundary:tofes 1332",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1332",
@@ -1994,13 +1976,19 @@
   ],
   "term": "tofes 1332",
   "surface": "Tofes 1332",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
-  "short_surface": "Tofes",
+  "short_surface": "tofes",
   "dataset_label": "tofes 1332",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'Tofes 1332', or just 'Tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'Tofes 1332', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1333|tofes",
+  "key": "boundary:tofes 1333",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1333",
@@ -2012,13 +2000,19 @@
   ],
   "term": "tofes 1333",
   "surface": "tofes 1333",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "Tofes"
+  ],
   "short_term": "tofes",
-  "short_surface": "tofes",
+  "short_surface": "Tofes",
   "dataset_label": "tofes 1333",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1333', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tofes 1333', or 'Tofes'?"
  },
  {
-  "key": "boundary:tofes 1334|tofes",
+  "key": "boundary:tofes 1334",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1334",
@@ -2030,13 +2024,19 @@
   ],
   "term": "tofes 1334",
   "surface": "tofes 1334",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1334",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1334', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tofes 1334', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1335|tofes",
+  "key": "boundary:tofes 1335",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1335",
@@ -2049,13 +2049,19 @@
   ],
   "term": "tofes 1335",
   "surface": "tofes 1335",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1335",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1335', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'tofes 1335', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1336|tofes",
+  "key": "boundary:tofes 1336",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1336",
@@ -2067,13 +2073,19 @@
   ],
   "term": "tofes 1336",
   "surface": "tofes 1336",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1336",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1336', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tofes 1336', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1337|tofes",
+  "key": "boundary:tofes 1337",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1337",
@@ -2086,13 +2098,19 @@
   ],
   "term": "tofes 1337",
   "surface": "tofes 1337",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1337",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1337', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'tofes 1337', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1338|tofes",
+  "key": "boundary:tofes 1338",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1338",
@@ -2105,13 +2123,19 @@
   ],
   "term": "tofes 1338",
   "surface": "tofes 1338",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1338",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1338', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'tofes 1338', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1339|tofes",
+  "key": "boundary:tofes 1339",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1339",
@@ -2123,13 +2147,19 @@
   ],
   "term": "tofes 1339",
   "surface": "tofes 1339",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1339",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1339', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tofes 1339', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1340|tofes",
+  "key": "boundary:tofes 1340",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1340",
@@ -2142,13 +2172,19 @@
   ],
   "term": "tofes 1340",
   "surface": "tofes 1340",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1340",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1340', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'tofes 1340', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1341|tofes",
+  "key": "boundary:tofes 1341",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1341",
@@ -2161,13 +2197,19 @@
   ],
   "term": "tofes 1341",
   "surface": "tofes 1341",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1341",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1341', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'tofes 1341', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1342|tofes",
+  "key": "boundary:tofes 1342",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1342",
@@ -2180,13 +2222,19 @@
   ],
   "term": "tofes 1342",
   "surface": "tofes 1342",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1342",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1342', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'tofes 1342', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1343|tofes",
+  "key": "boundary:tofes 1343",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1343",
@@ -2199,13 +2247,19 @@
   ],
   "term": "tofes 1343",
   "surface": "tofes 1343",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1343",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1343', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'tofes 1343', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1344|tofes",
+  "key": "boundary:tofes 1344",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1344",
@@ -2216,13 +2270,19 @@
   ],
   "term": "tofes 1344",
   "surface": "tofes 1344",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1344",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'tofes 1344', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'tofes 1344', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1345|tofes",
+  "key": "boundary:tofes 1345",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1345",
@@ -2235,13 +2295,19 @@
   ],
   "term": "tofes 1345",
   "surface": "tofes 1345",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1345",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1345', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'tofes 1345', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1346|tofes",
+  "key": "boundary:tofes 1346",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1346",
@@ -2253,13 +2319,19 @@
   ],
   "term": "tofes 1346",
   "surface": "tofes 1346",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1346",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1346', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tofes 1346', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1347|tofes",
+  "key": "boundary:tofes 1347",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1347",
@@ -2272,13 +2344,19 @@
   ],
   "term": "tofes 1347",
   "surface": "tofes 1347",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1347",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1347', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'tofes 1347', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1348|tofes",
+  "key": "boundary:tofes 1348",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1348",
@@ -2291,13 +2369,19 @@
   ],
   "term": "tofes 1348",
   "surface": "tofes 1348",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1348",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1348', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'tofes 1348', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1349|tofes",
+  "key": "boundary:tofes 1349",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1349",
@@ -2310,13 +2394,19 @@
   ],
   "term": "tofes 1349",
   "surface": "tofes 1349",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1349",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1349', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'tofes 1349', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1350|tofes",
+  "key": "boundary:tofes 1350",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1350",
@@ -2328,13 +2418,19 @@
   ],
   "term": "tofes 1350",
   "surface": "tofes 1350",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1350",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1350', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tofes 1350', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1351|tofes",
+  "key": "boundary:tofes 1351",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1351",
@@ -2345,13 +2441,19 @@
   ],
   "term": "tofes 1351",
   "surface": "tofes 1351",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1351",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'tofes 1351', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'tofes 1351', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1352|tofes",
+  "key": "boundary:tofes 1352",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1352",
@@ -2362,13 +2464,19 @@
   ],
   "term": "tofes 1352",
   "surface": "tofes 1352",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1352",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'tofes 1352', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'tofes 1352', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1353|tofes",
+  "key": "boundary:tofes 1353",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1353",
@@ -2380,13 +2488,19 @@
   ],
   "term": "tofes 1353",
   "surface": "tofes 1353",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1353",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1353', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tofes 1353', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1354|tofes",
+  "key": "boundary:tofes 1354",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1354",
@@ -2399,13 +2513,19 @@
   ],
   "term": "tofes 1354",
   "surface": "tofes 1354",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1354",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1354', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'tofes 1354', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1355|tofes",
+  "key": "boundary:tofes 1355",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1355",
@@ -2417,13 +2537,19 @@
   ],
   "term": "tofes 1355",
   "surface": "tofes 1355",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1355",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1355', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tofes 1355', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1356|tofes",
+  "key": "boundary:tofes 1356",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1356",
@@ -2436,13 +2562,19 @@
   ],
   "term": "tofes 1356",
   "surface": "tofes 1356",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1356",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1356', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'tofes 1356', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1357|tofes",
+  "key": "boundary:tofes 1357",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1357",
@@ -2454,13 +2586,19 @@
   ],
   "term": "tofes 1357",
   "surface": "Tofes 1357",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
-  "short_surface": "Tofes",
+  "short_surface": "tofes",
   "dataset_label": "tofes 1357",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'Tofes 1357', or just 'Tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'Tofes 1357', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1358|tofes",
+  "key": "boundary:tofes 1358",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1358",
@@ -2473,13 +2611,19 @@
   ],
   "term": "tofes 1358",
   "surface": "Tofes 1358",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
-  "short_surface": "Tofes",
+  "short_surface": "tofes",
   "dataset_label": "tofes 1358",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'Tofes 1358', or just 'Tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'Tofes 1358', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1359|tofes",
+  "key": "boundary:tofes 1359",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1359",
@@ -2490,13 +2634,19 @@
   ],
   "term": "tofes 1359",
   "surface": "tofes 1359",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1359",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'tofes 1359', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'tofes 1359', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1360|tofes",
+  "key": "boundary:tofes 1360",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1360",
@@ -2508,13 +2658,19 @@
   ],
   "term": "tofes 1360",
   "surface": "tofes 1360",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1360",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1360', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tofes 1360', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1361|tofes",
+  "key": "boundary:tofes 1361",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1361",
@@ -2526,13 +2682,19 @@
   ],
   "term": "tofes 1361",
   "surface": "tofes 1361",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1361",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1361', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tofes 1361', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1362|tofes",
+  "key": "boundary:tofes 1362",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1362",
@@ -2544,13 +2706,19 @@
   ],
   "term": "tofes 1362",
   "surface": "tofes 1362",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1362",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1362', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tofes 1362', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1363|tofes",
+  "key": "boundary:tofes 1363",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1363",
@@ -2563,13 +2731,19 @@
   ],
   "term": "tofes 1363",
   "surface": "tofes 1363",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1363",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1363', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'tofes 1363', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1364|tofes",
+  "key": "boundary:tofes 1364",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1364",
@@ -2580,13 +2754,19 @@
   ],
   "term": "tofes 1364",
   "surface": "tofes 1364",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1364",
-  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'tofes 1364', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Tag the whole 'tofes 1364', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1365|tofes",
+  "key": "boundary:tofes 1365",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1365",
@@ -2599,13 +2779,19 @@
   ],
   "term": "tofes 1365",
   "surface": "tofes 1365",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1365",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1365', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'tofes 1365', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1366|tofes",
+  "key": "boundary:tofes 1366",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1366",
@@ -2617,13 +2803,19 @@
   ],
   "term": "tofes 1366",
   "surface": "tofes 1366",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1366",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1366', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tofes 1366', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1367|tofes",
+  "key": "boundary:tofes 1367",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1367",
@@ -2635,13 +2827,19 @@
   ],
   "term": "tofes 1367",
   "surface": "tofes 1367",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "Tofes"
+  ],
   "short_term": "tofes",
-  "short_surface": "tofes",
+  "short_surface": "Tofes",
   "dataset_label": "tofes 1367",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1367', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tofes 1367', or 'Tofes'?"
  },
  {
-  "key": "boundary:tofes 1368|tofes",
+  "key": "boundary:tofes 1368",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1368",
@@ -2654,13 +2852,19 @@
   ],
   "term": "tofes 1368",
   "surface": "tofes 1368",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1368",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1368', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'tofes 1368', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1369|tofes",
+  "key": "boundary:tofes 1369",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1369",
@@ -2672,13 +2876,19 @@
   ],
   "term": "tofes 1369",
   "surface": "tofes 1369",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1369",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1369', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tofes 1369', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 1370|tofes",
+  "key": "boundary:tofes 1370",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 1370",
@@ -2690,13 +2900,19 @@
   ],
   "term": "tofes 1370",
   "surface": "tofes 1370",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 1370",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1370', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tofes 1370', or 'tofes'?"
  },
  {
-  "key": "boundary:tofes 17|tofes",
+  "key": "boundary:tofes 17",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tofes 17",
@@ -2709,13 +2925,19 @@
   ],
   "term": "tofes 17",
   "surface": "tofes 17",
+  "parts": [
+   "tofes"
+  ],
+  "part_surfaces": [
+   "tofes"
+  ],
   "short_term": "tofes",
   "short_surface": "tofes",
   "dataset_label": "tofes 17",
-  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 17', or just 'tofes'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Tag the whole 'tofes 17', or 'tofes'?"
  },
  {
-  "key": "boundary:tzilum raentgen|tzilum",
+  "key": "boundary:tzilum raentgen",
   "kind": "boundary",
   "risk": "boundary",
   "id": "boundary:tzilum raentgen",
@@ -2727,10 +2949,16 @@
   ],
   "term": "tzilum raentgen",
   "surface": "tzilum raentgen",
+  "parts": [
+   "tzilum"
+  ],
+  "part_surfaces": [
+   "tzilum"
+  ],
   "short_term": "tzilum",
   "short_surface": "tzilum",
   "dataset_label": "tzilum raentgen",
-  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tzilum raentgen', or just 'tzilum'?"
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Tag the whole 'tzilum raentgen', or 'tzilum'?"
  },
  {
   "key": "g00033:0",

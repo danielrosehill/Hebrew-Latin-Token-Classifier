@@ -19,8 +19,9 @@
   "function_word": 52
  },
  "terms_systematically_refused": 11,
- "boundary_pairs": 142,
- "boundary_spans_rolled_up": 274,
+ "boundary_pairs": 113,
+ "boundary_spans_rolled_up": 230,
+ "boundary_multi_part": 25,
  "terms_refused_list": [
   "falafel",
   "ful medames",
@@ -34,6 +35,6 @@
   "smol",
   "taramosalata"
  ],
- "review_tasks": 554,
+ "review_tasks": 525,
  "not_yet_annotated": 0
 }

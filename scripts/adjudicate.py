@@ -98,7 +98,7 @@ def main() -> None:
     anglicised, excluded_category = load_exclusions(args.posture)
     rng = random.Random(args.seed)
     rows, queue = [], []
-    boundary_pairs: dict[tuple[str, str], list] = {}
+    boundary_pairs: dict[str, dict] = {}
     dropped_anglicised: collections.Counter[str] = collections.Counter()
     dropped_by_category: collections.Counter[str] = collections.Counter()
     stats: collections.Counter[str] = collections.Counter()
@@ -188,13 +188,24 @@ def main() -> None:
         # before this rollup.
         overlaps = set()
         for ks in seed_only:
-            for ka in auto_only:
-                if ks[0] < ka[1] and ka[0] < ks[1]:
-                    overlaps.add((ks, ka))
-                    pair = (seed[ks]["term"], auto[ka]["term"])
-                    boundary_pairs.setdefault(pair, []).append(
-                        (s["text"], seed[ks]["surface"], auto[ka]["surface"]))
-        covered = {k for pairk in overlaps for k in pairk}
+            parts = sorted((auto[ka] for ka in auto_only
+                            if ks[0] < auto[ka]["end"] and auto[ka]["start"] < ks[1]),
+                           key=lambda x: x["start"])
+            if not parts:
+                continue
+            overlaps.add(ks)
+            overlaps.update(key(x) for x in parts)
+            # Keyed by the SEED TERM, not by (seed, part). A phrase the annotator
+            # split into several pieces -- "mas hachnasa chaverot" into
+            # "mas hachnasa" + "chaverot" -- is ONE question with three answers,
+            # not one question per piece. Asking per piece made "both" unsayable
+            # and let the answers contradict each other.
+            entry = boundary_pairs.setdefault(seed[ks]["term"], {
+                "surface": seed[ks]["surface"], "parts": {}, "examples": []})
+            for x in parts:
+                entry["parts"][x["term"]] = x["surface"]
+            entry["examples"].append(s["text"])
+        covered = overlaps
 
         for n, k in enumerate(sorted(seed_only) + sorted(auto_only)):
             span = seed.get(k) or auto[k]
@@ -238,25 +249,31 @@ def main() -> None:
                             "they missed, or submit empty to confirm.",
                 })
 
-    # One task per overlapping term pair, instead of one per sentence.
-    for (seed_term, ann_term), examples in sorted(boundary_pairs.items()):
+    # One task per seed term, carrying every piece the annotator proposed.
+    for seed_term, entry in sorted(boundary_pairs.items()):
         # A term genuinely refused everywhere does not also need a boundary
         # question -- ruling it out settles its spans either way. Narrowings are
         # no longer counted as refusals, so they reach here and get asked properly.
         if seed_term in systematic:
             continue
-        text, long_surface, short_surface = examples[0]
+        parts = list(entry["parts"].items())          # [(term, surface), ...]
+        part_surfaces = [sfc for _, sfc in parts]
+        rendered = " + ".join(repr(x) for x in part_surfaces)
         queue.append({
-            "key": f"boundary:{seed_term}|{ann_term}", "kind": "boundary",
+            "key": f"boundary:{seed_term}", "kind": "boundary",
             "risk": "boundary", "id": f"boundary:{seed_term}",
-            "split": "generated", "text": text,
-            "examples": [e[0] for e in examples[:3]],
-            "term": seed_term, "surface": long_surface,
-            "short_term": ann_term, "short_surface": short_surface,
+            "split": "generated", "text": entry["examples"][0],
+            "examples": entry["examples"][:3],
+            "term": seed_term, "surface": entry["surface"],
+            "parts": [t for t, _ in parts],
+            "part_surfaces": part_surfaces,
+            # kept so decisions recorded against the old two-way shape still read
+            "short_term": parts[0][0] if parts else None,
+            "short_surface": part_surfaces[0] if parts else None,
             "dataset_label": seed_term,
             "note": f"both models agree this is Hebrew and disagree on the span, in "
-                    f"{len(examples)} sentence(s). Should the span be the full "
-                    f"{long_surface!r}, or just {short_surface!r}?",
+                    f"{len(entry['examples'])} sentence(s). Tag the whole "
+                    f"{entry['surface']!r}, or {rendered}?",
         })
 
     # One task per systematically-refused term, with examples, instead of N spans.
@@ -303,7 +320,10 @@ def main() -> None:
         "excluded_by_category": dict(dropped_by_category),
         "terms_systematically_refused": stats["terms_systematically_refused"],
         "boundary_pairs": len(boundary_pairs),
-        "boundary_spans_rolled_up": sum(len(v) for v in boundary_pairs.values()),
+        "boundary_spans_rolled_up": sum(len(v["examples"])
+                                        for v in boundary_pairs.values()),
+        "boundary_multi_part": sum(1 for v in boundary_pairs.values()
+                                   if len(v["parts"]) > 1),
         "terms_refused_list": sorted(systematic),
         "review_tasks": len(queue),
         "not_yet_annotated": stats["not_yet_annotated"],

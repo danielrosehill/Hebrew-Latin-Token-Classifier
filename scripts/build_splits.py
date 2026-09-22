@@ -77,7 +77,11 @@ def main() -> None:
         if d.get("kind") != "boundary" or not d.get("term") or not ruled(d):
             continue
         choice = d.get("choice") or ("full" if decided(d) else "short")
-        boundary_ruling[d["term"].lower()] = (choice, d.get("short_term"))
+        # `parts` may name several pieces -- "mas hachnasa chaverot" is really
+        # "mas hachnasa" + "chaverot", two adjacent spans. Older decisions carry
+        # only short_term, so fall back to that.
+        parts = d.get("parts") or ([d["short_term"]] if d.get("short_term") else [])
+        boundary_ruling[d["term"].lower()] = (choice, parts)
 
     stats: collections.Counter[str] = collections.Counter()
     unapplied = []
@@ -88,24 +92,25 @@ def main() -> None:
         for n, span in enumerate(row["spans"]):
             b = boundary_ruling.get(span["term"].lower())
             if b is not None:
-                choice, short_term = b
+                choice, parts = b
                 if choice == "none":
                     stats["boundary_none"] += 1
                 elif choice == "full":
                     stats["boundary_full"] += 1
                     spans.append({k: span[k] for k in
                                   ("start", "end", "surface", "term")})
-                elif short_term:
-                    found = corpus.word_spans(span["surface"], short_term)
-                    if found:
+                else:
+                    for part in parts:
+                        found = corpus.word_spans(span["surface"], part)
+                        if not found:
+                            stats["boundary_part_not_found"] += 1
+                            continue
                         o = span["start"] + found[0][0]
-                        spans.append({
-                            "start": o, "end": o + (found[0][1] - found[0][0]),
-                            "surface": text[o:o + (found[0][1] - found[0][0])],
-                            "term": short_term.lower()})
-                        stats["boundary_narrowed"] += 1
-                    else:
-                        stats["boundary_narrow_failed"] += 1
+                        width = found[0][1] - found[0][0]
+                        spans.append({"start": o, "end": o + width,
+                                      "surface": text[o:o + width],
+                                      "term": part.lower()})
+                        stats["boundary_part_kept"] += 1
                 continue
             ruling = term_ruling.get(span["term"].lower())
             if ruling is not None:
