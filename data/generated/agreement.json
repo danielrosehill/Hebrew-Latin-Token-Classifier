@@ -1,18 +1,26 @@
 {
  "sentences": 2733,
- "full_agreement": 2288,
- "disagreement": 445,
- "disagreement_rate": 0.1628,
- "spans_agreed": 1845,
- "spans_seed_only": 317,
- "spans_annotator_only": 428,
- "audited_sentences": 242,
- "anglicised_terms_listed": 72,
- "anglicised_spans_dropped": 264,
- "anglicised_terms_hit": 38,
+ "full_agreement": 2332,
+ "disagreement": 401,
+ "disagreement_rate": 0.1467,
+ "spans_agreed": 1760,
+ "spans_seed_only": 303,
+ "spans_annotator_only": 382,
+ "audited_sentences": 244,
+ "posture": "conservative",
+ "exclusions_active": 126,
+ "excluded_spans_dropped": 494,
+ "excluded_terms_hit": 78,
+ "excluded_by_category": {
+  "israel_english": 23,
+  "place_name": 154,
+  "anglicised": 241,
+  "asr_handles_it": 24,
+  "function_word": 52
+ },
  "terms_systematically_refused": 50,
- "boundary_pairs": 147,
- "boundary_spans_rolled_up": 281,
+ "boundary_pairs": 142,
+ "boundary_spans_rolled_up": 274,
  "terms_refused_list": [
   "boker or",
   "cafe hafuch",
@@ -65,6 +73,6 @@
   "tofes 1368",
   "tofes 17"
  ],
- "review_tasks": 591,
+ "review_tasks": 546,
  "not_yet_annotated": 0
 }

@@ -59,20 +59,15 @@ instruction at all. **They are always negative** — *kosher*, *kashrut*, *Shabb
 *aliyah*.
 
 This is not left to per-case judgement. The class is known and finite, so it lives in
-[`data/anglicised.csv`](../data/anglicised.csv) — 72 terms, each with its basis
-(`dictionary` where the word is in the system English dictionary, `curated`
-otherwise) — and `adjudicate.py` drops those spans before the review queue is built.
-On the first corpus that removed **264 spans across 38 terms** and took the model
-disagreement rate from 20.8% to 16.3%.
-
-**The file is meant to be edited.** Adding a term removes it from the corpus and from
-the queue on the next `adjudicate.py` run. Reviewing 72 lines once is strictly better
-than answering the same question 264 times, and it leaves an auditable record of what
+[`data/exclusions.csv`](../data/exclusions.csv) and `adjudicate.py` drops those spans
+before the review queue is built. Reviewing a 126-line file once is strictly better
+than answering the same question 494 times, and it leaves an auditable record of what
 was excluded and why — which a fuzzy instruction to a model does not.
 
-Borderline entries currently on the list, flagged as the ones most worth arguing
-about: *haredi*, *aliyah*, *moshav*, *shul*. Each is routine in English writing about
-Israel, but none is in an English dictionary.
+**Full category list, dispositions and the reasoning: [`taxonomy.md`](taxonomy.md).**
+That document is the decision record; this one is the labelling guide.
+
+The canonical positive is **makolet**. If a rule would exclude it, the rule is wrong.
 
 ## Settled cases
 

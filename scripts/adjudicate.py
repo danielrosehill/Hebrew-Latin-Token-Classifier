@@ -32,7 +32,7 @@ from lib import corpus  # noqa: E402
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 GEN = ROOT / "data" / "generated"
 REVIEW = ROOT / "review"
-ANGLICISED = ROOT / "data" / "anglicised.csv"
+EXCLUSIONS = ROOT / "data" / "exclusions.csv"
 RISK_ORDER = {"term": 0, "boundary": 1, "annotator_only": 2, "seed_only": 3,
               "audit": 4}
 
@@ -41,24 +41,37 @@ def key(span: dict) -> tuple[int, int]:
     return (span["start"], span["end"])
 
 
-def load_anglicised() -> set[str]:
-    """Hebrew words English already pronounces acceptably -- always negative.
+def load_exclusions(posture: str) -> tuple[set[str], dict[str, str]]:
+    """Terms that are never a positive span, and why.
 
-    Daniel's rule, 2026-09-22: every flagged span triggers downstream work (a
-    segment split, a separate TTS call, a concatenation), so a false positive
-    costs more than a miss. Be selective about words that genuinely get botched,
-    and leave alone anything an English voice already handles -- shabbat, kosher,
-    kashrut and their kind.
+    Daniel's rule, 2026-09-22: every flagged span triggers downstream work -- a
+    segment split, a separate TTS call, a concatenation. A miss leaves current
+    behaviour unchanged; a false positive gets an English word spoken in Hebrew
+    AND pays that cost. So the default posture is conservative.
 
-    A curated list rather than a model judgement, because this class is known and
-    finite, and a deterministic list is auditable where a fuzzy rule is not. The
-    file is meant to be edited; adding a term here removes it from the corpus and
-    from the review queue on the next run.
+    Two dispositions, per docs/taxonomy.md:
+
+      always        excluded under every posture. Anglicised Hebrew that English
+                    genuinely says fine, and function words that only entered the
+                    term list as substring artefacts.
+      conservative  excluded by default, reinstated with --posture expansive.
+                    Toponyms, Israel-English vocabulary, and words current ASR is
+                    observed to handle. These are judgement calls, held out now
+                    and recoverable later without regenerating anything.
+
+    A deterministic list rather than a model judgement: the class is known and
+    finite, and a list is auditable where a fuzzy instruction is not. The file is
+    meant to be edited -- a term moved or deleted changes the corpus on the next
+    run, with no new inference.
     """
-    if not ANGLICISED.exists():
-        return set()
-    with ANGLICISED.open() as fh:
-        return {r["term"].strip().lower() for r in csv.DictReader(fh) if r["term"].strip()}
+    if not EXCLUSIONS.exists():
+        return set(), {}
+    with EXCLUSIONS.open() as fh:
+        rows = [r for r in csv.DictReader(fh) if r["term"].strip()]
+    active = {r["term"].strip().lower(): r["category"] for r in rows
+              if r["disposition"] == "always"
+              or (posture == "conservative" and r["disposition"] == "conservative")}
+    return set(active), active
 
 
 def main() -> None:
@@ -66,6 +79,10 @@ def main() -> None:
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--audit-rate", type=float, default=0.10)
     p.add_argument("--seed", type=int, default=20260922)
+    p.add_argument("--posture", choices=["conservative", "expansive"],
+                   default="conservative",
+                   help="conservative (default) also drops the judgement-call "
+                        "exclusions: toponyms, Israel-English, ASR-handled terms")
     p.add_argument("--term-threshold", type=float, default=0.67,
                    help="refuse rate above which a term is queued once, not per span")
     args = p.parse_args()
@@ -78,11 +95,12 @@ def main() -> None:
     if not annotations:
         raise SystemExit("no annotations; run scripts/auto_annotate.py")
 
-    anglicised = load_anglicised()
+    anglicised, excluded_category = load_exclusions(args.posture)
     rng = random.Random(args.seed)
     rows, queue = [], []
     boundary_pairs: dict[tuple[str, str], list] = {}
     dropped_anglicised: collections.Counter[str] = collections.Counter()
+    dropped_by_category: collections.Counter[str] = collections.Counter()
     stats: collections.Counter[str] = collections.Counter()
 
     # First pass: how often does the annotator refuse the generator's seed term?
@@ -113,8 +131,10 @@ def main() -> None:
         # Drop anglicised spans before anything else sees them: they are not a
         # disagreement to resolve, they are a settled negative.
         def _keep(x: dict) -> bool:
-            if x["term"].lower() in anglicised:
-                dropped_anglicised[x["term"].lower()] += 1
+            t = x["term"].lower()
+            if t in anglicised:
+                dropped_anglicised[t] += 1
+                dropped_by_category[excluded_category[t]] += 1
                 return False
             return True
 
@@ -264,9 +284,11 @@ def main() -> None:
         "spans_seed_only": stats["span_seed_only"],
         "spans_annotator_only": stats["span_annotator_only"],
         "audited_sentences": stats["audited"],
-        "anglicised_terms_listed": len(anglicised),
-        "anglicised_spans_dropped": sum(dropped_anglicised.values()),
-        "anglicised_terms_hit": len(dropped_anglicised),
+        "posture": args.posture,
+        "exclusions_active": len(anglicised),
+        "excluded_spans_dropped": sum(dropped_anglicised.values()),
+        "excluded_terms_hit": len(dropped_anglicised),
+        "excluded_by_category": dict(dropped_by_category),
         "terms_systematically_refused": stats["terms_systematically_refused"],
         "boundary_pairs": len(boundary_pairs),
         "boundary_spans_rolled_up": sum(len(v) for v in boundary_pairs.values()),

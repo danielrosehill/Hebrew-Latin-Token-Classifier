@@ -1,0 +1,127 @@
+term,category,disposition,note
+bagel,anglicised,always,dictionary
+bar mitzvah,anglicised,always,standard English loanword
+bat mitzvah,anglicised,always,standard English loanword
+bris,anglicised,always,variant of brit milah
+brit milah,anglicised,always,standard in English Jewish usage
+challah,anglicised,always,English says it acceptably despite the het
+chanukah,anglicised,always,variant spelling
+chumash,anglicised,always,dictionary
+chutzpah,anglicised,always,dictionary
+dreidel,anglicised,always,standard English Hanukkah word
+falafel,anglicised,always,standard English menu word
+goy,anglicised,always,English loanword
+goyim,anglicised,always,plural of goy
+hanukkah,anglicised,always,dictionary
+hasidic,anglicised,always,standard English adjective
+hummus,anglicised,always,dictionary
+kabbalah,anglicised,always,standard English loanword
+kaddish,anglicised,always,standard in English religious writing
+kashrut,anglicised,always,named by Daniel 2026-09-22
+kibbutz,anglicised,always,dictionary
+kibbutzim,anglicised,always,plural of kibbutz
+kippah,anglicised,always,standard in English Jewish usage
+klutz,anglicised,always,English loanword
+knesset,anglicised,always,routine in English news coverage
+kosher,anglicised,always,named by Daniel 2026-09-22
+kvetch,anglicised,always,English loanword
+matzah,anglicised,always,variant of matzo
+matzo,anglicised,always,dictionary
+menorah,anglicised,always,dictionary
+mensch,anglicised,always,English loanword
+mezuzah,anglicised,always,standard in English religious writing
+midrash,anglicised,always,standard in English religious writing
+mishnah,anglicised,always,standard in English religious writing
+mitzvah,anglicised,always,standard English loanword
+mitzvot,anglicised,always,plural of mitzvah
+mossad,anglicised,always,routine in English news coverage
+passover,anglicised,always,dictionary
+pesach,anglicised,always,standard in English Jewish usage
+pita,anglicised,always,dictionary
+purim,anglicised,always,standard in English Jewish usage
+rabbi,anglicised,always,dictionary
+rebbe,anglicised,always,variant of rabbi
+rosh hashanah,anglicised,always,standard in English Jewish usage
+sabra,anglicised,always,English loanword
+schlep,anglicised,always,dictionary
+schmooze,anglicised,always,English loanword
+seder,anglicised,always,dictionary
+shabbat,anglicised,always,named by Daniel 2026-09-22
+shabbos,anglicised,always,variant of shabbat
+shavuot,anglicised,always,standard in English Jewish usage
+shekel,anglicised,always,dictionary
+shekels,anglicised,always,plural
+shiksa,anglicised,always,English loanword
+shiva,anglicised,always,the mourning period; English says it fine
+shofar,anglicised,always,standard in English religious writing
+simchat torah,anglicised,always,standard in English Jewish usage
+sukkah,anglicised,always,sibling of sukkot
+sukkot,anglicised,always,dictionary
+synagogue,anglicised,always,dictionary
+tahini,anglicised,always,standard English menu word
+tallit,anglicised,always,standard in English religious writing
+talmud,anglicised,always,dictionary
+tefillin,anglicised,always,standard in English religious writing
+tisha b'av,anglicised,always,standard in English Jewish usage
+torah,anglicised,always,dictionary
+yarmulke,anglicised,always,dictionary
+yeshiva,anglicised,always,dictionary
+yom kippur,anglicised,always,standard in English Jewish usage
+shuk,asr_handles_it,conservative,"Deepgram renders it correctly (observed 2026-09-22); borderline, not absorbed"
+ach,function_word,always,Hebrew particle or pronoun; does not appear untranslated in English speech
+af,function_word,always,Hebrew particle or pronoun; does not appear untranslated in English speech
+ani,function_word,always,Hebrew particle or pronoun; does not appear untranslated in English speech
+at,function_word,always,Hebrew particle or pronoun; does not appear untranslated in English speech
+atem,function_word,always,Hebrew particle or pronoun; does not appear untranslated in English speech
+bo,function_word,always,Hebrew particle or pronoun; does not appear untranslated in English speech
+eifo,function_word,always,Hebrew particle or pronoun; does not appear untranslated in English speech
+ein,function_word,always,Hebrew particle or pronoun; does not appear untranslated in English speech
+hi,function_word,always,Hebrew particle or pronoun; does not appear untranslated in English speech
+kan,function_word,always,Hebrew particle or pronoun; does not appear untranslated in English speech
+ken,function_word,always,Hebrew particle or pronoun; does not appear untranslated in English speech
+le'an,function_word,always,Hebrew particle or pronoun; does not appear untranslated in English speech
+lo,function_word,always,Hebrew particle or pronoun; does not appear untranslated in English speech
+ma,function_word,always,Hebrew particle or pronoun; does not appear untranslated in English speech
+me'ayin,function_word,always,Hebrew particle or pronoun; does not appear untranslated in English speech
+mi,function_word,always,Hebrew particle or pronoun; does not appear untranslated in English speech
+od,function_word,always,Hebrew particle or pronoun; does not appear untranslated in English speech
+or,function_word,always,Hebrew particle or pronoun; does not appear untranslated in English speech
+po,function_word,always,Hebrew particle or pronoun; does not appear untranslated in English speech
+sa,function_word,always,Hebrew particle or pronoun; does not appear untranslated in English speech
+sham,function_word,always,Hebrew particle or pronoun; does not appear untranslated in English speech
+aliyah,israel_english,conservative,routine in English writing about Israel; not in an English dictionary
+haredi,israel_english,conservative,routine in English writing about Israel; not in an English dictionary
+moshav,israel_english,conservative,routine in English writing about Israel; not in an English dictionary
+shul,israel_english,conservative,routine in English writing about Israel; not in an English dictionary
+ashdod,place_name,conservative,"toponym; excluded by default, reinstatable for an expansive build"
+ashkelon,place_name,conservative,"toponym; excluded by default, reinstatable for an expansive build"
+ayalon,place_name,conservative,"toponym; excluded by default, reinstatable for an expansive build"
+ben yehuda,place_name,conservative,"toponym; excluded by default, reinstatable for an expansive build"
+dizengoff,place_name,conservative,"toponym; excluded by default, reinstatable for an expansive build"
+eilat,place_name,conservative,"toponym; excluded by default, reinstatable for an expansive build"
+galil,place_name,conservative,"toponym; excluded by default, reinstatable for an expansive build"
+galilee,place_name,conservative,"toponym; excluded by default, reinstatable for an expansive build"
+golan,place_name,conservative,"toponym; excluded by default, reinstatable for an expansive build"
+hahagana,place_name,conservative,"toponym; excluded by default, reinstatable for an expansive build"
+haifa,place_name,conservative,"toponym; excluded by default, reinstatable for an expansive build"
+herzl,place_name,conservative,"toponym; excluded by default, reinstatable for an expansive build"
+herzliya,place_name,conservative,"toponym; excluded by default, reinstatable for an expansive build"
+hof habonim,place_name,conservative,"toponym; excluded by default, reinstatable for an expansive build"
+jerusalem,place_name,conservative,"toponym; excluded by default, reinstatable for an expansive build"
+kanyon azrieli,place_name,conservative,"toponym; excluded by default, reinstatable for an expansive build"
+kfar saba,place_name,conservative,"toponym; excluded by default, reinstatable for an expansive build"
+kikar rabin,place_name,conservative,"toponym; excluded by default, reinstatable for an expansive build"
+kikar tzion,place_name,conservative,"toponym; excluded by default, reinstatable for an expansive build"
+machane yehuda,place_name,conservative,"toponym; excluded by default, reinstatable for an expansive build"
+negev,place_name,conservative,"toponym; excluded by default, reinstatable for an expansive build"
+nes tziona,place_name,conservative,"toponym; excluded by default, reinstatable for an expansive build"
+netanya,place_name,conservative,"toponym; excluded by default, reinstatable for an expansive build"
+ofakim,place_name,conservative,"toponym; excluded by default, reinstatable for an expansive build"
+palmachim,place_name,conservative,"toponym; excluded by default, reinstatable for an expansive build"
+raanana,place_name,conservative,"toponym; excluded by default, reinstatable for an expansive build"
+ramat gan,place_name,conservative,"toponym; excluded by default, reinstatable for an expansive build"
+rishon lezion,place_name,conservative,"toponym; excluded by default, reinstatable for an expansive build"
+rosh pina,place_name,conservative,"toponym; excluded by default, reinstatable for an expansive build"
+rothschild,place_name,conservative,"toponym; excluded by default, reinstatable for an expansive build"
+super yuda,place_name,conservative,"toponym; excluded by default, reinstatable for an expansive build"
+tel aviv,place_name,conservative,"toponym; excluded by default, reinstatable for an expansive build"

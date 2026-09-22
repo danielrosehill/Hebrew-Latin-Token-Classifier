@@ -77,6 +77,20 @@ flowchart TB
     class P2,P3 later
 ```
 
+### The North Star
+
+**makolet** — a neighbourhood corner shop. Dictated 2026-09-22 it came back as
+*"macaullete"*; no model tried has ever got it. It is common in the English speech of
+English-speakers in Israel and absent from every major speech corpus. **If a rule
+would exclude *makolet*, the rule is wrong.**
+
+The default posture is **conservative**: a flagged span is not a label, it is work —
+a sentence split, a separate speech call, audio stitched back together. A miss costs
+nothing. A false positive pays all of that to make the output worse. Judgement calls
+(toponyms, Israel-English, words current ASR handles) are excluded by default and
+recoverable with `--posture expansive`, no regeneration needed. See
+[docs/taxonomy.md](docs/taxonomy.md).
+
 ### Chatterbox references
 
 - Repository: <https://github.com/resemble-ai/chatterbox> (MIT)
@@ -311,7 +325,9 @@ English word be read in Hebrew.
 | Path | Contents |
 | --- | --- |
 | `docs/data-plan.md` | Goal, target sizes, category balance, cost, publication |
+| `docs/taxonomy.md` | **The decision record** — every category, what is excluded and why, and how to reverse it |
 | `docs/annotation-policy.md` | What counts as a positive span, and what is still undecided |
+| `data/exclusions.csv` | Terms that are never a positive span, by category and disposition |
 | `data/terms.csv` | The term inventory that seeds generation |
 | `data/generated/` | Sentences, blind annotations, adjudication, agreement stats |
 | `data/corpus/` | Term-disjoint BIO splits — the deliverable |

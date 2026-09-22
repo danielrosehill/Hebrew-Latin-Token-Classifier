@@ -1,7 +1,7 @@
 {
  "sentences": 2733,
- "with_at_least_one_span": 1845,
- "without_spans": 888,
+ "with_at_least_one_span": 1760,
+ "without_spans": 973,
  "distinct_terms": 743,
  "negatives": 504,
  "negatives_by_kind": {
@@ -30,8 +30,8 @@
  "term_rulings": 0,
  "boundary_rulings": 0,
  "counts": {
-  "agreed_kept": 1845,
-  "pending_unreviewed_dropped": 745
+  "agreed_kept": 1760,
+  "pending_unreviewed_dropped": 685
  },
  "unapplied_terms": []
 }
