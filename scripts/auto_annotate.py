@@ -59,36 +59,104 @@ no Hebrew words, return an empty list. Do not explain."""
 SCHEMA = {
     "type": "object",
     "additionalProperties": False,
-    "required": ["terms"],
+    "required": ["results"],
     "properties": {
-        "terms": {"type": "array", "items": {"type": "string"}},
+        "results": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "additionalProperties": False,
+                "required": ["index", "terms"],
+                "properties": {
+                    "index": {"type": "integer"},
+                    "terms": {"type": "array", "items": {"type": "string"}},
+                },
+            },
+        },
     },
 }
+
+BATCH_INSTRUCTION = """You will be given several numbered sentences. Return one \
+result per sentence, echoing its index. Every index must appear exactly once, \
+including sentences with no Hebrew words (return an empty list for those)."""
 
 
 def row_key(row: dict) -> str:
     return row["text"]
 
 
-async def one_row(client, row: dict) -> dict:
-    result = await client.json_completion(
-        SYSTEM, f"Sentence: {row['text']}", SCHEMA, temperature=0.0)
+def _spans_for(text: str, terms: list[str]) -> tuple[list[dict], list[str]]:
     spans, unmatched = [], []
-    for term in result.get("terms", []):
-        found = corpus.word_spans(row["text"], term)
+    for term in terms:
+        found = corpus.word_spans(text, term)
         if not found:
-            unmatched.append(term)      # hallucinated or paraphrased: never silently kept
+            unmatched.append(term)   # hallucinated or paraphrased: never silently kept
             continue
         s, e = found[0]
-        spans.append({"start": s, "end": e, "surface": row["text"][s:e],
-                      "term": term.lower()})
+        spans.append({"start": s, "end": e, "surface": text[s:e], "term": term.lower()})
     spans.sort(key=lambda s: s["start"])
-    return {
-        "text": row["text"],
-        "annotator": client.model,
-        "spans": spans,
-        "unmatched_terms": unmatched,
-    }
+    return spans, unmatched
+
+
+async def one_batch(client, rows: list[dict], *, depth: int = 0) -> list[dict]:
+    """Annotate several sentences in one call.
+
+    Reasoning tokens dominate this workload -- measured at 604 of 615 completion
+    tokens per single-sentence call, i.e. ~11 tokens of actual answer. Batching
+    amortises one reasoning preamble over N sentences and cuts both wall time and
+    cost by roughly an order of magnitude.
+
+    The risk batching introduces is misalignment: a result attached to the wrong
+    sentence. Two guards. The model must echo each index, and any index it drops is
+    retried rather than assumed empty. And every returned term must word-boundary
+    match the sentence it was assigned to -- a misaligned batch fails that test
+    loudly, so if most of a batch's terms do not match, the batch is split and
+    retried instead of being written.
+    """
+    numbered = "\n".join(f"{i}. {r['text']}" for i, r in enumerate(rows))
+    result = await client.json_completion(
+        SYSTEM + "\n\n" + BATCH_INSTRUCTION, numbered, SCHEMA, temperature=0.0)
+
+    by_index = {}
+    for item in result.get("results", []):
+        idx = item.get("index")
+        if isinstance(idx, int) and 0 <= idx < len(rows):
+            by_index[idx] = item.get("terms") or []
+
+    missing = [i for i in range(len(rows)) if i not in by_index]
+
+    out, proposed, unmatched_total = [], 0, 0
+    for i, row in enumerate(rows):
+        if i in missing:
+            continue
+        spans, unmatched = _spans_for(row["text"], by_index[i])
+        proposed += len(spans) + len(unmatched)
+        unmatched_total += len(unmatched)
+        out.append({
+            "text": row["text"],
+            "annotator": client.model,
+            "spans": spans,
+            "unmatched_terms": unmatched,
+            "batch_size": len(rows),
+        })
+
+    # A misaligned batch shows up as terms that do not occur in their sentence.
+    misaligned = len(rows) > 1 and proposed >= 4 and unmatched_total / proposed > 0.4
+    if misaligned and depth < 2:
+        print(f"  batch looked misaligned ({unmatched_total}/{proposed} terms not in "
+              f"their sentence) — splitting", file=sys.stderr)
+        half = len(rows) // 2
+        left, right = await asyncio.gather(
+            one_batch(client, rows[:half], depth=depth + 1),
+            one_batch(client, rows[half:], depth=depth + 1))
+        return left + right
+
+    if missing and depth < 2:
+        out += await one_batch(client, [rows[i] for i in missing], depth=depth + 1)
+    elif missing:
+        print(f"  {len(missing)} sentences dropped by the model after retries",
+              file=sys.stderr)
+    return out
 
 
 async def main_async(args) -> None:
@@ -113,22 +181,24 @@ async def main_async(args) -> None:
     if not todo:
         return
 
+    batches = [todo[i:i + args.batch_size] for i in range(0, len(todo), args.batch_size)]
+    print(f"  {len(batches)} batches of up to {args.batch_size}")
+
     key = llm.api_key(llm.provider_for(args.model, args.provider), args.api_key)
     written = 0
-    async with llm.Client(args.model, provider=args.provider, key=key, concurrency=args.concurrency, stage=STAGE) as client:
-        tasks = [one_row(client, r) for r in todo]
-        batch = []
+    async with llm.Client(args.model, provider=args.provider, key=key,
+                          concurrency=args.concurrency, stage=STAGE) as client:
+        tasks = [one_batch(client, b) for b in batches]
         for i, coro in enumerate(asyncio.as_completed(tasks), 1):
             try:
-                batch.append(await coro)
+                results = await coro
             except llm.LLMError as e:
                 print(f"  failed: {e}", file=sys.stderr)
                 continue
-            if len(batch) >= 20 or i == len(tasks):
-                corpus.append_jsonl(OUT, batch)
-                written += len(batch)
-                batch = []
-                print(f"  {i}/{len(tasks)} annotated")
+            corpus.append_jsonl(OUT, results)
+            written += len(results)
+            if i % 10 == 0 or i == len(tasks):
+                print(f"  {i}/{len(tasks)} batches, {written} sentences")
 
     all_rows = corpus.read_jsonl(OUT, dedupe_on="text")
     hallucinated = sum(len(r["unmatched_terms"]) for r in all_rows)
@@ -147,6 +217,9 @@ def main() -> None:
                    help="MUST differ in model family from the generator")
     p.add_argument("--allow-same-family", action="store_true",
                    help="override the independence check (it exists for a reason)")
+    p.add_argument("--batch-size", type=int, default=12,
+                   help="sentences per call; reasoning tokens dominate, so batching "
+                        "cuts cost and wall time by roughly an order of magnitude")
     p.add_argument("--concurrency", type=int, default=8)
     p.add_argument("--limit", type=int)
     p.add_argument("--provider", choices=["deepseek", "openrouter"],

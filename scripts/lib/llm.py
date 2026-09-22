@@ -59,6 +59,9 @@ PRICES = {
     "google/gemini-3.8-flash": {"input": 0.30, "output": 3.75},
     "qwen/qwen3.8-flash": {"input": 0.15, "output": 0.47},
     "qwen/qwen3.8-27b": {"input": 0.42, "output": 3.00},
+    # Together batch rate (50% of serverless). One of only two models
+    # Together actually discounts on batch.
+    "meta-llama/Llama-3.3-70B-Instruct-Turbo": {"input": 0.52, "output": 0.52},
 }
 
 _LOG_LOCK = asyncio.Lock()
