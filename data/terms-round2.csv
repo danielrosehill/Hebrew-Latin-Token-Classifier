@@ -1,0 +1,615 @@
+term,category,status,quarantine_reason,hebrew_script,source
+bubah,childcare,candidate,,,round2:deepseek-flash
+dmei gan,childcare,candidate,,,round2:deepseek-flash
+gan chova,childcare,candidate,,,round2:deepseek-flash
+gan trom chova,childcare,candidate,,,round2:deepseek-flash
+harshamah,childcare,candidate,,,round2:deepseek-flash
+hatzaga,childcare,candidate,,,round2:deepseek-flash
+hoda'a,childcare,candidate,,,round2:deepseek-flash
+kadur,childcare,candidate,,,round2:deepseek-flash
+kaduregel,childcare,candidate,,,round2:deepseek-flash
+kadursal,childcare,candidate,,,round2:deepseek-flash
+kaytana,childcare,candidate,,,round2:deepseek-flash
+luach zmanim,childcare,candidate,,,round2:deepseek-flash
+maon yom,childcare,candidate,,,round2:deepseek-flash
+matana,childcare,candidate,,,round2:deepseek-flash
+mesiba,childcare,candidate,,,round2:deepseek-flash
+mischak,childcare,candidate,,,round2:deepseek-flash
+mischakim,childcare,candidate,,,round2:deepseek-flash
+moadon,childcare,candidate,,,round2:deepseek-flash
+moadonit,childcare,candidate,,,round2:deepseek-flash
+peilut,childcare,candidate,,,round2:deepseek-flash
+peuton,childcare,candidate,,,round2:deepseek-flash
+pinkas,childcare,candidate,,,round2:deepseek-flash
+sadna,childcare,candidate,,,round2:deepseek-flash
+saya'at,childcare,candidate,,,round2:deepseek-flash
+tachposet,childcare,candidate,,,round2:deepseek-flash
+trom chova,childcare,candidate,,,round2:deepseek-flash
+tza'atzua,childcare,candidate,,,round2:deepseek-flash
+tza'atzuim,childcare,candidate,,,round2:deepseek-flash
+aish,colloquial,candidate,,,round2:deepseek-flash
+b'kitzur,colloquial,candidate,,,round2:deepseek-flash
+ba li,colloquial,candidate,,,round2:deepseek-flash
+ben adam,colloquial,candidate,,,round2:deepseek-flash
+bichlal,colloquial,candidate,,,round2:deepseek-flash
+chevra,colloquial,candidate,,,round2:deepseek-flash
+davka,colloquial,candidate,,,round2:deepseek-flash
+efshar,colloquial,candidate,,,round2:deepseek-flash
+harbe,colloquial,candidate,,,round2:deepseek-flash
+i efshar,colloquial,candidate,,,round2:deepseek-flash
+kacha,colloquial,candidate,,,round2:deepseek-flash
+ktzat,colloquial,candidate,,,round2:deepseek-flash
+mamash,colloquial,candidate,,,round2:deepseek-flash
+nu,colloquial,candidate,,,round2:deepseek-flash
+pitzutz,colloquial,candidate,,,round2:deepseek-flash
+sof haderech,colloquial,candidate,,,round2:deepseek-flash
+tachles,colloquial,candidate,,,round2:deepseek-flash
+agra,documents,candidate,,,round2:deepseek-flash
+bakasha,documents,candidate,,,round2:deepseek-flash
+hatzharat,documents,candidate,,,round2:deepseek-flash
+hazmana,documents,candidate,,,round2:deepseek-flash
+iriya,documents,candidate,,,round2:deepseek-flash
+ishur avoda,documents,candidate,,,round2:deepseek-flash
+ishur bniya,documents,candidate,,,round2:deepseek-flash
+ishur knisa,documents,candidate,,,round2:deepseek-flash
+ishur yetzia,documents,candidate,,,round2:deepseek-flash
+mas,documents,candidate,,,round2:deepseek-flash
+mo'atza,documents,candidate,,,round2:deepseek-flash
+rishayon,documents,candidate,,,round2:deepseek-flash
+rishayon bniya,documents,candidate,,,round2:deepseek-flash
+rishayon esek,documents,candidate,,,round2:deepseek-flash
+rishayon neshek,documents,candidate,,,round2:deepseek-flash
+rishayon rechev,documents,candidate,,,round2:deepseek-flash
+sal briut,documents,candidate,,,round2:deepseek-flash
+teudat ezrach,documents,candidate,,,round2:deepseek-flash
+teudat gerushin,documents,candidate,,,round2:deepseek-flash
+teudat lida,documents,candidate,,,round2:deepseek-flash
+teudat limudim,documents,candidate,,,round2:deepseek-flash
+teudat nisuin,documents,candidate,,,round2:deepseek-flash
+teudat petira,documents,candidate,,,round2:deepseek-flash
+teudat toshav,documents,candidate,,,round2:deepseek-flash
+va'ad bayit,documents,candidate,,,round2:deepseek-flash
+bagrut,education,candidate,,,round2:deepseek-flash
+bchinah,education,candidate,,,round2:deepseek-flash
+bchinot,education,candidate,,,round2:deepseek-flash
+beit sefer,education,candidate,,,round2:deepseek-flash
+chanich,education,candidate,,,round2:deepseek-flash
+chanichim,education,candidate,,,round2:deepseek-flash
+chativa,education,candidate,,,round2:deepseek-flash
+chug,education,candidate,,,round2:deepseek-flash
+chugim,education,candidate,,,round2:deepseek-flash
+gan yeladim,education,candidate,,,round2:deepseek-flash
+ganenet,education,candidate,,,round2:deepseek-flash
+hakhanah,education,candidate,,,round2:deepseek-flash
+kita,education,candidate,,,round2:deepseek-flash
+kitot,education,candidate,,,round2:deepseek-flash
+limudim,education,candidate,,,round2:deepseek-flash
+madrich,education,candidate,,,round2:deepseek-flash
+madricha,education,candidate,,,round2:deepseek-flash
+maon,education,candidate,,,round2:deepseek-flash
+maslul,education,candidate,,,round2:deepseek-flash
+matkonet,education,candidate,,,round2:deepseek-flash
+mechina,education,candidate,,,round2:deepseek-flash
+megama,education,candidate,,,round2:deepseek-flash
+mehanekh,education,candidate,,,round2:deepseek-flash
+mehanekhet,education,candidate,,,round2:deepseek-flash
+meitzav,education,candidate,,,round2:deepseek-flash
+menahel,education,candidate,,,round2:deepseek-flash
+menahelet,education,candidate,,,round2:deepseek-flash
+michlala,education,candidate,,,round2:deepseek-flash
+mivchan,education,candidate,,,round2:deepseek-flash
+moed,education,candidate,,,round2:deepseek-flash
+moed bet,education,candidate,,,round2:deepseek-flash
+morah,education,candidate,,,round2:deepseek-flash
+moreh,education,candidate,,,round2:deepseek-flash
+shichva,education,candidate,,,round2:deepseek-flash
+shiur,education,candidate,,,round2:deepseek-flash
+shiurim,education,candidate,,,round2:deepseek-flash
+targil,education,candidate,,,round2:deepseek-flash
+targilim,education,candidate,,,round2:deepseek-flash
+teudat bagrut,education,candidate,,,round2:deepseek-flash
+tichon,education,candidate,,,round2:deepseek-flash
+tzaharon,education,candidate,,,round2:deepseek-flash
+tziyun,education,candidate,,,round2:deepseek-flash
+adom,emergency,candidate,,,round2:deepseek-flash
+azaka,emergency,candidate,,,round2:deepseek-flash
+bitachon,emergency,candidate,,,round2:deepseek-flash
+cheder madregot,emergency,candidate,,,round2:deepseek-flash
+cherum,emergency,candidate,,,round2:deepseek-flash
+chilutz,emergency,candidate,,,round2:deepseek-flash
+chovesh,emergency,candidate,,,round2:deepseek-flash
+ezrah,emergency,candidate,,,round2:deepseek-flash
+hatarah,emergency,candidate,,,round2:deepseek-flash
+hatarah mukdemet,emergency,candidate,,,round2:deepseek-flash
+hatzala,emergency,candidate,,,round2:deepseek-flash
+hatzalah,emergency,candidate,,,round2:deepseek-flash
+ichud hatzalah,emergency,candidate,,,round2:deepseek-flash
+kupat holim,emergency,candidate,,,round2:deepseek-flash
+mada,emergency,candidate,,,round2:deepseek-flash
+madregot,emergency,candidate,,,round2:deepseek-flash
+magen david adom,emergency,candidate,,,round2:deepseek-flash
+mamak,emergency,candidate,,,round2:deepseek-flash
+matzav cherum,emergency,candidate,,,round2:deepseek-flash
+merhav mugan,emergency,candidate,,,round2:deepseek-flash
+miklat tachton,emergency,candidate,,,round2:deepseek-flash
+miklat tziburi,emergency,candidate,,,round2:deepseek-flash
+oref,emergency,candidate,,,round2:deepseek-flash
+pigu'a,emergency,candidate,,,round2:deepseek-flash
+pikud,emergency,candidate,,,round2:deepseek-flash
+pikud haoref,emergency,candidate,,,round2:deepseek-flash
+pinu,emergency,candidate,,,round2:deepseek-flash
+tzeva,emergency,candidate,,,round2:deepseek-flash
+tzeva adom,emergency,candidate,,,round2:deepseek-flash
+tzfira,emergency,candidate,,,round2:deepseek-flash
+yedidim,emergency,candidate,,,round2:deepseek-flash
+yeri,emergency,candidate,,,round2:deepseek-flash
+zaka,emergency,candidate,,,round2:deepseek-flash
+alman,family,candidate,,,round2:deepseek-flash
+almana,family,candidate,,,round2:deepseek-flash
+bat dod,family,candidate,,,round2:deepseek-flash
+ben dod,family,candidate,,,round2:deepseek-flash
+brit mila,family,candidate,,,round2:deepseek-flash
+chamot,family,candidate,,,round2:deepseek-flash
+chatuna,family,candidate,,,round2:deepseek-flash
+dodim,family,candidate,,,round2:deepseek-flash
+ger,family,candidate,,,round2:deepseek-flash
+gerushin,family,candidate,,,round2:deepseek-flash
+hesped,family,candidate,,,round2:deepseek-flash
+horim,family,candidate,,,round2:deepseek-flash
+kallah,family,candidate,,,round2:deepseek-flash
+kevura,family,candidate,,,round2:deepseek-flash
+mishpacha,family,candidate,,,round2:deepseek-flash
+niftar,family,candidate,,,round2:deepseek-flash
+nisuin,family,candidate,,,round2:deepseek-flash
+shadchan,family,candidate,,,round2:deepseek-flash
+shalom bayit,family,candidate,,,round2:deepseek-flash
+shidduch,family,candidate,,,round2:deepseek-flash
+yichus,family,candidate,,,round2:deepseek-flash
+yom huledet,family,candidate,,,round2:deepseek-flash
+amla,finance,candidate,,,round2:deepseek-flash
+amlaot,finance,candidate,,,round2:deepseek-flash
+bituach briut,finance,candidate,,,round2:deepseek-flash
+bituach chaim,finance,candidate,,,round2:deepseek-flash
+bituach chova,finance,candidate,,,round2:deepseek-flash
+bituach makif,finance,candidate,,,round2:deepseek-flash
+bituach nachasim,finance,candidate,,,round2:deepseek-flash
+bituach tzad gimel,finance,candidate,,,round2:deepseek-flash
+dmei avtala,finance,candidate,,,round2:deepseek-flash
+dmei havraa,finance,candidate,,,round2:deepseek-flash
+dmei leida,finance,candidate,,,round2:deepseek-flash
+dmei machala,finance,candidate,,,round2:deepseek-flash
+dmei nihul,finance,candidate,,,round2:deepseek-flash
+dmei peilut,finance,candidate,,,round2:deepseek-flash
+hanacha,finance,candidate,,,round2:deepseek-flash
+heshbon chisachon,finance,candidate,,,round2:deepseek-flash
+heshbon ishi,finance,candidate,,,round2:deepseek-flash
+heshbon osek,finance,candidate,,,round2:deepseek-flash
+keren pensia,finance,candidate,,,round2:deepseek-flash
+kitzvat yeladim,finance,candidate,,,round2:deepseek-flash
+kupat gemel,finance,candidate,,,round2:deepseek-flash
+kupat gemel lehashkaa,finance,candidate,,,round2:deepseek-flash
+kupat pensia,finance,candidate,,,round2:deepseek-flash
+mas briut,finance,candidate,,,round2:deepseek-flash
+nekudot zikui,finance,candidate,,,round2:deepseek-flash
+pikadon,finance,candidate,,,round2:deepseek-flash
+polisa,finance,candidate,,,round2:deepseek-flash
+ptur mas,finance,candidate,,,round2:deepseek-flash
+ribit lo tzmuda,finance,candidate,,,round2:deepseek-flash
+ribit tzmuda,finance,candidate,,,round2:deepseek-flash
+tofes,finance,candidate,,,round2:deepseek-flash
+tvia,finance,candidate,,,round2:deepseek-flash
+zikui mas,finance,candidate,,,round2:deepseek-flash
+beytza,food_shopping,candidate,,,round2:deepseek-flash
+chamin,food_shopping,candidate,,,round2:deepseek-flash
+chavita,food_shopping,candidate,,,round2:deepseek-flash
+gvina levana,food_shopping,candidate,,,round2:deepseek-flash
+konditoria,food_shopping,candidate,,,round2:deepseek-flash
+kotej,food_shopping,candidate,,,round2:deepseek-flash
+kubbeh,food_shopping,candidate,,,round2:deepseek-flash
+lachmaniyot,food_shopping,candidate,,,round2:deepseek-flash
+laffa,food_shopping,candidate,,,round2:deepseek-flash
+ma'afe,food_shopping,candidate,,,round2:deepseek-flash
+maafiya,food_shopping,candidate,,,round2:deepseek-flash
+masabacha,food_shopping,candidate,,,round2:deepseek-flash
+meurav yerushalmi,food_shopping,candidate,,,round2:deepseek-flash
+odef,food_shopping,candidate,,,round2:deepseek-flash
+pashtida,food_shopping,candidate,,,round2:deepseek-flash
+sahlab,food_shopping,candidate,,,round2:deepseek-flash
+shamenet,food_shopping,candidate,,,round2:deepseek-flash
+shipud,food_shopping,candidate,,,round2:deepseek-flash
+tzarchania,food_shopping,candidate,,,round2:deepseek-flash
+tzonit,food_shopping,candidate,,,round2:deepseek-flash
+beit din,government,candidate,,,round2:deepseek-flash
+beit mishpat,government,candidate,,,round2:deepseek-flash
+lishkat ta'asuka,government,candidate,,,round2:deepseek-flash
+magav,government,candidate,,,round2:deepseek-flash
+meches,government,candidate,,,round2:deepseek-flash
+mishtara,government,candidate,,,round2:deepseek-flash
+misrad ha'aliyah,government,candidate,,,round2:deepseek-flash
+misrad ha'avoda,government,candidate,,,round2:deepseek-flash
+misrad ha'energiya,government,candidate,,,round2:deepseek-flash
+misrad ha'otzar,government,candidate,,,round2:deepseek-flash
+misrad habitachon,government,candidate,,,round2:deepseek-flash
+misrad habriut,government,candidate,,,round2:deepseek-flash
+misrad hachaklaut,government,candidate,,,round2:deepseek-flash
+misrad hachinuch,government,candidate,,,round2:deepseek-flash
+misrad hachutz,government,candidate,,,round2:deepseek-flash
+misrad hadatot,government,candidate,,,round2:deepseek-flash
+misrad hakalkala,government,candidate,,,round2:deepseek-flash
+misrad hamada,government,candidate,,,round2:deepseek-flash
+misrad hamishpatim,government,candidate,,,round2:deepseek-flash
+misrad harevacha,government,candidate,,,round2:deepseek-flash
+misrad hashikun,government,candidate,,,round2:deepseek-flash
+misrad hasport,government,candidate,,,round2:deepseek-flash
+misrad hasviva,government,candidate,,,round2:deepseek-flash
+misrad hatachbura,government,candidate,,,round2:deepseek-flash
+misrad hatarbut,government,candidate,,,round2:deepseek-flash
+misrad hatayarut,government,candidate,,,round2:deepseek-flash
+pikud ha'oref,government,candidate,,,round2:deepseek-flash
+rabanut,government,candidate,,,round2:deepseek-flash
+rashut ha'atikot,government,candidate,,,round2:deepseek-flash
+rashut hachashmal,government,candidate,,,round2:deepseek-flash
+rashut hadarachim,government,candidate,,,round2:deepseek-flash
+rashut hamayim,government,candidate,,,round2:deepseek-flash
+rashut hamisim,government,candidate,,,round2:deepseek-flash
+rashut hanamalim,government,candidate,,,round2:deepseek-flash
+rashut hashiddur,government,candidate,,,round2:deepseek-flash
+rashut hateufa,government,candidate,,,round2:deepseek-flash
+rashut hateva vehaganim,government,candidate,,,round2:deepseek-flash
+rashut lehaganat hatzarchan,government,candidate,,,round2:deepseek-flash
+shabak,government,candidate,,,round2:deepseek-flash
+ba'al bayit,immigration,candidate,,,round2:deepseek-flash
+bet din,immigration,candidate,,,round2:deepseek-flash
+darkon,immigration,candidate,,,round2:deepseek-flash
+diyur,immigration,candidate,,,round2:deepseek-flash
+ezrach,immigration,candidate,,,round2:deepseek-flash
+harshama,immigration,candidate,,,round2:deepseek-flash
+histaglut,immigration,candidate,,,round2:deepseek-flash
+iriyah,immigration,candidate,,,round2:deepseek-flash
+kitzbat yeladim,immigration,candidate,,,round2:deepseek-flash
+klita,immigration,candidate,,,round2:deepseek-flash
+matnas,immigration,candidate,,,round2:deepseek-flash
+merkaz klita,immigration,candidate,,,round2:deepseek-flash
+misrad,immigration,candidate,,,round2:deepseek-flash
+oleh chadash,immigration,candidate,,,round2:deepseek-flash
+rabbanut,immigration,candidate,,,round2:deepseek-flash
+rishum,immigration,candidate,,,round2:deepseek-flash
+sal klita,immigration,candidate,,,round2:deepseek-flash
+teudat ma'avar,immigration,candidate,,,round2:deepseek-flash
+toshav,immigration,candidate,,,round2:deepseek-flash
+vatik,immigration,candidate,,,round2:deepseek-flash
+apotropos,legal,candidate,,,round2:deepseek-flash
+arev,legal,candidate,,,round2:deepseek-flash
+arvut,legal,candidate,,,round2:deepseek-flash
+borerut,legal,candidate,,,round2:deepseek-flash
+chalitza,legal,candidate,,,round2:deepseek-flash
+dayan,legal,candidate,,,round2:deepseek-flash
+dmei nezek,legal,candidate,,,round2:deepseek-flash
+dmei tza'ar,legal,candidate,,,round2:deepseek-flash
+ed,legal,candidate,,,round2:deepseek-flash
+edut,legal,candidate,,,round2:deepseek-flash
+halva'ah,legal,candidate,,,round2:deepseek-flash
+kofer,legal,candidate,,,round2:deepseek-flash
+mamzer,legal,candidate,,,round2:deepseek-flash
+mashkon,legal,candidate,,,round2:deepseek-flash
+mechira,legal,candidate,,,round2:deepseek-flash
+nezek,legal,candidate,,,round2:deepseek-flash
+nitva,legal,candidate,,,round2:deepseek-flash
+ones,legal,candidate,,,round2:deepseek-flash
+pidyon,legal,candidate,,,round2:deepseek-flash
+pitzuyim,legal,candidate,,,round2:deepseek-flash
+praklit,legal,candidate,,,round2:deepseek-flash
+psak din,legal,candidate,,,round2:deepseek-flash
+shofet,legal,candidate,,,round2:deepseek-flash
+shtar,legal,candidate,,,round2:deepseek-flash
+shtar chov,legal,candidate,,,round2:deepseek-flash
+shtar halva'ah,legal,candidate,,,round2:deepseek-flash
+shtar matana,legal,candidate,,,round2:deepseek-flash
+shtar mechira,legal,candidate,,,round2:deepseek-flash
+shtar shituf,legal,candidate,,,round2:deepseek-flash
+shtar yerusha,legal,candidate,,,round2:deepseek-flash
+shvu'a,legal,candidate,,,round2:deepseek-flash
+tna'im,legal,candidate,,,round2:deepseek-flash
+tove'a,legal,candidate,,,round2:deepseek-flash
+tzava'ah,legal,candidate,,,round2:deepseek-flash
+yerusha,legal,candidate,,,round2:deepseek-flash
+yibum,legal,candidate,,,round2:deepseek-flash
+al ha'esh,leisure,candidate,,,round2:deepseek-flash
+artik,leisure,candidate,,,round2:deepseek-flash
+beit kafe,leisure,candidate,,,round2:deepseek-flash
+breicha,leisure,candidate,,,round2:deepseek-flash
+chof,leisure,candidate,,,round2:deepseek-flash
+deshe,leisure,candidate,,,round2:deepseek-flash
+etz,leisure,candidate,,,round2:deepseek-flash
+glida,leisure,candidate,,,round2:deepseek-flash
+maayan,leisure,candidate,,,round2:deepseek-flash
+machane,leisure,candidate,,,round2:deepseek-flash
+mangal,leisure,candidate,,,round2:deepseek-flash
+matar,leisure,candidate,,,round2:deepseek-flash
+matzpen,leisure,candidate,,,round2:deepseek-flash
+misada,leisure,candidate,,,round2:deepseek-flash
+mitriya,leisure,candidate,,,round2:deepseek-flash
+mo'adon,leisure,candidate,,,round2:deepseek-flash
+nachal,leisure,candidate,,,round2:deepseek-flash
+ohel,leisure,candidate,,,round2:deepseek-flash
+perach,leisure,candidate,,,round2:deepseek-flash
+pundak,leisure,candidate,,,round2:deepseek-flash
+rikud,leisure,candidate,,,round2:deepseek-flash
+seret,leisure,candidate,,,round2:deepseek-flash
+shira,leisure,candidate,,,round2:deepseek-flash
+shvil,leisure,candidate,,,round2:deepseek-flash
+sira,leisure,candidate,,,round2:deepseek-flash
+tiyul,leisure,candidate,,,round2:deepseek-flash
+tzalchit,leisure,candidate,,,round2:deepseek-flash
+tzila,leisure,candidate,,,round2:deepseek-flash
+yam,leisure,candidate,,,round2:deepseek-flash
+aluf,military,candidate,,,round2:deepseek-flash
+chayal,military,candidate,,,round2:deepseek-flash
+chova,military,candidate,,,round2:deepseek-flash
+gdud,military,candidate,,,round2:deepseek-flash
+gibush,military,candidate,,,round2:deepseek-flash
+giyus,military,candidate,,,round2:deepseek-flash
+hativa,military,candidate,,,round2:deepseek-flash
+jobnik,military,candidate,,,round2:deepseek-flash
+katzin,military,candidate,,,round2:deepseek-flash
+keva,military,candidate,,,round2:deepseek-flash
+kravi,military,candidate,,,round2:deepseek-flash
+lohem,military,candidate,,,round2:deepseek-flash
+machlaka,military,candidate,,,round2:deepseek-flash
+mefaked,military,candidate,,,round2:deepseek-flash
+miluimnik,military,candidate,,,round2:deepseek-flash
+palsar,military,candidate,,,round2:deepseek-flash
+plugah,military,candidate,,,round2:deepseek-flash
+profil,military,candidate,,,round2:deepseek-flash
+ptor,military,candidate,,,round2:deepseek-flash
+rav aluf,military,candidate,,,round2:deepseek-flash
+rav samal,military,candidate,,,round2:deepseek-flash
+rav seren,military,candidate,,,round2:deepseek-flash
+samal,military,candidate,,,round2:deepseek-flash
+sayeret,military,candidate,,,round2:deepseek-flash
+segen,military,candidate,,,round2:deepseek-flash
+seren,military,candidate,,,round2:deepseek-flash
+sgan aluf,military,candidate,,,round2:deepseek-flash
+shalish,military,candidate,,,round2:deepseek-flash
+sherut chova,military,candidate,,,round2:deepseek-flash
+sherut keva,military,candidate,,,round2:deepseek-flash
+sherut miluim,military,candidate,,,round2:deepseek-flash
+tat aluf,military,candidate,,,round2:deepseek-flash
+tiron,military,candidate,,,round2:deepseek-flash
+tironut,military,candidate,,,round2:deepseek-flash
+tzanhanim,military,candidate,,,round2:deepseek-flash
+tzav,military,candidate,,,round2:deepseek-flash
+tzav giyus,military,candidate,,,round2:deepseek-flash
+tzav miluim,military,candidate,,,round2:deepseek-flash
+tzav rishon,military,candidate,,,round2:deepseek-flash
+tzava,military,candidate,,,round2:deepseek-flash
+tzevet,military,candidate,,,round2:deepseek-flash
+ashpa,municipality,candidate,,,round2:deepseek-flash
+do'ach,municipality,candidate,,,round2:deepseek-flash
+gina,municipality,candidate,,,round2:deepseek-flash
+heter,municipality,candidate,,,round2:deepseek-flash
+ma'on,municipality,candidate,,,round2:deepseek-flash
+mihzur,municipality,candidate,,,round2:deepseek-flash
+minhal,municipality,candidate,,,round2:deepseek-flash
+ptur,municipality,candidate,,,round2:deepseek-flash
+rishayon iski,municipality,candidate,,,round2:deepseek-flash
+shachen,municipality,candidate,,,round2:deepseek-flash
+shchenim,municipality,candidate,,,round2:deepseek-flash
+shkhuna,municipality,candidate,,,round2:deepseek-flash
+tihur,municipality,candidate,,,round2:deepseek-flash
+tik,municipality,candidate,,,round2:deepseek-flash
+tluna,municipality,candidate,,,round2:deepseek-flash
+tochnit,municipality,candidate,,,round2:deepseek-flash
+va'ad mekomi,municipality,candidate,,,round2:deepseek-flash
+bdikot,pharmacy_post,candidate,,,round2:deepseek-flash
+beit merkachat,pharmacy_post,candidate,,,round2:deepseek-flash
+bituach,pharmacy_post,candidate,,,round2:deepseek-flash
+bituach refui,pharmacy_post,candidate,,,round2:deepseek-flash
+doar beinleumi,pharmacy_post,candidate,,,round2:deepseek-flash
+doar mahir,pharmacy_post,candidate,,,round2:deepseek-flash
+doar rishum,pharmacy_post,candidate,,,round2:deepseek-flash
+hafnaya,pharmacy_post,candidate,,,round2:deepseek-flash
+merkachat,pharmacy_post,candidate,,,round2:deepseek-flash
+michtav,pharmacy_post,candidate,,,round2:deepseek-flash
+mikud,pharmacy_post,candidate,,,round2:deepseek-flash
+mirsham chozer,pharmacy_post,candidate,,,round2:deepseek-flash
+mishloach,pharmacy_post,candidate,,,round2:deepseek-flash
+misrad hadoar,pharmacy_post,candidate,,,round2:deepseek-flash
+rofe,pharmacy_post,candidate,,,round2:deepseek-flash
+rofe mishpacha,pharmacy_post,candidate,,,round2:deepseek-flash
+shaliach,pharmacy_post,candidate,,,round2:deepseek-flash
+torim,pharmacy_post,candidate,,,round2:deepseek-flash
+adrichal,real_estate,candidate,,,round2:deepseek-flash
+baal bayit,real_estate,candidate,,,round2:deepseek-flash
+baalut,real_estate,candidate,,,round2:deepseek-flash
+binyan,real_estate,candidate,,,round2:deepseek-flash
+chatzer,real_estate,candidate,,,round2:deepseek-flash
+chelka,real_estate,candidate,,,round2:deepseek-flash
+choze,real_estate,candidate,,,round2:deepseek-flash
+choze sechirut,real_estate,candidate,,,round2:deepseek-flash
+dmei sechirut,real_estate,candidate,,,round2:deepseek-flash
+gush,real_estate,candidate,,,round2:deepseek-flash
+hatzaa,real_estate,candidate,,,round2:deepseek-flash
+heter bniya,real_estate,candidate,,,round2:deepseek-flash
+kablan,real_estate,candidate,,,round2:deepseek-flash
+karka,real_estate,candidate,,,round2:deepseek-flash
+koma,real_estate,candidate,,,round2:deepseek-flash
+ma'alit,real_estate,candidate,,,round2:deepseek-flash
+maskir,real_estate,candidate,,,round2:deepseek-flash
+mechir lamishtaken,real_estate,candidate,,,round2:deepseek-flash
+metavech,real_estate,candidate,,,round2:deepseek-flash
+nadlan,real_estate,candidate,,,round2:deepseek-flash
+pinui binui,real_estate,candidate,,,round2:deepseek-flash
+sechirut,real_estate,candidate,,,round2:deepseek-flash
+shamai,real_estate,candidate,,,round2:deepseek-flash
+shchunah,real_estate,candidate,,,round2:deepseek-flash
+shikun,real_estate,candidate,,,round2:deepseek-flash
+socher,real_estate,candidate,,,round2:deepseek-flash
+agunah,religious,candidate,,,round2:deepseek-flash
+amidah,religious,candidate,,,round2:deepseek-flash
+aron kodesh,religious,candidate,,,round2:deepseek-flash
+bedeken,religious,candidate,,,round2:deepseek-flash
+birkat hamazon,religious,candidate,,,round2:deepseek-flash
+chalitzah,religious,candidate,,,round2:deepseek-flash
+chuppah,religious,candidate,,,round2:deepseek-flash
+giyur,religious,candidate,,,round2:deepseek-flash
+hanukkiah,religious,candidate,,,round2:deepseek-flash
+kaparot,religious,candidate,,,round2:deepseek-flash
+ketubah,religious,candidate,,,round2:deepseek-flash
+kever,religious,candidate,,,round2:deepseek-flash
+kiddushin,religious,candidate,,,round2:deepseek-flash
+machzor,religious,candidate,,,round2:deepseek-flash
+mohel,religious,candidate,,,round2:deepseek-flash
+netilat yadayim,religious,candidate,,,round2:deepseek-flash
+sandak,religious,candidate,,,round2:deepseek-flash
+shalom zachar,religious,candidate,,,round2:deepseek-flash
+siddur,religious,candidate,,,round2:deepseek-flash
+tashlich,religious,candidate,,,round2:deepseek-flash
+yichud,religious,candidate,,,round2:deepseek-flash
+zeved habat,religious,candidate,,,round2:deepseek-flash
+agala,shopping,candidate,,,round2:deepseek-flash
+agorot,shopping,candidate,,,round2:deepseek-flash
+barkod,shopping,candidate,,,round2:deepseek-flash
+chanut,shopping,candidate,,,round2:deepseek-flash
+dukan,shopping,candidate,,,round2:deepseek-flash
+hamashbir lazarchan,shopping,candidate,,,round2:deepseek-flash
+hanachot,shopping,candidate,,,round2:deepseek-flash
+hashbonit,shopping,candidate,,,round2:deepseek-flash
+hazi hinam,shopping,candidate,,,round2:deepseek-flash
+kartis debit,shopping,candidate,,,round2:deepseek-flash
+kenyon,shopping,candidate,,,round2:deepseek-flash
+kesef,shopping,candidate,,,round2:deepseek-flash
+kimat hinam,shopping,candidate,,,round2:deepseek-flash
+kniya,shopping,candidate,,,round2:deepseek-flash
+kniyot,shopping,candidate,,,round2:deepseek-flash
+kupa express,shopping,candidate,,,round2:deepseek-flash
+kupa otomatit,shopping,candidate,,,round2:deepseek-flash
+mecher,shopping,candidate,,,round2:deepseek-flash
+mechiron,shopping,candidate,,,round2:deepseek-flash
+merkaz kniyot,shopping,candidate,,,round2:deepseek-flash
+mezuman,shopping,candidate,,,round2:deepseek-flash
+mivtza,shopping,candidate,,,round2:deepseek-flash
+odeff,shopping,candidate,,,round2:deepseek-flash
+sal,shopping,candidate,,,round2:deepseek-flash
+shefa shuk,shopping,candidate,,,round2:deepseek-flash
+shuk hayir,shopping,candidate,,,round2:deepseek-flash
+tashlum,shopping,candidate,,,round2:deepseek-flash
+tashlumim,shopping,candidate,,,round2:deepseek-flash
+zol po,shopping,candidate,,,round2:deepseek-flash
+atar,telecoms,candidate,,,round2:deepseek-flash
+atarim,telecoms,candidate,,,round2:deepseek-flash
+bezeq,telecoms,candidate,,,round2:deepseek-flash
+chavila,telecoms,candidate,,,round2:deepseek-flash
+chibur,telecoms,candidate,,,round2:deepseek-flash
+dakot,telecoms,candidate,,,round2:deepseek-flash
+gisha,telecoms,candidate,,,round2:deepseek-flash
+hitkashrut,telecoms,candidate,,,round2:deepseek-flash
+kartis sim,telecoms,candidate,,,round2:deepseek-flash
+kartis zikaron,telecoms,candidate,,,round2:deepseek-flash
+kav kavvi,telecoms,candidate,,,round2:deepseek-flash
+kav nayad,telecoms,candidate,,,round2:deepseek-flash
+kishur,telecoms,candidate,,,round2:deepseek-flash
+kod ezor,telecoms,candidate,,,round2:deepseek-flash
+kod medina,telecoms,candidate,,,round2:deepseek-flash
+machshev,telecoms,candidate,,,round2:deepseek-flash
+mispar kavvi,telecoms,candidate,,,round2:deepseek-flash
+mispar nayad,telecoms,candidate,,,round2:deepseek-flash
+nayad,telecoms,candidate,,,round2:deepseek-flash
+nayadim,telecoms,candidate,,,round2:deepseek-flash
+pelephone,telecoms,candidate,,,round2:deepseek-flash
+reshet,telecoms,candidate,,,round2:deepseek-flash
+reshet nayad,telecoms,candidate,,,round2:deepseek-flash
+ta koli,telecoms,candidate,,,round2:deepseek-flash
+tnaim,telecoms,candidate,,,round2:deepseek-flash
+tziltzul,telecoms,candidate,,,round2:deepseek-flash
+ziku,telecoms,candidate,,,round2:deepseek-flash
+anan,time_weather,candidate,,,round2:deepseek-flash
+aviv,time_weather,candidate,,,round2:deepseek-flash
+barad,time_weather,candidate,,,round2:deepseek-flash
+barak,time_weather,candidate,,,round2:deepseek-flash
+chamsin,time_weather,candidate,,,round2:deepseek-flash
+chatzot,time_weather,candidate,,,round2:deepseek-flash
+chol hamoed,time_weather,candidate,,,round2:deepseek-flash
+choref,time_weather,candidate,,,round2:deepseek-flash
+erev chag,time_weather,candidate,,,round2:deepseek-flash
+erev shabbat,time_weather,candidate,,,round2:deepseek-flash
+geshem,time_weather,candidate,,,round2:deepseek-flash
+kayitz,time_weather,candidate,,,round2:deepseek-flash
+kfor,time_weather,candidate,,,round2:deepseek-flash
+kor,time_weather,candidate,,,round2:deepseek-flash
+motzei chag,time_weather,candidate,,,round2:deepseek-flash
+raam,time_weather,candidate,,,round2:deepseek-flash
+ruach,time_weather,candidate,,,round2:deepseek-flash
+sharav,time_weather,candidate,,,round2:deepseek-flash
+sheleg,time_weather,candidate,,,round2:deepseek-flash
+shkia,time_weather,candidate,,,round2:deepseek-flash
+sof shavua,time_weather,candidate,,,round2:deepseek-flash
+stav,time_weather,candidate,,,round2:deepseek-flash
+tzeit hakochavim,time_weather,candidate,,,round2:deepseek-flash
+yom chamishi,time_weather,candidate,,,round2:deepseek-flash
+yom chofesh,time_weather,candidate,,,round2:deepseek-flash
+yom revi'i,time_weather,candidate,,,round2:deepseek-flash
+yom rishon,time_weather,candidate,,,round2:deepseek-flash
+yom sheni,time_weather,candidate,,,round2:deepseek-flash
+yom shishi,time_weather,candidate,,,round2:deepseek-flash
+yom shlishi,time_weather,candidate,,,round2:deepseek-flash
+yom tov,time_weather,candidate,,,round2:deepseek-flash
+agrat rishayon,vehicles,candidate,,,round2:deepseek-flash
+bituch,vehicles,candidate,,,round2:deepseek-flash
+bituch chova,vehicles,candidate,,,round2:deepseek-flash
+bochen,vehicles,candidate,,,round2:deepseek-flash
+chalakim,vehicles,candidate,,,round2:deepseek-flash
+chaniya,vehicles,candidate,,,round2:deepseek-flash
+chelek,vehicles,candidate,,,round2:deepseek-flash
+chidush rishayon,vehicles,candidate,,,round2:deepseek-flash
+dmei chaniya,vehicles,candidate,,,round2:deepseek-flash
+doach,vehicles,candidate,,,round2:deepseek-flash
+doach chaniya,vehicles,candidate,,,round2:deepseek-flash
+galgal,vehicles,candidate,,,round2:deepseek-flash
+garaj,vehicles,candidate,,,round2:deepseek-flash
+kenas,vehicles,candidate,,,round2:deepseek-flash
+makif,vehicles,candidate,,,round2:deepseek-flash
+mas rechev,vehicles,candidate,,,round2:deepseek-flash
+mishpat,vehicles,candidate,,,round2:deepseek-flash
+mispar rechev,vehicles,candidate,,,round2:deepseek-flash
+monit sherut,vehicles,candidate,,,round2:deepseek-flash
+more nehiga,vehicles,candidate,,,round2:deepseek-flash
+musach,vehicles,candidate,,,round2:deepseek-flash
+nahag,vehicles,candidate,,,round2:deepseek-flash
+ofno'a,vehicles,candidate,,,round2:deepseek-flash
+rechev,vehicles,candidate,,,round2:deepseek-flash
+rechev tziburi,vehicles,candidate,,,round2:deepseek-flash
+rishayon nehiga,vehicles,candidate,,,round2:deepseek-flash
+tahanat delek,vehicles,candidate,,,round2:deepseek-flash
+test shnati,vehicles,candidate,,,round2:deepseek-flash
+teunah,vehicles,candidate,,,round2:deepseek-flash
+tipul,vehicles,candidate,,,round2:deepseek-flash
+tzad gimel,vehicles,candidate,,,round2:deepseek-flash
+bituach menahalim,work,candidate,,,round2:deepseek-flash
+bruto,work,candidate,,,round2:deepseek-flash
+chok avoda,work,candidate,,,round2:deepseek-flash
+chozeh avoda,work,candidate,,,round2:deepseek-flash
+chufsha,work,candidate,,,round2:deepseek-flash
+dmei chufsha,work,candidate,,,round2:deepseek-flash
+hafrasha,work,candidate,,,round2:deepseek-flash
+hanhala,work,candidate,,,round2:deepseek-flash
+heskem kolektivi,work,candidate,,,round2:deepseek-flash
+hitpatrut,work,candidate,,,round2:deepseek-flash
+koach adam,work,candidate,,,round2:deepseek-flash
+maasik,work,candidate,,,round2:deepseek-flash
+machala,work,candidate,,,round2:deepseek-flash
+maskoret,work,candidate,,,round2:deepseek-flash
+mishmeret,work,candidate,,,round2:deepseek-flash
+neto,work,candidate,,,round2:deepseek-flash
+nikuim,work,candidate,,,round2:deepseek-flash
+oved,work,candidate,,,round2:deepseek-flash
+piturim,work,candidate,,,round2:deepseek-flash
+pitzuim,work,candidate,,,round2:deepseek-flash
+reayon avoda,work,candidate,,,round2:deepseek-flash
+sachar,work,candidate,,,round2:deepseek-flash
+sachar minimum,work,candidate,,,round2:deepseek-flash
+tlush,work,candidate,,,round2:deepseek-flash
+tlush maskoret,work,candidate,,,round2:deepseek-flash
+vaad ovedim,work,candidate,,,round2:deepseek-flash
+yemei chufsha,work,candidate,,,round2:deepseek-flash
+yemei machala,work,candidate,,,round2:deepseek-flash

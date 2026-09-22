@@ -74,7 +74,9 @@
 </footer>
 
 <script>
-const STORE = 'heb-latn-review-v1';
+// Each review pass names its own namespace (queue items may carry `store`), so a
+// term-judging pass cannot overwrite an in-progress span review.
+let STORE = 'heb-latn-review-v1';
 
 // Most terms in this queue ARE Hebrew. The question is whether the classifier
 // should flag them, which is a narrower thing -- flagging costs a sentence split,
@@ -91,13 +93,15 @@ const el = id => document.getElementById(id);
 
 async function boot() {
   try {
-    queue = await (await fetch('queue.json')).json();
+    const params = new URLSearchParams(location.search);
+    queue = await (await fetch(params.get('queue') || 'queue.json')).json();
   } catch {
     document.body.innerHTML = '<p style="font:16px system-ui;padding:2rem">' +
       'Could not load <code>queue.json</code>. If you are running this locally, ' +
       'browsers block file:// fetches — use <code>python3 scripts/serve_review.py</code>.</p>';
     return;
   }
+  if (queue.length && queue[0].store) STORE = queue[0].store;
   decisions = JSON.parse(localStorage.getItem(STORE) || '{}');
   cursor = queue.findIndex(t => !(t.key in decisions));
   if (cursor < 0) cursor = queue.length;
@@ -163,11 +167,13 @@ function render() {
       'cut down to \'ehad\' (one).</p>';
   } else if (t.kind === 'term') {
     el('sentence').innerHTML = '<b>' + escapeHtml(t.term) + '</b>';
-    const examples = (t.examples || []).map(x =>
+    const exList = (t.examples || []).map(x =>
       '<li style="margin:.35rem 0">' + escapeHtml(x) + '</li>').join('');
     el('answer').innerHTML =
-      '<ul style="font-size:.9375rem;opacity:.8;padding-left:1.2rem;margin:0 0 1.25rem">' +
-      examples + '</ul>' +
+      (exList
+        ? '<ul style="font-size:.9375rem;opacity:.8;padding-left:1.2rem;margin:0 0 1.25rem">'
+          + exList + '</ul>'
+        : '<div style="margin:0 0 1.25rem"></div>') +
       '<div id="actions">' +
       '<button onclick="decideTerm(true)">Include <kbd>y</kbd></button>' +
       '<button onclick="decideTerm(false)">Exclude <kbd>n</kbd></button>' +

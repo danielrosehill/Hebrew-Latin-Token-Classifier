@@ -32,14 +32,17 @@ def main() -> None:
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--repo", default="danielrosehill/hebrew-latin-span-review")
     p.add_argument("--private", action="store_true")
+    p.add_argument("--queue", default=str(QUEUE),
+                   help="which queue to bake in (e.g. review/queue-terms.json)")
     p.add_argument("--push", action="store_true")
     args = p.parse_args()
 
-    if not QUEUE.exists():
-        raise SystemExit("no review/queue.json — run scripts/adjudicate.py first")
-    shutil.copy(QUEUE, SPACE / "queue.json")
+    queue_path = pathlib.Path(args.queue)
+    if not queue_path.exists():
+        raise SystemExit(f"no {queue_path} — run adjudicate.py or build_term_queue.py")
+    shutil.copy(queue_path, SPACE / "queue.json")
 
-    tasks = json.loads(QUEUE.read_text())
+    tasks = json.loads(queue_path.read_text())
     by_risk: dict[str, int] = {}
     for t in tasks:
         by_risk[t["risk"]] = by_risk.get(t["risk"], 0) + 1

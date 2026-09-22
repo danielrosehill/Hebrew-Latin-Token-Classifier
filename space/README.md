@@ -19,9 +19,17 @@ and a blind annotator from a different model family that never sees the seed. Wh
 they agree, the span is accepted automatically. This page is for the cases they
 disagree on, plus a random audit sample of the ones they agreed on.
 
-**525 tasks**, ordered worst-first: 11 term rulings, ~140 span-boundary questions,
-the spans one model found and the other did not, and a random audit of cases both
-models agreed on.
+**Round 2 — 614 candidate terms**, grouped by category.
+
+Round 1's span review is complete. This pass judges TERMS directly, before any
+sentences are generated for them: one keystroke each, and nothing is spent on a
+term until it survives. It targets the categories round 1 barely attempted —
+government, legal, military, education, vehicles, real estate, telecoms,
+emergency — plus domains the inventory never had.
+
+The only test: **would an English TTS voice mispronounce it, the way every model
+mangles *makolet*?** If an English speaker with no Hebrew would read it correctly,
+exclude it.
 
 **Include** means the classifier flags the span, so the TTS gets a Hebrew segment
 for it. **Exclude** means leave it as English. Most terms here are Hebrew either
