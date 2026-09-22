@@ -69,7 +69,7 @@ def main() -> None:
                 keep = s["decision"] == "accepted"      # unreviewed: trust only the aligned label
                 stats["span_unreviewed_kept" if keep else "span_unreviewed_dropped"] += 1
             else:
-                keep = bool(d.get("hebrew"))
+                keep = bool(d.get("include", d.get("hebrew")))
                 stats["span_accepted" if keep else "span_rejected"] += 1
             if keep:
                 spans.append({"start": s["start"], "end": s["end"],

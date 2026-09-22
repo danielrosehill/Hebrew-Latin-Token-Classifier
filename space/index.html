@@ -62,9 +62,10 @@
 </div>
 
 <footer>
-  <span><kbd>y</kbd> Hebrew</span>
-  <span><kbd>n</kbd> not Hebrew</span>
+  <span><kbd>y</kbd> include</span>
+  <span><kbd>n</kbd> exclude</span>
   <span><kbd>Enter</kbd> submit terms</span>
+  <span><kbd>d</kbd> can't decide</span>
   <span><kbd>s</kbd> skip</span>
   <span><kbd>u</kbd> undo</span>
   <span><button onclick="save()">Save</button></span>
@@ -73,6 +74,16 @@
 
 <script>
 const STORE = 'heb-latn-review-v1';
+
+// Most terms in this queue ARE Hebrew. The question is whether the classifier
+// should flag them, which is a narrower thing -- flagging costs a sentence split,
+// a separate TTS call and a concatenation, so anything English already says
+// acceptably is excluded even though it is Hebrew.
+const LEGEND =
+  '<p style="font-size:.8125rem;opacity:.65;margin:1rem 0 0;max-width:34rem">' +
+  '<b>Include</b> = mark as Hebrew in the classifier, so the TTS gets a Hebrew ' +
+  'segment for it. <b>Exclude</b> = leave it as English. Most of these are Hebrew ' +
+  'words either way; the question is whether flagging one is worth it.</p>';
 let queue = [], decisions = {}, cursor = 0;
 
 const el = id => document.getElementById(id);
@@ -94,7 +105,9 @@ async function boot() {
 
 function render() {
   const total = queue.length, done = Object.keys(decisions).length;
-  el('progress').textContent = `${done} / ${total}`;
+  const deferred = Object.values(decisions).filter(d => d.deferred).length;
+  el('progress').textContent =
+    `${done} / ${total}` + (deferred ? ` · ${deferred} deferred` : '');
   el('bar').firstElementChild.style.width = (100 * done / total) + '%';
   el('status').textContent = done ? 'saved locally' : '';
 
@@ -109,7 +122,11 @@ function render() {
   const t = queue[cursor];
   el('risk').textContent = t.risk;
   el('risk').className = 'risk ' + t.risk;
-  el('note').textContent = t.note;
+  el('note').textContent = (t.note || '')
+    .replace('is a Hebrew word written in Latin script?',
+             'a word the classifier should flag?')
+    .replace('Is it a Hebrew word an English voice would mispronounce?',
+             'Should the classifier flag it?');
   el('meta').textContent = `${t.id}  ·  ${t.split}  ·  dataset label: ` +
     (t.dataset_label ? JSON.stringify(t.dataset_label) : 'none');
 
@@ -126,6 +143,7 @@ function render() {
       '<div id="actions">' +
       '<button onclick="decideBoundary(true)">Full span <kbd>y</kbd></button>' +
       '<button onclick="decideBoundary(false)">Shorter <kbd>n</kbd></button>' +
+      '<button onclick="defer()">Can\'t decide <kbd>d</kbd></button>' +
       '<button onclick="skip()">Skip <kbd>s</kbd></button></div>';
   } else if (t.kind === 'term') {
     el('sentence').innerHTML = '<b>' + escapeHtml(t.term) + '</b>';
@@ -135,9 +153,11 @@ function render() {
       '<ul style="font-size:.9375rem;opacity:.8;padding-left:1.2rem;margin:0 0 1.25rem">' +
       examples + '</ul>' +
       '<div id="actions">' +
-      '<button onclick="decideTerm(true)">Hebrew <kbd>y</kbd></button>' +
-      '<button onclick="decideTerm(false)">Not Hebrew <kbd>n</kbd></button>' +
-      '<button onclick="skip()">Skip <kbd>s</kbd></button></div>';
+      '<button onclick="decideTerm(true)">Include <kbd>y</kbd></button>' +
+      '<button onclick="decideTerm(false)">Exclude <kbd>n</kbd></button>' +
+      '<button onclick="defer()">Can\'t decide <kbd>d</kbd></button>' +
+      '<button onclick="skip()">Skip <kbd>s</kbd></button></div>' +
+      LEGEND;
   } else if (t.kind === 'span') {
     el('sentence').innerHTML =
       escapeHtml(t.text.slice(0, t.start)) +
@@ -145,9 +165,11 @@ function render() {
       escapeHtml(t.text.slice(t.end));
     el('answer').innerHTML =
       '<div id="actions">' +
-      '<button onclick="decide(true)">Hebrew <kbd>y</kbd></button>' +
-      '<button onclick="decide(false)">Not Hebrew <kbd>n</kbd></button>' +
-      '<button onclick="skip()">Skip <kbd>s</kbd></button></div>';
+      '<button onclick="decide(true)">Include <kbd>y</kbd></button>' +
+      '<button onclick="decide(false)">Exclude <kbd>n</kbd></button>' +
+      '<button onclick="defer()">Can\'t decide <kbd>d</kbd></button>' +
+      '<button onclick="skip()">Skip <kbd>s</kbd></button></div>' +
+      LEGEND;
   } else {
     el('sentence').textContent = t.text;
     el('answer').innerHTML =
@@ -155,6 +177,7 @@ function render() {
       'placeholder="Hebrew term(s), comma-separated — empty means none">' +
       '<div id="actions" style="margin-top:.75rem">' +
       '<button onclick="submitTerms()">Submit <kbd>Enter</kbd></button>' +
+      '<button onclick="defer()">Can\'t decide <kbd>d</kbd></button>' +
       '<button onclick="skip()">Skip <kbd>s</kbd></button></div>';
     el('terms').focus();
   }
@@ -171,13 +194,15 @@ function record(value) {
   render();
 }
 
-const decide = isHebrew => record({ kind: 'span', hebrew: isHebrew });
-const decideTerm = isHebrew =>
-  record({ kind: 'term', term: queue[cursor].term, hebrew: isHebrew });
+// `include` is the accurate name; `hebrew` is kept as an alias so decisions
+// recorded before the relabel still apply.
+const decide = inc => record({ kind: 'span', include: inc, hebrew: inc });
+const decideTerm = inc =>
+  record({ kind: 'term', term: queue[cursor].term, include: inc, hebrew: inc });
 
 const decideBoundary = keepFull => record({
   kind: 'boundary', term: queue[cursor].term,
-  short_term: queue[cursor].short_term, hebrew: keepFull });
+  short_term: queue[cursor].short_term, include: keepFull, hebrew: keepFull });
 
 function answer(value) {
   const k = queue[cursor].kind;
@@ -193,6 +218,15 @@ function submitTerms() {
 }
 
 function skip() { cursor++; render(); }
+
+// Distinct from skip. Skip leaves the task pending, so it comes back next session;
+// defer records that you looked at it and could not rule, so it never reappears.
+// A deferred span is left untagged in the corpus -- the same as unreviewed, but
+// deliberately and visibly so.
+function defer() {
+  const t = queue[cursor];
+  record({ kind: t.kind, term: t.term, include: null, deferred: true });
+}
 
 function undo() {
   if (cursor > 0) {
@@ -218,6 +252,7 @@ addEventListener('keydown', e => {
   if (typing) return;
   if (e.key === 'y') answer(true);
   else if (e.key === 'n') answer(false);
+  else if (e.key === 'd') defer();
   else if (e.key === 's') skip();
   else if (e.key === 'u') undo();
 });

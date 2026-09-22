@@ -28,6 +28,19 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from lib import corpus  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+
+
+def decided(d: dict) -> bool:
+    """The review UI says `include`; decisions made before that relabel say
+    `hebrew`. Accept either, preferring the newer key."""
+    return bool(d.get("include", d.get("hebrew")))
+
+
+def ruled(d: dict | None) -> bool:
+    """A decision that actually settles something. `deferred` means the reviewer
+    looked and could not rule, so it must NOT be read as a no -- it falls through
+    to the same handling as unreviewed, leaving the span untagged."""
+    return bool(d) and not d.get("deferred")
 GEN = ROOT / "data" / "generated"
 DECISIONS = ROOT / "review" / "decisions.json"
 OUT = ROOT / "data" / "corpus"
@@ -50,15 +63,15 @@ def main() -> None:
 
     # Term-level rulings override every span of that term, agreed or not. One
     # decision about "baklava" settles all of its sentences at once.
-    term_ruling = {d["term"].lower(): bool(d.get("hebrew"))
+    term_ruling = {d["term"].lower(): decided(d)
                    for d in decisions.values()
-                   if d.get("kind") == "term" and d.get("term")}
+                   if d.get("kind") == "term" and d.get("term") and ruled(d)}
 
     # Boundary rulings: True keeps the full seeded span, False narrows it to the
     # annotator's shorter one. Keyed by the seeded term.
-    boundary_ruling = {d["term"].lower(): (bool(d.get("hebrew")), d.get("short_term"))
+    boundary_ruling = {d["term"].lower(): (decided(d), d.get("short_term"))
                        for d in decisions.values()
-                       if d.get("kind") == "boundary" and d.get("term")}
+                       if d.get("kind") == "boundary" and d.get("term") and ruled(d)}
 
     stats: collections.Counter[str] = collections.Counter()
     unapplied = []
@@ -95,15 +108,16 @@ def main() -> None:
                 continue
             if span["status"] == "agreed":
                 d = decisions.get(f"{row['id']}:a{n}")           # audit task, if sampled
-                keep = bool(d["hebrew"]) if d and "hebrew" in d else True
+                keep = decided(d) if ruled(d) else True
                 stats["audit_overturned" if not keep else "agreed_kept"] += 1
             else:
                 d = decisions.get(f"{row['id']}:{n}")
-                if d is None:
+                if not ruled(d):
                     keep = False
-                    stats["pending_unreviewed_dropped"] += 1
+                    stats["deferred_dropped" if d else
+                          "pending_unreviewed_dropped"] += 1
                 else:
-                    keep = bool(d.get("hebrew"))
+                    keep = decided(d)
                     stats["human_accepted" if keep else "human_rejected"] += 1
             if keep:
                 spans.append({k: span[k] for k in ("start", "end", "surface", "term")})

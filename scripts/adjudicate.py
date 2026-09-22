@@ -115,7 +115,18 @@ def main() -> None:
             continue
         seed_seen[s_["seed_term"]] += 1
         auto_keys = {key(x) for x in ann_["spans"]}
-        if not any(key(x) in auto_keys for x in s_["seed_spans"]):
+        if any(key(x) in auto_keys for x in s_["seed_spans"]):
+            continue
+        # Not matching the seed span is not the same as rejecting the term. If the
+        # annotator proposed an OVERLAPPING shorter span, it kept the Hebrew and
+        # moved the boundary -- "tofes 1311" -> "tofes". That is a boundary
+        # question, and asking it as a yes/no about the term has no right answer:
+        # include keeps the numeral in a Hebrew segment, exclude throws away a
+        # genuinely Hebrew word. Only a span the annotator replaced with NOTHING
+        # counts as a refusal.
+        narrowed = any(x["start"] < sp["end"] and sp["start"] < x["end"]
+                       for sp in s_["seed_spans"] for x in ann_["spans"])
+        if not narrowed:
             seed_refused[s_["seed_term"]] += 1
 
     systematic = {t for t, n in seed_refused.items()
@@ -229,8 +240,9 @@ def main() -> None:
 
     # One task per overlapping term pair, instead of one per sentence.
     for (seed_term, ann_term), examples in sorted(boundary_pairs.items()):
-        # A term already queued for a yes/no ruling does not also need a boundary
-        # question -- ruling the term out settles its spans either way.
+        # A term genuinely refused everywhere does not also need a boundary
+        # question -- ruling it out settles its spans either way. Narrowings are
+        # no longer counted as refusals, so they reach here and get asked properly.
         if seed_term in systematic:
             continue
         text, long_surface, short_surface = examples[0]

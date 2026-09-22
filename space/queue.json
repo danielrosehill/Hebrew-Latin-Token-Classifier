@@ -1,73 +1,5 @@
 [
  {
-  "key": "term:boker or",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:boker or",
-  "split": "generated",
-  "text": "Did you just say boker or, or are you still dreaming?",
-  "examples": [
-   "Did you just say boker or, or are you still dreaming?",
-   "boker or, coffee first.",
-   "She smiled and whispered boker or as she opened the curtains."
-  ],
-  "term": "boker or",
-  "surface": "boker or",
-  "dataset_label": "boker or",
-  "note": "the annotator rejected 'boker or' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:cafe hafuch",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:cafe hafuch",
-  "split": "generated",
-  "text": "Just a cafe hafuch, please.",
-  "examples": [
-   "Just a cafe hafuch, please.",
-   "Do you know why the cafe hafuch here tastes so much better than the one I make at home?",
-   "After a long shift, I collapsed on the couch with a cafe hafuch and didn't move for an hour."
-  ],
-  "term": "cafe hafuch",
-  "surface": "cafe hafuch",
-  "dataset_label": "cafe hafuch",
-  "note": "the annotator rejected 'cafe hafuch' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:dud hashmal",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:dud hashmal",
-  "split": "generated",
-  "text": "We had to call a technician because the dud hashmal stopped heating water.",
-  "examples": [
-   "We had to call a technician because the dud hashmal stopped heating water.",
-   "Have you ever tried fixing a dud hashmal yourself?",
-   "No hot water? dud hashmal again."
-  ],
-  "term": "dud hashmal",
-  "surface": "dud hashmal",
-  "dataset_label": "dud hashmal",
-  "note": "the annotator rejected 'dud hashmal' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:dud shemesh",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:dud shemesh",
-  "split": "generated",
-  "text": "The dud shemesh on the roof has been leaking since Tuesday, so we're all stuck taking cold showers.",
-  "examples": [
-   "The dud shemesh on the roof has been leaking since Tuesday, so we're all stuck taking cold showers.",
-   "Did you remember to turn off the dud shemesh before we left for the weekend?",
-   "Dud shemesh again? That thing's older than my parents."
-  ],
-  "term": "dud shemesh",
-  "surface": "dud shemesh",
-  "dataset_label": "dud shemesh",
-  "note": "the annotator rejected 'dud shemesh' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
   "key": "term:falafel",
   "kind": "term",
   "risk": "term",
@@ -100,125 +32,6 @@
   "surface": "ful medames",
   "dataset_label": "ful medames",
   "note": "the annotator rejected 'ful medames' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:heshbonit mas kabala",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:heshbonit mas kabala",
-  "split": "generated",
-  "text": "I need the heshbonit mas kabala from the contractor before I can pay him.",
-  "examples": [
-   "I need the heshbonit mas kabala from the contractor before I can pay him.",
-   "Did you remember to ask for a heshbonit mas kabala at the supermarket?",
-   "No heshbonit mas kabala, no expense report."
-  ],
-  "term": "heshbonit mas kabala",
-  "surface": "heshbonit mas kabala",
-  "dataset_label": "heshbonit mas kabala",
-  "note": "the annotator rejected 'heshbonit mas kabala' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:mas hachnasa chaverot",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:mas hachnasa chaverot",
-  "split": "generated",
-  "text": "mas hachnasa chaverot is due next week, and I haven't even started.",
-  "examples": [
-   "mas hachnasa chaverot is due next week, and I haven't even started.",
-   "Did you remember to pay the mas hachnasa chaverot this quarter?",
-   "mas hachnasa chaverot? Just thinking about it gives me a headache."
-  ],
-  "term": "mas hachnasa chaverot",
-  "surface": "mas hachnasa chaverot",
-  "dataset_label": "mas hachnasa chaverot",
-  "note": "the annotator rejected 'mas hachnasa chaverot' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:mas hachnasa halvaa",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:mas hachnasa halvaa",
-  "split": "generated",
-  "text": "Did you already sort out the mas hachnasa halvaa with the tax authority?",
-  "examples": [
-   "Did you already sort out the mas hachnasa halvaa with the tax authority?",
-   "mas hachnasa halvaa, what a nightmare.",
-   "After three visits to the office, I finally got the mas hachnasa halvaa approved, but only after they lost my paperwork twice."
-  ],
-  "term": "mas hachnasa halvaa",
-  "surface": "mas hachnasa halvaa",
-  "dataset_label": "mas hachnasa halvaa",
-  "note": "the annotator rejected 'mas hachnasa halvaa' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:mas hachnasa kizuz",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:mas hachnasa kizuz",
-  "split": "generated",
-  "text": "Did your accountant mention the mas hachnasa kizuz when you talked about the new job?",
-  "examples": [
-   "Did your accountant mention the mas hachnasa kizuz when you talked about the new job?",
-   "mas hachnasa kizuz — total nightmare.",
-   "The mas hachnasa kizuz is supposed to help, but it never does."
-  ],
-  "term": "mas hachnasa kizuz",
-  "surface": "mas hachnasa kizuz",
-  "dataset_label": "mas hachnasa kizuz",
-  "note": "the annotator rejected 'mas hachnasa kizuz' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:mas hachnasa mashkanta",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:mas hachnasa mashkanta",
-  "split": "generated",
-  "text": "Have you sorted out the mas hachnasa mashkanta with the accountant yet?",
-  "examples": [
-   "Have you sorted out the mas hachnasa mashkanta with the accountant yet?",
-   "Again with the mas hachnasa mashkanta?",
-   "The tax advisor recommended that we consolidate our debts and claim the mas hachnasa mashkanta deduction on our next return."
-  ],
-  "term": "mas hachnasa mashkanta",
-  "surface": "mas hachnasa mashkanta",
-  "dataset_label": "mas hachnasa mashkanta",
-  "note": "the annotator rejected 'mas hachnasa mashkanta' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:mas hachnasa ribit",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:mas hachnasa ribit",
-  "split": "generated",
-  "text": "Did you already pay the mas hachnasa ribit on your savings account?",
-  "examples": [
-   "Did you already pay the mas hachnasa ribit on your savings account?",
-   "Ugh, mas hachnasa ribit.",
-   "Next year, the mas hachnasa ribit will probably be higher, so I'm already saving for it."
-  ],
-  "term": "mas hachnasa ribit",
-  "surface": "mas hachnasa ribit",
-  "dataset_label": "mas hachnasa ribit",
-  "note": "the annotator rejected 'mas hachnasa ribit' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:mas hachnasa shelo mitzvot",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:mas hachnasa shelo mitzvot",
-  "split": "generated",
-  "text": "I spent all morning on the phone with the tax office about mas hachnasa shelo mitzvot, and I still don't understand what they need from me.",
-  "examples": [
-   "I spent all morning on the phone with the tax office about mas hachnasa shelo mitzvot, and I still don't understand what they need from me.",
-   "How do you file mas hachnasa shelo mitzvot if you're a freelancer?",
-   "mas hachnasa shelo mitzvot, again? I thought I was done with that."
-  ],
-  "term": "mas hachnasa shelo mitzvot",
-  "surface": "mas hachnasa shelo mitzvot",
-  "dataset_label": "mas hachnasa shelo mitzvot",
-  "note": "the annotator rejected 'mas hachnasa shelo mitzvot' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
  },
  {
   "key": "term:merguez",
@@ -357,23 +170,6 @@
   "note": "the annotator rejected 'smol' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
  },
  {
-  "key": "term:super yuda",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:super yuda",
-  "split": "generated",
-  "text": "I always buy my fruits and veggies at super yuda because they're fresher than the other places.",
-  "examples": [
-   "I always buy my fruits and veggies at super yuda because they're fresher than the other places.",
-   "Hey, are you going to super yuda later?",
-   "super yuda, of course."
-  ],
-  "term": "super yuda",
-  "surface": "super yuda",
-  "dataset_label": "super yuda",
-  "note": "the annotator rejected 'super yuda' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
   "key": "term:taramosalata",
   "kind": "term",
   "risk": "term",
@@ -389,465 +185,6 @@
   "surface": "taramosalata",
   "dataset_label": "taramosalata",
   "note": "the annotator rejected 'taramosalata' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:tofes 1311",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:tofes 1311",
-  "split": "generated",
-  "text": "Did you already send in the tofes 1311, or are you still waiting for the accountant to sign it?",
-  "examples": [
-   "Did you already send in the tofes 1311, or are you still waiting for the accountant to sign it?",
-   "Oh, tofes 1311 again?",
-   "The clerk told me I had to fill out a tofes 1311 before they'd even look at my file."
-  ],
-  "term": "tofes 1311",
-  "surface": "tofes 1311",
-  "dataset_label": "tofes 1311",
-  "note": "the annotator rejected 'tofes 1311' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:tofes 1313",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:tofes 1313",
-  "split": "generated",
-  "text": "I filled out the tofes 1313 twice and they still sent it back because one box was blank.",
-  "examples": [
-   "I filled out the tofes 1313 twice and they still sent it back because one box was blank.",
-   "Do you know if the tofes 1313 is the same thing as the tax form we did at the post office?",
-   "Just bring your ID and the tofes 1313, and they'll sort out the rest at the counter."
-  ],
-  "term": "tofes 1313",
-  "surface": "tofes 1313",
-  "dataset_label": "tofes 1313",
-  "note": "the annotator rejected 'tofes 1313' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:tofes 1315",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:tofes 1315",
-  "split": "generated",
-  "text": "My accountant told me to bring the tofes 1315 to our meeting, otherwise the tax office just keeps deducting at the highest rate.",
-  "examples": [
-   "My accountant told me to bring the tofes 1315 to our meeting, otherwise the tax office just keeps deducting at the highest rate.",
-   "Did you already submit the tofes 1315, or are you still waiting for HR to sign it?",
-   "Tofes 1315 — it's somewhere in that pile on my desk."
-  ],
-  "term": "tofes 1315",
-  "surface": "tofes 1315",
-  "dataset_label": "tofes 1315",
-  "note": "the annotator rejected 'tofes 1315' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:tofes 1323",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:tofes 1323",
-  "split": "generated",
-  "text": "Why do they always ask for tofes 1323 at the last minute?",
-  "examples": [
-   "Why do they always ask for tofes 1323 at the last minute?",
-   "tofes 1323, naturally.",
-   "I had to fill out tofes 1323 three times because the clerk kept losing it."
-  ],
-  "term": "tofes 1323",
-  "surface": "tofes 1323",
-  "dataset_label": "tofes 1323",
-  "note": "the annotator rejected 'tofes 1323' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:tofes 1326",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:tofes 1326",
-  "split": "generated",
-  "text": "Did you remember to attach the tofes 1326 to your tax return this year?",
-  "examples": [
-   "Did you remember to attach the tofes 1326 to your tax return this year?",
-   "Just got an email from my accountant — apparently I never signed the tofes 1326.",
-   "The clerk behind the counter wouldn't even open my file until I handed over a tofes 1326."
-  ],
-  "term": "tofes 1326",
-  "surface": "tofes 1326",
-  "dataset_label": "tofes 1326",
-  "note": "the annotator rejected 'tofes 1326' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:tofes 1327",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:tofes 1327",
-  "split": "generated",
-  "text": "The clerk insisted they never received my tofes 1327, even though I'm holding the stamped copy right here in my hand.",
-  "examples": [
-   "The clerk insisted they never received my tofes 1327, even though I'm holding the stamped copy right here in my hand.",
-   "Do I actually need a tofes 1327 for this, or can my accountant just file everything online?",
-   "Not the tofes 1327 again — I thought we were finally done with that whole mess."
-  ],
-  "term": "tofes 1327",
-  "surface": "tofes 1327",
-  "dataset_label": "tofes 1327",
-  "note": "the annotator rejected 'tofes 1327' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:tofes 1329",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:tofes 1329",
-  "split": "generated",
-  "text": "Have you ever tried to get a tofes 1329 stamped after 2 PM on a Friday?",
-  "examples": [
-   "Have you ever tried to get a tofes 1329 stamped after 2 PM on a Friday?",
-   "Ugh, tofes 1329.",
-   "The clerk told me I needed tofes 1329, but when I asked where to find it, she just shrugged and pointed at the photocopier."
-  ],
-  "term": "tofes 1329",
-  "surface": "tofes 1329",
-  "dataset_label": "tofes 1329",
-  "note": "the annotator rejected 'tofes 1329' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:tofes 1330",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:tofes 1330",
-  "split": "generated",
-  "text": "Is tofes 1330 really necessary for this?",
-  "examples": [
-   "Is tofes 1330 really necessary for this?",
-   "Not tofes 1330 again.",
-   "I spent all morning at the misrad hapnim because they kept telling me I had the wrong version of tofes 1330."
-  ],
-  "term": "tofes 1330",
-  "surface": "tofes 1330",
-  "dataset_label": "tofes 1330",
-  "note": "the annotator rejected 'tofes 1330' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:tofes 1331",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:tofes 1331",
-  "split": "generated",
-  "text": "Did you already send the tofes 1331 to the accountant, or are we still waiting on the bank statements?",
-  "examples": [
-   "Did you already send the tofes 1331 to the accountant, or are we still waiting on the bank statements?",
-   "Just the tofes 1331 — nothing else.",
-   "I spent the whole morning on the phone with the tax office because they claimed my tofes 1331 was missing a signature, even though I filed it back in April."
-  ],
-  "term": "tofes 1331",
-  "surface": "tofes 1331",
-  "dataset_label": "tofes 1331",
-  "note": "the annotator rejected 'tofes 1331' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:tofes 1335",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:tofes 1335",
-  "split": "generated",
-  "text": "Did you already fill out tofes 1335 for the tax rebate?",
-  "examples": [
-   "Did you already fill out tofes 1335 for the tax rebate?",
-   "No tofes 1335, no service.",
-   "I was stuck at the ministry for hours because I couldn't find tofes 1335 anywhere."
-  ],
-  "term": "tofes 1335",
-  "surface": "tofes 1335",
-  "dataset_label": "tofes 1335",
-  "note": "the annotator rejected 'tofes 1335' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:tofes 1337",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:tofes 1337",
-  "split": "generated",
-  "text": "Did you already submit tofes 1337, or are you still waiting for the clerk to find the right stamp?",
-  "examples": [
-   "Did you already submit tofes 1337, or are you still waiting for the clerk to find the right stamp?",
-   "Seriously, tofes 1337?",
-   "I've been carrying tofes 1337 in my bag for three weeks because every time I go to the office, they tell me I need a different version."
-  ],
-  "term": "tofes 1337",
-  "surface": "tofes 1337",
-  "dataset_label": "tofes 1337",
-  "note": "the annotator rejected 'tofes 1337' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:tofes 1338",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:tofes 1338",
-  "split": "generated",
-  "text": "Where do I find tofes 1338, and is there a fee for it?",
-  "examples": [
-   "Where do I find tofes 1338, and is there a fee for it?",
-   "Just grab a tofes 1338 from the rack.",
-   "After waiting two hours, I finally got the clerk to stamp my tofes 1338, but then she said I also needed a copy of my ID."
-  ],
-  "term": "tofes 1338",
-  "surface": "tofes 1338",
-  "dataset_label": "tofes 1338",
-  "note": "the annotator rejected 'tofes 1338' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:tofes 1340",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:tofes 1340",
-  "split": "generated",
-  "text": "My accountant keeps nagging me to send in the tofes 1340, and honestly, I keep pretending I forgot.",
-  "examples": [
-   "My accountant keeps nagging me to send in the tofes 1340, and honestly, I keep pretending I forgot.",
-   "Did you end up filing the tofes 1340 on time, or did you leave it until the very last minute like always?",
-   "Not the tofes 1340 again."
-  ],
-  "term": "tofes 1340",
-  "surface": "tofes 1340",
-  "dataset_label": "tofes 1340",
-  "note": "the annotator rejected 'tofes 1340' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:tofes 1341",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:tofes 1341",
-  "split": "generated",
-  "text": "The accountant told me I need to file a tofes 1341 before the end of the month or they'll deduct at the full rate.",
-  "examples": [
-   "The accountant told me I need to file a tofes 1341 before the end of the month or they'll deduct at the full rate.",
-   "Did you ever get your tofes 1341 back from the tax office, or are you still chasing them?",
-   "No tofes 1341, no payment — that's just how it works with these suppliers."
-  ],
-  "term": "tofes 1341",
-  "surface": "tofes 1341",
-  "dataset_label": "tofes 1341",
-  "note": "the annotator rejected 'tofes 1341' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:tofes 1342",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:tofes 1342",
-  "split": "generated",
-  "text": "My landlord swears he mailed the tofes 1342 weeks ago, but the tax office says they never got it.",
-  "examples": [
-   "My landlord swears he mailed the tofes 1342 weeks ago, but the tax office says they never got it.",
-   "Do I actually need a tofes 1342 for this, or is the signed contract enough?",
-   "Not the lease, not the bank statement — the tofes 1342."
-  ],
-  "term": "tofes 1342",
-  "surface": "tofes 1342",
-  "dataset_label": "tofes 1342",
-  "note": "the annotator rejected 'tofes 1342' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:tofes 1343",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:tofes 1343",
-  "split": "generated",
-  "text": "Do I really need to fill out tofes 1343 just to change my address?",
-  "examples": [
-   "Do I really need to fill out tofes 1343 just to change my address?",
-   "Ugh, tofes 1343 again? I thought I was done with that.",
-   "After waiting in line for two hours, they told me I had the wrong tofes 1343 and sent me to another office."
-  ],
-  "term": "tofes 1343",
-  "surface": "tofes 1343",
-  "dataset_label": "tofes 1343",
-  "note": "the annotator rejected 'tofes 1343' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:tofes 1345",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:tofes 1345",
-  "split": "generated",
-  "text": "Did you fill out tofes 1345 for the reimbursement?",
-  "examples": [
-   "Did you fill out tofes 1345 for the reimbursement?",
-   "I spent two hours at the Ministry of Interior because they claimed my tofes 1345 was missing a signature, and then they found it in the wrong pile.",
-   "Just bring tofes 1345 and your ID, that's it."
-  ],
-  "term": "tofes 1345",
-  "surface": "tofes 1345",
-  "dataset_label": "tofes 1345",
-  "note": "the annotator rejected 'tofes 1345' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:tofes 1347",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:tofes 1347",
-  "split": "generated",
-  "text": "I can't believe they sent me back to the clerk's office just because I forgot to sign tofes 1347.",
-  "examples": [
-   "I can't believe they sent me back to the clerk's office just because I forgot to sign tofes 1347.",
-   "Where exactly am I supposed to get tofes 1347?",
-   "tofes 1347, again?"
-  ],
-  "term": "tofes 1347",
-  "surface": "tofes 1347",
-  "dataset_label": "tofes 1347",
-  "note": "the annotator rejected 'tofes 1347' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:tofes 1348",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:tofes 1348",
-  "split": "generated",
-  "text": "Did you fill out the tofes 1348 before you got to the counter?",
-  "examples": [
-   "Did you fill out the tofes 1348 before you got to the counter?",
-   "Tofes 1348? I thought that was for the other office.",
-   "She told me to bring a copy of the tofes 1348, but nobody even looked at it."
-  ],
-  "term": "tofes 1348",
-  "surface": "tofes 1348",
-  "dataset_label": "tofes 1348",
-  "note": "the annotator rejected 'tofes 1348' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:tofes 1349",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:tofes 1349",
-  "split": "generated",
-  "text": "That tofes 1349 requires a copy of your ID, so don't forget it.",
-  "examples": [
-   "That tofes 1349 requires a copy of your ID, so don't forget it.",
-   "Did you already submit tofes 1349 to the municipality?",
-   "tofes 1349? Oh, that thing is a nightmare."
-  ],
-  "term": "tofes 1349",
-  "surface": "tofes 1349",
-  "dataset_label": "tofes 1349",
-  "note": "the annotator rejected 'tofes 1349' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:tofes 1354",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:tofes 1354",
-  "split": "generated",
-  "text": "Do I really need to fill out tofes 1354 again, or can you just stamp the old one?",
-  "examples": [
-   "Do I really need to fill out tofes 1354 again, or can you just stamp the old one?",
-   "Again with tofes 1354? Unbelievable.",
-   "I spent half an hour at the Interior Ministry just to hand in tofes 1354, and they told me I had the wrong version."
-  ],
-  "term": "tofes 1354",
-  "surface": "tofes 1354",
-  "dataset_label": "tofes 1354",
-  "note": "the annotator rejected 'tofes 1354' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:tofes 1356",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:tofes 1356",
-  "split": "generated",
-  "text": "Do you know where I can get tofes 1356?",
-  "examples": [
-   "Do you know where I can get tofes 1356?",
-   "tofes 1356, again?",
-   "I had to run to the post office because they said my tofes 1356 was missing."
-  ],
-  "term": "tofes 1356",
-  "surface": "tofes 1356",
-  "dataset_label": "tofes 1356",
-  "note": "the annotator rejected 'tofes 1356' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:tofes 1358",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:tofes 1358",
-  "split": "generated",
-  "text": "Tofes 1358? Yeah, I filled that out ages ago and they still haven't processed it.",
-  "examples": [
-   "Tofes 1358? Yeah, I filled that out ages ago and they still haven't processed it.",
-   "Did you remember to staple tofes 1358 to the back of the claim, or did you just hand over the receipts?",
-   "The clerk swore they couldn't open the file without tofes 1358, so I spent my whole morning running between two offices on opposite sides of the city."
-  ],
-  "term": "tofes 1358",
-  "surface": "tofes 1358",
-  "dataset_label": "tofes 1358",
-  "note": "the annotator rejected 'tofes 1358' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:tofes 1363",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:tofes 1363",
-  "split": "generated",
-  "text": "I sat in that office for two hours just for them to tell me I'd filled in tofes 1363 with the wrong kind of pen and I'd have to do it all again.",
-  "examples": [
-   "I sat in that office for two hours just for them to tell me I'd filled in tofes 1363 with the wrong kind of pen and I'd have to do it all again.",
-   "Did you already send in tofes 1363 for the apartment, or is it still sitting there on your desk waiting for a signature?",
-   "Not without tofes 1363, they won't."
-  ],
-  "term": "tofes 1363",
-  "surface": "tofes 1363",
-  "dataset_label": "tofes 1363",
-  "note": "the annotator rejected 'tofes 1363' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:tofes 1365",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:tofes 1365",
-  "split": "generated",
-  "text": "Where do I even get a tofes 1365 around here?",
-  "examples": [
-   "Where do I even get a tofes 1365 around here?",
-   "I had to fill out a tofes 1365 just to get a replacement ID card.",
-   "Oh, tofes 1365? Yeah, I've got a stack of those in my drawer."
-  ],
-  "term": "tofes 1365",
-  "surface": "tofes 1365",
-  "dataset_label": "tofes 1365",
-  "note": "the annotator rejected 'tofes 1365' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:tofes 1368",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:tofes 1368",
-  "split": "generated",
-  "text": "Where do I even download tofes 1368 — is it still on their site, or do I have to go to the office in person?",
-  "examples": [
-   "Where do I even download tofes 1368 — is it still on their site, or do I have to go to the office in person?",
-   "tofes 1368, again — third time this year, and nobody there can tell me why.",
-   "My accountant said she'd take care of tofes 1368 for me, but I still got a reminder in the mail, so who knows."
-  ],
-  "term": "tofes 1368",
-  "surface": "tofes 1368",
-  "dataset_label": "tofes 1368",
-  "note": "the annotator rejected 'tofes 1368' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
- },
- {
-  "key": "term:tofes 17",
-  "kind": "term",
-  "risk": "term",
-  "id": "term:tofes 17",
-  "split": "generated",
-  "text": "Did you remember to bring your tofes 17 to the doctor's appointment?",
-  "examples": [
-   "Did you remember to bring your tofes 17 to the doctor's appointment?",
-   "No tofes 17, no reimbursement.",
-   "I submitted my tofes 17 last week and I'm still waiting for the refund."
-  ],
-  "term": "tofes 17",
-  "surface": "tofes 17",
-  "dataset_label": "tofes 17",
-  "note": "the annotator rejected 'tofes 17' in 3 of 3 sentences. Is it a Hebrew word an English voice would mispronounce? Answering here decides every span for this term."
  },
  {
   "key": "boundary:af ehad|ehad",
@@ -968,6 +305,117 @@
   "short_surface": "Bituach",
   "dataset_label": "bituach menhalim",
   "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'Bituach menhalim', or just 'Bituach'?"
+ },
+ {
+  "key": "boundary:boker or|boker",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:boker or",
+  "split": "generated",
+  "text": "Did you just say boker or, or are you still dreaming?",
+  "examples": [
+   "Did you just say boker or, or are you still dreaming?",
+   "boker or, coffee first.",
+   "She smiled and whispered boker or as she opened the curtains."
+  ],
+  "term": "boker or",
+  "surface": "boker or",
+  "short_term": "boker",
+  "short_surface": "boker",
+  "dataset_label": "boker or",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'boker or', or just 'boker'?"
+ },
+ {
+  "key": "boundary:cafe hafuch|hafuch",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:cafe hafuch",
+  "split": "generated",
+  "text": "Just a cafe hafuch, please.",
+  "examples": [
+   "Just a cafe hafuch, please.",
+   "Do you know why the cafe hafuch here tastes so much better than the one I make at home?",
+   "After a long shift, I collapsed on the couch with a cafe hafuch and didn't move for an hour."
+  ],
+  "term": "cafe hafuch",
+  "surface": "cafe hafuch",
+  "short_term": "hafuch",
+  "short_surface": "hafuch",
+  "dataset_label": "cafe hafuch",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'cafe hafuch', or just 'hafuch'?"
+ },
+ {
+  "key": "boundary:dud hashmal|dud",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:dud hashmal",
+  "split": "generated",
+  "text": "We had to call a technician because the dud hashmal stopped heating water.",
+  "examples": [
+   "We had to call a technician because the dud hashmal stopped heating water.",
+   "No hot water? dud hashmal again."
+  ],
+  "term": "dud hashmal",
+  "surface": "dud hashmal",
+  "short_term": "dud",
+  "short_surface": "dud",
+  "dataset_label": "dud hashmal",
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'dud hashmal', or just 'dud'?"
+ },
+ {
+  "key": "boundary:dud hashmal|hashmal",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:dud hashmal",
+  "split": "generated",
+  "text": "We had to call a technician because the dud hashmal stopped heating water.",
+  "examples": [
+   "We had to call a technician because the dud hashmal stopped heating water.",
+   "Have you ever tried fixing a dud hashmal yourself?",
+   "No hot water? dud hashmal again."
+  ],
+  "term": "dud hashmal",
+  "surface": "dud hashmal",
+  "short_term": "hashmal",
+  "short_surface": "hashmal",
+  "dataset_label": "dud hashmal",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'dud hashmal', or just 'hashmal'?"
+ },
+ {
+  "key": "boundary:dud shemesh|dud",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:dud shemesh",
+  "split": "generated",
+  "text": "The dud shemesh on the roof has been leaking since Tuesday, so we're all stuck taking cold showers.",
+  "examples": [
+   "The dud shemesh on the roof has been leaking since Tuesday, so we're all stuck taking cold showers.",
+   "Dud shemesh again? That thing's older than my parents."
+  ],
+  "term": "dud shemesh",
+  "surface": "dud shemesh",
+  "short_term": "dud",
+  "short_surface": "dud",
+  "dataset_label": "dud shemesh",
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'dud shemesh', or just 'dud'?"
+ },
+ {
+  "key": "boundary:dud shemesh|shemesh",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:dud shemesh",
+  "split": "generated",
+  "text": "The dud shemesh on the roof has been leaking since Tuesday, so we're all stuck taking cold showers.",
+  "examples": [
+   "The dud shemesh on the roof has been leaking since Tuesday, so we're all stuck taking cold showers.",
+   "Did you remember to turn off the dud shemesh before we left for the weekend?"
+  ],
+  "term": "dud shemesh",
+  "surface": "dud shemesh",
+  "short_term": "shemesh",
+  "short_surface": "shemesh",
+  "dataset_label": "dud shemesh",
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'dud shemesh', or just 'shemesh'?"
  },
  {
   "key": "boundary:eize|eize mess",
@@ -1124,6 +572,60 @@
   "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'Heshbonit mas', or just 'mas'?"
  },
  {
+  "key": "boundary:heshbonit mas kabala|heshbonit",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:heshbonit mas kabala",
+  "split": "generated",
+  "text": "I need the heshbonit mas kabala from the contractor before I can pay him.",
+  "examples": [
+   "I need the heshbonit mas kabala from the contractor before I can pay him.",
+   "Did you remember to ask for a heshbonit mas kabala at the supermarket?",
+   "No heshbonit mas kabala, no expense report."
+  ],
+  "term": "heshbonit mas kabala",
+  "surface": "heshbonit mas kabala",
+  "short_term": "heshbonit",
+  "short_surface": "heshbonit",
+  "dataset_label": "heshbonit mas kabala",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'heshbonit mas kabala', or just 'heshbonit'?"
+ },
+ {
+  "key": "boundary:heshbonit mas kabala|kabala",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:heshbonit mas kabala",
+  "split": "generated",
+  "text": "No heshbonit mas kabala, no expense report.",
+  "examples": [
+   "No heshbonit mas kabala, no expense report."
+  ],
+  "term": "heshbonit mas kabala",
+  "surface": "heshbonit mas kabala",
+  "short_term": "kabala",
+  "short_surface": "kabala",
+  "dataset_label": "heshbonit mas kabala",
+  "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'heshbonit mas kabala', or just 'kabala'?"
+ },
+ {
+  "key": "boundary:heshbonit mas kabala|mas kabala",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:heshbonit mas kabala",
+  "split": "generated",
+  "text": "I need the heshbonit mas kabala from the contractor before I can pay him.",
+  "examples": [
+   "I need the heshbonit mas kabala from the contractor before I can pay him.",
+   "Did you remember to ask for a heshbonit mas kabala at the supermarket?"
+  ],
+  "term": "heshbonit mas kabala",
+  "surface": "heshbonit mas kabala",
+  "short_term": "mas kabala",
+  "short_surface": "mas kabala",
+  "dataset_label": "heshbonit mas kabala",
+  "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'heshbonit mas kabala', or just 'mas kabala'?"
+ },
+ {
   "key": "boundary:kartis hofshi|hofshi",
   "kind": "boundary",
   "risk": "boundary",
@@ -1226,6 +728,44 @@
   "short_surface": "Marak",
   "dataset_label": "marak yerek",
   "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'Marak yerek', or just 'Marak'?"
+ },
+ {
+  "key": "boundary:mas hachnasa chaverot|chaverot",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:mas hachnasa chaverot",
+  "split": "generated",
+  "text": "mas hachnasa chaverot is due next week, and I haven't even started.",
+  "examples": [
+   "mas hachnasa chaverot is due next week, and I haven't even started.",
+   "Did you remember to pay the mas hachnasa chaverot this quarter?",
+   "mas hachnasa chaverot? Just thinking about it gives me a headache."
+  ],
+  "term": "mas hachnasa chaverot",
+  "surface": "mas hachnasa chaverot",
+  "short_term": "chaverot",
+  "short_surface": "chaverot",
+  "dataset_label": "mas hachnasa chaverot",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'mas hachnasa chaverot', or just 'chaverot'?"
+ },
+ {
+  "key": "boundary:mas hachnasa chaverot|mas hachnasa",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:mas hachnasa chaverot",
+  "split": "generated",
+  "text": "mas hachnasa chaverot is due next week, and I haven't even started.",
+  "examples": [
+   "mas hachnasa chaverot is due next week, and I haven't even started.",
+   "Did you remember to pay the mas hachnasa chaverot this quarter?",
+   "mas hachnasa chaverot? Just thinking about it gives me a headache."
+  ],
+  "term": "mas hachnasa chaverot",
+  "surface": "mas hachnasa chaverot",
+  "short_term": "mas hachnasa",
+  "short_surface": "mas hachnasa",
+  "dataset_label": "mas hachnasa chaverot",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'mas hachnasa chaverot', or just 'mas hachnasa'?"
  },
  {
   "key": "boundary:mas hachnasa chayav|chayav",
@@ -1347,6 +887,44 @@
   "short_surface": "mas hachnasa",
   "dataset_label": "mas hachnasa hafkaa",
   "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'mas hachnasa hafkaa', or just 'mas hachnasa'?"
+ },
+ {
+  "key": "boundary:mas hachnasa halvaa|halvaa",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:mas hachnasa halvaa",
+  "split": "generated",
+  "text": "Did you already sort out the mas hachnasa halvaa with the tax authority?",
+  "examples": [
+   "Did you already sort out the mas hachnasa halvaa with the tax authority?",
+   "mas hachnasa halvaa, what a nightmare.",
+   "After three visits to the office, I finally got the mas hachnasa halvaa approved, but only after they lost my paperwork twice."
+  ],
+  "term": "mas hachnasa halvaa",
+  "surface": "mas hachnasa halvaa",
+  "short_term": "halvaa",
+  "short_surface": "halvaa",
+  "dataset_label": "mas hachnasa halvaa",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'mas hachnasa halvaa', or just 'halvaa'?"
+ },
+ {
+  "key": "boundary:mas hachnasa halvaa|mas hachnasa",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:mas hachnasa halvaa",
+  "split": "generated",
+  "text": "Did you already sort out the mas hachnasa halvaa with the tax authority?",
+  "examples": [
+   "Did you already sort out the mas hachnasa halvaa with the tax authority?",
+   "mas hachnasa halvaa, what a nightmare.",
+   "After three visits to the office, I finally got the mas hachnasa halvaa approved, but only after they lost my paperwork twice."
+  ],
+  "term": "mas hachnasa halvaa",
+  "surface": "mas hachnasa halvaa",
+  "short_term": "mas hachnasa",
+  "short_surface": "mas hachnasa",
+  "dataset_label": "mas hachnasa halvaa",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'mas hachnasa halvaa', or just 'mas hachnasa'?"
  },
  {
   "key": "boundary:mas hachnasa hashlamot|hachnasa",
@@ -1503,6 +1081,82 @@
   "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'mas hachnasa kartis', or just 'kartis'?"
  },
  {
+  "key": "boundary:mas hachnasa kizuz|kizuz",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:mas hachnasa kizuz",
+  "split": "generated",
+  "text": "Did your accountant mention the mas hachnasa kizuz when you talked about the new job?",
+  "examples": [
+   "Did your accountant mention the mas hachnasa kizuz when you talked about the new job?",
+   "mas hachnasa kizuz — total nightmare.",
+   "The mas hachnasa kizuz is supposed to help, but it never does."
+  ],
+  "term": "mas hachnasa kizuz",
+  "surface": "mas hachnasa kizuz",
+  "short_term": "kizuz",
+  "short_surface": "kizuz",
+  "dataset_label": "mas hachnasa kizuz",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'mas hachnasa kizuz', or just 'kizuz'?"
+ },
+ {
+  "key": "boundary:mas hachnasa kizuz|mas hachnasa",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:mas hachnasa kizuz",
+  "split": "generated",
+  "text": "Did your accountant mention the mas hachnasa kizuz when you talked about the new job?",
+  "examples": [
+   "Did your accountant mention the mas hachnasa kizuz when you talked about the new job?",
+   "mas hachnasa kizuz — total nightmare.",
+   "The mas hachnasa kizuz is supposed to help, but it never does."
+  ],
+  "term": "mas hachnasa kizuz",
+  "surface": "mas hachnasa kizuz",
+  "short_term": "mas hachnasa",
+  "short_surface": "mas hachnasa",
+  "dataset_label": "mas hachnasa kizuz",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'mas hachnasa kizuz', or just 'mas hachnasa'?"
+ },
+ {
+  "key": "boundary:mas hachnasa mashkanta|mas hachnasa",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:mas hachnasa mashkanta",
+  "split": "generated",
+  "text": "Have you sorted out the mas hachnasa mashkanta with the accountant yet?",
+  "examples": [
+   "Have you sorted out the mas hachnasa mashkanta with the accountant yet?",
+   "Again with the mas hachnasa mashkanta?",
+   "The tax advisor recommended that we consolidate our debts and claim the mas hachnasa mashkanta deduction on our next return."
+  ],
+  "term": "mas hachnasa mashkanta",
+  "surface": "mas hachnasa mashkanta",
+  "short_term": "mas hachnasa",
+  "short_surface": "mas hachnasa",
+  "dataset_label": "mas hachnasa mashkanta",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'mas hachnasa mashkanta', or just 'mas hachnasa'?"
+ },
+ {
+  "key": "boundary:mas hachnasa mashkanta|mashkanta",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:mas hachnasa mashkanta",
+  "split": "generated",
+  "text": "Have you sorted out the mas hachnasa mashkanta with the accountant yet?",
+  "examples": [
+   "Have you sorted out the mas hachnasa mashkanta with the accountant yet?",
+   "Again with the mas hachnasa mashkanta?",
+   "The tax advisor recommended that we consolidate our debts and claim the mas hachnasa mashkanta deduction on our next return."
+  ],
+  "term": "mas hachnasa mashkanta",
+  "surface": "mas hachnasa mashkanta",
+  "short_term": "mashkanta",
+  "short_surface": "mashkanta",
+  "dataset_label": "mas hachnasa mashkanta",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'mas hachnasa mashkanta', or just 'mashkanta'?"
+ },
+ {
   "key": "boundary:mas hachnasa nikuim|mas hachnasa",
   "kind": "boundary",
   "risk": "boundary",
@@ -1571,6 +1225,63 @@
   "short_surface": "pitura",
   "dataset_label": "mas hachnasa pitura",
   "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'Mas hachnasa pitura', or just 'pitura'?"
+ },
+ {
+  "key": "boundary:mas hachnasa ribit|mas hachnasa",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:mas hachnasa ribit",
+  "split": "generated",
+  "text": "Did you already pay the mas hachnasa ribit on your savings account?",
+  "examples": [
+   "Did you already pay the mas hachnasa ribit on your savings account?",
+   "Ugh, mas hachnasa ribit.",
+   "Next year, the mas hachnasa ribit will probably be higher, so I'm already saving for it."
+  ],
+  "term": "mas hachnasa ribit",
+  "surface": "mas hachnasa ribit",
+  "short_term": "mas hachnasa",
+  "short_surface": "mas hachnasa",
+  "dataset_label": "mas hachnasa ribit",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'mas hachnasa ribit', or just 'mas hachnasa'?"
+ },
+ {
+  "key": "boundary:mas hachnasa ribit|ribit",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:mas hachnasa ribit",
+  "split": "generated",
+  "text": "Did you already pay the mas hachnasa ribit on your savings account?",
+  "examples": [
+   "Did you already pay the mas hachnasa ribit on your savings account?",
+   "Ugh, mas hachnasa ribit.",
+   "Next year, the mas hachnasa ribit will probably be higher, so I'm already saving for it."
+  ],
+  "term": "mas hachnasa ribit",
+  "surface": "mas hachnasa ribit",
+  "short_term": "ribit",
+  "short_surface": "ribit",
+  "dataset_label": "mas hachnasa ribit",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'mas hachnasa ribit', or just 'ribit'?"
+ },
+ {
+  "key": "boundary:mas hachnasa shelo mitzvot|mas hachnasa",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:mas hachnasa shelo mitzvot",
+  "split": "generated",
+  "text": "I spent all morning on the phone with the tax office about mas hachnasa shelo mitzvot, and I still don't understand what they need from me.",
+  "examples": [
+   "I spent all morning on the phone with the tax office about mas hachnasa shelo mitzvot, and I still don't understand what they need from me.",
+   "How do you file mas hachnasa shelo mitzvot if you're a freelancer?",
+   "mas hachnasa shelo mitzvot, again? I thought I was done with that."
+  ],
+  "term": "mas hachnasa shelo mitzvot",
+  "surface": "mas hachnasa shelo mitzvot",
+  "short_term": "mas hachnasa",
+  "short_surface": "mas hachnasa",
+  "dataset_label": "mas hachnasa shelo mitzvot",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'mas hachnasa shelo mitzvot', or just 'mas hachnasa'?"
  },
  {
   "key": "boundary:mas hachnasa zikui|mas hachnasa",
@@ -1885,6 +1596,25 @@
   "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'tofes 1310', or just 'tofes'?"
  },
  {
+  "key": "boundary:tofes 1311|tofes",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:tofes 1311",
+  "split": "generated",
+  "text": "Did you already send in the tofes 1311, or are you still waiting for the accountant to sign it?",
+  "examples": [
+   "Did you already send in the tofes 1311, or are you still waiting for the accountant to sign it?",
+   "Oh, tofes 1311 again?",
+   "The clerk told me I had to fill out a tofes 1311 before they'd even look at my file."
+  ],
+  "term": "tofes 1311",
+  "surface": "tofes 1311",
+  "short_term": "tofes",
+  "short_surface": "tofes",
+  "dataset_label": "tofes 1311",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1311', or just 'tofes'?"
+ },
+ {
   "key": "boundary:tofes 1312|tofes",
   "kind": "boundary",
   "risk": "boundary",
@@ -1903,6 +1633,25 @@
   "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1312', or just 'tofes'?"
  },
  {
+  "key": "boundary:tofes 1313|tofes",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:tofes 1313",
+  "split": "generated",
+  "text": "I filled out the tofes 1313 twice and they still sent it back because one box was blank.",
+  "examples": [
+   "I filled out the tofes 1313 twice and they still sent it back because one box was blank.",
+   "Do you know if the tofes 1313 is the same thing as the tax form we did at the post office?",
+   "Just bring your ID and the tofes 1313, and they'll sort out the rest at the counter."
+  ],
+  "term": "tofes 1313",
+  "surface": "tofes 1313",
+  "short_term": "tofes",
+  "short_surface": "tofes",
+  "dataset_label": "tofes 1313",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1313', or just 'tofes'?"
+ },
+ {
   "key": "boundary:tofes 1314|tofes",
   "kind": "boundary",
   "risk": "boundary",
@@ -1918,6 +1667,25 @@
   "short_surface": "tofes",
   "dataset_label": "tofes 1314",
   "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'tofes 1314', or just 'tofes'?"
+ },
+ {
+  "key": "boundary:tofes 1315|tofes",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:tofes 1315",
+  "split": "generated",
+  "text": "My accountant told me to bring the tofes 1315 to our meeting, otherwise the tax office just keeps deducting at the highest rate.",
+  "examples": [
+   "My accountant told me to bring the tofes 1315 to our meeting, otherwise the tax office just keeps deducting at the highest rate.",
+   "Did you already submit the tofes 1315, or are you still waiting for HR to sign it?",
+   "Tofes 1315 — it's somewhere in that pile on my desk."
+  ],
+  "term": "tofes 1315",
+  "surface": "tofes 1315",
+  "short_term": "tofes",
+  "short_surface": "tofes",
+  "dataset_label": "tofes 1315",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1315', or just 'tofes'?"
  },
  {
   "key": "boundary:tofes 1316|tofes",
@@ -2046,6 +1814,25 @@
   "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1322', or just 'tofes'?"
  },
  {
+  "key": "boundary:tofes 1323|tofes",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:tofes 1323",
+  "split": "generated",
+  "text": "Why do they always ask for tofes 1323 at the last minute?",
+  "examples": [
+   "Why do they always ask for tofes 1323 at the last minute?",
+   "tofes 1323, naturally.",
+   "I had to fill out tofes 1323 three times because the clerk kept losing it."
+  ],
+  "term": "tofes 1323",
+  "surface": "tofes 1323",
+  "short_term": "tofes",
+  "short_surface": "tofes",
+  "dataset_label": "tofes 1323",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1323', or just 'tofes'?"
+ },
+ {
   "key": "boundary:tofes 1324|tofes",
   "kind": "boundary",
   "risk": "boundary",
@@ -2082,6 +1869,44 @@
   "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1325', or just 'tofes'?"
  },
  {
+  "key": "boundary:tofes 1326|tofes",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:tofes 1326",
+  "split": "generated",
+  "text": "Did you remember to attach the tofes 1326 to your tax return this year?",
+  "examples": [
+   "Did you remember to attach the tofes 1326 to your tax return this year?",
+   "Just got an email from my accountant — apparently I never signed the tofes 1326.",
+   "The clerk behind the counter wouldn't even open my file until I handed over a tofes 1326."
+  ],
+  "term": "tofes 1326",
+  "surface": "tofes 1326",
+  "short_term": "tofes",
+  "short_surface": "tofes",
+  "dataset_label": "tofes 1326",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1326', or just 'tofes'?"
+ },
+ {
+  "key": "boundary:tofes 1327|tofes",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:tofes 1327",
+  "split": "generated",
+  "text": "The clerk insisted they never received my tofes 1327, even though I'm holding the stamped copy right here in my hand.",
+  "examples": [
+   "The clerk insisted they never received my tofes 1327, even though I'm holding the stamped copy right here in my hand.",
+   "Do I actually need a tofes 1327 for this, or can my accountant just file everything online?",
+   "Not the tofes 1327 again — I thought we were finally done with that whole mess."
+  ],
+  "term": "tofes 1327",
+  "surface": "tofes 1327",
+  "short_term": "tofes",
+  "short_surface": "tofes",
+  "dataset_label": "tofes 1327",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1327', or just 'tofes'?"
+ },
+ {
   "key": "boundary:tofes 1328|tofes",
   "kind": "boundary",
   "risk": "boundary",
@@ -2098,6 +1923,63 @@
   "short_surface": "tofes",
   "dataset_label": "tofes 1328",
   "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1328', or just 'tofes'?"
+ },
+ {
+  "key": "boundary:tofes 1329|tofes",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:tofes 1329",
+  "split": "generated",
+  "text": "Have you ever tried to get a tofes 1329 stamped after 2 PM on a Friday?",
+  "examples": [
+   "Have you ever tried to get a tofes 1329 stamped after 2 PM on a Friday?",
+   "Ugh, tofes 1329.",
+   "The clerk told me I needed tofes 1329, but when I asked where to find it, she just shrugged and pointed at the photocopier."
+  ],
+  "term": "tofes 1329",
+  "surface": "tofes 1329",
+  "short_term": "tofes",
+  "short_surface": "tofes",
+  "dataset_label": "tofes 1329",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1329', or just 'tofes'?"
+ },
+ {
+  "key": "boundary:tofes 1330|tofes",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:tofes 1330",
+  "split": "generated",
+  "text": "Is tofes 1330 really necessary for this?",
+  "examples": [
+   "Is tofes 1330 really necessary for this?",
+   "Not tofes 1330 again.",
+   "I spent all morning at the misrad hapnim because they kept telling me I had the wrong version of tofes 1330."
+  ],
+  "term": "tofes 1330",
+  "surface": "tofes 1330",
+  "short_term": "tofes",
+  "short_surface": "tofes",
+  "dataset_label": "tofes 1330",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1330', or just 'tofes'?"
+ },
+ {
+  "key": "boundary:tofes 1331|tofes",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:tofes 1331",
+  "split": "generated",
+  "text": "Did you already send the tofes 1331 to the accountant, or are we still waiting on the bank statements?",
+  "examples": [
+   "Did you already send the tofes 1331 to the accountant, or are we still waiting on the bank statements?",
+   "Just the tofes 1331 — nothing else.",
+   "I spent the whole morning on the phone with the tax office because they claimed my tofes 1331 was missing a signature, even though I filed it back in April."
+  ],
+  "term": "tofes 1331",
+  "surface": "tofes 1331",
+  "short_term": "tofes",
+  "short_surface": "tofes",
+  "dataset_label": "tofes 1331",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1331', or just 'tofes'?"
  },
  {
   "key": "boundary:tofes 1332|tofes",
@@ -2154,6 +2036,25 @@
   "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1334', or just 'tofes'?"
  },
  {
+  "key": "boundary:tofes 1335|tofes",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:tofes 1335",
+  "split": "generated",
+  "text": "Did you already fill out tofes 1335 for the tax rebate?",
+  "examples": [
+   "Did you already fill out tofes 1335 for the tax rebate?",
+   "No tofes 1335, no service.",
+   "I was stuck at the ministry for hours because I couldn't find tofes 1335 anywhere."
+  ],
+  "term": "tofes 1335",
+  "surface": "tofes 1335",
+  "short_term": "tofes",
+  "short_surface": "tofes",
+  "dataset_label": "tofes 1335",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1335', or just 'tofes'?"
+ },
+ {
   "key": "boundary:tofes 1336|tofes",
   "kind": "boundary",
   "risk": "boundary",
@@ -2170,6 +2071,44 @@
   "short_surface": "tofes",
   "dataset_label": "tofes 1336",
   "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1336', or just 'tofes'?"
+ },
+ {
+  "key": "boundary:tofes 1337|tofes",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:tofes 1337",
+  "split": "generated",
+  "text": "Did you already submit tofes 1337, or are you still waiting for the clerk to find the right stamp?",
+  "examples": [
+   "Did you already submit tofes 1337, or are you still waiting for the clerk to find the right stamp?",
+   "Seriously, tofes 1337?",
+   "I've been carrying tofes 1337 in my bag for three weeks because every time I go to the office, they tell me I need a different version."
+  ],
+  "term": "tofes 1337",
+  "surface": "tofes 1337",
+  "short_term": "tofes",
+  "short_surface": "tofes",
+  "dataset_label": "tofes 1337",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1337', or just 'tofes'?"
+ },
+ {
+  "key": "boundary:tofes 1338|tofes",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:tofes 1338",
+  "split": "generated",
+  "text": "Where do I find tofes 1338, and is there a fee for it?",
+  "examples": [
+   "Where do I find tofes 1338, and is there a fee for it?",
+   "Just grab a tofes 1338 from the rack.",
+   "After waiting two hours, I finally got the clerk to stamp my tofes 1338, but then she said I also needed a copy of my ID."
+  ],
+  "term": "tofes 1338",
+  "surface": "tofes 1338",
+  "short_term": "tofes",
+  "short_surface": "tofes",
+  "dataset_label": "tofes 1338",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1338', or just 'tofes'?"
  },
  {
   "key": "boundary:tofes 1339|tofes",
@@ -2190,6 +2129,82 @@
   "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1339', or just 'tofes'?"
  },
  {
+  "key": "boundary:tofes 1340|tofes",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:tofes 1340",
+  "split": "generated",
+  "text": "My accountant keeps nagging me to send in the tofes 1340, and honestly, I keep pretending I forgot.",
+  "examples": [
+   "My accountant keeps nagging me to send in the tofes 1340, and honestly, I keep pretending I forgot.",
+   "Did you end up filing the tofes 1340 on time, or did you leave it until the very last minute like always?",
+   "Not the tofes 1340 again."
+  ],
+  "term": "tofes 1340",
+  "surface": "tofes 1340",
+  "short_term": "tofes",
+  "short_surface": "tofes",
+  "dataset_label": "tofes 1340",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1340', or just 'tofes'?"
+ },
+ {
+  "key": "boundary:tofes 1341|tofes",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:tofes 1341",
+  "split": "generated",
+  "text": "The accountant told me I need to file a tofes 1341 before the end of the month or they'll deduct at the full rate.",
+  "examples": [
+   "The accountant told me I need to file a tofes 1341 before the end of the month or they'll deduct at the full rate.",
+   "Did you ever get your tofes 1341 back from the tax office, or are you still chasing them?",
+   "No tofes 1341, no payment — that's just how it works with these suppliers."
+  ],
+  "term": "tofes 1341",
+  "surface": "tofes 1341",
+  "short_term": "tofes",
+  "short_surface": "tofes",
+  "dataset_label": "tofes 1341",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1341', or just 'tofes'?"
+ },
+ {
+  "key": "boundary:tofes 1342|tofes",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:tofes 1342",
+  "split": "generated",
+  "text": "My landlord swears he mailed the tofes 1342 weeks ago, but the tax office says they never got it.",
+  "examples": [
+   "My landlord swears he mailed the tofes 1342 weeks ago, but the tax office says they never got it.",
+   "Do I actually need a tofes 1342 for this, or is the signed contract enough?",
+   "Not the lease, not the bank statement — the tofes 1342."
+  ],
+  "term": "tofes 1342",
+  "surface": "tofes 1342",
+  "short_term": "tofes",
+  "short_surface": "tofes",
+  "dataset_label": "tofes 1342",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1342', or just 'tofes'?"
+ },
+ {
+  "key": "boundary:tofes 1343|tofes",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:tofes 1343",
+  "split": "generated",
+  "text": "Do I really need to fill out tofes 1343 just to change my address?",
+  "examples": [
+   "Do I really need to fill out tofes 1343 just to change my address?",
+   "Ugh, tofes 1343 again? I thought I was done with that.",
+   "After waiting in line for two hours, they told me I had the wrong tofes 1343 and sent me to another office."
+  ],
+  "term": "tofes 1343",
+  "surface": "tofes 1343",
+  "short_term": "tofes",
+  "short_surface": "tofes",
+  "dataset_label": "tofes 1343",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1343', or just 'tofes'?"
+ },
+ {
   "key": "boundary:tofes 1344|tofes",
   "kind": "boundary",
   "risk": "boundary",
@@ -2205,6 +2220,25 @@
   "short_surface": "tofes",
   "dataset_label": "tofes 1344",
   "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'tofes 1344', or just 'tofes'?"
+ },
+ {
+  "key": "boundary:tofes 1345|tofes",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:tofes 1345",
+  "split": "generated",
+  "text": "Did you fill out tofes 1345 for the reimbursement?",
+  "examples": [
+   "Did you fill out tofes 1345 for the reimbursement?",
+   "I spent two hours at the Ministry of Interior because they claimed my tofes 1345 was missing a signature, and then they found it in the wrong pile.",
+   "Just bring tofes 1345 and your ID, that's it."
+  ],
+  "term": "tofes 1345",
+  "surface": "tofes 1345",
+  "short_term": "tofes",
+  "short_surface": "tofes",
+  "dataset_label": "tofes 1345",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1345', or just 'tofes'?"
  },
  {
   "key": "boundary:tofes 1346|tofes",
@@ -2223,6 +2257,63 @@
   "short_surface": "tofes",
   "dataset_label": "tofes 1346",
   "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1346', or just 'tofes'?"
+ },
+ {
+  "key": "boundary:tofes 1347|tofes",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:tofes 1347",
+  "split": "generated",
+  "text": "I can't believe they sent me back to the clerk's office just because I forgot to sign tofes 1347.",
+  "examples": [
+   "I can't believe they sent me back to the clerk's office just because I forgot to sign tofes 1347.",
+   "Where exactly am I supposed to get tofes 1347?",
+   "tofes 1347, again?"
+  ],
+  "term": "tofes 1347",
+  "surface": "tofes 1347",
+  "short_term": "tofes",
+  "short_surface": "tofes",
+  "dataset_label": "tofes 1347",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1347', or just 'tofes'?"
+ },
+ {
+  "key": "boundary:tofes 1348|tofes",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:tofes 1348",
+  "split": "generated",
+  "text": "Did you fill out the tofes 1348 before you got to the counter?",
+  "examples": [
+   "Did you fill out the tofes 1348 before you got to the counter?",
+   "Tofes 1348? I thought that was for the other office.",
+   "She told me to bring a copy of the tofes 1348, but nobody even looked at it."
+  ],
+  "term": "tofes 1348",
+  "surface": "tofes 1348",
+  "short_term": "tofes",
+  "short_surface": "tofes",
+  "dataset_label": "tofes 1348",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1348', or just 'tofes'?"
+ },
+ {
+  "key": "boundary:tofes 1349|tofes",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:tofes 1349",
+  "split": "generated",
+  "text": "That tofes 1349 requires a copy of your ID, so don't forget it.",
+  "examples": [
+   "That tofes 1349 requires a copy of your ID, so don't forget it.",
+   "Did you already submit tofes 1349 to the municipality?",
+   "tofes 1349? Oh, that thing is a nightmare."
+  ],
+  "term": "tofes 1349",
+  "surface": "tofes 1349",
+  "short_term": "tofes",
+  "short_surface": "tofes",
+  "dataset_label": "tofes 1349",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1349', or just 'tofes'?"
  },
  {
   "key": "boundary:tofes 1350|tofes",
@@ -2295,6 +2386,25 @@
   "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1353', or just 'tofes'?"
  },
  {
+  "key": "boundary:tofes 1354|tofes",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:tofes 1354",
+  "split": "generated",
+  "text": "Do I really need to fill out tofes 1354 again, or can you just stamp the old one?",
+  "examples": [
+   "Do I really need to fill out tofes 1354 again, or can you just stamp the old one?",
+   "Again with tofes 1354? Unbelievable.",
+   "I spent half an hour at the Interior Ministry just to hand in tofes 1354, and they told me I had the wrong version."
+  ],
+  "term": "tofes 1354",
+  "surface": "tofes 1354",
+  "short_term": "tofes",
+  "short_surface": "tofes",
+  "dataset_label": "tofes 1354",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1354', or just 'tofes'?"
+ },
+ {
   "key": "boundary:tofes 1355|tofes",
   "kind": "boundary",
   "risk": "boundary",
@@ -2313,6 +2423,25 @@
   "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1355', or just 'tofes'?"
  },
  {
+  "key": "boundary:tofes 1356|tofes",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:tofes 1356",
+  "split": "generated",
+  "text": "Do you know where I can get tofes 1356?",
+  "examples": [
+   "Do you know where I can get tofes 1356?",
+   "tofes 1356, again?",
+   "I had to run to the post office because they said my tofes 1356 was missing."
+  ],
+  "term": "tofes 1356",
+  "surface": "tofes 1356",
+  "short_term": "tofes",
+  "short_surface": "tofes",
+  "dataset_label": "tofes 1356",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1356', or just 'tofes'?"
+ },
+ {
   "key": "boundary:tofes 1357|tofes",
   "kind": "boundary",
   "risk": "boundary",
@@ -2329,6 +2458,25 @@
   "short_surface": "Tofes",
   "dataset_label": "tofes 1357",
   "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'Tofes 1357', or just 'Tofes'?"
+ },
+ {
+  "key": "boundary:tofes 1358|tofes",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:tofes 1358",
+  "split": "generated",
+  "text": "Tofes 1358? Yeah, I filled that out ages ago and they still haven't processed it.",
+  "examples": [
+   "Tofes 1358? Yeah, I filled that out ages ago and they still haven't processed it.",
+   "Did you remember to staple tofes 1358 to the back of the claim, or did you just hand over the receipts?",
+   "The clerk swore they couldn't open the file without tofes 1358, so I spent my whole morning running between two offices on opposite sides of the city."
+  ],
+  "term": "tofes 1358",
+  "surface": "Tofes 1358",
+  "short_term": "tofes",
+  "short_surface": "Tofes",
+  "dataset_label": "tofes 1358",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'Tofes 1358', or just 'Tofes'?"
  },
  {
   "key": "boundary:tofes 1359|tofes",
@@ -2402,6 +2550,25 @@
   "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1362', or just 'tofes'?"
  },
  {
+  "key": "boundary:tofes 1363|tofes",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:tofes 1363",
+  "split": "generated",
+  "text": "I sat in that office for two hours just for them to tell me I'd filled in tofes 1363 with the wrong kind of pen and I'd have to do it all again.",
+  "examples": [
+   "I sat in that office for two hours just for them to tell me I'd filled in tofes 1363 with the wrong kind of pen and I'd have to do it all again.",
+   "Did you already send in tofes 1363 for the apartment, or is it still sitting there on your desk waiting for a signature?",
+   "Not without tofes 1363, they won't."
+  ],
+  "term": "tofes 1363",
+  "surface": "tofes 1363",
+  "short_term": "tofes",
+  "short_surface": "tofes",
+  "dataset_label": "tofes 1363",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1363', or just 'tofes'?"
+ },
+ {
   "key": "boundary:tofes 1364|tofes",
   "kind": "boundary",
   "risk": "boundary",
@@ -2417,6 +2584,25 @@
   "short_surface": "tofes",
   "dataset_label": "tofes 1364",
   "note": "both models agree this is Hebrew and disagree on the span, in 1 sentence(s). Should the span be the full 'tofes 1364', or just 'tofes'?"
+ },
+ {
+  "key": "boundary:tofes 1365|tofes",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:tofes 1365",
+  "split": "generated",
+  "text": "Where do I even get a tofes 1365 around here?",
+  "examples": [
+   "Where do I even get a tofes 1365 around here?",
+   "I had to fill out a tofes 1365 just to get a replacement ID card.",
+   "Oh, tofes 1365? Yeah, I've got a stack of those in my drawer."
+  ],
+  "term": "tofes 1365",
+  "surface": "tofes 1365",
+  "short_term": "tofes",
+  "short_surface": "tofes",
+  "dataset_label": "tofes 1365",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1365', or just 'tofes'?"
  },
  {
   "key": "boundary:tofes 1366|tofes",
@@ -2455,6 +2641,25 @@
   "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1367', or just 'tofes'?"
  },
  {
+  "key": "boundary:tofes 1368|tofes",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:tofes 1368",
+  "split": "generated",
+  "text": "Where do I even download tofes 1368 — is it still on their site, or do I have to go to the office in person?",
+  "examples": [
+   "Where do I even download tofes 1368 — is it still on their site, or do I have to go to the office in person?",
+   "tofes 1368, again — third time this year, and nobody there can tell me why.",
+   "My accountant said she'd take care of tofes 1368 for me, but I still got a reminder in the mail, so who knows."
+  ],
+  "term": "tofes 1368",
+  "surface": "tofes 1368",
+  "short_term": "tofes",
+  "short_surface": "tofes",
+  "dataset_label": "tofes 1368",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 1368', or just 'tofes'?"
+ },
+ {
   "key": "boundary:tofes 1369|tofes",
   "kind": "boundary",
   "risk": "boundary",
@@ -2489,6 +2694,25 @@
   "short_surface": "tofes",
   "dataset_label": "tofes 1370",
   "note": "both models agree this is Hebrew and disagree on the span, in 2 sentence(s). Should the span be the full 'tofes 1370', or just 'tofes'?"
+ },
+ {
+  "key": "boundary:tofes 17|tofes",
+  "kind": "boundary",
+  "risk": "boundary",
+  "id": "boundary:tofes 17",
+  "split": "generated",
+  "text": "Did you remember to bring your tofes 17 to the doctor's appointment?",
+  "examples": [
+   "Did you remember to bring your tofes 17 to the doctor's appointment?",
+   "No tofes 17, no reimbursement.",
+   "I submitted my tofes 17 last week and I'm still waiting for the refund."
+  ],
+  "term": "tofes 17",
+  "surface": "tofes 17",
+  "short_term": "tofes",
+  "short_surface": "tofes",
+  "dataset_label": "tofes 17",
+  "note": "both models agree this is Hebrew and disagree on the span, in 3 sentence(s). Should the span be the full 'tofes 17', or just 'tofes'?"
  },
  {
   "key": "boundary:tzilum raentgen|tzilum",

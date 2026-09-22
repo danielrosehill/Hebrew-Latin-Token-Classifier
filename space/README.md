@@ -19,9 +19,14 @@ and a blind annotator from a different model family that never sees the seed. Wh
 they agree, the span is accepted automatically. This page is for the cases they
 disagree on, plus a random audit sample of the ones they agreed on.
 
-**591 tasks**, ordered worst-first: 50 term rulings, 97 span-boundary questions,
-the spans one model found and the other did not, and a 242-sentence random audit
-of cases both models agreed on.
+**554 tasks**, ordered worst-first: 11 term rulings, ~140 span-boundary questions,
+the spans one model found and the other did not, and a random audit of cases both
+models agreed on.
+
+**Include** means the classifier flags the span, so the TTS gets a Hebrew segment
+for it. **Exclude** means leave it as English. Most terms here are Hebrew either
+way — the question is whether flagging one is worth the sentence split, the extra
+speech call and the audio stitching it costs.
 
 **Everything runs in your browser.** The queue is fetched as a static file, decisions
 are held in `localStorage`, and nothing is sent anywhere. Export `decisions.json` when
@@ -31,8 +36,9 @@ you are done and run `scripts/build_splits.py` in the repo.
 
 | Key | Action |
 | --- | --- |
-| <kbd>y</kbd> | Hebrew — or, on a boundary task, keep the full span |
-| <kbd>n</kbd> | Not Hebrew — or, on a boundary task, use the shorter span |
+| <kbd>y</kbd> | Include — or, on a boundary task, keep the full span |
+| <kbd>n</kbd> | Exclude — or, on a boundary task, use the shorter span |
+| <kbd>d</kbd> | Can't decide — records that you looked, and never asks again |
 | <kbd>Enter</kbd> | Submit typed terms (record tasks) |
 | <kbd>s</kbd> | Skip |
 | <kbd>u</kbd> | Undo the previous decision |
