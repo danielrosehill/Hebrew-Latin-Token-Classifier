@@ -15,6 +15,9 @@
           letter-spacing: .04em; padding: .1rem .4rem; border: 1px solid; border-radius: 3px; }
   .risk.mislabelled { color: #c0392b; } .risk.unmatched { color: #b7791f; }
   .risk.quarantined { color: #8e44ad; } .risk.medium { color: #2980b9; }
+  .risk.term { color: #c0392b; } .risk.seed_only { color: #b7791f; }
+  .risk.boundary { color: #b7791f; }
+  .risk.annotator_only { color: #8e44ad; } .risk.audit { color: #2980b9; }
   .risk.low { opacity: .6; }
   #note { opacity: .75; font-size: .875rem; margin: .75rem 0 1.25rem; }
   #sentence { font-size: 1.375rem; line-height: 1.5; margin: 0 0 1.5rem; }
@@ -110,7 +113,32 @@ function render() {
   el('meta').textContent = `${t.id}  ·  ${t.split}  ·  dataset label: ` +
     (t.dataset_label ? JSON.stringify(t.dataset_label) : 'none');
 
-  if (t.kind === 'span') {
+  if (t.kind === 'boundary') {
+    el('sentence').innerHTML =
+      'Full span <b>' + escapeHtml(t.surface) + '</b>' +
+      '<span style="opacity:.6"> &nbsp;or just&nbsp; </span>' +
+      '<b>' + escapeHtml(t.short_surface) + '</b>?';
+    const ex = (t.examples || []).map(x =>
+      '<li style="margin:.35rem 0">' + escapeHtml(x) + '</li>').join('');
+    el('answer').innerHTML =
+      '<ul style="font-size:.9375rem;opacity:.8;padding-left:1.2rem;margin:0 0 1.25rem">' +
+      ex + '</ul>' +
+      '<div id="actions">' +
+      '<button onclick="decideBoundary(true)">Full span <kbd>y</kbd></button>' +
+      '<button onclick="decideBoundary(false)">Shorter <kbd>n</kbd></button>' +
+      '<button onclick="skip()">Skip <kbd>s</kbd></button></div>';
+  } else if (t.kind === 'term') {
+    el('sentence').innerHTML = '<b>' + escapeHtml(t.term) + '</b>';
+    const examples = (t.examples || []).map(x =>
+      '<li style="margin:.35rem 0">' + escapeHtml(x) + '</li>').join('');
+    el('answer').innerHTML =
+      '<ul style="font-size:.9375rem;opacity:.8;padding-left:1.2rem;margin:0 0 1.25rem">' +
+      examples + '</ul>' +
+      '<div id="actions">' +
+      '<button onclick="decideTerm(true)">Hebrew <kbd>y</kbd></button>' +
+      '<button onclick="decideTerm(false)">Not Hebrew <kbd>n</kbd></button>' +
+      '<button onclick="skip()">Skip <kbd>s</kbd></button></div>';
+  } else if (t.kind === 'span') {
     el('sentence').innerHTML =
       escapeHtml(t.text.slice(0, t.start)) +
       '<mark>' + escapeHtml(t.text.slice(t.start, t.end)) + '</mark>' +
@@ -144,6 +172,19 @@ function record(value) {
 }
 
 const decide = isHebrew => record({ kind: 'span', hebrew: isHebrew });
+const decideTerm = isHebrew =>
+  record({ kind: 'term', term: queue[cursor].term, hebrew: isHebrew });
+
+const decideBoundary = keepFull => record({
+  kind: 'boundary', term: queue[cursor].term,
+  short_term: queue[cursor].short_term, hebrew: keepFull });
+
+function answer(value) {
+  const k = queue[cursor].kind;
+  if (k === 'term') decideTerm(value);
+  else if (k === 'boundary') decideBoundary(value);
+  else decide(value);
+}
 
 function submitTerms() {
   const raw = el('terms').value.trim();
@@ -175,8 +216,8 @@ addEventListener('keydown', e => {
   const typing = e.target.tagName === 'INPUT';
   if (typing && e.key === 'Enter') { submitTerms(); return; }
   if (typing) return;
-  if (e.key === 'y') decide(true);
-  else if (e.key === 'n') decide(false);
+  if (e.key === 'y') answer(true);
+  else if (e.key === 'n') answer(false);
   else if (e.key === 's') skip();
   else if (e.key === 'u') undo();
 });

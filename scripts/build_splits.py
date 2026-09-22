@@ -54,6 +54,12 @@ def main() -> None:
                    for d in decisions.values()
                    if d.get("kind") == "term" and d.get("term")}
 
+    # Boundary rulings: True keeps the full seeded span, False narrows it to the
+    # annotator's shorter one. Keyed by the seeded term.
+    boundary_ruling = {d["term"].lower(): (bool(d.get("hebrew")), d.get("short_term"))
+                       for d in decisions.values()
+                       if d.get("kind") == "boundary" and d.get("term")}
+
     stats: collections.Counter[str] = collections.Counter()
     unapplied = []
     prepared = []
@@ -61,6 +67,25 @@ def main() -> None:
     for row in rows:
         text, spans = row["text"], []
         for n, span in enumerate(row["spans"]):
+            b = boundary_ruling.get(span["term"].lower())
+            if b is not None:
+                keep_full, short_term = b
+                if keep_full:
+                    stats["boundary_full"] += 1
+                    spans.append({k: span[k] for k in
+                                  ("start", "end", "surface", "term")})
+                elif short_term:
+                    found = corpus.word_spans(span["surface"], short_term)
+                    if found:
+                        o = span["start"] + found[0][0]
+                        spans.append({
+                            "start": o, "end": o + (found[0][1] - found[0][0]),
+                            "surface": text[o:o + (found[0][1] - found[0][0])],
+                            "term": short_term.lower()})
+                        stats["boundary_narrowed"] += 1
+                    else:
+                        stats["boundary_narrow_failed"] += 1
+                continue
             ruling = term_ruling.get(span["term"].lower())
             if ruling is not None:
                 stats["term_ruling_kept" if ruling else "term_ruling_dropped"] += 1
@@ -103,8 +128,13 @@ def main() -> None:
         })
 
     # --- term-disjoint split ---
-    terms = sorted({r["seed_term"] for r in prepared})
-    random.Random(args.seed).shuffle(terms)
+    # Positives are split by TERM so no term appears in two splits. Negatives have
+    # no seed term, so they are spread proportionally and stratified by negative
+    # kind -- otherwise one split gets all the substring traps and its precision
+    # figure means nothing.
+    rng = random.Random(args.seed)
+    terms = sorted({r["seed_term"] for r in prepared if r["seed_term"]})
+    rng.shuffle(terms)
     n_val = max(1, round(len(terms) * args.validation))
     n_test = max(1, round(len(terms) * args.test))
     assign = {}
@@ -116,28 +146,50 @@ def main() -> None:
         assign[t] = "train"
 
     by_split = collections.defaultdict(list)
+    negatives_by_kind = collections.defaultdict(list)
     for r in prepared:
-        by_split[assign[r["seed_term"]]].append(r)
+        if r["seed_term"]:
+            by_split[assign[r["seed_term"]]].append(r)
+        else:
+            negatives_by_kind[r["category"]].append(r)
+
+    for kind, items in sorted(negatives_by_kind.items()):
+        rng.shuffle(items)
+        n_t = max(1, round(len(items) * args.test))
+        n_v = max(1, round(len(items) * args.validation))
+        by_split["test"] += items[:n_t]
+        by_split["validation"] += items[n_t:n_t + n_v]
+        by_split["train"] += items[n_t + n_v:]
 
     for split, items in by_split.items():
         corpus.write_jsonl(OUT / f"{split}.jsonl", items)
 
-    overlap = {a: sorted({r["seed_term"] for r in by_split[a]} &
-                         {r["seed_term"] for r in by_split[b]})
-               for a in by_split for b in by_split if a < b}
-    leaked = {k: v for k, v in overlap.items() if v}
+    leaked = {}
+    for a in by_split:
+        for b in by_split:
+            if a >= b:
+                continue
+            shared = ({r["seed_term"] for r in by_split[a] if r["seed_term"]} &
+                      {r["seed_term"] for r in by_split[b] if r["seed_term"]})
+            if shared:
+                leaked[f"{a}|{b}"] = sorted(shared)
 
     report = {
         "sentences": len(prepared),
         "with_at_least_one_span": sum(1 for r in prepared if r["spans"]),
         "without_spans": sum(1 for r in prepared if not r["spans"]),
         "distinct_terms": len(terms),
+        "negatives": sum(len(v) for v in negatives_by_kind.values()),
+        "negatives_by_kind": {k: len(v) for k, v in sorted(negatives_by_kind.items())},
         "splits": {k: len(v) for k, v in sorted(by_split.items())},
-        "terms_per_split": {k: len({r["seed_term"] for r in v})
+        "terms_per_split": {k: len({r["seed_term"] for r in v if r["seed_term"]})
                             for k, v in sorted(by_split.items())},
+        "negatives_per_split": {k: sum(1 for r in v if not r["seed_term"])
+                                for k, v in sorted(by_split.items())},
         "term_leakage_between_splits": leaked,
         "decisions_applied": len(decisions),
         "term_rulings": len(term_ruling),
+        "boundary_rulings": len(boundary_ruling),
         "counts": dict(stats),
         "unapplied_terms": unapplied,
     }

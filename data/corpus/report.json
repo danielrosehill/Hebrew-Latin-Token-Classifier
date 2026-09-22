@@ -1,0 +1,37 @@
+{
+ "sentences": 2733,
+ "with_at_least_one_span": 1912,
+ "without_spans": 821,
+ "distinct_terms": 743,
+ "negatives": 504,
+ "negatives_by_kind": {
+  "negative:anglicised": 112,
+  "negative:english_sense": 133,
+  "negative:lookalike": 126,
+  "negative:substring_trap": 133
+ },
+ "splits": {
+  "test": 272,
+  "train": 2189,
+  "validation": 272
+ },
+ "terms_per_split": {
+  "test": 74,
+  "train": 595,
+  "validation": 74
+ },
+ "negatives_per_split": {
+  "test": 50,
+  "train": 404,
+  "validation": 50
+ },
+ "term_leakage_between_splits": {},
+ "decisions_applied": 0,
+ "term_rulings": 0,
+ "boundary_rulings": 0,
+ "counts": {
+  "agreed_kept": 1912,
+  "pending_unreviewed_dropped": 875
+ },
+ "unapplied_terms": []
+}

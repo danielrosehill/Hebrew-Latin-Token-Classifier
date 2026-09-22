@@ -19,6 +19,10 @@ and a blind annotator from a different model family that never sees the seed. Wh
 they agree, the span is accepted automatically. This page is for the cases they
 disagree on, plus a random audit sample of the ones they agreed on.
 
+**702 tasks**, ordered worst-first: 50 term rulings, 99 span-boundary questions,
+268 spans the annotator found that the generator did not, 55 the reverse, and a
+230-sentence random audit of cases both models agreed on.
+
 **Everything runs in your browser.** The queue is fetched as a static file, decisions
 are held in `localStorage`, and nothing is sent anywhere. Export `decisions.json` when
 you are done and run `scripts/build_splits.py` in the repo.
@@ -27,8 +31,8 @@ you are done and run `scripts/build_splits.py` in the repo.
 
 | Key | Action |
 | --- | --- |
-| <kbd>y</kbd> | Hebrew written in Latin characters |
-| <kbd>n</kbd> | Not Hebrew |
+| <kbd>y</kbd> | Hebrew — or, on a boundary task, keep the full span |
+| <kbd>n</kbd> | Not Hebrew — or, on a boundary task, use the shorter span |
 | <kbd>Enter</kbd> | Submit typed terms (record tasks) |
 | <kbd>s</kbd> | Skip |
 | <kbd>u</kbd> | Undo the previous decision |

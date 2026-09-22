@@ -31,7 +31,8 @@ from lib import corpus  # noqa: E402
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 GEN = ROOT / "data" / "generated"
 REVIEW = ROOT / "review"
-RISK_ORDER = {"term": 0, "annotator_only": 1, "seed_only": 2, "audit": 3}
+RISK_ORDER = {"term": 0, "boundary": 1, "annotator_only": 2, "seed_only": 3,
+              "audit": 4}
 
 
 def key(span: dict) -> tuple[int, int]:
@@ -57,6 +58,7 @@ def main() -> None:
 
     rng = random.Random(args.seed)
     rows, queue = [], []
+    boundary_pairs: dict[tuple[str, str], list] = {}
     stats: collections.Counter[str] = collections.Counter()
 
     # First pass: how often does the annotator refuse the generator's seed term?
@@ -116,11 +118,28 @@ def main() -> None:
             "agreement": "full" if sentence_agrees else "partial",
         })
 
+        # Where a seed span and an annotator span overlap without matching, the
+        # models agree the text is Hebrew and disagree only about where the span
+        # ends -- "tofes 1311" against "tofes". That is one question about a pair
+        # of terms, not one question per sentence, and it was 190 of 553 tasks
+        # before this rollup.
+        overlaps = set()
+        for ks in seed_only:
+            for ka in auto_only:
+                if ks[0] < ka[1] and ka[0] < ks[1]:
+                    overlaps.add((ks, ka))
+                    pair = (seed[ks]["term"], auto[ka]["term"])
+                    boundary_pairs.setdefault(pair, []).append(
+                        (s["text"], seed[ks]["surface"], auto[ka]["surface"]))
+        covered = {k for pairk in overlaps for k in pairk}
+
         for n, k in enumerate(sorted(seed_only) + sorted(auto_only)):
             span = seed.get(k) or auto[k]
             risk = "seed_only" if k in seed_only else "annotator_only"
             # Covered by a single term-level decision; do not ask N times.
             if risk == "seed_only" and span["term"] in systematic:
+                continue
+            if k in covered:
                 continue
             queue.append({
                 "key": f"{sid}:{n}", "kind": "span", "risk": risk,
@@ -155,6 +174,26 @@ def main() -> None:
                     "note": "audit — both models found no Hebrew here. Type any term "
                             "they missed, or submit empty to confirm.",
                 })
+
+    # One task per overlapping term pair, instead of one per sentence.
+    for (seed_term, ann_term), examples in sorted(boundary_pairs.items()):
+        # A term already queued for a yes/no ruling does not also need a boundary
+        # question -- ruling the term out settles its spans either way.
+        if seed_term in systematic:
+            continue
+        text, long_surface, short_surface = examples[0]
+        queue.append({
+            "key": f"boundary:{seed_term}|{ann_term}", "kind": "boundary",
+            "risk": "boundary", "id": f"boundary:{seed_term}",
+            "split": "generated", "text": text,
+            "examples": [e[0] for e in examples[:3]],
+            "term": seed_term, "surface": long_surface,
+            "short_term": ann_term, "short_surface": short_surface,
+            "dataset_label": seed_term,
+            "note": f"both models agree this is Hebrew and disagree on the span, in "
+                    f"{len(examples)} sentence(s). Should the span be the full "
+                    f"{long_surface!r}, or just {short_surface!r}?",
+        })
 
     # One task per systematically-refused term, with examples, instead of N spans.
     for term in sorted(systematic):
@@ -194,6 +233,8 @@ def main() -> None:
         "spans_annotator_only": stats["span_annotator_only"],
         "audited_sentences": stats["audited"],
         "terms_systematically_refused": stats["terms_systematically_refused"],
+        "boundary_pairs": len(boundary_pairs),
+        "boundary_spans_rolled_up": sum(len(v) for v in boundary_pairs.values()),
         "terms_refused_list": sorted(systematic),
         "review_tasks": len(queue),
         "not_yet_annotated": stats["not_yet_annotated"],
