@@ -36,7 +36,46 @@ differs per provider, and for Chatterbox means segmenting rather than tagging.
 [**docs/pipeline.md**](docs/pipeline.md) has the architecture, the interface contract
 between passes, and a working Chatterbox Multilingual code sample.
 
-![Pipeline](docs/pipeline.svg)
+```mermaid
+flowchart TB
+    IN["<b>Script line</b><br/><code>I need to go to Bituach Leumi before the makolet closes.</code>"]
+
+    subgraph P1["PASS 1 · DETECT — this repository"]
+        direction TB
+        C["<b>Token classifier</b><br/>xlm-roberta-base, BIO tags<br/>+ lexicon lookup for known terms"]
+        S["<code>spans: [16-29 Bituach Leumi] [41-48 makolet]</code>"]
+        C --> S
+    end
+
+    subgraph P2["PASS 2 · CONVERT TO HEBREW SCRIPT"]
+        direction TB
+        L["<b>Curated lexicon</b> — primary<br/>TaatikNet ByT5 — fallback, word-level"]
+        H["Bituach Leumi → ביטוח לאומי<br/>makolet → מכולת"]
+        L --> H
+    end
+
+    subgraph P3["PASS 3 · NORMALISE PER TTS PROVIDER — deterministic, not a model"]
+        direction LR
+        CB["<b>Chatterbox</b> — no inline tags<br/>language_id is per call<br/>→ split into segments"]
+        SS["<b>SSML engines</b> — inline<br/>Azure · Google · Polly<br/>→ tag in place"]
+        NO["<b>No language control</b><br/>→ respell, or leave English"]
+    end
+
+    SEG["<code>[('I need to go to ','en'), ('ביטוח לאומי','he'),<br/>(' before the ','en'), ('מכולת','he'), (' closes.','en')]</code><br/>generate() per segment → ffmpeg concat"]
+    TAG["<code>I need to go to &lt;lang xml:lang='he-IL'&gt;ביטוח לאומי&lt;/lang&gt; ...</code><br/>one call"]
+
+    AUDIO(["<b>Audio</b> — Hebrew words pronounced as Hebrew"])
+
+    IN --> P1 --> P2 --> P3
+    CB --> SEG --> AUDIO
+    SS --> TAG --> AUDIO
+    NO --> AUDIO
+
+    classDef built stroke:#2b6cb0,stroke-width:3px
+    classDef later stroke-dasharray: 5 4
+    class P1 built
+    class P2,P3 later
+```
 
 ### Chatterbox references
 
