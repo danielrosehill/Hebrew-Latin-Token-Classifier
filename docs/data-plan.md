@@ -29,13 +29,15 @@ audio makes it the only part usable for future speech work.
 
 | Slice | Sentences | Terms | Rationale |
 | --- | --- | --- | --- |
-| Positives — one Hebrew term | 1,500 | ~500 distinct | 3 sentences per term |
-| Positives — two or more terms | 300 | reuses the same pool | The source dataset's main gap; real speech code-switches more than once per sentence |
-| Hard negatives | 500 | — | See below. The expensive class to get right |
-| Plain negatives | 300 | — | Ordinary English, no Hebrew. Keeps the base rate honest |
-| **Generated total** | **2,600** | | |
+| Positives — one Hebrew term | ~2,200 | **743 distinct** | 3 sentences per term |
+| Hard negatives | ~500 | — | Four classes; see below |
+| **Generated total** | **~2,700** | | |
 | Vendored, aligned records | 360 | 117 | Human-read, independent provenance |
-| **Corpus total** | **~2,960** | **~500** | |
+| **Corpus total** | **~3,060** | **743** | |
+
+Actual inventory built 2026-09-22: **743 terms, 724 active and 19 ambiguous**, across
+34 categories. Colloquial came out largest at 145 terms, which is the intended
+correction to the predecessor corpus's institutional skew.
 
 **Why ~2,600 and not 500 or 20,000.** The EnTaCs English-Tamil recipe (arXiv
 2603.26587) is the closest published comparison: ~500 utterances, ~3,500 tokens,
@@ -97,14 +99,18 @@ mode that produced the vendored dataset's 114 bad labels.
 
 ## Generation
 
-**Route: OpenRouter**, `OPENROUTER_API_KEY` from the environment. Verified live
-2026-09-22 (`is_free_tier: false`, real usage history, non-null `creator_user_id`).
+**Route: DeepSeek** for generation, **OpenRouter** for annotation. Both keys verified
+live 2026-09-22. The provider is inferred from the model name; `--provider` overrides.
 
-**Batch inference is available and halves the cost.** OpenRouter exposes `:batch`
-model variants — `anthropic/claude-sonnet-5:batch` is $1/M in, $5/M out against
-$2/$10 for the interactive variant. Same for the OpenAI and Opus families. The
-generator takes `--model`, so the batch variant is a flag, not a rewrite. Batch
-requests trade latency for price; for a corpus build that is the right trade.
+`deepseek-flash` (DeepSeek-V4.1-Flash) is the cheapest capable option at $0.15/M in,
+$0.60/M out **off-peak** — and off-peak is everything except 01:00-04:00 and
+06:00-10:00 UTC on weekdays, so any evening or weekend run from Israel gets it
+automatically. DeepSeek has no batch API; OpenRouter's `:batch` variants halve cost
+but are an order of magnitude more expensive to begin with.
+
+**DeepSeek does not support `json_schema`** — it returns *"This response_format type is
+unavailable now"*. The client falls back to `json_object` with the schema pasted into
+the system prompt, which works reliably.
 
 **Term-seeded, not free-form.** The generator is given a term and asked for sentences
 using it, rather than asked to "write sentences with Hebrew words". This:
@@ -116,10 +122,17 @@ using it, rather than asked to "write sentences with Hebrew words". This:
 
 Structured output (`response_format: json_schema`) so parsing never guesses.
 
-**Cost estimate.** ~2,600 sentences at ~150 output tokens each is ~400K output tokens
-for generation, and similar for annotation. On `claude-sonnet-5:batch` at $5/M output
-that is roughly **$4 for the whole corpus**, both passes. This is not a budget
-constraint; do not optimise it at the cost of quality.
+**Cost — measured, not estimated.** Every call logs tokens to `data/usage.jsonl`;
+`scripts/estimate_cost.py` extrapolates. Projected from a 36-sentence pilot to the
+full corpus: **$0.62 generation + $2.21 annotation = $2.83 for both passes.** The same
+job is $27.75 on `claude-sonnet-5:batch` and $55.49 on plain Sonnet.
+
+**Reasoning tokens are 95-99% of output** on this workload and are billed as output,
+so the visible text is a small fraction of the bill. That is the dominant cost term.
+The obvious lever — not yet implemented — is batching several sentences into one
+annotation call so the reasoning preamble amortises.
+
+At under $3 this is not a budget constraint. Do not trade quality for it.
 
 ## Annotation — generate, annotate independently, adjudicate
 
@@ -151,8 +164,14 @@ disagree, which is a different and much less useful number.
 
 ## Review
 
-Reuses the existing UI — `review/index.html`, served by `scripts/serve_review.py`.
-Keyboard-driven, progress in `localStorage`, export to `review/decisions.json`.
+Reuses the existing UI — `review/index.html`, served locally by
+`scripts/serve_review.py`, or published as a static **Hugging Face Space**
+(`scripts/publish_space.py`) so review works from any machine or phone.
+
+The Space is `sdk: static`: the queue ships as a plain file beside the page, decisions
+stay in the reviewer's `localStorage`, nothing is sent back. The trade is that
+decisions are per-browser — export `decisions.json` and commit it. Re-publish after
+every `adjudicate.py` to refresh the queue.
 
 Expected volume:
 
