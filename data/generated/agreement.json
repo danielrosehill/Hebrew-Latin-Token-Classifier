@@ -1,15 +1,18 @@
 {
  "sentences": 2733,
- "full_agreement": 2165,
- "disagreement": 568,
- "disagreement_rate": 0.2078,
- "spans_agreed": 1912,
- "spans_seed_only": 322,
- "spans_annotator_only": 553,
- "audited_sentences": 230,
+ "full_agreement": 2288,
+ "disagreement": 445,
+ "disagreement_rate": 0.1628,
+ "spans_agreed": 1845,
+ "spans_seed_only": 317,
+ "spans_annotator_only": 428,
+ "audited_sentences": 242,
+ "anglicised_terms_listed": 72,
+ "anglicised_spans_dropped": 264,
+ "anglicised_terms_hit": 38,
  "terms_systematically_refused": 50,
- "boundary_pairs": 149,
- "boundary_spans_rolled_up": 285,
+ "boundary_pairs": 147,
+ "boundary_spans_rolled_up": 281,
  "terms_refused_list": [
   "boker or",
   "cafe hafuch",
@@ -62,6 +65,6 @@
   "tofes 1368",
   "tofes 17"
  ],
- "review_tasks": 702,
+ "review_tasks": 591,
  "not_yet_annotated": 0
 }

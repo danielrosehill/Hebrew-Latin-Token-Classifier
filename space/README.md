@@ -19,9 +19,9 @@ and a blind annotator from a different model family that never sees the seed. Wh
 they agree, the span is accepted automatically. This page is for the cases they
 disagree on, plus a random audit sample of the ones they agreed on.
 
-**702 tasks**, ordered worst-first: 50 term rulings, 99 span-boundary questions,
-268 spans the annotator found that the generator did not, 55 the reverse, and a
-230-sentence random audit of cases both models agreed on.
+**591 tasks**, ordered worst-first: 50 term rulings, 97 span-boundary questions,
+the spans one model found and the other did not, and a 242-sentence random audit
+of cases both models agreed on.
 
 **Everything runs in your browser.** The queue is fetched as a static file, decisions
 are held in `localStorage`, and nothing is sent anywhere. Export `decisions.json` when
@@ -42,7 +42,11 @@ you are done and run `scripts/build_splits.py` in the repo.
 The test is **pronunciation, not etymology**: would an English TTS voice mispronounce
 this word, and would treating it as Hebrew fix that?
 
-- *kosher*, *Shabbat*, *hummus*, *rabbi* — **no**. English says them acceptably.
+- *kosher*, *Shabbat*, *kashrut*, *hummus*, *rabbi* — **no**. English says them
+  acceptably, and they are filtered out automatically before you see them.
+- **When unsure, say no.** A flagged span splits the sentence, adds a separate speech
+  call and needs the audio stitched back together. A miss costs nothing; a false
+  positive does all that work to make the output worse.
 - *makolet*, *mashkanta*, *challah*, *dud* — **yes**.
 - Israeli brand names — **yes** by default. *Yad2* is pronounced as Hebrew.
 - A string that only appears inside a longer English word — **no**. "think" does not

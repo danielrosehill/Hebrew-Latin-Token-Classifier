@@ -20,6 +20,7 @@ from __future__ import annotations
 
 import argparse
 import collections
+import csv
 import json
 import pathlib
 import random
@@ -31,12 +32,33 @@ from lib import corpus  # noqa: E402
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 GEN = ROOT / "data" / "generated"
 REVIEW = ROOT / "review"
+ANGLICISED = ROOT / "data" / "anglicised.csv"
 RISK_ORDER = {"term": 0, "boundary": 1, "annotator_only": 2, "seed_only": 3,
               "audit": 4}
 
 
 def key(span: dict) -> tuple[int, int]:
     return (span["start"], span["end"])
+
+
+def load_anglicised() -> set[str]:
+    """Hebrew words English already pronounces acceptably -- always negative.
+
+    Daniel's rule, 2026-09-22: every flagged span triggers downstream work (a
+    segment split, a separate TTS call, a concatenation), so a false positive
+    costs more than a miss. Be selective about words that genuinely get botched,
+    and leave alone anything an English voice already handles -- shabbat, kosher,
+    kashrut and their kind.
+
+    A curated list rather than a model judgement, because this class is known and
+    finite, and a deterministic list is auditable where a fuzzy rule is not. The
+    file is meant to be edited; adding a term here removes it from the corpus and
+    from the review queue on the next run.
+    """
+    if not ANGLICISED.exists():
+        return set()
+    with ANGLICISED.open() as fh:
+        return {r["term"].strip().lower() for r in csv.DictReader(fh) if r["term"].strip()}
 
 
 def main() -> None:
@@ -56,9 +78,11 @@ def main() -> None:
     if not annotations:
         raise SystemExit("no annotations; run scripts/auto_annotate.py")
 
+    anglicised = load_anglicised()
     rng = random.Random(args.seed)
     rows, queue = [], []
     boundary_pairs: dict[tuple[str, str], list] = {}
+    dropped_anglicised: collections.Counter[str] = collections.Counter()
     stats: collections.Counter[str] = collections.Counter()
 
     # First pass: how often does the annotator refuse the generator's seed term?
@@ -86,8 +110,16 @@ def main() -> None:
             stats["not_yet_annotated"] += 1
             continue
 
-        seed = {key(x): x for x in s["seed_spans"]}
-        auto = {key(x): x for x in ann["spans"]}
+        # Drop anglicised spans before anything else sees them: they are not a
+        # disagreement to resolve, they are a settled negative.
+        def _keep(x: dict) -> bool:
+            if x["term"].lower() in anglicised:
+                dropped_anglicised[x["term"].lower()] += 1
+                return False
+            return True
+
+        seed = {key(x): x for x in s["seed_spans"] if _keep(x)}
+        auto = {key(x): x for x in ann["spans"] if _keep(x)}
         agreed = seed.keys() & auto.keys()
         seed_only = seed.keys() - auto.keys()
         auto_only = auto.keys() - seed.keys()
@@ -232,6 +264,9 @@ def main() -> None:
         "spans_seed_only": stats["span_seed_only"],
         "spans_annotator_only": stats["span_annotator_only"],
         "audited_sentences": stats["audited"],
+        "anglicised_terms_listed": len(anglicised),
+        "anglicised_spans_dropped": sum(dropped_anglicised.values()),
+        "anglicised_terms_hit": len(dropped_anglicised),
         "terms_systematically_refused": stats["terms_systematically_refused"],
         "boundary_pairs": len(boundary_pairs),
         "boundary_spans_rolled_up": sum(len(v) for v in boundary_pairs.values()),

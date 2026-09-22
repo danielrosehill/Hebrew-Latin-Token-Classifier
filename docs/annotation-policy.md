@@ -30,9 +30,49 @@ This is a pronunciation task, not an etymology task. It follows that:
   cannot get them right.
 
 The boundary between the first two is a judgement call and will not be perfectly
-consistent. When genuinely unsure, **say no**: precision is weighted over recall,
-because a miss leaves today's behaviour unchanged while a false positive makes an
-English word be read in Hebrew.
+consistent. When genuinely unsure, **say no**.
+
+### Why the default is no — DECIDED 2026-09-22
+
+Daniel's rule: *"each time we flag a word as being Hebrew in Latin characters it's
+going to trigger downstream actions — it's going to add complication. I'd rather it's
+selective on the things that truly get botched in TTS."*
+
+A flagged span is not a label, it is **work**. It splits the sentence, adds a separate
+speech call for the fragment, and requires the audio to be stitched back together with
+padding tuned by ear. So the two errors are not symmetric:
+
+| Error | Cost |
+| --- | --- |
+| Missed a Hebrew word | Current behaviour, unchanged. The word is read as it is read today |
+| Flagged an English word | It gets spoken in Hebrew, **and** the pipeline does all that work to make it worse |
+
+A miss is free. A false positive is expensive twice over. Err towards no.
+
+### Anglicised Hebrew — always negative, and applied automatically
+
+A large class of Hebrew words, modern and ancient, can be assumed present in an
+English corpus. Today's TTS renders them acceptably with no Hebrew language
+instruction at all. **They are always negative** — *kosher*, *kashrut*, *Shabbat*,
+*challah*, *hummus*, *tahini*, *falafel*, *Torah*, *seder*, *Hanukkah*, *Sukkot*,
+*shiva*, *menorah*, *yarmulke*, *mitzvah*, *bar mitzvah*, *Knesset*, *shekel*,
+*aliyah*.
+
+This is not left to per-case judgement. The class is known and finite, so it lives in
+[`data/anglicised.csv`](../data/anglicised.csv) — 72 terms, each with its basis
+(`dictionary` where the word is in the system English dictionary, `curated`
+otherwise) — and `adjudicate.py` drops those spans before the review queue is built.
+On the first corpus that removed **264 spans across 38 terms** and took the model
+disagreement rate from 20.8% to 16.3%.
+
+**The file is meant to be edited.** Adding a term removes it from the corpus and from
+the queue on the next `adjudicate.py` run. Reviewing 72 lines once is strictly better
+than answering the same question 264 times, and it leaves an auditable record of what
+was excluded and why — which a fuzzy instruction to a model does not.
+
+Borderline entries currently on the list, flagged as the ones most worth arguing
+about: *haredi*, *aliyah*, *moshav*, *shul*. Each is routine in English writing about
+Israel, but none is in an English dictionary.
 
 ## Settled cases
 
@@ -42,7 +82,8 @@ English word be read in Hebrew.
 | Multi-token institutional terms — *Bituach Leumi*, *teudat zehut*, *osek patur* | **positive**, one span | They are one unit and the TTS needs them as one |
 | Hebrew term with English plural — *latkes*, *chagim* used as a plural | **positive**, span covers the whole surface form | The pronunciation problem is in the stem |
 | Guttural ח / כ words | **positive** | English orthography cannot represent them |
-| Anglicised Hebrew — *kosher*, *rabbi*, *Shabbat*, *hummus* | **negative** | Already pronounced acceptably |
+| Anglicised Hebrew — *kosher*, *rabbi*, *Shabbat*, *hummus*, *kashrut* | **negative** | Already pronounced acceptably. Enforced by `data/anglicised.csv`, not by judgement |
+| Hebrew function words and particles — *od*, *po*, *ma*, *mi*, *lo*, *ken* | **negative** | Confirmed by Daniel 2026-09-22: there is no context in which these appear untranslated in English speech. They entered the term list as substring artefacts |
 | A lexicon term matching inside a longer word — *ma* in *moshav* | **negative** | This is the source dataset's defect; do not reproduce it |
 | English words that happen to be quarantined terms — *at*, *hi*, *lo*, *baby* | **negative** when used as English | Quarantine exists to catch exactly these |
 

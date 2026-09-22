@@ -63,9 +63,21 @@ machsom, hashmal.
 - Hebrew stems carrying an English affix: latkes, chagim. Give the full surface form.
 - Israeli brand and company names that are said in Hebrew: Yad2, Galgalatz, Mako, Ynet.
 
+When in doubt, do NOT label. Every span you mark triggers downstream work -- \
+the sentence gets split, a separate speech call is made for that fragment, and the \
+audio is stitched back together. A missed word leaves current behaviour unchanged; \
+a wrong one makes an English word be spoken in Hebrew and adds that machinery for \
+nothing. Be selective about the words that genuinely get botched.
+
 Do NOT label:
-- Hebrew words English has absorbed and pronounces acceptably: kosher, Shabbat, \
-hummus, rabbi, kibbutz, chutzpah, bagel, falafel.
+- Hebrew words English already pronounces acceptably, whether modern or ancient. \
+This is a large class and it is always negative: kosher, kashrut, Shabbat, challah, \
+hummus, tahini, falafel, pita, matzo, bagel, rabbi, shul, synagogue, yeshiva, \
+kibbutz, chutzpah, schlep, Torah, Talmud, seder, Passover, Pesach, Hanukkah, \
+Sukkot, Purim, Yom Kippur, Rosh Hashanah, shiva, menorah, dreidel, yarmulke, \
+kippah, tallit, mezuzah, mitzvah, bar mitzvah, kaddish, shofar, Knesset, shekel, \
+aliyah, Mossad, kabbalah. If an English speaker with no Hebrew would read the word \
+correctly, it is not for us.
 - Ordinary English words, even if they look like a Hebrew word: at, hi, lo, ken, ma, mi.
 - An English word used in its English sense, even when the same string is also \
 Hebrew: "the battery was a dud", "a salon appointment", "Layla phoned".
