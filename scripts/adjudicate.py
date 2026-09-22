@@ -31,7 +31,7 @@ from lib import corpus  # noqa: E402
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 GEN = ROOT / "data" / "generated"
 REVIEW = ROOT / "review"
-RISK_ORDER = {"annotator_only": 0, "seed_only": 1, "audit": 2}
+RISK_ORDER = {"term": 0, "annotator_only": 1, "seed_only": 2, "audit": 3}
 
 
 def key(span: dict) -> tuple[int, int]:
@@ -43,6 +43,8 @@ def main() -> None:
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--audit-rate", type=float, default=0.10)
     p.add_argument("--seed", type=int, default=20260922)
+    p.add_argument("--term-threshold", type=float, default=0.67,
+                   help="refuse rate above which a term is queued once, not per span")
     args = p.parse_args()
 
     sentences = corpus.read_jsonl(GEN / "sentences.jsonl")
@@ -56,6 +58,25 @@ def main() -> None:
     rng = random.Random(args.seed)
     rows, queue = [], []
     stats: collections.Counter[str] = collections.Counter()
+
+    # First pass: how often does the annotator refuse the generator's seed term?
+    # A term refused nearly every time is a bad TERM, not a set of bad sentences --
+    # the inventory was model-generated and contains anglicised loanwords and
+    # misused words. Rolling those up turns N span decisions into one term decision.
+    seed_seen: collections.Counter[str] = collections.Counter()
+    seed_refused: collections.Counter[str] = collections.Counter()
+    for s_ in sentences:
+        ann_ = annotations.get(s_["text"])
+        if ann_ is None or not s_["seed_term"]:
+            continue
+        seed_seen[s_["seed_term"]] += 1
+        auto_keys = {key(x) for x in ann_["spans"]}
+        if not any(key(x) in auto_keys for x in s_["seed_spans"]):
+            seed_refused[s_["seed_term"]] += 1
+
+    systematic = {t for t, n in seed_refused.items()
+                  if seed_seen[t] >= 2 and n / seed_seen[t] >= args.term_threshold}
+    stats["terms_systematically_refused"] = len(systematic)
 
     for i, s in enumerate(sentences):
         ann = annotations.get(s["text"])
@@ -98,6 +119,9 @@ def main() -> None:
         for n, k in enumerate(sorted(seed_only) + sorted(auto_only)):
             span = seed.get(k) or auto[k]
             risk = "seed_only" if k in seed_only else "annotator_only"
+            # Covered by a single term-level decision; do not ask N times.
+            if risk == "seed_only" and span["term"] in systematic:
+                continue
             queue.append({
                 "key": f"{sid}:{n}", "kind": "span", "risk": risk,
                 "id": sid, "split": "generated", "text": s["text"],
@@ -132,6 +156,27 @@ def main() -> None:
                             "they missed, or submit empty to confirm.",
                 })
 
+    # One task per systematically-refused term, with examples, instead of N spans.
+    for term in sorted(systematic):
+        examples = [r["text"] for r in rows
+                    if r["seed_term"] == term and any(sp["term"] == term
+                                                      for sp in r["spans"])][:3]
+        if not examples:
+            examples = [s_["text"] for s_ in sentences if s_["seed_term"] == term][:3]
+        queue.append({
+            "key": f"term:{term}", "kind": "term", "risk": "term",
+            "id": f"term:{term}", "split": "generated",
+            "text": examples[0] if examples else term,
+            "examples": examples,
+            "term": term,
+            "surface": term,
+            "dataset_label": term,
+            "note": f"the annotator rejected {term!r} in "
+                    f"{seed_refused[term]} of {seed_seen[term]} sentences. "
+                    f"Is it a Hebrew word an English voice would mispronounce? "
+                    f"Answering here decides every span for this term.",
+        })
+
     queue.sort(key=lambda c: (RISK_ORDER[c["risk"]], c["id"]))
     corpus.write_jsonl(GEN / "adjudicated.jsonl", rows)
     REVIEW.mkdir(exist_ok=True)
@@ -148,6 +193,8 @@ def main() -> None:
         "spans_seed_only": stats["span_seed_only"],
         "spans_annotator_only": stats["span_annotator_only"],
         "audited_sentences": stats["audited"],
+        "terms_systematically_refused": stats["terms_systematically_refused"],
+        "terms_refused_list": sorted(systematic),
         "review_tasks": len(queue),
         "not_yet_annotated": stats["not_yet_annotated"],
     }

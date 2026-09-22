@@ -48,6 +48,12 @@ def main() -> None:
     if not decisions:
         print("note: no review/decisions.json — only model-agreed spans will be tagged")
 
+    # Term-level rulings override every span of that term, agreed or not. One
+    # decision about "baklava" settles all of its sentences at once.
+    term_ruling = {d["term"].lower(): bool(d.get("hebrew"))
+                   for d in decisions.values()
+                   if d.get("kind") == "term" and d.get("term")}
+
     stats: collections.Counter[str] = collections.Counter()
     unapplied = []
     prepared = []
@@ -55,6 +61,13 @@ def main() -> None:
     for row in rows:
         text, spans = row["text"], []
         for n, span in enumerate(row["spans"]):
+            ruling = term_ruling.get(span["term"].lower())
+            if ruling is not None:
+                stats["term_ruling_kept" if ruling else "term_ruling_dropped"] += 1
+                if ruling:
+                    spans.append({k: span[k] for k in
+                                  ("start", "end", "surface", "term")})
+                continue
             if span["status"] == "agreed":
                 d = decisions.get(f"{row['id']}:a{n}")           # audit task, if sampled
                 keep = bool(d["hebrew"]) if d and "hebrew" in d else True
@@ -124,6 +137,7 @@ def main() -> None:
                             for k, v in sorted(by_split.items())},
         "term_leakage_between_splits": leaked,
         "decisions_applied": len(decisions),
+        "term_rulings": len(term_ruling),
         "counts": dict(stats),
         "unapplied_terms": unapplied,
     }
