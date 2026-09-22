@@ -69,9 +69,15 @@ def main() -> None:
 
     # Boundary rulings: True keeps the full seeded span, False narrows it to the
     # annotator's shorter one. Keyed by the seeded term.
-    boundary_ruling = {d["term"].lower(): (decided(d), d.get("short_term"))
-                       for d in decisions.values()
-                       if d.get("kind") == "boundary" and d.get("term") and ruled(d)}
+    # Three-way: "full" keeps the seeded span, "short" narrows to the annotator's,
+    # "none" tags nothing. Older decisions carry no `choice`, so fall back to the
+    # boolean they did record.
+    boundary_ruling = {}
+    for d in decisions.values():
+        if d.get("kind") != "boundary" or not d.get("term") or not ruled(d):
+            continue
+        choice = d.get("choice") or ("full" if decided(d) else "short")
+        boundary_ruling[d["term"].lower()] = (choice, d.get("short_term"))
 
     stats: collections.Counter[str] = collections.Counter()
     unapplied = []
@@ -82,8 +88,10 @@ def main() -> None:
         for n, span in enumerate(row["spans"]):
             b = boundary_ruling.get(span["term"].lower())
             if b is not None:
-                keep_full, short_term = b
-                if keep_full:
+                choice, short_term = b
+                if choice == "none":
+                    stats["boundary_none"] += 1
+                elif choice == "full":
                     stats["boundary_full"] += 1
                     spans.append({k: span[k] for k in
                                   ("start", "end", "surface", "term")})

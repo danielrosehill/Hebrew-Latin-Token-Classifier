@@ -65,6 +65,7 @@
   <span><kbd>y</kbd> include</span>
   <span><kbd>n</kbd> exclude</span>
   <span><kbd>Enter</kbd> submit terms</span>
+  <span><kbd>x</kbd> neither</span>
   <span><kbd>d</kbd> can't decide</span>
   <span><kbd>s</kbd> skip</span>
   <span><kbd>u</kbd> undo</span>
@@ -141,10 +142,15 @@ function render() {
       '<ul style="font-size:.9375rem;opacity:.8;padding-left:1.2rem;margin:0 0 1.25rem">' +
       ex + '</ul>' +
       '<div id="actions">' +
-      '<button onclick="decideBoundary(true)">Full span <kbd>y</kbd></button>' +
-      '<button onclick="decideBoundary(false)">Shorter <kbd>n</kbd></button>' +
+      '<button onclick="decideBoundary(\'full\')">Full span <kbd>y</kbd></button>' +
+      '<button onclick="decideBoundary(\'short\')">Shorter <kbd>n</kbd></button>' +
+      '<button onclick="decideBoundary(\'none\')">Neither <kbd>x</kbd></button>' +
       '<button onclick="defer()">Can\'t decide <kbd>d</kbd></button>' +
-      '<button onclick="skip()">Skip <kbd>s</kbd></button></div>';
+      '<button onclick="skip()">Skip <kbd>s</kbd></button></div>' +
+      '<p style="font-size:.8125rem;opacity:.65;margin:1rem 0 0;max-width:34rem">' +
+      '<b>Neither</b> = tag nothing here. Use it when the shorter span is a ' +
+      'fragment that means something else on its own, and the full phrase is not ' +
+      'worth flagging either.</p>';
   } else if (t.kind === 'term') {
     el('sentence').innerHTML = '<b>' + escapeHtml(t.term) + '</b>';
     const examples = (t.examples || []).map(x =>
@@ -200,14 +206,19 @@ const decide = inc => record({ kind: 'span', include: inc, hebrew: inc });
 const decideTerm = inc =>
   record({ kind: 'term', term: queue[cursor].term, include: inc, hebrew: inc });
 
-const decideBoundary = keepFull => record({
+// Three-way, not a yes/no. "af ehad" (nobody) narrowed to "ehad" (one) is a
+// fragment that means something else, and the phrase may not be worth flagging
+// either -- so "neither" is a real answer, distinct from being unable to decide.
+// include/hebrew are kept as aliases so earlier decisions still apply.
+const decideBoundary = choice => record({
   kind: 'boundary', term: queue[cursor].term,
-  short_term: queue[cursor].short_term, include: keepFull, hebrew: keepFull });
+  short_term: queue[cursor].short_term, choice,
+  include: choice === 'full', hebrew: choice === 'full' });
 
 function answer(value) {
   const k = queue[cursor].kind;
   if (k === 'term') decideTerm(value);
-  else if (k === 'boundary') decideBoundary(value);
+  else if (k === 'boundary') decideBoundary(value ? 'full' : 'short');
   else decide(value);
 }
 
@@ -252,6 +263,9 @@ addEventListener('keydown', e => {
   if (typing) return;
   if (e.key === 'y') answer(true);
   else if (e.key === 'n') answer(false);
+  else if (e.key === 'x') {
+    if (queue[cursor].kind === 'boundary') decideBoundary('none');
+  }
   else if (e.key === 'd') defer();
   else if (e.key === 's') skip();
   else if (e.key === 'u') undo();

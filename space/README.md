@@ -38,6 +38,7 @@ you are done and run `scripts/build_splits.py` in the repo.
 | --- | --- |
 | <kbd>y</kbd> | Include — or, on a boundary task, keep the full span |
 | <kbd>n</kbd> | Exclude — or, on a boundary task, use the shorter span |
+| <kbd>x</kbd> | Neither — boundary tasks only; tag nothing here |
 | <kbd>d</kbd> | Can't decide — records that you looked, and never asks again |
 | <kbd>Enter</kbd> | Submit typed terms (record tasks) |
 | <kbd>s</kbd> | Skip |
