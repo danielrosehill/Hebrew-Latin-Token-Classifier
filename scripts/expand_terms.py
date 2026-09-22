@@ -25,9 +25,10 @@ import pathlib
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-from lib import openrouter  # noqa: E402
+from lib import llm  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+STAGE = "expand_terms"
 LEXICON = ROOT / "data" / "lexicon.csv"
 OUT = ROOT / "data" / "terms.csv"
 WORDLISTS = ["/usr/share/dict/american-english", "/usr/share/dict/words"]
@@ -109,8 +110,8 @@ async def main_async(args) -> None:
     terms = load_existing()
     print(f"starting from {len(terms)} terms")
 
-    key = openrouter.api_key(args.api_key)
-    async with openrouter.Client(args.model, key, concurrency=len(TARGETS)) as client:
+    key = llm.api_key(llm.provider_for(args.model, args.provider), args.api_key)
+    async with llm.Client(args.model, provider=args.provider, key=key, concurrency=len(TARGETS), stage="expand_terms") as client:
         async def fill(category: str, want: int) -> list[str]:
             have = [t for t, r in terms.items() if r["category"] == category]
             need = want - len(have)
@@ -167,7 +168,9 @@ def main() -> None:
     p = argparse.ArgumentParser(description=__doc__,
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--target", type=int, default=500)
-    p.add_argument("--model", default="anthropic/claude-sonnet-5")
+    p.add_argument("--model", default="deepseek-flash")
+    p.add_argument("--provider", choices=["deepseek", "openrouter"],
+                   help="inferred from the model name if omitted")
     p.add_argument("--api-key")
     asyncio.run(main_async(p.parse_args()))
 

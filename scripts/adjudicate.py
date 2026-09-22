@@ -47,6 +47,7 @@ def main() -> None:
 
     sentences = corpus.read_jsonl(GEN / "sentences.jsonl")
     annotations = {r["text"]: r for r in corpus.read_jsonl(GEN / "annotations.jsonl")}
+    sentences = list({s["text"]: s for s in sentences}.values())
     if not sentences:
         raise SystemExit("no generated sentences; run scripts/generate_samples.py")
     if not annotations:

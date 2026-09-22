@@ -20,14 +20,32 @@ This repo is the first of the small models that plan describes.
 
 ## Why it exists
 
-The immediate consumer is the *My Weird Prompts* podcast, which is AI-generated,
-produced in Israel and voiced by Chatterbox TTS. Hebrew words in its scripts get read
+The immediate consumer is [**My Weird Prompts**](https://myweirdprompts.com), an
+AI-generated podcast produced in Israel and voiced by
+[Chatterbox TTS](https://github.com/resemble-ai/chatterbox). Hebrew words in its scripts get read
 as English grapheme strings — *challah* becomes "chala", the guttural ח collapsing to
 an English "ch". Detecting those spans is the first step to synthesising them with a
 Hebrew voice.
 
 The classifier is deliberately general-purpose, though. Span detection is useful
 anywhere romanized Hebrew appears in English text.
+
+This repo is **pass 1 of three**. Pass 2 converts the detected spans to Hebrew script;
+pass 3 normalises them into whatever syntax the target TTS engine wants — which
+differs per provider, and for Chatterbox means segmenting rather than tagging.
+[**docs/pipeline.md**](docs/pipeline.md) has the architecture, the interface contract
+between passes, and a working Chatterbox Multilingual code sample.
+
+![Pipeline](docs/pipeline.svg)
+
+### Chatterbox references
+
+- Repository: <https://github.com/resemble-ai/chatterbox> (MIT)
+- Weights: <https://huggingface.co/ResembleAI/chatterbox>
+- Package: <https://pypi.org/project/chatterbox-tts/>
+- API notes verified from source, since the README omits most of it:
+  [chatterbox-tts.md](https://github.com/danielrosehill/Hebrew-Small-Models-Planning/blob/main/docs/reference/chatterbox-tts.md)
+- Language specification and a code-switched code sample: [docs/pipeline.md](docs/pipeline.md#language-specification--the-actual-signature)
 
 ## How the corpus is built
 
@@ -70,7 +88,41 @@ dataset. Roughly 5× the EnTaCs recipe (~500 utterances, romanized-class F1 **0.
 with the budget going into **more terms** rather than more sentences per term, because
 generalisation to unseen terms is the point. Hard negatives get real budget — 500 of
 them, including sentences built around the exact substring traps that corrupted the
-vendored dataset's labels. Estimated cost with `:batch` models: **~$4** for both passes.
+vendored dataset's labels. ### Cost — measured, not guessed
+
+Every LLM call logs its token usage to `data/usage.jsonl`, and
+`scripts/estimate_cost.py` extrapolates from a pilot. Projected from a measured
+36-sentence run to the 2,600-sentence target:
+
+| Stage | Model | Cost |
+| --- | --- | --- |
+| Generate | `deepseek-flash` | $0.62 |
+| Annotate | `qwen/qwen3.8-flash` | $2.21 |
+| **Total** | | **$2.83** |
+
+Same job on other models, for comparison — this is why the defaults are what they are:
+
+| Model | Both passes |
+| --- | --- |
+| `qwen/qwen3.8-flash` | $2.71 |
+| `deepseek-flash` | $3.38 |
+| `deepseek-v4-pro` | $11.45 |
+| `google/gemini-3.8-flash` | $20.02 |
+| `anthropic/claude-sonnet-5:batch` | $27.75 |
+| `anthropic/claude-sonnet-5` | $55.49 |
+
+**Reasoning tokens are 95-99% of output on this workload** and are billed as output,
+so the visible text is a small fraction of what you pay for. That is the dominant cost
+term, and the obvious lever is batching several sentences into one annotation call to
+amortise the reasoning preamble — not yet implemented.
+
+DeepSeek figures are **off-peak**, which is half price. Peak is only 01:00-04:00 and
+06:00-10:00 UTC on weekdays, so any evening or weekend run from Israel is off-peak
+automatically. DeepSeek does **not** support `json_schema` structured output — the
+client falls back to `json_object` with the schema in the system prompt, which works
+reliably.
+
+At under $3, cost is not a constraint on this corpus. Do not trade quality for it.
 
 ### Pilot run, committed
 
@@ -98,8 +150,9 @@ step is for.
 uv venv .venv && source .venv/bin/activate && uv pip install -e .
 
 python scripts/expand_terms.py --target 500
-python scripts/generate_samples.py --model anthropic/claude-sonnet-5:batch --per-term 3
-python scripts/auto_annotate.py  --model google/gemini-3.8-flash
+python scripts/estimate_cost.py --compare       # price it before committing
+python scripts/generate_samples.py --model deepseek-flash --per-term 3
+python scripts/auto_annotate.py  --model qwen/qwen3.8-flash
 python scripts/adjudicate.py
 python scripts/serve_review.py                # http://127.0.0.1:8765
 python scripts/build_splits.py
@@ -109,10 +162,14 @@ python scripts/publish_dataset.py             # dry run; add --push to upload
 Stages 1 and 2 are **resumable** — output is appended and completed work is skipped,
 so an interrupted run continues where it stopped.
 
-`OPENROUTER_API_KEY` and `HUGGINGFACE_TOKEN` are read from the environment. Both were
-verified live 2026-09-22; `--api-key` overrides the first if it ever goes stale.
-**`:batch` model variants cost half as much** — `anthropic/claude-sonnet-5:batch` is
-$1/$5 per M tokens against $2/$10 — and are the right default for a corpus build.
+`DEEPSEEK_API_KEY`, `OPENROUTER_API_KEY` and `HUGGINGFACE_TOKEN` are read from the
+environment; all three were verified live 2026-09-22. The provider is inferred from
+the model name — `deepseek-*` goes direct to DeepSeek, everything else to OpenRouter —
+and `--provider` / `--api-key` override.
+
+`auto_annotate.py` **refuses to run if the annotator shares a model family with the
+generator**, because agreement between two passes of one model measures consistency
+rather than correctness. `--allow-same-family` overrides it.
 
 ### The review UI
 

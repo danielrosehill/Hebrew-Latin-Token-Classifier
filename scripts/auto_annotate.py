@@ -25,9 +25,10 @@ import pathlib
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-from lib import corpus, openrouter  # noqa: E402
+from lib import corpus, llm  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+STAGE = "annotate"
 SENTENCES = ROOT / "data" / "generated" / "sentences.jsonl"
 OUT = ROOT / "data" / "generated" / "annotations.jsonl"
 
@@ -95,23 +96,32 @@ async def main_async(args) -> None:
     if not rows:
         raise SystemExit(f"no sentences at {SENTENCES.relative_to(ROOT)} — run "
                          f"scripts/generate_samples.py first")
-    done = {row_key(r) for r in corpus.read_jsonl(OUT)}
+    done = {row_key(r) for r in corpus.read_jsonl(OUT, dedupe_on="text")}
     todo = [r for r in rows if row_key(r) not in done]
     if args.limit:
         todo = todo[: args.limit]
+    generators = {r.get("generator", "") for r in rows}
+    family = args.model.split("/")[-1].split("-")[0].lower()
+    clash = sorted(g for g in generators if family and family in g.lower())
+    if clash and not args.allow_same_family:
+        raise SystemExit(
+            f"annotator {args.model!r} shares a family with generator(s) {clash}.\n"
+            f"Agreement between two passes of one model measures consistency, not "
+            f"correctness. Pick another model, or pass --allow-same-family.")
+
     print(f"{len(rows)} sentences, {len(todo)} to annotate, model {args.model}")
     if not todo:
         return
 
-    key = openrouter.api_key(args.api_key)
+    key = llm.api_key(llm.provider_for(args.model, args.provider), args.api_key)
     written = 0
-    async with openrouter.Client(args.model, key, concurrency=args.concurrency) as client:
+    async with llm.Client(args.model, provider=args.provider, key=key, concurrency=args.concurrency, stage=STAGE) as client:
         tasks = [one_row(client, r) for r in todo]
         batch = []
         for i, coro in enumerate(asyncio.as_completed(tasks), 1):
             try:
                 batch.append(await coro)
-            except openrouter.OpenRouterError as e:
+            except llm.LLMError as e:
                 print(f"  failed: {e}", file=sys.stderr)
                 continue
             if len(batch) >= 20 or i == len(tasks):
@@ -120,7 +130,7 @@ async def main_async(args) -> None:
                 batch = []
                 print(f"  {i}/{len(tasks)} annotated")
 
-    all_rows = corpus.read_jsonl(OUT)
+    all_rows = corpus.read_jsonl(OUT, dedupe_on="text")
     hallucinated = sum(len(r["unmatched_terms"]) for r in all_rows)
     print(json.dumps({
         "annotated_total": len(all_rows),
@@ -133,10 +143,14 @@ async def main_async(args) -> None:
 def main() -> None:
     p = argparse.ArgumentParser(description=__doc__,
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
-    p.add_argument("--model", default="google/gemini-3.8-flash",
-                   help="MUST differ in family from the generator")
+    p.add_argument("--model", default="qwen/qwen3.8-flash",
+                   help="MUST differ in model family from the generator")
+    p.add_argument("--allow-same-family", action="store_true",
+                   help="override the independence check (it exists for a reason)")
     p.add_argument("--concurrency", type=int, default=8)
     p.add_argument("--limit", type=int)
+    p.add_argument("--provider", choices=["deepseek", "openrouter"],
+                   help="inferred from the model name if omitted")
     p.add_argument("--api-key")
     asyncio.run(main_async(p.parse_args()))
 

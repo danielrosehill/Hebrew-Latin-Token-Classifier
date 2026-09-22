@@ -3,8 +3,8 @@
 What counts as a positive span. Written 2026-09-22, before review starts, so the
 decisions are consistent across a session and legible to whoever picks this up next.
 
-Open questions are marked **UNDECIDED** — they are the ones to settle in the first
-twenty review tasks, then record the answer here.
+Open questions are marked **UNDECIDED** — settle them in the first twenty review tasks,
+then record the answer here. Decisions already taken are marked **DECIDED** with a date.
 
 ## The label
 
@@ -60,18 +60,37 @@ otherwise. Record what you actually do.
 *Hahagana*. Note *Rothschild* is Germanic, not Hebrew, and is already quarantined as
 an English homograph.
 
-**Brand and company names.** The dataset's 42 unlabelled records are full of them:
-*10 Bis*, *Zol Stock*, *Max Stock*, *Super Pharm*, *Rami Levy*, *Aroma*, *Cellcom*,
-*Yad2*, *Ynet*, *Mako*, *Arutz 12*, *Galgalatz*, *Kan Bet*, *AM:PM*, *Tubi60*,
-*El Al*, *Janglo*, *Castro*, *Fox Home*, *Nefesh b'Nefesh*.
+### Brand and company names — DECIDED 2026-09-22: positive by default
 
-These are a real category the lexicon does not model, and they split several ways:
-*Super Pharm* is English words in an Israeli brand; *Yad2* and *Arutz 12* mix Hebrew
-with a numeral; *Galgalatz* is Hebrew and would certainly be mispronounced.
+**Israeli brand and company names are positives.** Decided by Daniel: *Yad2* is
+pronounced as Hebrew, so it should be read as Hebrew, and including brand names is the
+safer option — a brand read in Hebrew by an Israeli-context podcast is right far more
+often than it is wrong.
 
-*Provisional:* judge by the operational test, per brand, and add each decision to the
-table above as it is made. Numerals inside a brand need their own rule — an `en`
-segment containing a numeral spoken as Hebrew would be wrong.
+The dataset's 42 unlabelled records are full of them: *10 Bis*, *Zol Stock*,
+*Max Stock*, *Super Pharm*, *Rami Levy*, *Aroma*, *Cellcom*, *Yad2*, *Ynet*, *Mako*,
+*Arutz 12*, *Galgalatz*, *Kan Bet*, *AM:PM*, *Tubi60*, *El Al*, *Janglo*, *Castro*,
+*Fox Home*, *Nefesh b'Nefesh*.
+
+Apply the default, and override only where the operational test clearly says otherwise
+— a brand whose name is ordinary English words pronounced in English (*Fox Home*,
+*Max Stock*) is a negative.
+
+| Brand shape | Decision | Example |
+| --- | --- | --- |
+| Hebrew word or coinage | **positive** | *Galgalatz*, *Mako*, *Ynet*, *Janglo* |
+| Hebrew + numeral | **positive** — but see the numeral trap | *Yad2*, *Arutz 12*, *10 Bis*, *Tubi60* |
+| Hebrew + English word | **positive** | *Kan Bet*, *Zol Stock*, *Super Pharm* |
+| Ordinary English words, said in English | **negative** | *Fox Home*, *Max Stock*, *AM:PM* |
+| International brand, said in English | **negative** | *Castro* (as pronounced), *Aroma* |
+
+**The numeral trap — unresolved, and it belongs to pass 3, not here.** *Yad2* is said
+*yad shtayim*; *Arutz 12* is *arutz shteim-esre*. A digit handed to a Hebrew TTS
+segment will be read as a Hebrew numeral, which is usually right — but *10 Bis* is
+said *ten bis*, with the number in English. Annotate the span as Hebrew regardless;
+record the spoken form in the lexicon's notes so pass 2 can emit the right Hebrew, and
+let pass 3 keep digits out of segments where they would be read in the wrong language.
+See [`pipeline.md`](pipeline.md).
 
 **Proper names of people.** *Netanyahu*, *Herzog*. Probably negative for well-known
 figures. Not yet represented in the corpus.

@@ -28,9 +28,10 @@ import pathlib
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-from lib import corpus, openrouter  # noqa: E402
+from lib import corpus, llm  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+STAGE = "generate"
 OUT = ROOT / "data" / "generated" / "sentences.jsonl"
 
 SYSTEM = """You write natural English sentences that an Israeli English-speaker \
@@ -107,14 +108,14 @@ async def main_async(args) -> None:
     if not todo:
         return
 
-    key = openrouter.api_key(args.api_key)
+    key = llm.api_key(llm.provider_for(args.model, args.provider), args.api_key)
     written = 0
-    async with openrouter.Client(args.model, key, concurrency=args.concurrency) as client:
+    async with llm.Client(args.model, provider=args.provider, key=key, concurrency=args.concurrency, stage=STAGE) as client:
         tasks = [one_term(client, t, args.per_term) for t in todo]
         for i, coro in enumerate(asyncio.as_completed(tasks), 1):
             try:
                 rows = await coro
-            except openrouter.OpenRouterError as e:
+            except llm.LLMError as e:
                 print(f"  failed: {e}", file=sys.stderr)
                 continue
             corpus.append_jsonl(OUT, rows)
@@ -135,11 +136,13 @@ def main() -> None:
     p = argparse.ArgumentParser(description=__doc__,
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--terms", default=str(ROOT / "data" / "terms.csv"))
-    p.add_argument("--model", default="anthropic/claude-sonnet-5:batch")
+    p.add_argument("--model", default="deepseek-flash")
     p.add_argument("--per-term", type=int, default=3)
     p.add_argument("--concurrency", type=int, default=8)
     p.add_argument("--limit", type=int, help="only process the first N pending terms")
-    p.add_argument("--api-key", help="override OPENROUTER_API_KEY")
+    p.add_argument("--provider", choices=["deepseek", "openrouter"],
+                   help="inferred from the model name if omitted")
+    p.add_argument("--api-key", help="override the provider's key env var")
     asyncio.run(main_async(p.parse_args()))
 
 

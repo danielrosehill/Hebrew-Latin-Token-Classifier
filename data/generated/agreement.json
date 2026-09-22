@@ -1,12 +1,12 @@
 {
- "sentences": 18,
- "full_agreement": 15,
- "disagreement": 3,
+ "sentences": 36,
+ "full_agreement": 30,
+ "disagreement": 6,
  "disagreement_rate": 0.1667,
- "spans_agreed": 15,
- "spans_seed_only": 3,
- "spans_annotator_only": 0,
- "audited_sentences": 3,
- "review_tasks": 6,
+ "spans_agreed": 30,
+ "spans_seed_only": 6,
+ "spans_annotator_only": 1,
+ "audited_sentences": 4,
+ "review_tasks": 11,
  "not_yet_annotated": 0
 }
